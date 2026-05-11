@@ -1,0 +1,26 @@
+{
+  "strength_tags": [
+    "clear_goal",
+    "logical_structure",
+    "specific_example",
+    "concrete_achievement",
+    "good_STAR_structure",
+    "confident_tone",
+    "professional_tone",
+    "engaging",
+    "natural_flow",
+    "clear_language"
+  ],
+  "weakness_tags": [
+    "too_general",
+    "missing_details",
+    "unclear_goal",
+    "poor_structure",
+    "rambling",
+    "uncertain_tone",
+    "wordy",
+    "filler_words",
+    "missing_STAR",
+    "lack_of_specific_action"
+  ]
+}
