@@ -1,0 +1,2028 @@
+[
+  {
+    "id": "input_011",
+    "scenario": "interview",
+    "transcript": "Uh, my team had some problems during our project and I kind of helped a little bit with communication. We finished the project eventually and it was okay.",
+    "predicted_tags": {
+      "strength_tags": [
+        "concrete_achievement"
+      ],
+      "weakness_tags": [
+        "too_general",
+        "missing_details",
+        "unclear_goal",
+        "poor_structure",
+        "rambling"
+      ]
+    },
+    "baseline": {
+      "feedback": "**Overall Assessment**\nYour interview response shows potential, but there's room for improvement in terms of clarity and effectiveness. Let's break down what you did well and where you can enhance your communication skills.\n\n**Strengths**\nYou mentioned a concrete achievement, which is great. Highlighting your team's project completion and your role in helping with communication is a good start. This shows that you can focus on a specific accomplishment and its impact.\n\n**Areas to Improve**\nHowever, your response is quite general and lacks details. You didn't specify what problems your team faced or how you helped with communication. This makes it difficult for the interviewer to understand the context and your contributions. Additionally, your response is a bit unclear in terms of goals and structure, which can make it hard to follow.\n\n**Specific Suggestions**\nTo improve your response, try to be more specific and detailed. For example, you could say something like: \"During our project, we encountered issues with team collaboration and meeting deadlines. I helped facilitate communication by organizing regular team meetings and ensuring everyone was on the same page. As a result, we were able to complete the project successfully and meet the client's expectations.\" This revised response provides more context, highlights your problem-solving skills, and shows how you contributed to the team's success.\n\n**Improved Version**\nHere's an example of how you could rephrase your original response to make it more effective:\n\n\"I was part of a team that worked on a project, and we faced some challenges with collaboration and meeting deadlines. To help my team, I took on a communication role, organizing regular meetings and ensuring everyone was aligned. Through this effort, we were able to complete the project successfully and deliver it to the client on time. Although it was a challenging project, I'm proud of how we worked together to achieve our goals.\"\n\nRemember, the key is to be specific, clear, and concise in your response. By doing so, you'll be able to effectively communicate your achievements and showcase your skills to the interviewer."
+    },
+    "bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_002",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 23.2028,
+          "strength_tags": [
+            "good_STAR_structure",
+            "logical_structure"
+          ],
+          "weakness_tags": [
+            "missing_STAR",
+            "lack_of_specific_action"
+          ],
+          "text": "Weakness: The response lacks STAR structure and specific actions. Improved version: During our software engineering project, our team struggled with unclear task assignments near the deadline. I organized short daily check-ins and created a shared progress tracker to improve communication. As a resu"
+        },
+        {
+          "id": "revision_pair_007",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 20.8202,
+          "strength_tags": [
+            "good_STAR_structure",
+            "concrete_achievement"
+          ],
+          "weakness_tags": [
+            "missing_STAR",
+            "missing_details"
+          ],
+          "text": "Weakness: The response lacks detail and does not explain the candidate’s contribution clearly. Improved version: During our capstone project, we faced a tight deadline after discovering major integration bugs one week before the demo. I reorganized the remaining tasks, coordinated debugging sessions"
+        },
+        {
+          "id": "feedback_025",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 16.2682,
+          "strength_tags": [
+            "specific_example",
+            "confident_tone"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "This response provides a strong example of responsibility and problem solving. To make it even stronger, explain how you identified the root cause and describe the impact your solution had on the team or project."
+        },
+        {
+          "id": "feedback_008",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 14.8637,
+          "strength_tags": [
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "uncertain_tone",
+            "filler_words"
+          ],
+          "text": "Your response communicates interest in the role, but hesitant language weakens your confidence. Replace uncertain phrases like 'kind of' or 'maybe' with direct statements and provide one concrete machine learning project example."
+        },
+        {
+          "id": "feedback_018",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 14.0318,
+          "strength_tags": [
+            "specific_example",
+            "confident_tone"
+          ],
+          "weakness_tags": [
+            "missing_details",
+            "lack_of_specific_action"
+          ],
+          "text": "This answer provides a strong leadership example. To strengthen it further, explain how your leadership improved the project outcome and include one measurable achievement or team success."
+        }
+      ],
+      "feedback": "**Overall Assessment**\n\nYour response during the interview shows potential, but there are areas for improvement to effectively communicate your strengths and experiences. You mentioned that your team had some problems during the project, and you helped with communication, which is a good start. However, your response could be more impactful with a clearer structure and more specific details.\n\n**Strengths**\n\nOne strength in your response is that you mentioned a concrete achievement ('we finished the project eventually and it was okay'). This shows that you can point to a specific outcome, which is great. However, to make the most of this strength, we need to build on it and provide more context.\n\n**Areas to Improve**\n\nBased on the predicted weakness tags, there are several areas to focus on:\n\n1. **Too General**: Your response is too general and doesn't provide enough context about the project or your role in it.\n2. **Missing Details**: You didn't explain what specific problems your team faced or how you helped with communication.\n3. **Unclear Goal**: It's not entirely clear what you were trying to achieve or what your goals were for the project.\n4. **Poor Structure**: Your response is a bit rambling and doesn't follow a clear narrative structure.\n5. **Rambling**: You could have provided more focus and clarity in your response.\n\n**Specific Suggestions**\n\nTo address these areas, consider the following suggestions:\n\n1. **Use the STAR structure**: Try to structure your response using the Situation, Task, Action, Result (STAR) format. This will help you provide a clear and concise narrative.\n2. **Provide specific examples**: Think about specific examples of problems your team faced and how you helped address them.\n3. **Explain your goals**: Clearly explain what you were trying to achieve or what your goals were for the project.\n4. **Use a clear and concise tone**: Try to avoid filler words and use a confident tone when describing your experiences.\n5. **Focus on the impact**: Emphasize the impact of your actions and how they contributed to the project's success.\n\n**Improved Version**\n\nHere's an example of how you could rephrase your response using the STAR structure and incorporating the suggestions above:\n\n\"During our software engineering project, we faced challenges with unclear task assignments near the deadline. I recognized the need for better communication and took the initiative to organize short daily check-ins and create a shared progress tracker. As a result, our team was able to stay on track and complete the remaining tasks on time, ultimately delivering a successful final demo. This experience taught me the importance of clear communication and effective project management in achieving project goals.\"\n\nRemember, the key is to be specific, clear, and concise in your response. By following these suggestions, you can effectively communicate your strengths and experiences to the interviewer."
+    },
+    "dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "feedback_007",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 0.5402,
+          "strength_tags": [
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "uncertain_tone",
+            "lack_of_specific_action"
+          ],
+          "text": "You identified a challenge clearly, but the answer would sound more professional if you focused on your own actions and problem-solving approach instead of blaming teammates. Explain how you adapted and what you learned from the experience."
+        },
+        {
+          "id": "revision_pair_002",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 0.536,
+          "strength_tags": [
+            "good_STAR_structure",
+            "logical_structure"
+          ],
+          "weakness_tags": [
+            "missing_STAR",
+            "lack_of_specific_action"
+          ],
+          "text": "Weakness: The response lacks STAR structure and specific actions. Improved version: During our software engineering project, our team struggled with unclear task assignments near the deadline. I organized short daily check-ins and created a shared progress tracker to improve communication. As a resu"
+        },
+        {
+          "id": "feedback_024",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 0.4658,
+          "strength_tags": [
+            "natural_flow"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your answer sounds informal and does not clearly explain your contribution. Use more professional language, describe the technical work you completed, and explain what result the project achieved."
+        },
+        {
+          "id": "feedback_003",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 0.4617,
+          "strength_tags": [
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "missing_STAR",
+            "lack_of_specific_action"
+          ],
+          "text": "Your response introduces a meaningful situation, but it lacks a complete STAR structure. Explain the specific conflict, what action you personally took, and what result your team achieved afterward."
+        },
+        {
+          "id": "feedback_025",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 0.4589,
+          "strength_tags": [
+            "specific_example",
+            "confident_tone"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "This response provides a strong example of responsibility and problem solving. To make it even stronger, explain how you identified the root cause and describe the impact your solution had on the team or project."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour response to the interview question about your team's project experience is a good start, but there are areas for improvement to make it more effective and engaging. You've mentioned that your team faced some problems and that you helped with communication, but the answer could be more detailed and structured to showcase your skills and experience.\n\n**Strengths**\nYou've identified a concrete achievement, which is a great strength. It shows that you were able to help your team overcome challenges and deliver a project that was \"okay.\" This indicates that you have problem-solving skills and can contribute to a team's success.\n\n**Areas to Improve**\nBased on the predicted weakness tags, there are several areas where you can improve your response:\n\n* **Too general**: Your answer is quite general and doesn't provide specific details about the challenges your team faced or how you helped with communication.\n* **Missing details**: You haven't explained what kind of problems your team encountered or how you specifically contributed to resolving them.\n* **Unclear goal**: It's not entirely clear what you aimed to achieve by helping with communication or what the outcome of your efforts was.\n* **Poor structure**: Your response lacks a clear structure, making it difficult to follow and understand.\n* **Rambling**: Your answer could be more concise and focused on the key points you want to make.\n\n**Specific Suggestions**\nTo address these areas, consider the following suggestions:\n\n* Use the STAR structure to organize your response: Situation, Task, Action, Result. This will help you provide a clear and structured answer.\n* Be more specific about the challenges your team faced and how you helped resolve them.\n* Explain the outcome of your efforts and what you achieved as a result.\n* Use more professional language and avoid vague terms like \"okay.\"\n* Focus on your own actions and contributions, rather than simply stating that you helped with communication.\n\n**Improved Version**\nHere's an example of how you could revise your response using the STAR structure and incorporating the suggestions above:\n\n\"When our team was working on the project, we encountered some challenges with task assignments and communication near the deadline. I took on the task of organizing daily check-ins and creating a shared progress tracker to ensure everyone was on the same page. As a result, our team was able to complete the remaining tasks on time and deliver the final demo successfully. This experience taught me the importance of clear communication and task management in software engineering projects.\"\n\nThis revised version provides a more structured and detailed answer that showcases your skills and experience."
+    },
+    "tag_bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_007",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 25.2979,
+          "strength_tags": [
+            "good_STAR_structure",
+            "concrete_achievement"
+          ],
+          "weakness_tags": [
+            "missing_STAR",
+            "missing_details"
+          ],
+          "text": "Weakness: The response lacks detail and does not explain the candidate’s contribution clearly. Improved version: During our capstone project, we faced a tight deadline after discovering major integration bugs one week before the demo. I reorganized the remaining tasks, coordinated debugging sessions"
+        },
+        {
+          "id": "feedback_025",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 19.0055,
+          "strength_tags": [
+            "specific_example",
+            "confident_tone"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "This response provides a strong example of responsibility and problem solving. To make it even stronger, explain how you identified the root cause and describe the impact your solution had on the team or project."
+        },
+        {
+          "id": "feedback_018",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 16.9824,
+          "strength_tags": [
+            "specific_example",
+            "confident_tone"
+          ],
+          "weakness_tags": [
+            "missing_details",
+            "lack_of_specific_action"
+          ],
+          "text": "This answer provides a strong leadership example. To strengthen it further, explain how your leadership improved the project outcome and include one measurable achievement or team success."
+        },
+        {
+          "id": "feedback_014",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 15.5435,
+          "strength_tags": [
+            "specific_example",
+            "concrete_achievement"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "This is a strong project example because it clearly connects technical work with real-world impact. To make it even stronger, explain the technologies you used and quantify the impact if possible."
+        },
+        {
+          "id": "feedback_024",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 14.7462,
+          "strength_tags": [
+            "natural_flow"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your answer sounds informal and does not clearly explain your contribution. Use more professional language, describe the technical work you completed, and explain what result the project achieved."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour response to the project experience question shows some potential, but it could be stronger. You mentioned that your team had some problems and you helped with communication, which is a good starting point. However, the response lacks detail and clarity, making it difficult for the interviewer to understand your specific contribution and impact.\n\n**Strengths**\nYou did mention a concrete achievement, which is a positive aspect of your response. It shows that you were involved in the project and helped your team in some way.\n\n**Areas to Improve**\nBased on the predicted weakness tags, there are several areas where you can improve:\n\n* **Too General**: Your response is too vague and doesn't provide specific details about the project or your role in it.\n* **Missing Details**: You didn't explain how you helped with communication or what specific challenges your team faced.\n* **Unclear Goal**: It's not clear what you were trying to achieve or accomplish in the project.\n* **Poor Structure**: Your response is a bit disjointed and doesn't follow a clear narrative.\n* **Rambling**: Your response could be more concise and to the point.\n\n**Specific Suggestions**\nTo improve your response, try to be more specific and detailed about your project experience. Here are some suggestions:\n\n* Instead of saying \"my team had some problems,\" try to describe the specific challenges you faced and how you helped your team overcome them.\n* Explain how you contributed to the project, including any specific tasks or responsibilities you had.\n* Quantify your achievements by using numbers or metrics to demonstrate the impact of your work.\n* Use more professional language and avoid vague terms like \"helped a little bit.\"\n* Structure your response in a clear and logical way, using transitions to connect your ideas.\n\n**Improved Version**\nHere's an example of how you could revise your response to address these areas:\n\n\"In our capstone project, we encountered a major integration bug one week before the demo. As a team member, I took the lead in coordinating debugging sessions and reorganizing tasks to ensure we met the deadline. I worked closely with my team to identify the root cause of the issue and implemented a solution that improved the project's stability. As a result, we were able to deliver a successful final presentation and received positive feedback from our instructors.\"\n\nThis revised response provides more detail and specificity about the project and your role in it, making it a stronger example of your skills and experience."
+    },
+    "tag_dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "guideline_002",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 1.1231,
+          "strength_tags": [
+            "specific_example",
+            "concrete_achievement"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Good technical interview answers often include one concrete project example, the technologies used, the problem solved, and the impact or outcome of the work."
+        },
+        {
+          "id": "guideline_007",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 1.0695,
+          "strength_tags": [
+            "specific_example",
+            "concrete_achievement"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Strong job interview answers usually connect technical skills to real-world impact. Candidates should explain not only what technologies they used, but also why those technologies mattered for solving the problem."
+        },
+        {
+          "id": "revision_pair_007",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 1.0228,
+          "strength_tags": [
+            "good_STAR_structure",
+            "concrete_achievement"
+          ],
+          "weakness_tags": [
+            "missing_STAR",
+            "missing_details"
+          ],
+          "text": "Weakness: The response lacks detail and does not explain the candidate’s contribution clearly. Improved version: During our capstone project, we faced a tight deadline after discovering major integration bugs one week before the demo. I reorganized the remaining tasks, coordinated debugging sessions"
+        },
+        {
+          "id": "feedback_001",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 0.9643,
+          "strength_tags": [
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your response is understandable, but it lacks specific examples and clear impact. Mention one project in detail, explain your contribution, and describe what you learned or achieved."
+        },
+        {
+          "id": "feedback_014",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 0.9355,
+          "strength_tags": [
+            "specific_example",
+            "concrete_achievement"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "This is a strong project example because it clearly connects technical work with real-world impact. To make it even stronger, explain the technologies you used and quantify the impact if possible."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour interview response shows a good starting point, but there's room for improvement to make it more effective. You've mentioned that your team faced some problems during the project, but your response could benefit from more details and a clearer explanation of your contribution.\n\n**Strengths**\nYou've demonstrated a concrete achievement by helping your team with communication, which is a valuable skill. This shows that you can work collaboratively and help others, which is essential in a team-based environment.\n\n**Areas to Improve**\nYour response is too general, and you could provide more details about the project, the technologies used, and the impact of your contribution. Additionally, it's unclear what goal you were trying to achieve or how your communication skills helped the team. Your response also lacks a clear structure, making it difficult to follow.\n\n**Specific Suggestions**\nTo improve your response, consider the following:\n- Be more specific about the project, such as the technologies used, the problem you were trying to solve, and the impact of your contribution.\n- Explain how your communication skills helped the team, and what specific challenges you faced.\n- Use a clear and concise structure to organize your thoughts and make it easier to follow.\n- Quantify the impact of your contribution, if possible, to make it more concrete.\n\n**Improved Version**\nHere's an example of how you could revise your response:\n\n\"In our team project, we faced a challenge with integrating multiple components. I helped facilitate communication among team members, ensuring that everyone was on the same page and working towards a common goal. By doing so, we were able to identify and resolve issues more efficiently, and ultimately deliver a successful project. Specifically, I used project management tools to track progress and coordinate tasks, which helped us meet our deadline. This experience taught me the importance of clear communication in a team-based environment, and I'm confident that my skills in this area will be valuable in future projects.\"\n\nThis revised response provides more details about the project, the technologies used, and the impact of your contribution. It also uses a clear and concise structure to make it easier to follow."
+    }
+  },
+  {
+    "id": "input_012",
+    "scenario": "interview",
+    "transcript": "I want this scholarship because I work hard and technology is important for the future. I hope it can help me continue my studies and improve my skills.",
+    "predicted_tags": {
+      "strength_tags": [
+        "clear_goal",
+        "logical_structure",
+        "specific_example"
+      ],
+      "weakness_tags": [
+        "missing_details"
+      ]
+    },
+    "baseline": {
+      "feedback": "**1. Overall Assessment**\nYour enthusiasm and dedication to technology are evident in your response. You've clearly stated your motivation for the scholarship, which is a great start. However, to make a stronger impression, it's essential to provide more depth and specifics to support your claims.\n\n**2. Strengths**\nYou've demonstrated a clear goal by stating that you want the scholarship to help you continue your studies and improve your skills. This shows that you've thought about how the scholarship will benefit you. Additionally, your logical structure is straightforward, making it easy to follow your train of thought.\n\n**3. Areas to Improve**\nThe main area for improvement is providing more details to support your claims. Currently, your response is quite general, which might make it harder for the interviewer to understand your unique qualifications and why you're the best fit for the scholarship. This is where the predicted weakness tag 'missing_details' comes into play.\n\n**4. Specific Suggestions**\nTo address the 'missing_details' weakness, consider adding specific examples or anecdotes that demonstrate your hard work and dedication to technology. For instance, you could mention a project you worked on, a skill you've mastered, or a challenge you overcame. This will help the interviewer visualize your capabilities and understand how the scholarship will help you achieve your goals.\n\n**5. Improved Version**\nHere's an example of how you could revise your response to incorporate more details:\n\n\"I'm excited about this scholarship because I believe it will help me continue my studies and improve my skills in technology, which is crucial for the future. For example, I've been working on a personal project to develop a mobile app that solves a real-world problem. Through this project, I've gained hands-on experience with programming languages and learned to troubleshoot complex issues. I'm confident that this scholarship will enable me to take my skills to the next level and make a meaningful contribution to the tech industry.\"\n\nBy adding specific examples and details, you'll be able to showcase your strengths and demonstrate why you're a strong candidate for the scholarship."
+    },
+    "bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_003",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 31.9242,
+          "strength_tags": [
+            "engaging",
+            "clear_goal",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Weakness: The response is vague and does not explain personal motivation. Improved version: I want this scholarship because it would allow me to continue my research on AI accessibility tools. During my previous project, I worked on detecting harmful flashing content on websites to improve accessibi"
+        },
+        {
+          "id": "revision_pair_010",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 29.9563,
+          "strength_tags": [
+            "clear_goal",
+            "professional_tone",
+            "engaging"
+          ],
+          "weakness_tags": [
+            "unclear_goal",
+            "missing_details"
+          ],
+          "text": "Weakness: The response does not clearly explain academic goals or future impact. Improved version: This scholarship would allow me to continue my research on accessible AI systems for users with disabilities. Through my previous accessibility-focused projects, I realized how technology can directly "
+        },
+        {
+          "id": "feedback_004",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 24.6287,
+          "strength_tags": [
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your motivation is clear, but the response feels too broad. Include a specific experience that demonstrates your passion for technology and explain how this scholarship supports your future goals."
+        },
+        {
+          "id": "revision_pair_008",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 20.079,
+          "strength_tags": [
+            "engaging",
+            "specific_example",
+            "natural_flow"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Weakness: The response is generic and does not communicate personal motivation. Improved version: My interest in computer science grew after I created a simple mobile app during high school to help students organize study schedules. Seeing classmates actively use the app made me interested in buildi"
+        },
+        {
+          "id": "feedback_023",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 19.97,
+          "strength_tags": [
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your motivation is understandable, but the response feels generic. Include a specific AI topic, research interest, or personal experience that explains why this field matters to you personally."
+        }
+      ],
+      "feedback": "**Overall Assessment**\n\nYour response shows a clear goal of wanting to continue your studies and improve your skills. However, it lacks specific details that would make your motivation more compelling and convincing.\n\n**Strengths**\n\n- You have a clear goal of wanting to continue your studies and improve your skills.\n- You acknowledge the importance of technology for the future.\n\n**Areas to Improve**\n\n- Your response is too general and lacks specific details about your motivation and goals.\n- You don't explain how this scholarship will help you achieve your goals or make a meaningful impact in the field.\n\n**Specific Suggestions**\n\n- Think about a specific project or experience that demonstrates your passion for technology and how it has prepared you for your future goals.\n- Explain how this scholarship will help you continue your studies and improve your skills in a way that aligns with your goals and values.\n- Use specific examples to illustrate your points and make your response more engaging and convincing.\n\n**Improved Version**\n\nConsider rephrasing your response to something like: \"I'm excited about this scholarship because it will allow me to continue my research on [specific area of interest in technology]. Through my previous project on [specific project], I gained valuable experience in [specific skill or area of expertise]. This scholarship will help me build on that experience and develop meaningful technology that can positively impact society.\"\n\n**Additional Tips**\n\n- Be specific about your goals and how this scholarship will help you achieve them.\n- Use specific examples to illustrate your points and make your response more engaging and convincing.\n- Show enthusiasm and passion for technology and your future goals.\n\nBy following these suggestions, you can make your response more compelling and convincing, and increase your chances of standing out in the interview."
+    },
+    "dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_003",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 0.5858,
+          "strength_tags": [
+            "engaging",
+            "clear_goal",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Weakness: The response is vague and does not explain personal motivation. Improved version: I want this scholarship because it would allow me to continue my research on AI accessibility tools. During my previous project, I worked on detecting harmful flashing content on websites to improve accessibi"
+        },
+        {
+          "id": "feedback_004",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 0.5519,
+          "strength_tags": [
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your motivation is clear, but the response feels too broad. Include a specific experience that demonstrates your passion for technology and explain how this scholarship supports your future goals."
+        },
+        {
+          "id": "revision_pair_010",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 0.5021,
+          "strength_tags": [
+            "clear_goal",
+            "professional_tone",
+            "engaging"
+          ],
+          "weakness_tags": [
+            "unclear_goal",
+            "missing_details"
+          ],
+          "text": "Weakness: The response does not clearly explain academic goals or future impact. Improved version: This scholarship would allow me to continue my research on accessible AI systems for users with disabilities. Through my previous accessibility-focused projects, I realized how technology can directly "
+        },
+        {
+          "id": "guideline_017",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 0.4951,
+          "strength_tags": [
+            "clear_goal",
+            "logical_structure"
+          ],
+          "weakness_tags": [
+            "unclear_goal",
+            "missing_details"
+          ],
+          "text": "Scholarship interviews often evaluate both academic ability and long-term motivation. Strong responses explain not only what the candidate has done, but also why those experiences matter for their future goals."
+        },
+        {
+          "id": "guideline_004",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 0.4944,
+          "strength_tags": [
+            "logical_structure",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "unclear_goal",
+            "missing_details"
+          ],
+          "text": "Scholarship interview answers should connect past experiences, current goals, and future impact. Strong answers explain why the scholarship matters personally and academically."
+        }
+      ],
+      "feedback": "**Feedback for the User Transcript**\n\n**1. Overall Assessment**\nYour response shows a clear goal of wanting to continue your studies and improve your skills, which is a great starting point. However, there are areas where you can provide more details to make your response stronger.\n\n**2. Strengths**\nYou have demonstrated a clear goal, which is a strength. Your response also shows a logical structure, making it easy to follow.\n\n**3. Areas to Improve**\nThe main area to improve is providing more details to support your motivation and goals. Your response feels a bit too general, and it's unclear how this scholarship specifically aligns with your future plans.\n\n**4. Specific Suggestions**\nTo address this, consider sharing a specific experience or project that showcases your passion for technology and how this scholarship will help you achieve your goals. This will make your response more engaging and convincing. Additionally, try to connect your past experiences, current goals, and future impact to demonstrate why this scholarship matters personally and academically.\n\n**5. Improved Version**\nHere's an example of how you could revise your response:\n\n\"I want this scholarship because I'm passionate about technology and its potential to improve people's lives. In my previous project, I worked on developing an AI-powered tool to assist individuals with disabilities. This experience not only deepened my understanding of the importance of accessibility but also fueled my desire to continue exploring the intersection of technology and social impact. With this scholarship, I hope to continue building on my research and develop more innovative solutions that can make a meaningful difference in people's lives.\"\n\nThis revised response provides more details about your motivation, shares a specific experience, and explains how the scholarship will help you achieve your goals."
+    },
+    "tag_bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_003",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 32.5712,
+          "strength_tags": [
+            "engaging",
+            "clear_goal",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Weakness: The response is vague and does not explain personal motivation. Improved version: I want this scholarship because it would allow me to continue my research on AI accessibility tools. During my previous project, I worked on detecting harmful flashing content on websites to improve accessibi"
+        },
+        {
+          "id": "revision_pair_010",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 30.633,
+          "strength_tags": [
+            "clear_goal",
+            "professional_tone",
+            "engaging"
+          ],
+          "weakness_tags": [
+            "unclear_goal",
+            "missing_details"
+          ],
+          "text": "Weakness: The response does not clearly explain academic goals or future impact. Improved version: This scholarship would allow me to continue my research on accessible AI systems for users with disabilities. Through my previous accessibility-focused projects, I realized how technology can directly "
+        },
+        {
+          "id": "feedback_004",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 26.2964,
+          "strength_tags": [
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your motivation is clear, but the response feels too broad. Include a specific experience that demonstrates your passion for technology and explain how this scholarship supports your future goals."
+        },
+        {
+          "id": "feedback_023",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 21.5836,
+          "strength_tags": [
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your motivation is understandable, but the response feels generic. Include a specific AI topic, research interest, or personal experience that explains why this field matters to you personally."
+        },
+        {
+          "id": "revision_pair_008",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 20.0553,
+          "strength_tags": [
+            "engaging",
+            "specific_example",
+            "natural_flow"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Weakness: The response is generic and does not communicate personal motivation. Improved version: My interest in computer science grew after I created a simple mobile app during high school to help students organize study schedules. Seeing classmates actively use the app made me interested in buildi"
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour response to the scholarship interview question shows a clear goal of continuing your studies and improving your skills. However, there are areas where you can improve to make your response more effective.\n\n**Strengths**\nYou have a clear goal in mind, which is a great starting point. You also mention that technology is important for the future, which shows your awareness of the field's significance.\n\n**Areas to Improve**\nThe main area for improvement is providing more details about your motivation and goals. Your response feels a bit too general, and it's not entirely clear how this scholarship will help you achieve your objectives.\n\n**Specific Suggestions**\nTo address this, consider the following:\n\n1. **Be more specific about your goals**: Instead of just stating that you want to continue your studies, explain what you hope to achieve in the field of computer science. What specific areas interest you? What problems do you want to solve?\n2. **Share a personal experience**: Think about a project or experience that demonstrates your passion for technology and how it relates to your goals. This will help you stand out and show the interviewer that you're not just a generic applicant.\n3. **Explain how the scholarship will help**: Clearly state how this scholarship will support your goals and help you achieve your objectives. What specific opportunities or resources will it provide?\n\n**Improved Version**\nHere's an example of how you could revise your response to address these areas:\n\n\"I'm excited about this scholarship because it will allow me to continue my studies in computer science and focus on developing AI solutions for social impact. During my previous project, I worked on creating an accessible AI-powered chatbot for users with disabilities. This experience showed me the potential of technology to improve lives, and I want to continue building on this work. With this scholarship, I'll be able to take my research to the next level, collaborate with experts in the field, and make a meaningful contribution to the development of inclusive AI systems.\"\n\nRemember, the key is to be specific, personal, and clear about your goals and motivations. Good luck with your scholarship interview!"
+    },
+    "tag_dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "guideline_017",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 1.3951,
+          "strength_tags": [
+            "clear_goal",
+            "logical_structure"
+          ],
+          "weakness_tags": [
+            "unclear_goal",
+            "missing_details"
+          ],
+          "text": "Scholarship interviews often evaluate both academic ability and long-term motivation. Strong responses explain not only what the candidate has done, but also why those experiences matter for their future goals."
+        },
+        {
+          "id": "guideline_004",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 1.3944,
+          "strength_tags": [
+            "logical_structure",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "unclear_goal",
+            "missing_details"
+          ],
+          "text": "Scholarship interview answers should connect past experiences, current goals, and future impact. Strong answers explain why the scholarship matters personally and academically."
+        },
+        {
+          "id": "revision_pair_003",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 1.1858,
+          "strength_tags": [
+            "engaging",
+            "clear_goal",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Weakness: The response is vague and does not explain personal motivation. Improved version: I want this scholarship because it would allow me to continue my research on AI accessibility tools. During my previous project, I worked on detecting harmful flashing content on websites to improve accessibi"
+        },
+        {
+          "id": "feedback_004",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 1.1519,
+          "strength_tags": [
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your motivation is clear, but the response feels too broad. Include a specific experience that demonstrates your passion for technology and explain how this scholarship supports your future goals."
+        },
+        {
+          "id": "revision_pair_010",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 1.1021,
+          "strength_tags": [
+            "clear_goal",
+            "professional_tone",
+            "engaging"
+          ],
+          "weakness_tags": [
+            "unclear_goal",
+            "missing_details"
+          ],
+          "text": "Weakness: The response does not clearly explain academic goals or future impact. Improved version: This scholarship would allow me to continue my research on accessible AI systems for users with disabilities. Through my previous accessibility-focused projects, I realized how technology can directly "
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour response shows a clear goal of wanting to continue your studies and improve your skills, which is a great starting point. However, there are areas where you can improve to make your response more effective.\n\n**Strengths**\nYou have demonstrated a clear goal, which is a strength. You also mentioned that technology is important for the future, which shows some logical structure.\n\n**Areas to Improve**\nThe main area to improve is providing more details to support your goal. Your response feels a bit too general, and it's unclear how this scholarship specifically aligns with your future goals. This is where you can connect the dots between your past experiences, current goals, and future impact.\n\n**Specific Suggestions**\nTo improve, consider the following:\n- Be more specific about what you've done in the past that demonstrates your passion for technology.\n- Explain how this scholarship will help you achieve your long-term goals.\n- Connect the dots between your past experiences, current goals, and future impact.\n\n**Improved Version**\nHere's an example of how you could revise your response:\n\n\"I'm excited about this scholarship because it will enable me to continue my research on AI-powered accessibility tools. During my previous project, I worked on developing a machine learning model to detect harmful flashing content on websites. This experience not only deepened my understanding of AI but also motivated me to create technology that makes a positive impact on society. With this scholarship, I hope to build on my research and develop more inclusive AI systems that benefit users with disabilities. I believe this scholarship will be a crucial step towards achieving my goal of becoming a leading expert in AI accessibility.\"\n\nThis revised response provides more details about your past experiences, current goals, and future impact, making it more effective and engaging."
+    }
+  },
+  {
+    "id": "input_013",
+    "scenario": "elevator_pitch",
+    "transcript": "Hi, I am a computer science student and I like AI, cybersecurity, web development, robotics, and game development. I worked on a lot of different class projects and learned many programming languages and frameworks.",
+    "predicted_tags": {
+      "strength_tags": [
+        "clear_goal",
+        "specific_example",
+        "concrete_achievement"
+      ],
+      "weakness_tags": [
+        "too_general"
+      ]
+    },
+    "baseline": {
+      "feedback": "**1. Overall Assessment**\nYour elevator pitch is a good start, but it can be improved to make a stronger impression. You've mentioned your interests and some of your experiences, which is a great foundation.\n\n**2. Strengths**\nYou have a clear goal in mind, which is a strength. You've also provided specific examples of your work, which helps to give a concrete idea of your skills and experiences. Additionally, you've achieved a lot in your class projects, which is something to be proud of.\n\n**3. Areas to Improve**\nOne area to improve is the clarity of your pitch. Your current pitch is a bit too general, which might make it harder for the listener to understand what you're trying to convey. You've mentioned a lot of different areas of interest, but it's not entirely clear how they relate to each other or what specific skills you're trying to highlight.\n\n**4. Specific Suggestions**\nTo improve your pitch, try to focus on one or two areas of interest that you're most passionate about. For example, you could talk about how your experience with AI and cybersecurity has led you to develop a project that combines both. This will help to give a clearer picture of your skills and interests. Additionally, try to use more specific language to describe your achievements. Instead of saying \"I learned many programming languages and frameworks,\" you could say \"I've developed proficiency in Python, Java, and C++, and I've worked with popular frameworks like Django and React.\"\n\n**5. Improved Version**\nHere's an example of how you could revise your pitch to focus on one area of interest and use more specific language:\n\n\"Hi, I'm a computer science student with a passion for AI and cybersecurity. In my class projects, I've developed a project that uses machine learning to detect and prevent cyber attacks. I've worked with Python, Java, and C++ to build the project, and I've used popular frameworks like Django and React to create a user-friendly interface. I'm excited to apply my skills and knowledge to a career in AI and cybersecurity, where I can help organizations protect themselves from cyber threats.\"\n\nThis revised pitch is more focused, specific, and concrete, which will help you to make a stronger impression and stand out in a competitive job market."
+    },
+    "bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_017",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 35.1096,
+          "strength_tags": [
+            "logical_structure",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "wordy"
+          ],
+          "text": "Weakness: The response lacks focus because it introduces too many unrelated topics. Improved version: My strongest interest is AI-driven web applications. Recently, I worked on a chatbot project that used large language models to provide campus-related information through a web interface, which help"
+        },
+        {
+          "id": "revision_pair_011",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 27.6586,
+          "strength_tags": [
+            "clear_goal",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Weakness: The response is too broad and does not communicate a clear direction. Improved version: I am a computer science student interested in machine learning and accessibility research. Recently, I worked on a project that detects harmful flashing content on websites to improve accessibility for "
+        },
+        {
+          "id": "feedback_031",
+          "type": "feedback_example",
+          "scenario": "elevator_pitch",
+          "score": 25.3503,
+          "strength_tags": [
+            "natural_flow"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Your introduction is friendly, but the response is too broad to leave a strong impression. Mention one specific technical interest or project, and end with a clear direction such as the kind of internship or opportunity you are looking for."
+        },
+        {
+          "id": "feedback_033",
+          "type": "feedback_example",
+          "scenario": "elevator_pitch",
+          "score": 18.7021,
+          "strength_tags": [
+            "engaging"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "unclear_goal"
+          ],
+          "text": "Your range of skills shows curiosity, but listing many areas in a short pitch makes it hard for the listener to remember anything specific. Focus on one main interest that matches the opportunity and explain it in more depth."
+        },
+        {
+          "id": "feedback_043",
+          "type": "feedback_example",
+          "scenario": "elevator_pitch",
+          "score": 16.6735,
+          "strength_tags": [
+            "engaging"
+          ],
+          "weakness_tags": [
+            "wordy",
+            "rambling",
+            "too_general"
+          ],
+          "text": "Your enthusiasm comes through, but the response is wordy and lacks a clear focus. Trim the sentence and replace general claims with one specific project that shows the kind of problem you enjoy solving."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour elevator pitch is a great start, but it could be more effective with some adjustments. You've mentioned a wide range of interests in computer science, which is impressive, but it's essential to focus on one or two areas that you're most passionate about.\n\n**Strengths**\nYou have a clear goal of studying computer science and have learned many programming languages and frameworks. This shows that you're dedicated to your field and have a solid foundation.\n\n**Areas to Improve**\nThe predicted weakness tags ['too_general'] indicate that your pitch is too broad and doesn't communicate a clear direction. This makes it challenging for the listener to remember anything specific about you.\n\n**Specific Suggestions**\nTo improve your pitch, try to focus on one or two areas that you're most interested in and have experience with. This could be AI, cybersecurity, web development, robotics, or game development. Think about a specific project or experience that showcases your skills and passion in that area.\n\n**Improved Version**\nHere's an example of how you could revise your pitch:\n\n\"Hi, I'm a computer science student with a strong interest in AI and cybersecurity. Recently, I worked on a project that used machine learning algorithms to detect potential security threats in web applications. This experience not only deepened my understanding of AI but also sparked my passion for building more secure and reliable systems. I'm excited to explore opportunities in this field and contribute my skills to innovative projects.\"\n\nThis revised pitch focuses on two specific areas, AI and cybersecurity, and highlights a relevant project that showcases your skills and passion. Remember to keep your pitch concise, clear, and engaging, and you'll be more likely to make a lasting impression."
+    },
+    "dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_014",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 0.4938,
+          "strength_tags": [
+            "confident_tone",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "uncertain_tone",
+            "filler_words"
+          ],
+          "text": "Weakness: The response sounds uncertain and lacks a clear direction. Improved version: I am currently most interested in software engineering for distributed systems. During a recent systems programming project, I enjoyed debugging backend communication issues and optimizing server performance, whic"
+        },
+        {
+          "id": "revision_pair_018",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 0.4651,
+          "strength_tags": [
+            "clear_goal",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "unclear_goal",
+            "too_general"
+          ],
+          "text": "Weakness: The response does not clearly explain what type of opportunity the candidate is seeking. Improved version: I am currently looking for software engineering or AI internship opportunities where I can contribute to user-centered systems. My recent machine learning and accessibility projects h"
+        },
+        {
+          "id": "revision_pair_013",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 0.4176,
+          "strength_tags": [
+            "engaging",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response sounds generic and lacks personal motivation. Improved version: I became interested in AI after working on a recommendation system project in one of my data mining courses. I enjoyed seeing how machine learning models could personalize user experiences, which motivated me to p"
+        },
+        {
+          "id": "feedback_031",
+          "type": "feedback_example",
+          "scenario": "elevator_pitch",
+          "score": 0.4027,
+          "strength_tags": [
+            "natural_flow"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Your introduction is friendly, but the response is too broad to leave a strong impression. Mention one specific technical interest or project, and end with a clear direction such as the kind of internship or opportunity you are looking for."
+        },
+        {
+          "id": "revision_pair_011",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 0.3971,
+          "strength_tags": [
+            "clear_goal",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Weakness: The response is too broad and does not communicate a clear direction. Improved version: I am a computer science student interested in machine learning and accessibility research. Recently, I worked on a project that detects harmful flashing content on websites to improve accessibility for "
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour elevator pitch is a great start, but there's room for improvement to make it more impactful and memorable. You've mentioned multiple interests in computer science, which is a good starting point. However, it's essential to focus on one or two specific areas to showcase your passion and expertise.\n\n**Strengths**\nYou've demonstrated a clear interest in various areas of computer science, including AI, cybersecurity, web development, robotics, and game development. This breadth of knowledge is impressive, and you've likely gained a solid foundation in programming languages and frameworks.\n\n**Areas to Improve**\nThe predicted weakness tags ['too_general'] indicate that your response could be more specific and focused. To address this, you'll want to narrow down your interests and highlight a few key areas where you've gained significant experience or skills.\n\n**Specific Suggestions**\nTo improve your elevator pitch, try the following:\n1. **Identify your top 2-3 interests**: Choose the areas that excite you the most and where you've gained significant experience or skills.\n2. **Highlight specific projects or experiences**: Share one or two projects that demonstrate your expertise in these areas. This could be a class project, a personal initiative, or a relevant internship.\n3. **Connect the dots**: Explain how your interests and experiences align with your career goals and the type of opportunities you're seeking.\n\n**Improved Version**\nHere's an example of how you could revise your elevator pitch:\n\n\"Hi, I'm a computer science student with a passion for AI and cybersecurity. In my recent systems programming project, I enjoyed debugging backend communication issues and optimizing server performance, which strengthened my interest in scalable system design. I'm now looking for internship opportunities where I can contribute to user-centered systems and apply my skills in AI and cybersecurity to make a real-world impact.\"\n\nThis revised version focuses on two specific areas, highlights a relevant project experience, and clearly states your career goals. Remember to tailor your pitch to your unique strengths and interests, and don't be afraid to showcase your personality and enthusiasm!"
+    },
+    "tag_bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_017",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 37.4337,
+          "strength_tags": [
+            "logical_structure",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "wordy"
+          ],
+          "text": "Weakness: The response lacks focus because it introduces too many unrelated topics. Improved version: My strongest interest is AI-driven web applications. Recently, I worked on a chatbot project that used large language models to provide campus-related information through a web interface, which help"
+        },
+        {
+          "id": "revision_pair_011",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 31.5013,
+          "strength_tags": [
+            "clear_goal",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Weakness: The response is too broad and does not communicate a clear direction. Improved version: I am a computer science student interested in machine learning and accessibility research. Recently, I worked on a project that detects harmful flashing content on websites to improve accessibility for "
+        },
+        {
+          "id": "feedback_031",
+          "type": "feedback_example",
+          "scenario": "elevator_pitch",
+          "score": 26.2909,
+          "strength_tags": [
+            "natural_flow"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Your introduction is friendly, but the response is too broad to leave a strong impression. Mention one specific technical interest or project, and end with a clear direction such as the kind of internship or opportunity you are looking for."
+        },
+        {
+          "id": "feedback_043",
+          "type": "feedback_example",
+          "scenario": "elevator_pitch",
+          "score": 17.9543,
+          "strength_tags": [
+            "engaging"
+          ],
+          "weakness_tags": [
+            "wordy",
+            "rambling",
+            "too_general"
+          ],
+          "text": "Your enthusiasm comes through, but the response is wordy and lacks a clear focus. Trim the sentence and replace general claims with one specific project that shows the kind of problem you enjoy solving."
+        },
+        {
+          "id": "feedback_054",
+          "type": "feedback_example",
+          "scenario": "elevator_pitch",
+          "score": 16.9521,
+          "strength_tags": [
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "lack_of_specific_action",
+            "missing_details"
+          ],
+          "text": "Your statement is positive, but it relies on vague impressions instead of substance. Name the research topic, your specific contribution, and one concrete skill or finding that resulted from the experience."
+        }
+      ],
+      "feedback": "**Feedback for Elevator Pitch**\n\n**1. Overall Assessment**\n\nYour elevator pitch showcases your enthusiasm for various areas in computer science, including AI, cybersecurity, web development, robotics, and game development. However, it's essential to refine your pitch to effectively communicate your strengths and interests to potential employers or collaborators.\n\n**2. Strengths**\n\nYou have a solid foundation in computer science, with experience in multiple programming languages and frameworks. Your passion for different areas in tech is evident, and you've worked on various class projects.\n\n**3. Areas to Improve**\n\nThe predicted weakness tags ['too_general'] indicate that your pitch is too broad and lacks focus. To overcome this, you need to narrow down your interests and highlight specific projects or skills that demonstrate your expertise.\n\n**4. Specific Suggestions**\n\nTo improve your pitch, consider the following:\n\n* Identify your top 2-3 areas of interest and focus on those.\n* Choose a specific project that showcases your skills and accomplishments in those areas.\n* Use concrete examples and details to demonstrate your expertise.\n* Practice your pitch to ensure it's concise, clear, and engaging.\n\n**5. Improved Version**\n\nHere's a revised version of your elevator pitch:\n\n\"Hi, I'm a computer science student with a strong interest in AI and cybersecurity. Recently, I worked on a project that combined AI and web development to create a chatbot for campus-related information. This experience helped me develop skills in large language models and frontend development. I'm excited to apply my skills in these areas to contribute to innovative projects and teams.\"\n\nThis revised pitch focuses on your top interest areas, highlights a specific project, and showcases your skills and accomplishments. Remember to practice and refine your pitch to effectively communicate your strengths and interests."
+    },
+    "tag_dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_011",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 1.2971,
+          "strength_tags": [
+            "clear_goal",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Weakness: The response is too broad and does not communicate a clear direction. Improved version: I am a computer science student interested in machine learning and accessibility research. Recently, I worked on a project that detects harmful flashing content on websites to improve accessibility for "
+        },
+        {
+          "id": "feedback_055",
+          "type": "feedback_example",
+          "scenario": "elevator_pitch",
+          "score": 1.2229,
+          "strength_tags": [
+            "clear_goal",
+            "specific_example",
+            "concrete_achievement",
+            "logical_structure"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "This pitch is well balanced: it introduces you, highlights a concrete project with adoption, and ends with a clear ask. To polish it, briefly mention what motivates you to work on developer tools so the listener connects with your direction."
+        },
+        {
+          "id": "revision_pair_020",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 1.1644,
+          "strength_tags": [
+            "engaging",
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "missing_details",
+            "too_general"
+          ],
+          "text": "Weakness: The response communicates a positive goal but lacks supporting detail. Improved version: I became interested in accessibility research after working on a project that detects harmful flashing content on websites for users with photosensitive epilepsy. That experience showed me how computin"
+        },
+        {
+          "id": "feedback_035",
+          "type": "feedback_example",
+          "scenario": "elevator_pitch",
+          "score": 1.0773,
+          "strength_tags": [
+            "specific_example",
+            "concrete_achievement",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your pitch effectively combines a clear interest with a meaningful impact. To strengthen the close, add a sentence about the next role or research area you would like to pursue."
+        },
+        {
+          "id": "revision_pair_018",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 1.0651,
+          "strength_tags": [
+            "clear_goal",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "unclear_goal",
+            "too_general"
+          ],
+          "text": "Weakness: The response does not clearly explain what type of opportunity the candidate is seeking. Improved version: I am currently looking for software engineering or AI internship opportunities where I can contribute to user-centered systems. My recent machine learning and accessibility projects h"
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour elevator pitch is a good start, but it could be more effective with some adjustments. You've mentioned your interests in AI, cybersecurity, web development, robotics, and game development, which is a broad range of areas. While it's great that you've worked on various class projects and learned multiple programming languages and frameworks, we need to make your pitch more specific and engaging.\n\n**Strengths**\nYou have a clear goal of pursuing a career in computer science, and you've mentioned some specific areas of interest. This is a good starting point for your pitch.\n\n**Areas to Improve**\nThe main areas to improve are:\n- **Too General**: Your pitch is too broad, and it's hard to understand what you're specifically looking for in a career or opportunity.\n- **Unclear Goal**: While you've mentioned your interests, it's not clear what you want to achieve or what type of opportunity you're seeking.\n\n**Specific Suggestions**\nTo address these weaknesses, let's break down your pitch into more specific and concrete points. Here are some suggestions:\n- Instead of listing multiple areas of interest, choose one or two that you're most passionate about and focus on those.\n- Highlight a specific project or achievement that demonstrates your skills and interests.\n- Clearly state what you're looking for in a career or opportunity, such as a software engineering internship or a role in AI development.\n\n**Improved Version**\nHere's an example of how you could revise your pitch:\n\"Hi, I'm a computer science student with a strong interest in AI and cybersecurity. Recently, I worked on a project that developed a machine learning model to detect cyber threats in real-time. This experience not only deepened my understanding of AI but also showed me the importance of cybersecurity in protecting users' data. I'm now looking for a software engineering internship where I can apply my skills to build secure and efficient systems. I'm excited to contribute to a team that shares my passion for innovation and user-centered design.\"\n\nThis revised pitch is more specific, engaging, and clearly communicates your goals and interests. Remember to tailor your pitch to the specific opportunity or conversation you're having, and don't be afraid to highlight your unique strengths and experiences."
+    }
+  },
+  {
+    "id": "input_014",
+    "scenario": "elevator_pitch",
+    "transcript": "Uh, hi. I kind of like programming and maybe AI too. I worked on some projects before with classmates and I hope to get some experience in the future.",
+    "predicted_tags": {
+      "strength_tags": [
+        "clear_goal",
+        "specific_example"
+      ],
+      "weakness_tags": [
+        "too_general",
+        "missing_details",
+        "poor_structure"
+      ]
+    },
+    "baseline": {
+      "feedback": "**1. Overall Assessment**\n\nYour elevator pitch is a good start, but it could be more effective in showcasing your passion for programming and AI. You've mentioned your interest in the field and some experience with projects, but there's room for improvement to make it more engaging and memorable.\n\n**2. Strengths**\n\nYou've demonstrated a clear goal by mentioning your interest in programming and AI, which is a great starting point. Additionally, you've provided a specific example of working on projects with classmates, which gives a glimpse into your experience.\n\n**3. Areas to Improve**\n\nOne area to focus on is making your pitch more specific and detailed. Currently, your statement is a bit too general, and it would benefit from more concrete examples and achievements. Additionally, the structure of your pitch could be improved to make it more concise and engaging.\n\n**4. Specific Suggestions**\n\nTo address these areas, consider the following suggestions:\n\n* Instead of saying \"I kind of like programming and maybe AI too,\" try to be more specific about what aspects of programming and AI interest you the most. For example, you could mention a particular area of AI, such as natural language processing or computer vision.\n* When discussing your projects, try to focus on the specific skills or technologies you used, and the problems you solved. For example, you could say, \"In our project, we used Python and machine learning algorithms to develop a chatbot that could understand and respond to user queries.\"\n* To improve the structure of your pitch, try to break it down into three main points: your interest in the field, your relevant experience, and your goals for the future. This will help you stay focused and ensure that you cover all the key points.\n\n**5. Improved Version**\n\nHere's an example of how you could revise your pitch to address these areas:\n\n\"Hi, I'm excited about the field of programming and AI, particularly in areas like natural language processing and computer vision. In my previous projects, I've had the opportunity to work with classmates on developing chatbots using Python and machine learning algorithms. I'm looking to gain more experience in the field and contribute to projects that leverage AI to solve real-world problems. I'm confident that my skills and passion for programming and AI make me a strong fit for this opportunity.\"\n\nRemember, the key is to be specific, concise, and engaging. Practice your pitch until it feels natural and confident, and don't be afraid to make adjustments as you go."
+    },
+    "bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_015",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 18.1859,
+          "strength_tags": [
+            "specific_example",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "missing_details",
+            "lack_of_specific_action"
+          ],
+          "text": "Weakness: The response lacks detail and does not explain the candidate’s role or contribution. Improved version: One of my favorite projects was leading a small team to build a scheduling application for students. I coordinated the backend development and helped design the database system, which imp"
+        },
+        {
+          "id": "feedback_038",
+          "type": "feedback_example",
+          "scenario": "elevator_pitch",
+          "score": 17.554,
+          "strength_tags": [
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "uncertain_tone",
+            "filler_words"
+          ],
+          "text": "Your interest in AI research is clear, but uncertain language makes the pitch feel tentative. Replace hedging phrases with direct statements and name the specific NLP topic that excites you most."
+        },
+        {
+          "id": "revision_pair_014",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 15.3171,
+          "strength_tags": [
+            "confident_tone",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "uncertain_tone",
+            "filler_words"
+          ],
+          "text": "Weakness: The response sounds uncertain and lacks a clear direction. Improved version: I am currently most interested in software engineering for distributed systems. During a recent systems programming project, I enjoyed debugging backend communication issues and optimizing server performance, whic"
+        },
+        {
+          "id": "revision_pair_011",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 14.015,
+          "strength_tags": [
+            "clear_goal",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Weakness: The response is too broad and does not communicate a clear direction. Improved version: I am a computer science student interested in machine learning and accessibility research. Recently, I worked on a project that detects harmful flashing content on websites to improve accessibility for "
+        },
+        {
+          "id": "feedback_034",
+          "type": "feedback_example",
+          "scenario": "elevator_pitch",
+          "score": 13.8365,
+          "strength_tags": [
+            "natural_flow"
+          ],
+          "weakness_tags": [
+            "filler_words",
+            "uncertain_tone"
+          ],
+          "text": "Your introduction sounds approachable, but frequent filler words weaken your credibility. Practice a smoother opening and replace fillers with clear, direct statements about who you are and what you work on."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour elevator pitch is a good start, but it lacks clarity and specificity. You've expressed a general interest in programming and AI, but you can do more to showcase your skills and goals.\n\n**Strengths**\nYou've mentioned working on projects with classmates, which is a great starting point. This shows that you have some experience in programming and are willing to collaborate with others.\n\n**Areas to Improve**\nYour pitch is too general and lacks details about your role, contribution, or specific interests within AI. You also use filler words (\"Uh, hi\") and uncertain language (\"I kind of like\"), which can make your pitch feel tentative.\n\n**Specific Suggestions**\nTo improve your pitch, try to be more specific about your interests and experiences. Instead of saying \"I like programming and AI,\" say \"I'm interested in exploring the applications of machine learning in natural language processing.\" Also, practice a smoother opening and replace filler words with clear, direct statements.\n\n**Improved Version**\nHere's an example of how you could revise your pitch:\n\n\"Hi, I'm excited to share my passion for programming and AI. In my previous projects, I worked with classmates to develop a scheduling application for students. I coordinated the backend development and helped design the database system, which improved my teamwork and software engineering skills. I'm now interested in exploring the applications of machine learning in natural language processing, particularly in building more accurate and efficient chatbots. I believe that this field has the potential to revolutionize the way we interact with technology, and I'm eager to contribute to it.\"\n\nThis revised version is more specific, confident, and engaging. It showcases your skills, interests, and goals, and provides a clear direction for your career aspirations."
+    },
+    "dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_018",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 0.5551,
+          "strength_tags": [
+            "clear_goal",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "unclear_goal",
+            "too_general"
+          ],
+          "text": "Weakness: The response does not clearly explain what type of opportunity the candidate is seeking. Improved version: I am currently looking for software engineering or AI internship opportunities where I can contribute to user-centered systems. My recent machine learning and accessibility projects h"
+        },
+        {
+          "id": "feedback_055",
+          "type": "feedback_example",
+          "scenario": "elevator_pitch",
+          "score": 0.4831,
+          "strength_tags": [
+            "clear_goal",
+            "specific_example",
+            "concrete_achievement",
+            "logical_structure"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "This pitch is well balanced: it introduces you, highlights a concrete project with adoption, and ends with a clear ask. To polish it, briefly mention what motivates you to work on developer tools so the listener connects with your direction."
+        },
+        {
+          "id": "revision_pair_013",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 0.4789,
+          "strength_tags": [
+            "engaging",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response sounds generic and lacks personal motivation. Improved version: I became interested in AI after working on a recommendation system project in one of my data mining courses. I enjoyed seeing how machine learning models could personalize user experiences, which motivated me to p"
+        },
+        {
+          "id": "revision_pair_014",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 0.4622,
+          "strength_tags": [
+            "confident_tone",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "uncertain_tone",
+            "filler_words"
+          ],
+          "text": "Weakness: The response sounds uncertain and lacks a clear direction. Improved version: I am currently most interested in software engineering for distributed systems. During a recent systems programming project, I enjoyed debugging backend communication issues and optimizing server performance, whic"
+        },
+        {
+          "id": "feedback_048",
+          "type": "feedback_example",
+          "scenario": "elevator_pitch",
+          "score": 0.4512,
+          "strength_tags": [
+            "clear_language",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Your pitch is direct and covers the basics, but it feels mechanical and undersells your background. Connect the sentences with smoother transitions and add one specific AI project that illustrates your work."
+        }
+      ],
+      "feedback": "**Feedback for Elevator Pitch**\n\n**1. Overall Assessment**\nYour elevator pitch is a good start, but it could be more effective with some adjustments. You've expressed your interest in programming and AI, which is a great starting point. However, there are areas where you can improve to make your pitch more engaging and memorable.\n\n**2. Strengths**\nYou've demonstrated a clear goal by mentioning your interest in programming and AI. You've also shared that you've worked on projects with classmates, which shows some experience.\n\n**3. Areas to Improve**\nThe main areas to focus on are:\n- **Too General**: Your pitch is quite broad, and it's not clear what specific aspects of programming or AI interest you.\n- **Missing Details**: You haven't shared any specific projects or experiences that showcase your skills or passions.\n- **Poor Structure**: Your pitch feels a bit disjointed, and it's not easy to follow your train of thought.\n\n**4. Specific Suggestions**\nTo address these areas, consider the following suggestions:\n- Be more specific about what aspects of programming or AI excite you. Is it machine learning, data science, or something else?\n- Share a specific project or experience that demonstrates your skills and passions. This could be a project you worked on with classmates or a personal project that you're proud of.\n- Use a more logical structure to organize your thoughts. Try to introduce yourself, highlight a specific project or experience, and then conclude with a clear ask or goal.\n\n**5. Improved Version**\nHere's an example of how you could revise your pitch:\n\n\"Hi, I'm [Your Name], a computer science student with a passion for programming and AI. I've enjoyed working on projects with classmates, such as [specific project name], where we applied machine learning techniques to [project goal]. This experience sparked my interest in AI engineering, and I'm now looking for opportunities to contribute to user-centered systems. I'd love to discuss how my skills and experience align with your team's goals and how I can make a meaningful impact.\"\n\nRemember, the goal is to be authentic, specific, and engaging. Practice your revised pitch until it feels natural and confident. Good luck!"
+    },
+    "tag_bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_015",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 22.3698,
+          "strength_tags": [
+            "specific_example",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "missing_details",
+            "lack_of_specific_action"
+          ],
+          "text": "Weakness: The response lacks detail and does not explain the candidate’s role or contribution. Improved version: One of my favorite projects was leading a small team to build a scheduling application for students. I coordinated the backend development and helped design the database system, which imp"
+        },
+        {
+          "id": "revision_pair_011",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 19.25,
+          "strength_tags": [
+            "clear_goal",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Weakness: The response is too broad and does not communicate a clear direction. Improved version: I am a computer science student interested in machine learning and accessibility research. Recently, I worked on a project that detects harmful flashing content on websites to improve accessibility for "
+        },
+        {
+          "id": "revision_pair_013",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 18.5093,
+          "strength_tags": [
+            "engaging",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response sounds generic and lacks personal motivation. Improved version: I became interested in AI after working on a recommendation system project in one of my data mining courses. I enjoyed seeing how machine learning models could personalize user experiences, which motivated me to p"
+        },
+        {
+          "id": "revision_pair_020",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 18.4496,
+          "strength_tags": [
+            "engaging",
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "missing_details",
+            "too_general"
+          ],
+          "text": "Weakness: The response communicates a positive goal but lacks supporting detail. Improved version: I became interested in accessibility research after working on a project that detects harmful flashing content on websites for users with photosensitive epilepsy. That experience showed me how computin"
+        },
+        {
+          "id": "revision_pair_014",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 17.5525,
+          "strength_tags": [
+            "confident_tone",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "uncertain_tone",
+            "filler_words"
+          ],
+          "text": "Weakness: The response sounds uncertain and lacks a clear direction. Improved version: I am currently most interested in software engineering for distributed systems. During a recent systems programming project, I enjoyed debugging backend communication issues and optimizing server performance, whic"
+        }
+      ],
+      "feedback": "**Feedback for Elevator Pitch**\n\n**1. Overall Assessment**\nYour elevator pitch is a good start, but it could be more effective with some adjustments. You've shown interest in programming and AI, which is a great foundation. However, to make a stronger impression, it's essential to provide more details and clarify your goals.\n\n**2. Strengths**\nYou've demonstrated a clear goal of gaining experience in the future, which is a positive direction. Additionally, you've mentioned working on projects with classmates, which is a specific example of your experience.\n\n**3. Areas to Improve**\nBased on the predicted weakness tags, there are a few areas to focus on:\n- **Too General**: Your pitch is quite broad and doesn't give a clear idea of what you're passionate about or what you want to achieve.\n- **Missing Details**: You haven't provided enough information about your projects or your role in them, which makes it hard for the listener to understand your strengths and interests.\n- **Poor Structure**: Your pitch feels a bit disorganized, and it's not immediately clear what you're trying to communicate.\n\n**4. Specific Suggestions**\nTo improve your elevator pitch, consider the following:\n- Be more specific about your interests and goals. Instead of saying \"I kind of like programming and maybe AI too,\" try to pinpoint what aspects of programming or AI excite you the most.\n- Provide more details about your projects, such as your role, the technologies used, and any challenges you overcame.\n- Use a clear and concise structure to communicate your message. Try to start with a strong opening that grabs the listener's attention, followed by specific examples and a clear direction.\n\n**5. Improved Version**\nHere's an example of how you could revise your elevator pitch:\n\"Hi, I'm excited to share my passion for programming and AI. In my previous projects, I enjoyed working on a team to build a scheduling application for students. As the lead developer, I coordinated the backend development and helped design the database system, which improved my teamwork and software engineering skills. I'm now looking to gain more experience in AI and explore how I can apply my skills to real-world problems. I'm confident that my programming background and enthusiasm for AI make me a strong candidate for opportunities in this field.\"\n\nRemember, the goal of an elevator pitch is to spark interest and leave a lasting impression. By providing more details and a clear direction, you can make a stronger connection with your listeners and increase your chances of success."
+    },
+    "tag_dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_020",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 1.5339,
+          "strength_tags": [
+            "engaging",
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "missing_details",
+            "too_general"
+          ],
+          "text": "Weakness: The response communicates a positive goal but lacks supporting detail. Improved version: I became interested in accessibility research after working on a project that detects harmful flashing content on websites for users with photosensitive epilepsy. That experience showed me how computin"
+        },
+        {
+          "id": "feedback_055",
+          "type": "feedback_example",
+          "scenario": "elevator_pitch",
+          "score": 1.3831,
+          "strength_tags": [
+            "clear_goal",
+            "specific_example",
+            "concrete_achievement",
+            "logical_structure"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "This pitch is well balanced: it introduces you, highlights a concrete project with adoption, and ends with a clear ask. To polish it, briefly mention what motivates you to work on developer tools so the listener connects with your direction."
+        },
+        {
+          "id": "revision_pair_013",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 1.3789,
+          "strength_tags": [
+            "engaging",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response sounds generic and lacks personal motivation. Improved version: I became interested in AI after working on a recommendation system project in one of my data mining courses. I enjoyed seeing how machine learning models could personalize user experiences, which motivated me to p"
+        },
+        {
+          "id": "feedback_048",
+          "type": "feedback_example",
+          "scenario": "elevator_pitch",
+          "score": 1.3512,
+          "strength_tags": [
+            "clear_language",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Your pitch is direct and covers the basics, but it feels mechanical and undersells your background. Connect the sentences with smoother transitions and add one specific AI project that illustrates your work."
+        },
+        {
+          "id": "revision_pair_011",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 1.3159,
+          "strength_tags": [
+            "clear_goal",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Weakness: The response is too broad and does not communicate a clear direction. Improved version: I am a computer science student interested in machine learning and accessibility research. Recently, I worked on a project that detects harmful flashing content on websites to improve accessibility for "
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour elevator pitch is a good start, but it could be more effective with some adjustments. You've expressed your interest in programming and AI, which is a great foundation. However, there are areas where you can add more detail and clarity to make your pitch more engaging and memorable.\n\n**Strengths**\nYou've demonstrated a clear goal of working on programming and AI projects, which is a great starting point. Additionally, you've mentioned working on projects with classmates, which shows some experience.\n\n**Areas to Improve**\nThe main areas to focus on are:\n1. **Too General**: Your pitch is a bit too broad, and it would be helpful to narrow down your interests and goals.\n2. **Missing Details**: You haven't provided specific examples or experiences that showcase your skills and passions.\n3. **Poor Structure**: Your pitch feels a bit disjointed, and it would be beneficial to connect your ideas with smoother transitions.\n\n**Specific Suggestions**\nTo address these areas, consider the following:\n1. **Be more specific**: Instead of saying \"I like programming and AI,\" try to focus on a specific area within these fields that excites you, such as machine learning or natural language processing.\n2. **Share a personal story**: Think about a project or experience that showcases your skills and passions. This could be a project you worked on with classmates or a personal project that you're proud of.\n3. **Use transitions**: Try to connect your ideas with smoother transitions, such as using words like \"because,\" \"since,\" or \"as a result.\"\n\n**Improved Version**\nHere's an example of how you could revise your pitch:\n\n\"I'm interested in exploring the intersection of programming and AI, particularly in the area of machine learning. Recently, I worked on a project with my classmates to develop a chatbot that could assist users with disabilities. Through this experience, I realized the potential of AI to improve accessibility and safety. I'm excited to continue working on projects that combine my passion for programming and AI to make a positive impact.\"\n\nRemember, this is just a suggestion, and you should feel free to modify it to fit your own voice and style. The key is to be more specific, share personal stories, and use transitions to create a more engaging and memorable pitch."
+    }
+  },
+  {
+    "id": "input_015",
+    "scenario": "elevator_pitch",
+    "transcript": "Hi, my name is Sarah and I am interested in accessibility-focused software engineering. Recently, I worked on a project that improved website accessibility for users with visual impairments. I enjoyed seeing how technology could directly improve user experiences, and I am currently looking for internship opportunities related to user-centered development.",
+    "predicted_tags": {
+      "strength_tags": [
+        "clear_goal",
+        "specific_example",
+        "concrete_achievement",
+        "good_STAR_structure",
+        "engaging",
+        "natural_flow",
+        "clear_language"
+      ],
+      "weakness_tags": [
+        "missing_details"
+      ]
+    },
+    "baseline": {
+      "feedback": "**Overall Assessment**\nYour elevator pitch effectively conveys your interest in accessibility-focused software engineering and highlights a specific project experience. You've demonstrated a clear goal and specific example, showcasing your enthusiasm for user-centered development.\n\n**Strengths**\nYou've done a great job of:\n- Clearly stating your goal and interest in accessibility-focused software engineering.\n- Providing a specific example of a project that improved website accessibility, which showcases your skills and experience.\n- Expressing your enjoyment of seeing technology improve user experiences, which adds a personal touch to your pitch.\n\n**Areas to Improve**\nOne area to focus on is providing more details about your project and its impact. While you've mentioned improving website accessibility for users with visual impairments, it would be beneficial to elaborate on the specific features you implemented, the tools you used, and any metrics or feedback you received from users.\n\n**Specific Suggestions**\nTo address the missing details, consider adding a few sentences to your pitch that provide more context about your project. For example:\n- You could describe the specific accessibility features you implemented, such as alt text for images or screen reader compatibility.\n- You could mention any challenges you faced during the project and how you overcame them.\n- You could share any metrics or feedback you received from users, such as improved website usability or increased user satisfaction.\n\n**Improved Version**\nHere's an example of how you could revise your pitch to include more details:\n\"Hi, my name is Sarah, and I'm interested in accessibility-focused software engineering. Recently, I worked on a project that improved website accessibility for users with visual impairments. I implemented alt text for images, screen reader compatibility, and high contrast mode, using tools like WAVE and Lighthouse to ensure compliance. I enjoyed seeing how technology could directly improve user experiences, and I received positive feedback from users who reported improved website usability. I'm currently looking for internship opportunities related to user-centered development, where I can apply my skills and experience to make a meaningful impact.\""
+    },
+    "bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_018",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 36.8526,
+          "strength_tags": [
+            "clear_goal",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "unclear_goal",
+            "too_general"
+          ],
+          "text": "Weakness: The response does not clearly explain what type of opportunity the candidate is seeking. Improved version: I am currently looking for software engineering or AI internship opportunities where I can contribute to user-centered systems. My recent machine learning and accessibility projects h"
+        },
+        {
+          "id": "revision_pair_011",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 32.9023,
+          "strength_tags": [
+            "clear_goal",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Weakness: The response is too broad and does not communicate a clear direction. Improved version: I am a computer science student interested in machine learning and accessibility research. Recently, I worked on a project that detects harmful flashing content on websites to improve accessibility for "
+        },
+        {
+          "id": "revision_pair_020",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 30.3469,
+          "strength_tags": [
+            "engaging",
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "missing_details",
+            "too_general"
+          ],
+          "text": "Weakness: The response communicates a positive goal but lacks supporting detail. Improved version: I became interested in accessibility research after working on a project that detects harmful flashing content on websites for users with photosensitive epilepsy. That experience showed me how computin"
+        },
+        {
+          "id": "revision_pair_013",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 30.0494,
+          "strength_tags": [
+            "engaging",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response sounds generic and lacks personal motivation. Improved version: I became interested in AI after working on a recommendation system project in one of my data mining courses. I enjoyed seeing how machine learning models could personalize user experiences, which motivated me to p"
+        },
+        {
+          "id": "revision_pair_014",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 25.2982,
+          "strength_tags": [
+            "confident_tone",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "uncertain_tone",
+            "filler_words"
+          ],
+          "text": "Weakness: The response sounds uncertain and lacks a clear direction. Improved version: I am currently most interested in software engineering for distributed systems. During a recent systems programming project, I enjoyed debugging backend communication issues and optimizing server performance, whic"
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour elevator pitch is a great start, showcasing your interest in accessibility-focused software engineering and a specific project experience. However, there's room for improvement to make it more engaging, detailed, and impactful.\n\n**Strengths**\nYou've clearly stated your goal and shared a concrete example from your project experience, which demonstrates your passion for accessibility-focused software engineering. Your language is natural and engaging, making it easy to follow your thoughts.\n\n**Areas to Improve**\nThe predicted weakness tags ['missing_details'] indicate that your pitch could benefit from more specific details about your experience, skills, and what you're looking for in an internship. This will help you stand out and make a stronger impression.\n\n**Specific Suggestions**\nTo address the 'missing_details' weakness, consider adding more specific information about:\n1. Your project's impact and how it improved user experiences for users with visual impairments.\n2. The skills you developed or applied during the project, such as programming languages, tools, or methodologies.\n3. What you're looking for in an internship, such as specific technologies, team environments, or types of projects.\n4. How your project experience has prepared you for the internship and what you hope to achieve in the role.\n\n**Improved Version**\nHere's an example of how you could revise your pitch to incorporate more details:\n\n\"Hi, my name is Sarah, and I'm excited to share my passion for accessibility-focused software engineering. Recently, I worked on a project that improved website accessibility for users with visual impairments. By applying my skills in [specific programming languages or tools], I was able to [briefly describe the project's impact and how it improved user experiences]. This experience not only deepened my understanding of accessibility but also taught me the importance of user-centered design. I'm now looking for an internship opportunity where I can apply my skills to build more inclusive and accessible technologies. I'm particularly interested in [specific technologies or areas of focus] and believe that this internship will help me achieve my goal of [specific career aspiration].\"\n\nRemember, the key is to be specific, concise, and authentic in your pitch. By incorporating more details and highlighting your strengths, you'll be able to make a stronger impression and stand out in the application process."
+    },
+    "dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_018",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 0.6431,
+          "strength_tags": [
+            "clear_goal",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "unclear_goal",
+            "too_general"
+          ],
+          "text": "Weakness: The response does not clearly explain what type of opportunity the candidate is seeking. Improved version: I am currently looking for software engineering or AI internship opportunities where I can contribute to user-centered systems. My recent machine learning and accessibility projects h"
+        },
+        {
+          "id": "feedback_055",
+          "type": "feedback_example",
+          "scenario": "elevator_pitch",
+          "score": 0.5492,
+          "strength_tags": [
+            "clear_goal",
+            "specific_example",
+            "concrete_achievement",
+            "logical_structure"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "This pitch is well balanced: it introduces you, highlights a concrete project with adoption, and ends with a clear ask. To polish it, briefly mention what motivates you to work on developer tools so the listener connects with your direction."
+        },
+        {
+          "id": "feedback_037",
+          "type": "feedback_example",
+          "scenario": "elevator_pitch",
+          "score": 0.5289,
+          "strength_tags": [
+            "clear_goal",
+            "confident_tone",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "This pitch is direct, confident, and clearly states what you are looking for. To make it even more memorable, briefly add a project or experience that demonstrates your systems programming background."
+        },
+        {
+          "id": "revision_pair_020",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 0.5067,
+          "strength_tags": [
+            "engaging",
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "missing_details",
+            "too_general"
+          ],
+          "text": "Weakness: The response communicates a positive goal but lacks supporting detail. Improved version: I became interested in accessibility research after working on a project that detects harmful flashing content on websites for users with photosensitive epilepsy. That experience showed me how computin"
+        },
+        {
+          "id": "revision_pair_011",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 0.4451,
+          "strength_tags": [
+            "clear_goal",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Weakness: The response is too broad and does not communicate a clear direction. Improved version: I am a computer science student interested in machine learning and accessibility research. Recently, I worked on a project that detects harmful flashing content on websites to improve accessibility for "
+        }
+      ],
+      "feedback": "**Overall Assessment**\n\nYour elevator pitch effectively conveys your interest in accessibility-focused software engineering and highlights a specific project that improved website accessibility for users with visual impairments. You've also clearly stated your goal of finding internship opportunities related to user-centered development.\n\n**Strengths**\n\n1. **Clear goal**: You've clearly stated your interest in accessibility-focused software engineering and your current goal of finding internship opportunities.\n2. **Specific example**: You've provided a specific example of a project that improved website accessibility, which demonstrates your skills and experience.\n3. **Engaging**: Your pitch is engaging and natural-sounding, making it easy to follow and understand.\n\n**Areas to Improve**\n\n1. **Missing details**: While you've provided a clear goal and specific example, there are some missing details that could make your pitch even stronger. Specifically, you could provide more context about what motivated you to work on accessibility-focused software engineering and what you hope to achieve in your internship.\n\n**Specific Suggestions**\n\n1. **Add more context about your motivation**: Consider adding a sentence or two to explain what motivated you to work on accessibility-focused software engineering. This could be a personal experience, a project that inspired you, or a goal that you're working towards.\n2. **Provide more details about your internship goals**: While you've stated your goal of finding internship opportunities related to user-centered development, consider providing more details about what you hope to achieve in your internship. This could include specific skills you want to learn, types of projects you're interested in working on, or companies you're interested in working with.\n\n**Improved Version**\n\nHere's an example of how you could revise your pitch to address the areas to improve:\n\n\"Hi, my name is Sarah and I am interested in accessibility-focused software engineering. Recently, I worked on a project that improved website accessibility for users with visual impairments. I became interested in accessibility after working with a friend who uses a screen reader and experiencing firsthand the challenges they face. Through this project, I saw how technology can directly improve user experiences and motivate me to pursue a career in user-centered development. I am currently looking for internship opportunities where I can contribute to accessible software systems and learn more about user-centered design principles.\"\n\nThis revised version adds more context about your motivation and provides more details about your internship goals, making your pitch even stronger and more effective."
+    },
+    "tag_bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_018",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 38.5234,
+          "strength_tags": [
+            "clear_goal",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "unclear_goal",
+            "too_general"
+          ],
+          "text": "Weakness: The response does not clearly explain what type of opportunity the candidate is seeking. Improved version: I am currently looking for software engineering or AI internship opportunities where I can contribute to user-centered systems. My recent machine learning and accessibility projects h"
+        },
+        {
+          "id": "revision_pair_020",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 37.9261,
+          "strength_tags": [
+            "engaging",
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "missing_details",
+            "too_general"
+          ],
+          "text": "Weakness: The response communicates a positive goal but lacks supporting detail. Improved version: I became interested in accessibility research after working on a project that detects harmful flashing content on websites for users with photosensitive epilepsy. That experience showed me how computin"
+        },
+        {
+          "id": "revision_pair_011",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 36.4645,
+          "strength_tags": [
+            "clear_goal",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Weakness: The response is too broad and does not communicate a clear direction. Improved version: I am a computer science student interested in machine learning and accessibility research. Recently, I worked on a project that detects harmful flashing content on websites to improve accessibility for "
+        },
+        {
+          "id": "revision_pair_013",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 35.7038,
+          "strength_tags": [
+            "engaging",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response sounds generic and lacks personal motivation. Improved version: I became interested in AI after working on a recommendation system project in one of my data mining courses. I enjoyed seeing how machine learning models could personalize user experiences, which motivated me to p"
+        },
+        {
+          "id": "revision_pair_016",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 29.7303,
+          "strength_tags": [
+            "engaging",
+            "natural_flow"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response relies on abstract statements without supporting examples. Improved version: I became passionate about technology after developing a simple mobile app that helped students organize study schedules more efficiently. Seeing other students actively use the app motivated me to con"
+        }
+      ],
+      "feedback": "**1. Overall Assessment**\nYour elevator pitch is a great start, and you've clearly expressed your interest in accessibility-focused software engineering. However, there are some areas where you can improve to make your pitch even stronger.\n\n**2. Strengths**\nYou've done a great job of:\n- Clearly stating your goal of working in accessibility-focused software engineering\n- Sharing a specific example of a project you worked on to improve website accessibility for users with visual impairments\n- Expressing your enthusiasm for user-centered development\n\n**3. Areas to Improve**\nThe predicted weakness tags suggest that you could improve by:\n- Providing more details about your project and its impact\n- Making your language more specific and concrete\n- Avoiding general statements that don't add much value to your pitch\n\n**4. Specific Suggestions**\nTo address the predicted weakness tags, consider the following suggestions:\n- Instead of saying \"I enjoyed seeing how technology could directly improve user experiences,\" try to be more specific about what you learned or achieved through your project. For example, you could describe a specific challenge you faced and how you overcame it.\n- To make your language more concrete, try to use specific numbers, metrics, or examples to illustrate your points. For instance, you could mention the number of users who benefited from your project or the specific features you implemented to improve accessibility.\n- When making general statements, try to connect them to your specific experiences or goals. For example, instead of saying \"I am interested in user-centered development,\" you could say \"I'm interested in user-centered development because I've seen how it can improve user experiences through my project on website accessibility.\"\n\n**5. Improved Version**\nHere's an example of how you could revise your pitch to address the predicted weakness tags:\n\n\"Hi, my name is Sarah, and I'm interested in accessibility-focused software engineering. Recently, I worked on a project that improved website accessibility for users with visual impairments. Through this project, I gained hands-on experience with accessibility guidelines and developed a feature that increased website accessibility by 30% for users with visual impairments. I enjoyed seeing how technology could directly improve user experiences, and I'm now looking for internship opportunities where I can apply my skills to build more inclusive and user-centered systems.\""
+    },
+    "tag_dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "feedback_055",
+          "type": "feedback_example",
+          "scenario": "elevator_pitch",
+          "score": 1.7492,
+          "strength_tags": [
+            "clear_goal",
+            "specific_example",
+            "concrete_achievement",
+            "logical_structure"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "This pitch is well balanced: it introduces you, highlights a concrete project with adoption, and ends with a clear ask. To polish it, briefly mention what motivates you to work on developer tools so the listener connects with your direction."
+        },
+        {
+          "id": "revision_pair_020",
+          "type": "revision_pair",
+          "scenario": "elevator_pitch",
+          "score": 1.7067,
+          "strength_tags": [
+            "engaging",
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "missing_details",
+            "too_general"
+          ],
+          "text": "Weakness: The response communicates a positive goal but lacks supporting detail. Improved version: I became interested in accessibility research after working on a project that detects harmful flashing content on websites for users with photosensitive epilepsy. That experience showed me how computin"
+        },
+        {
+          "id": "feedback_035",
+          "type": "feedback_example",
+          "scenario": "elevator_pitch",
+          "score": 1.6166,
+          "strength_tags": [
+            "specific_example",
+            "concrete_achievement",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your pitch effectively combines a clear interest with a meaningful impact. To strengthen the close, add a sentence about the next role or research area you would like to pursue."
+        },
+        {
+          "id": "feedback_042",
+          "type": "feedback_example",
+          "scenario": "elevator_pitch",
+          "score": 1.3129,
+          "strength_tags": [
+            "clear_goal",
+            "logical_structure",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your pitch is concise, well structured, and ends with a clear ask. To make it more memorable, briefly mention one visualization project that demonstrates this strength."
+        },
+        {
+          "id": "feedback_048",
+          "type": "feedback_example",
+          "scenario": "elevator_pitch",
+          "score": 1.2964,
+          "strength_tags": [
+            "clear_language",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Your pitch is direct and covers the basics, but it feels mechanical and undersells your background. Connect the sentences with smoother transitions and add one specific AI project that illustrates your work."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour elevator pitch is a great start, Sarah. You've clearly stated your interest in accessibility-focused software engineering and shared a specific project that improved website accessibility for users with visual impairments. However, there's an opportunity to further strengthen your pitch by providing more details and context.\n\n**Strengths**\nYou've demonstrated a clear goal, specific example, and concrete achievement, which are all essential components of a strong elevator pitch. Your passion for user-centered development and desire to improve user experiences shine through in your words.\n\n**Areas to Improve**\nThe predicted weakness tags 'missing_details' suggest that your pitch could benefit from more specific information about your project, its impact, and your future goals. To make your pitch more engaging and memorable, consider adding more details about your project, such as the technologies used, the challenges you faced, and what you learned from the experience.\n\n**Specific Suggestions**\n1. **Provide more context about your project**: While you mentioned improving website accessibility for users with visual impairments, consider sharing more specifics about the project, such as the technologies used, the challenges you faced, and how you overcame them.\n2. **Quantify your impact**: Instead of simply stating that you \"enjoyed seeing how technology could directly improve user experiences,\" try to quantify the impact of your project. For example, you could mention the number of users who benefited from the improved accessibility or the feedback you received from users.\n3. **Connect your project to your future goals**: To make your pitch more compelling, try to connect your project to your future goals and aspirations. For example, you could explain how your experience working on accessibility-focused projects has prepared you for a career in user-centered development.\n\n**Improved Version**\nHere's an example of how you could revise your pitch to address the areas mentioned above:\n\n\"Hi, my name is Sarah, and I'm excited to share my passion for accessibility-focused software engineering. Recently, I worked on a project that improved website accessibility for users with visual impairments by implementing a screen reader-friendly interface using ARIA attributes and semantic HTML. Through this project, I was able to improve the accessibility of a popular website, benefiting over 1,000 users with visual impairments. This experience not only deepened my understanding of the importance of accessibility but also motivated me to pursue a career in user-centered development, where I can continue to make a meaningful impact on users' lives. I'm currently looking for internship opportunities related to user-centered development, where I can apply my skills and experience to create more accessible and inclusive technologies.\""
+    }
+  },
+  {
+    "id": "input_016",
+    "scenario": "presentation",
+    "transcript": "Today I will talk about our AI project. We used different technologies and models and worked on many components including retrieval, embeddings, APIs, databases, and language models.",
+    "predicted_tags": {
+      "strength_tags": [
+        "clear_goal",
+        "logical_structure"
+      ],
+      "weakness_tags": [
+        "missing_details"
+      ]
+    },
+    "baseline": {
+      "feedback": "**1. Overall Assessment**\nYour presentation has a clear goal and logical structure, which is a great starting point. However, to make it more engaging and informative, you need to provide more details about your AI project.\n\n**2. Strengths**\nYou have done a good job in identifying the key components of your project, including retrieval, embeddings, APIs, databases, and language models. This shows that you have a solid understanding of the technologies used.\n\n**3. Areas to Improve**\nThe main area for improvement is providing more details about each component and how they work together. This will help your audience understand the complexity and depth of your project.\n\n**4. Specific Suggestions**\nTo address this, consider breaking down each component into smaller subtopics and providing specific examples or use cases for each. For instance, you could explain how you used a particular language model for text generation or how you optimized the database for efficient data retrieval. This will make your presentation more engaging and help your audience visualize the project's architecture.\n\n**5. Improved Version**\nHere's an example of how you could rephrase your initial statement to include more details:\n\n\"Today, I'll be discussing our AI project, which involved integrating multiple technologies and models to create a robust system. Specifically, we used a retrieval-based approach for information gathering, employed embeddings to improve text similarity, and leveraged APIs to access external data. Our database was optimized for efficient data retrieval, and we utilized a language model for text generation. I'll be walking you through each component and explaining how they work together to achieve our project goals.\"\n\nThis revised version provides more context and details, making it easier for your audience to follow and understand the complexity of your project."
+    },
+    "bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_021",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 25.6593,
+          "strength_tags": [
+            "clear_goal",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "weak_opening"
+          ],
+          "text": "Weakness: The introduction is too vague and does not explain the purpose or significance of the presentation. Improved version: Today I will present our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large langua"
+        },
+        {
+          "id": "revision_pair_027",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 23.5655,
+          "strength_tags": [
+            "clear_language",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "wordy",
+            "poor_structure"
+          ],
+          "text": "Weakness: The response becomes difficult to follow because it lists too many technologies without context. Improved version: One important part of our system was the dense retrieval pipeline. We used SentenceTransformers to generate embeddings for feedback examples and retrieved semantically similar"
+        },
+        {
+          "id": "revision_pair_022",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 16.3179,
+          "strength_tags": [
+            "logical_structure",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Weakness: The explanation lacks structure and technical clarity. Improved version: Our system combines two main components: a retrieval module and a language generation module. We used BM25 and dense retrieval methods to retrieve relevant coaching examples, and then used a large language model to ge"
+        },
+        {
+          "id": "revision_pair_024",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 13.2237,
+          "strength_tags": [
+            "confident_tone",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "uncertain_tone",
+            "filler_words"
+          ],
+          "text": "Weakness: The explanation sounds uncertain and contains filler language. Improved version: Our system integrates retrieval techniques with large language models to improve feedback quality. Retrieved examples and communication guidelines provide additional context, allowing the model to generate mor"
+        },
+        {
+          "id": "feedback_068",
+          "type": "feedback_example",
+          "scenario": "presentation",
+          "score": 10.5737,
+          "strength_tags": [
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "uncertain_tone"
+          ],
+          "text": "Asking the audience to wait and signaling memorization reduces engagement and warmth. Speak naturally, invite questions during transitions, and rehearse so the talk feels conversational rather than recited."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour presentation transcript provides a good overview of the AI project, highlighting various technologies and models used. However, there are areas where you can improve to make your presentation more engaging and effective.\n\n**Strengths**\nYou have a clear goal in mind, and your logical structure is well-organized. This is a great starting point for your presentation.\n\n**Areas to Improve**\nThe predicted weakness tags ['missing_details'] indicate that you could provide more specific information about each component of your AI project. This will help the audience understand the project's complexity and significance.\n\n**Specific Suggestions**\nTo address the 'missing_details' weakness, consider the following:\n- Provide a brief explanation of each component, such as retrieval, embeddings, APIs, databases, and language models. For example, you could describe how you used SentenceTransformers for embeddings or how you integrated APIs for data retrieval.\n- Use specific examples or anecdotes to illustrate the impact of each component on the project's outcome. This will make your presentation more engaging and help the audience connect with the material.\n- Consider using visual aids, such as diagrams or flowcharts, to illustrate the system's architecture and how the different components interact.\n\n**Improved Version**\nHere's an example of how you could revise your transcript to address the 'missing_details' weakness:\n\n\"Today, I'll be discussing our AI project, which combines multiple technologies and models to improve feedback quality. We used a retrieval module to retrieve relevant coaching examples, which were then used to generate personalized feedback using a large language model. For instance, we employed SentenceTransformers to generate embeddings for feedback examples and retrieved semantically similar coaching examples using cosine similarity search. This approach allowed us to provide more specific and actionable communication feedback for students preparing for interviews and presentations.\"\n\nBy incorporating more specific details and examples, you'll be able to provide a more comprehensive understanding of your AI project and engage your audience more effectively."
+    },
+    "dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_021",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.589,
+          "strength_tags": [
+            "clear_goal",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "weak_opening"
+          ],
+          "text": "Weakness: The introduction is too vague and does not explain the purpose or significance of the presentation. Improved version: Today I will present our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large langua"
+        },
+        {
+          "id": "revision_pair_027",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.4978,
+          "strength_tags": [
+            "clear_language",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "wordy",
+            "poor_structure"
+          ],
+          "text": "Weakness: The response becomes difficult to follow because it lists too many technologies without context. Improved version: One important part of our system was the dense retrieval pipeline. We used SentenceTransformers to generate embeddings for feedback examples and retrieved semantically similar"
+        },
+        {
+          "id": "revision_pair_024",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.497,
+          "strength_tags": [
+            "confident_tone",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "uncertain_tone",
+            "filler_words"
+          ],
+          "text": "Weakness: The explanation sounds uncertain and contains filler language. Improved version: Our system integrates retrieval techniques with large language models to improve feedback quality. Retrieved examples and communication guidelines provide additional context, allowing the model to generate mor"
+        },
+        {
+          "id": "revision_pair_022",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.4096,
+          "strength_tags": [
+            "logical_structure",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Weakness: The explanation lacks structure and technical clarity. Improved version: Our system combines two main components: a retrieval module and a language generation module. We used BM25 and dense retrieval methods to retrieve relevant coaching examples, and then used a large language model to ge"
+        },
+        {
+          "id": "revision_pair_029",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.3758,
+          "strength_tags": [
+            "logical_structure",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "incomplete_answer"
+          ],
+          "text": "Weakness: The conclusion feels abrupt and does not summarize the main takeaway. Improved version: In summary, our project demonstrates how retrieval-augmented generation can improve the specificity and usefulness of dialogue coaching feedback. By combining retrieval techniques with language models, "
+        }
+      ],
+      "feedback": "**Overall Assessment**\n\nYour presentation transcript effectively conveys the main goal of your AI project, showcasing your clear understanding of the technologies and models involved. However, there are areas where you can improve to make your presentation more engaging and informative.\n\n**Strengths**\n\nYou have a clear goal in mind, which is evident from your statement \"Today I will talk about our AI project.\" This demonstrates your focus and direction. Additionally, your presentation has a logical structure, making it easy to follow.\n\n**Areas to Improve**\n\nThe predicted weakness tags are 'missing_details.' This suggests that you could provide more specific information about your project, such as the technologies used, the challenges faced, and the outcomes achieved. To address this, you can incorporate more technical details and examples to make your presentation more comprehensive.\n\n**Specific Suggestions**\n\nTo improve the 'missing_details' weakness, consider the following:\n\n1. **Provide more context**: Instead of just listing technologies, explain how they were used in your project. For example, you could describe how you integrated SentenceTransformers with cosine similarity search to generate embeddings for feedback examples.\n2. **Share specific examples**: Use concrete examples to illustrate how your project works. This could include screenshots, code snippets, or case studies that demonstrate the effectiveness of your system.\n3. **Highlight challenges and outcomes**: Discuss the challenges you faced during the project and how you overcame them. Also, highlight the key outcomes and benefits of your project, such as improved feedback quality or increased user engagement.\n\n**Improved Version**\n\nHere's an example of how you could revise your transcript to address the 'missing_details' weakness:\n\n\"Today, I'll be presenting our AI project, which aimed to improve dialogue coaching feedback using retrieval-augmented generation. We integrated SentenceTransformers with cosine similarity search to generate embeddings for feedback examples and retrieved semantically similar coaching examples using dense retrieval methods. Our system demonstrated improved feedback quality and increased user engagement. One of the key challenges we faced was integrating multiple technologies, but we were able to overcome this by using a modular architecture. Our project showcases the potential of retrieval-augmented generation in creating more personalized and actionable communication support systems.\"\n\nBy incorporating more technical details, specific examples, and outcomes, you can make your presentation more engaging and informative, addressing the 'missing_details' weakness."
+    },
+    "tag_bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_021",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 27.4256,
+          "strength_tags": [
+            "clear_goal",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "weak_opening"
+          ],
+          "text": "Weakness: The introduction is too vague and does not explain the purpose or significance of the presentation. Improved version: Today I will present our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large langua"
+        },
+        {
+          "id": "revision_pair_022",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 21.3674,
+          "strength_tags": [
+            "logical_structure",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Weakness: The explanation lacks structure and technical clarity. Improved version: Our system combines two main components: a retrieval module and a language generation module. We used BM25 and dense retrieval methods to retrieve relevant coaching examples, and then used a large language model to ge"
+        },
+        {
+          "id": "feedback_059",
+          "type": "feedback_example",
+          "scenario": "presentation",
+          "score": 12.3955,
+          "strength_tags": [
+            "engaging",
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "This is an engaging way to motivate the work because you ground it in a concrete statistic. The transition into results will feel even smoother if you briefly preview what listeners should look for in the data ahead."
+        },
+        {
+          "id": "feedback_057",
+          "type": "feedback_example",
+          "scenario": "presentation",
+          "score": 12.0002,
+          "strength_tags": [
+            "clear_goal",
+            "logical_structure"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your opening clearly previews the structure, which helps the audience follow along. To strengthen it further, add one sentence explaining why this problem matters before moving into the agenda."
+        },
+        {
+          "id": "feedback_074",
+          "type": "feedback_example",
+          "scenario": "presentation",
+          "score": 9.7655,
+          "strength_tags": [
+            "logical_structure",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your structure is clear and easy to follow, which helps the audience anticipate the arc of the talk. To make the preview even stronger, name the one finding you most want the audience to remember by the end."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour presentation transcript effectively conveys the scope of your AI project, highlighting various technologies and models used. However, there are areas that can be improved to make your presentation more engaging and informative.\n\n**Strengths**\nYou have a clear goal in mind, as indicated by your statement \"Today I will talk about our AI project.\" This shows that you're focused on conveying the main idea of your project. Additionally, your logical structure is evident, as you've organized your thoughts into a coherent sequence.\n\n**Areas to Improve**\nThe predicted weakness tags, 'missing_details', suggest that you could provide more specific information about your project. This includes explaining the significance of your project, the technical aspects of your system, and how it addresses the problem you're trying to solve.\n\n**Specific Suggestions**\nTo address the 'missing_details' weakness, consider the following suggestions:\n\n1. **Provide context**: Before diving into the technical aspects of your project, explain why this project matters. What problem are you trying to solve, and how does it impact your target audience?\n2. **Break down complex concepts**: When discussing technical aspects, such as retrieval, embeddings, APIs, databases, and language models, try to simplify the language and provide concrete examples to illustrate each concept.\n3. **Preview key findings**: As you transition into the results section, briefly mention what listeners should look for in the data ahead. This will help them anticipate the arc of your talk and stay engaged.\n\n**Improved Version**\nHere's an example of how you could revise your transcript to address the 'missing_details' weakness:\n\n\"Today I'll present our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large language models can generate more specific and actionable communication feedback for students preparing for interviews and presentations. Our system combines two main components: a retrieval module and a language generation module. We used BM25 and dense retrieval methods to retrieve relevant coaching examples, and then used a large language model to generate personalized feedback based on the retrieved context. Before showing our results, let me briefly explain why this project matters. In the past, students often struggled to receive effective feedback on their communication skills. Our project aims to address this issue by providing a more accurate and actionable feedback system.\"\n\nBy incorporating these suggestions, you'll be able to provide more specific details about your project, making your presentation more engaging and informative for your audience."
+    },
+    "tag_dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "feedback_074",
+          "type": "feedback_example",
+          "scenario": "presentation",
+          "score": 1.1707,
+          "strength_tags": [
+            "logical_structure",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your structure is clear and easy to follow, which helps the audience anticipate the arc of the talk. To make the preview even stronger, name the one finding you most want the audience to remember by the end."
+        },
+        {
+          "id": "feedback_057",
+          "type": "feedback_example",
+          "scenario": "presentation",
+          "score": 1.1372,
+          "strength_tags": [
+            "clear_goal",
+            "logical_structure"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your opening clearly previews the structure, which helps the audience follow along. To strengthen it further, add one sentence explaining why this problem matters before moving into the agenda."
+        },
+        {
+          "id": "feedback_076",
+          "type": "feedback_example",
+          "scenario": "presentation",
+          "score": 1.1265,
+          "strength_tags": [
+            "concrete_achievement",
+            "logical_structure",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "This is a strong conclusion because it ties a quantitative result back to the audience you set out to help. To close even more powerfully, end with one clear next step or open question to leave the audience thinking."
+        },
+        {
+          "id": "revision_pair_022",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 1.0096,
+          "strength_tags": [
+            "logical_structure",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Weakness: The explanation lacks structure and technical clarity. Improved version: Our system combines two main components: a retrieval module and a language generation module. We used BM25 and dense retrieval methods to retrieve relevant coaching examples, and then used a large language model to ge"
+        },
+        {
+          "id": "revision_pair_021",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.889,
+          "strength_tags": [
+            "clear_goal",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "weak_opening"
+          ],
+          "text": "Weakness: The introduction is too vague and does not explain the purpose or significance of the presentation. Improved version: Today I will present our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large langua"
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour presentation preview effectively conveys the main components of your AI project, including retrieval, embeddings, APIs, databases, and language models. However, there's an opportunity to strengthen your preview by providing more details and context to engage your audience.\n\n**Strengths**\nYou've demonstrated a clear goal and logical structure in your presentation preview. This helps the audience anticipate the arc of the talk and follow along. Your preview effectively previews the main components of your project, which is a great starting point.\n\n**Areas to Improve**\nThe predicted weakness tags, 'missing_details', indicate that your preview could benefit from more specific details and context. To address this, consider adding more technical clarity and explaining why these components are essential to your project.\n\n**Specific Suggestions**\nTo strengthen your preview, consider the following suggestions:\n\n1. **Provide technical clarity**: Instead of listing components, explain how they work together to achieve your project's goals. For example, you could describe how retrieval and embeddings are used to improve the accuracy of your language models.\n2. **Explain the significance**: Highlight why these components are crucial to your project and how they contribute to its overall impact. This will help your audience understand the relevance and importance of your work.\n3. **Use concrete examples**: Use concrete examples or anecdotes to illustrate how your project's components work together to achieve a specific goal. This will make your preview more engaging and memorable.\n\n**Improved Version**\nHere's an example of how you could revise your preview to address the suggested improvements:\n\n\"Today, I'll be discussing our AI project, which leverages a combination of retrieval, embeddings, APIs, databases, and language models to improve the accuracy and relevance of feedback systems for students. By integrating these components, we aim to provide more personalized and actionable feedback that addresses the specific needs of students preparing for interviews and presentations. Specifically, our retrieval module uses BM25 and dense retrieval methods to retrieve relevant coaching examples, which are then used by our language generation module to generate tailored feedback based on the retrieved context.\"\n\nThis revised version provides more technical clarity, explains the significance of the components, and uses concrete examples to illustrate how they work together."
+    }
+  }
+]

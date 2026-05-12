@@ -5,7 +5,7 @@
 # anchored 5-dimension rubric, and writes evaluation.json + evaluation.csv.
 #
 # Known limitations:
-#   - Generator and judge are both llama-3.3-70b-versatile (self-preference bias
+#   - Generator and judge are both llama-3.1-8b-instant (self-preference bias
 #     is symmetric across systems, so within-experiment comparisons remain valid).
 #   - Single judge run, no multi-sample averaging (temp=0 only).
 #   - N=9 inputs: aggregates are indicative, not statistically powered.
@@ -29,7 +29,7 @@ client = OpenAI(
     max_retries=5,
 )
 
-GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
+GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.1-8b-instant")
 
 
 RESULTS_PATH   = "data/outputs/results.json"
@@ -305,7 +305,7 @@ def main():
                 print(f"Skipping {item['id']} / {system}: missing in results.json")
                 continue
 
-            print(f"Judging {item['id']} / {system} ...")
+            print(f"Judging {item['id']} / {system} ...", flush=True)
 
             # Catch per-call failures (API errors, malformed JSON) so one bad
             # call doesn't abort the whole evaluation run. The row is kept with
@@ -313,7 +313,7 @@ def main():
             try:
                 row = score_one(item, system)
             except Exception as e:
-                print(f"  Failed: {e}")
+                print(f"  Failed: {e}", flush=True)
                 row = {
                     "id": item["id"],
                     "scenario": item["scenario"],

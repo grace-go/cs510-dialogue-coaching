@@ -1,0 +1,616 @@
+{
+  "per_output": [
+    {
+      "id": "input_006",
+      "scenario": "interview",
+      "system": "baseline",
+      "scores": {
+        "specificity": 4,
+        "actionability": 4,
+        "relevance": 3,
+        "helpfulness": 3,
+        "groundedness": 3
+      },
+      "rationales": {
+        "specificity": "The feedback references concrete parts of the transcript, but mostly paraphrases rather than quotes verbatim phrases.",
+        "actionability": "The suggestions are mostly concrete, but one or two remain abstract, requiring interpretation.",
+        "relevance": "The feedback addresses most predicted weakness tags, but misses 'unclear_goal' and feels generic to the scenario.",
+        "helpfulness": "Most of the feedback would meaningfully help, but small parts are filler, and the suggestions could be more actionable.",
+        "groundedness": "The feedback is mostly grounded in evidence, but occasionally uses generic LLM filler, such as 'be more specific' and 'improve structure'."
+      }
+    },
+    {
+      "id": "input_006",
+      "scenario": "interview",
+      "system": "bm25_rag",
+      "scores": {
+        "specificity": 3,
+        "actionability": 4,
+        "relevance": 3,
+        "helpfulness": 4,
+        "groundedness": 4
+      },
+      "rationales": {
+        "specificity": "The feedback references specific parts of the transcript, such as 'kind of' and 'maybe', but mostly relies on paraphrased references.",
+        "actionability": "The suggestions are mostly concrete, but some, like 'explain your goals', remain somewhat abstract.",
+        "relevance": "The feedback addresses most predicted weakness tags, but misses 'unclear tone' and 'filler words', and feels somewhat generic to the scenario.",
+        "helpfulness": "The feedback would meaningfully help, but some suggestions, like 'explain your goals', are vague and could be improved.",
+        "groundedness": "The feedback draws on specific coaching evidence, such as the STAR structure and the importance of providing concrete examples, but could be more explicit in its connections to the transcript content."
+      }
+    },
+    {
+      "id": "input_006",
+      "scenario": "interview",
+      "system": "dense_rag",
+      "scores": {
+        "specificity": 4,
+        "actionability": 3,
+        "relevance": 3,
+        "helpfulness": 3,
+        "groundedness": 3
+      },
+      "rationales": {
+        "specificity": "The feedback references specific parts of the transcript, such as 'broad interests' and 'class assignments and things like that', but mostly paraphrases them rather than quoting verbatim phrases.",
+        "actionability": "The suggestions are mostly concrete, such as 'Narrow down your interests' and 'Provide specific project examples', but some remain abstract, like 'Clarify your long-term goal'.",
+        "relevance": "The feedback addresses most of the predicted weakness tags, including 'too general', 'missing details', and 'unclear goal', but misses 'poor structure' and 'wordy'.",
+        "helpfulness": "The feedback provides some actionable advice, but the suggestions could be more specific and tailored to the speaker's needs, and the 'Improved Version' example feels somewhat generic.",
+        "groundedness": "The feedback draws on specific coaching evidence, such as Doc 2 and Doc 3, but also includes generic LLM filler, like 'be more specific' and 'improve structure'."
+      }
+    },
+    {
+      "id": "input_006",
+      "scenario": "interview",
+      "system": "tag_bm25_rag",
+      "scores": {
+        "specificity": 3,
+        "actionability": 4,
+        "relevance": 3,
+        "helpfulness": 3,
+        "groundedness": 4
+      },
+      "rationales": {
+        "specificity": "The feedback references concrete parts of the transcript, such as the speaker's interests in AI, cybersecurity, and game development, but mostly relies on generic phrasing.",
+        "actionability": "The suggestions are mostly concrete, but some, like 'Practice your response until it feels natural and confident,' remain abstract.",
+        "relevance": "The feedback addresses some predicted weakness tags, such as 'too general' and 'missing details,' but misses others, like 'unclear goal.'",
+        "helpfulness": "The feedback provides some actionable advice, but also includes generic filler, such as 'Use specific examples and anecdotes to make your response more engaging and memorable.'",
+        "groundedness": "The feedback draws on specific coaching evidence, such as the 'STAR structure' and the 'Improved Version' example, but also includes generic LLM filler."
+      }
+    },
+    {
+      "id": "input_006",
+      "scenario": "interview",
+      "system": "tag_dense_rag",
+      "scores": {
+        "specificity": 4,
+        "actionability": 4,
+        "relevance": 3,
+        "helpfulness": 4,
+        "groundedness": 4
+      },
+      "rationales": {
+        "specificity": "The feedback references concrete parts of the transcript, such as 'areas of interest' and 'projects before with classmates', but mostly paraphrases rather than quotes verbatim phrases.",
+        "actionability": "The suggestions are mostly concrete, such as 'Mention a specific project' and 'Explain your goals and motivations', but some remain abstract, like 'Provide specific examples'.",
+        "relevance": "The feedback addresses most predicted weakness tags, such as 'Too General', 'Missing Details', and 'Unclear Goal', but feels generic to the scenario.",
+        "helpfulness": "The feedback would meaningfully help, but some elements are filler, such as the generic suggestion to 'Provide specific examples'.",
+        "groundedness": "The feedback is mostly grounded in evidence, citing specific examples from the retrieved coaching context, such as 'Mention a specific project' and 'Explain your goals and motivations', but some generic LLM filler remains."
+      }
+    },
+    {
+      "id": "input_007",
+      "scenario": "presentation",
+      "system": "baseline",
+      "scores": {
+        "specificity": 4,
+        "actionability": 4,
+        "relevance": 4,
+        "helpfulness": 4,
+        "groundedness": 4
+      },
+      "rationales": {
+        "specificity": "The feedback references specific parts of the transcript, such as the 'clear goal' and 'logical structure', but often relies on paraphrased language rather than direct quotes.",
+        "actionability": "The suggestions are mostly concrete, but some, like 'provide more context', remain somewhat abstract and require interpretation.",
+        "relevance": "The feedback addresses most of the predicted weakness tags, particularly 'missing_details', but misses the 'clear_goal' and 'logical_structure' strengths.",
+        "helpfulness": "The feedback provides actionable advice, but some suggestions, like 'showcase your results', could be more specific and concrete.",
+        "groundedness": "The feedback is grounded in evidence, with specific examples and suggestions, but some generic statements, like 'make your presentation more engaging', detract from its overall groundedness."
+      }
+    },
+    {
+      "id": "input_007",
+      "scenario": "presentation",
+      "system": "bm25_rag",
+      "scores": {
+        "specificity": 3,
+        "actionability": 4,
+        "relevance": 3,
+        "helpfulness": 4,
+        "groundedness": 3
+      },
+      "rationales": {
+        "specificity": "The feedback references concrete parts of the transcript, such as the need for a clear statement of the problem and the use of specific examples, but mostly relies on paraphrased references.",
+        "actionability": "The feedback provides concrete suggestions, such as providing a clear statement of the problem and using specific examples, but some suggestions remain abstract.",
+        "relevance": "The feedback addresses the predicted weakness tag ['missing_details'] and matches the scenario, but misses the predicted strength tags ['clear_goal', 'logical_structure', 'specific_example'].",
+        "helpfulness": "The feedback would meaningfully help the speaker improve, but some suggestions are vague and could be improved.",
+        "groundedness": "The feedback is mostly grounded in evidence, but some suggestions rely on generic LLM filler, such as the need to 'be more specific' and 'improve structure'."
+      }
+    },
+    {
+      "id": "input_007",
+      "scenario": "presentation",
+      "system": "dense_rag",
+      "scores": {
+        "specificity": 4,
+        "actionability": 3,
+        "relevance": 3,
+        "helpfulness": 3,
+        "groundedness": 3
+      },
+      "rationales": {
+        "specificity": "The feedback references specific parts of the transcript, such as the introduction and explanation, but mostly relies on paraphrased references rather than verbatim quotes.",
+        "actionability": "The suggestions are mostly concrete, but some, like 'Provide more context' and 'Focus on the main takeaway', remain somewhat abstract and require interpretation.",
+        "relevance": "The feedback addresses the predicted weakness tags ['missing_details'] and matches the scenario, but misses other potential weaknesses like 'too_general' and 'weak_opening'.",
+        "helpfulness": "The feedback provides some actionable suggestions, but the tone is mostly encouraging and vague, with limited concrete guidance on how to improve.",
+        "groundedness": "The feedback occasionally grounds itself in specific examples from the retrieved coaching context, such as the improved introduction and explanation, but mostly relies on generic LLM advice."
+      }
+    },
+    {
+      "id": "input_007",
+      "scenario": "presentation",
+      "system": "tag_bm25_rag",
+      "scores": {
+        "specificity": 3,
+        "actionability": 4,
+        "relevance": 4,
+        "helpfulness": 4,
+        "groundedness": 3
+      },
+      "rationales": {
+        "specificity": "The feedback references specific parts of the transcript, such as the need to provide more specific examples and make the introduction more specific, but does not quote verbatim phrases from the transcript.",
+        "actionability": "The feedback provides concrete suggestions, such as providing more specific examples and making the introduction more specific, but some suggestions remain abstract.",
+        "relevance": "The feedback addresses the predicted weakness tags, including 'missing details' and 'too general', but does not substantively address every predicted weakness tag.",
+        "helpfulness": "The feedback provides meaningful suggestions that would genuinely help someone improve, but some parts feel like filler.",
+        "groundedness": "The feedback is mostly generic and does not visibly adapt content to the scenario, but does reference specific coaching evidence from the retrieved coaching context."
+      }
+    },
+    {
+      "id": "input_007",
+      "scenario": "presentation",
+      "system": "tag_dense_rag",
+      "scores": {
+        "specificity": 3,
+        "actionability": 4,
+        "relevance": 3,
+        "helpfulness": 3,
+        "groundedness": 3
+      },
+      "rationales": {
+        "specificity": "The feedback mostly references concrete parts of the transcript, but some meaningful portions rely on generic phrasing that could apply to any transcript.",
+        "actionability": "Most suggestions are concrete, but a few remain abstract, requiring interpretation to be actionable.",
+        "relevance": "The feedback addresses some predicted weakness tags, but misses others, and feels somewhat generic to the scenario.",
+        "helpfulness": "Most of the feedback would meaningfully help, but small parts are filler, and the overall improvement would be modest.",
+        "groundedness": "The feedback is mostly grounded in evidence, but some suggestions feel like generic LLM filler, and rare concrete grounding is present."
+      }
+    },
+    {
+      "id": "input_008",
+      "scenario": "presentation",
+      "system": "baseline",
+      "scores": {
+        "specificity": 4,
+        "actionability": 3,
+        "relevance": 3,
+        "helpfulness": 3,
+        "groundedness": 3
+      },
+      "rationales": {
+        "specificity": "The feedback references concrete parts of the transcript, such as the evaluation metrics and the system's components, but often relies on paraphrased language rather than direct quotes.",
+        "actionability": "The suggestions are mostly concrete, but some, such as 'Show a live demo of the system in action,' require interpretation and are not paired with verbatim example phrasing.",
+        "relevance": "The feedback addresses most of the predicted weakness tags, such as 'missing details,' but misses the 'clear goal' and 'logical structure' tags, which are actually strengths of the presentation.",
+        "helpfulness": "The feedback would meaningfully help the speaker improve, but some suggestions, such as 'Provide concrete examples,' are vague and could apply to any transcript.",
+        "groundedness": "The feedback is mostly grounded in evidence, but some suggestions, such as 'Explain the evaluation metrics,' rely on generic language and could be applied to any transcript."
+      }
+    },
+    {
+      "id": "input_008",
+      "scenario": "presentation",
+      "system": "bm25_rag",
+      "scores": {
+        "specificity": 3,
+        "actionability": 4,
+        "relevance": 3,
+        "helpfulness": 3,
+        "groundedness": 3
+      },
+      "rationales": {
+        "specificity": "The feedback references concrete parts of the transcript, such as the opening and conclusion, but mostly relies on generic phrasing that could apply to any transcript.",
+        "actionability": "The feedback provides concrete suggestions, such as providing more details and using specific language, but some suggestions remain abstract.",
+        "relevance": "The feedback addresses some of the predicted weakness tags, such as 'missing_details' and 'too_general', but misses others, such as 'poor_structure' and 'incomplete_answer'.",
+        "helpfulness": "The feedback provides some meaningful suggestions that could help the speaker improve, but some parts feel like generic filler.",
+        "groundedness": "The feedback occasionally grounds itself in specific examples from the retrieved coaching context, such as the improved opening and conclusion, but mostly relies on generic LLM advice."
+      }
+    },
+    {
+      "id": "input_008",
+      "scenario": "presentation",
+      "system": "dense_rag",
+      "scores": {
+        "specificity": 3,
+        "actionability": 4,
+        "relevance": 3,
+        "helpfulness": 3,
+        "groundedness": 3
+      },
+      "rationales": {
+        "specificity": "The feedback references specific parts of the transcript, such as the introduction and organization of content, but mostly relies on generic phrasing that could apply to any transcript.",
+        "actionability": "The feedback provides concrete suggestions, such as adding more technical details and using a clearer structure, but some suggestions remain abstract.",
+        "relevance": "The feedback addresses some of the predicted weakness tags, such as 'missing details' and 'poor structure', but misses others, like 'uncertain tone' and 'filler words'.",
+        "helpfulness": "The feedback would meaningfully help the speaker improve, but some suggestions are not actionable or are vague.",
+        "groundedness": "The feedback occasionally grounds itself in specific examples from the retrieved coaching context, such as the example of revising the introduction, but mostly relies on generic LLM filler."
+      }
+    },
+    {
+      "id": "input_008",
+      "scenario": "presentation",
+      "system": "tag_bm25_rag",
+      "scores": {
+        "specificity": 3,
+        "actionability": 3,
+        "relevance": 3,
+        "helpfulness": 3,
+        "groundedness": 3
+      },
+      "rationales": {
+        "specificity": "The feedback references concrete parts of the transcript, such as the need for a stronger opening and more specific examples, but often relies on generic phrasing that could apply to any transcript.",
+        "actionability": "The suggestions are mostly concrete, but some, such as 'be more specific', remain abstract and require interpretation.",
+        "relevance": "The feedback addresses some of the predicted weakness tags, such as 'missing details' and 'poor structure', but misses others, such as 'too general' and 'incomplete answer'.",
+        "helpfulness": "The feedback provides some meaningful suggestions, but also includes vague platitudes, such as 'make your presentation more compelling', which do not offer concrete guidance.",
+        "groundedness": "The feedback occasionally grounds itself in specific examples from the retrieved coaching context, such as the need to provide more technical clarity, but often relies on generic LLM filler."
+      }
+    },
+    {
+      "id": "input_008",
+      "scenario": "presentation",
+      "system": "tag_dense_rag",
+      "scores": {
+        "specificity": 4,
+        "actionability": 4,
+        "relevance": 3,
+        "helpfulness": 3,
+        "groundedness": 4
+      },
+      "rationales": {
+        "specificity": "The feedback references concrete parts of the transcript, such as the system's components and the need for more details, but mostly relies on paraphrased rather than quoted lines.",
+        "actionability": "The feedback provides concrete suggestions, such as using the retrieved revision pair example as a guide, but some suggestions remain abstract.",
+        "relevance": "The feedback addresses some predicted weakness tags, such as 'missing_details', but misses others, like 'poor_structure', and feels somewhat generic to the scenario.",
+        "helpfulness": "The feedback would meaningfully help the speaker improve, but some elements are platitudes and the net improvement is modest.",
+        "groundedness": "The feedback is grounded in evidence, using specific examples and principles from the retrieved coaching context, such as the revision pair example and the feedback example."
+      }
+    },
+    {
+      "id": "input_009",
+      "scenario": "presentation",
+      "system": "baseline",
+      "scores": {
+        "specificity": 4,
+        "actionability": 4,
+        "relevance": 4,
+        "helpfulness": 4,
+        "groundedness": 4
+      },
+      "rationales": {
+        "specificity": "The feedback references concrete parts of the transcript, such as the methods and models used, but could be more precise in its quotes.",
+        "actionability": "The suggestions are concrete and executable, providing specific examples of how to revise the presentation, but could be more detailed in their execution.",
+        "relevance": "The feedback addresses the predicted weakness tag 'too_general' and provides scenario-specific suggestions, but could be more tailored to the specific context of the presentation.",
+        "helpfulness": "The feedback would genuinely help someone improve by providing actionable suggestions and concrete examples, but could be more effective in highlighting the specific areas for improvement.",
+        "groundedness": "The feedback is grounded in evidence, referencing specific parts of the transcript and providing concrete examples, but could be more explicit in its use of coaching frames or principles."
+      }
+    },
+    {
+      "id": "input_009",
+      "scenario": "presentation",
+      "system": "bm25_rag",
+      "scores": {
+        "specificity": 3,
+        "actionability": 3,
+        "relevance": 3,
+        "helpfulness": 3,
+        "groundedness": 3
+      },
+      "rationales": {
+        "specificity": "The feedback references concrete parts of the transcript, such as the use of filler words and the need for more specific examples, but does not quote verbatim phrases from the transcript.",
+        "actionability": "The feedback provides concrete suggestions, such as avoiding filler words and providing more specific examples, but some suggestions remain abstract, like 'improve structure'.",
+        "relevance": "The feedback addresses some of the predicted weakness tags, such as 'too_general' and 'uncertain_tone', but misses others, like 'poor_structure' and 'weak_opening'.",
+        "helpfulness": "The feedback provides some helpful suggestions, such as being more specific and avoiding filler words, but some parts feel like generic advice that could apply to any transcript.",
+        "groundedness": "The feedback provides some grounding in evidence, such as referencing the need for more specific examples and the use of filler words, but mostly relies on generic LLM filler, like 'improve structure' and 'be more specific'."
+      }
+    },
+    {
+      "id": "input_009",
+      "scenario": "presentation",
+      "system": "dense_rag",
+      "scores": {
+        "specificity": 3,
+        "actionability": 3,
+        "relevance": 3,
+        "helpfulness": 3,
+        "groundedness": 2
+      },
+      "rationales": {
+        "specificity": "The feedback references concrete parts of the transcript, such as the use of filler language and vague phrases, but does not quote verbatim phrases from the transcript.",
+        "actionability": "The suggestions are mostly concrete, but some, such as 'Use more confident language', remain abstract and require interpretation.",
+        "relevance": "The feedback addresses some of the predicted weakness tags, such as 'too_general' and 'uncertain_tone', but misses others, such as 'poor_structure' and 'incomplete_answer'.",
+        "helpfulness": "The feedback provides some helpful suggestions, such as starting with a stronger opening and using more specific language, but some parts feel generic and could apply to any transcript.",
+        "groundedness": "The feedback is mostly generic and does not visibly adapt content to the scenario, relying on generic LLM advice rather than specific coaching evidence."
+      }
+    },
+    {
+      "id": "input_009",
+      "scenario": "presentation",
+      "system": "tag_bm25_rag",
+      "scores": {
+        "specificity": 3,
+        "actionability": 4,
+        "relevance": 3,
+        "helpfulness": 3,
+        "groundedness": 2
+      },
+      "rationales": {
+        "specificity": "The feedback references concrete parts of the transcript, such as the need for more specific examples and technical detail, but mostly relies on generic phrasing.",
+        "actionability": "The feedback provides concrete suggestions, such as revising the introduction and explanation of challenges, but some suggestions remain abstract.",
+        "relevance": "The feedback addresses some predicted weakness tags, such as 'too_general', but misses others, like 'poor_structure' and 'weak_opening'.",
+        "helpfulness": "The feedback would meaningfully help the speaker improve, but some suggestions are not actionable or are vague.",
+        "groundedness": "The feedback is mostly generic LLM filler, with rare concrete grounding, such as the example of revising the introduction."
+      }
+    },
+    {
+      "id": "input_009",
+      "scenario": "presentation",
+      "system": "tag_dense_rag",
+      "scores": {
+        "specificity": 3,
+        "actionability": 4,
+        "relevance": 3,
+        "helpfulness": 3,
+        "groundedness": 4
+      },
+      "rationales": {
+        "specificity": "The feedback references concrete parts of the transcript, such as the need to explain why the project matters and provide specific examples, but does not quote verbatim phrases from the transcript.",
+        "actionability": "The feedback provides concrete suggestions, such as explaining how the project can help students prepare for interviews and presentations, but some suggestions remain abstract.",
+        "relevance": "The feedback addresses the predicted weakness tags of 'too_general' and 'missing_details', but misses the tag 'poor_structure'.",
+        "helpfulness": "The feedback would meaningfully help the speaker improve, but some suggestions are not actionable or are vague.",
+        "groundedness": "The feedback is grounded in evidence from the retrieved coaching context, such as the need to provide specific examples and explain why the project matters, but some suggestions are generic LLM filler."
+      }
+    },
+    {
+      "id": "input_010",
+      "scenario": "interview",
+      "system": "baseline",
+      "scores": {
+        "specificity": 3,
+        "actionability": 4,
+        "relevance": 4,
+        "helpfulness": 4,
+        "groundedness": 4
+      },
+      "rationales": {
+        "specificity": "The feedback references specific parts of the transcript, such as listing technologies and projects, but often relies on generic phrasing that could apply to any transcript.",
+        "actionability": "The suggestions are mostly concrete, but some, like 'Clearly Convey Your Career Goals', remain somewhat abstract and require interpretation.",
+        "relevance": "The feedback addresses most of the predicted weakness tags, but misses the 'unclear_goal' tag in the initial assessment, and only addresses it later in the 'Specific Suggestions' section.",
+        "helpfulness": "The feedback provides actionable suggestions that would genuinely help someone improve, but some parts, like the 'Improved Version' example, feel more like a model response than a genuine improvement.",
+        "groundedness": "The feedback is grounded in evidence, with specific examples and principles applied to the actual transcript content, but some parts, like the 'Clearly Convey Your Career Goals' suggestion, feel more like generic LLM filler."
+      }
+    },
+    {
+      "id": "input_010",
+      "scenario": "interview",
+      "system": "bm25_rag",
+      "scores": {
+        "specificity": 3,
+        "actionability": 4,
+        "relevance": 3,
+        "helpfulness": 4,
+        "groundedness": 4
+      },
+      "rationales": {
+        "specificity": "The feedback references concrete parts of the transcript, such as listing many technologies and projects, but mostly relies on generic phrasing that could apply to any transcript.",
+        "actionability": "The suggestions are mostly concrete, but some, like 'Choose a Relevant Project', require interpretation and could be paired with concrete example phrasing.",
+        "relevance": "The feedback addresses most of the predicted weakness tags, but misses 'unclear_goal' and feels generic to the scenario.",
+        "helpfulness": "The feedback would meaningfully help, but some elements, like the 'Improved Version', feel like filler and don't provide substantial guidance.",
+        "groundedness": "The feedback is mostly grounded in evidence, but some suggestions, like 'Highlight Your Achievements', feel like generic LLM filler and lack concrete examples."
+      }
+    },
+    {
+      "id": "input_010",
+      "scenario": "interview",
+      "system": "dense_rag",
+      "scores": {
+        "specificity": 3,
+        "actionability": 4,
+        "relevance": 3,
+        "helpfulness": 4,
+        "groundedness": 4
+      },
+      "rationales": {
+        "specificity": "The feedback references concrete parts of the transcript, such as listing many technologies without context, but mostly relies on generic phrasing.",
+        "actionability": "The suggestions are concrete and executable, providing specific examples of what to do differently, such as focusing on one or two relevant projects.",
+        "relevance": "The feedback addresses most of the predicted weakness tags, including 'too general', 'missing details', and 'unclear goal', but feels generic to the scenario.",
+        "helpfulness": "The feedback would meaningfully help a speaker improve, providing actionable suggestions and concrete examples, but some parts feel like filler.",
+        "groundedness": "The feedback is grounded in evidence, drawing on specific coaching examples and principles, such as focusing on one or two relevant projects, but could be more explicit in its connections to the retrieved coaching context."
+      }
+    },
+    {
+      "id": "input_010",
+      "scenario": "interview",
+      "system": "tag_bm25_rag",
+      "scores": {
+        "specificity": 4,
+        "actionability": 4,
+        "relevance": 3,
+        "helpfulness": 3,
+        "groundedness": 4
+      },
+      "rationales": {
+        "specificity": "The feedback references concrete parts of the transcript, such as listing technologies and projects, but mostly relies on paraphrased references rather than verbatim quotes.",
+        "actionability": "The suggestions are mostly concrete, providing specific examples and phrasing that the speaker could use, but one suggestion remains abstract ('be more explicit about your goals').",
+        "relevance": "The feedback addresses some predicted weakness tags, such as 'too general' and 'missing details', but misses others, like 'unclear goal', and feels somewhat generic to the scenario.",
+        "helpfulness": "The feedback would meaningfully help the speaker improve, providing concrete suggestions and examples, but some parts feel like filler and could be more actionable.",
+        "groundedness": "The feedback is grounded in evidence, referencing specific coaching frames (e.g., providing specific examples) and applying them to the actual transcript content, but some parts feel generic and could be more concrete."
+      }
+    },
+    {
+      "id": "input_010",
+      "scenario": "interview",
+      "system": "tag_dense_rag",
+      "scores": {
+        "specificity": 3,
+        "actionability": 4,
+        "relevance": 4,
+        "helpfulness": 4,
+        "groundedness": 4
+      },
+      "rationales": {
+        "specificity": "The feedback references concrete parts of the transcript, such as listing technical skills and the need for specific examples, but does not quote verbatim phrases from the transcript.",
+        "actionability": "The suggestions are concrete and executable, providing specific examples of how to revise the response, but could be more detailed in their execution.",
+        "relevance": "The feedback addresses most of the predicted weakness tags, including 'too_general', 'missing_details', and 'unclear_goal', but does not explicitly mention 'unclear_goal'.",
+        "helpfulness": "The feedback would meaningfully help someone improve by providing concrete suggestions and examples, but some parts feel like generic LLM filler.",
+        "groundedness": "The feedback is grounded in evidence, referencing specific coaching frames and examples from the retrieved coaching context, such as the need for specific examples and a clear direction."
+      }
+    }
+  ],
+  "aggregate": {
+    "baseline": {
+      "specificity": {
+        "mean": 3.8,
+        "std": 0.4472,
+        "n": 5
+      },
+      "actionability": {
+        "mean": 3.8,
+        "std": 0.4472,
+        "n": 5
+      },
+      "relevance": {
+        "mean": 3.6,
+        "std": 0.5477,
+        "n": 5
+      },
+      "helpfulness": {
+        "mean": 3.6,
+        "std": 0.5477,
+        "n": 5
+      },
+      "groundedness": {
+        "mean": 3.6,
+        "std": 0.5477,
+        "n": 5
+      }
+    },
+    "bm25_rag": {
+      "specificity": {
+        "mean": 3,
+        "std": 0.0,
+        "n": 5
+      },
+      "actionability": {
+        "mean": 3.8,
+        "std": 0.4472,
+        "n": 5
+      },
+      "relevance": {
+        "mean": 3,
+        "std": 0.0,
+        "n": 5
+      },
+      "helpfulness": {
+        "mean": 3.6,
+        "std": 0.5477,
+        "n": 5
+      },
+      "groundedness": {
+        "mean": 3.4,
+        "std": 0.5477,
+        "n": 5
+      }
+    },
+    "dense_rag": {
+      "specificity": {
+        "mean": 3.4,
+        "std": 0.5477,
+        "n": 5
+      },
+      "actionability": {
+        "mean": 3.4,
+        "std": 0.5477,
+        "n": 5
+      },
+      "relevance": {
+        "mean": 3,
+        "std": 0.0,
+        "n": 5
+      },
+      "helpfulness": {
+        "mean": 3.2,
+        "std": 0.4472,
+        "n": 5
+      },
+      "groundedness": {
+        "mean": 3,
+        "std": 0.7071,
+        "n": 5
+      }
+    },
+    "tag_bm25_rag": {
+      "specificity": {
+        "mean": 3.2,
+        "std": 0.4472,
+        "n": 5
+      },
+      "actionability": {
+        "mean": 3.8,
+        "std": 0.4472,
+        "n": 5
+      },
+      "relevance": {
+        "mean": 3.2,
+        "std": 0.4472,
+        "n": 5
+      },
+      "helpfulness": {
+        "mean": 3.2,
+        "std": 0.4472,
+        "n": 5
+      },
+      "groundedness": {
+        "mean": 3.2,
+        "std": 0.8367,
+        "n": 5
+      }
+    },
+    "tag_dense_rag": {
+      "specificity": {
+        "mean": 3.4,
+        "std": 0.5477,
+        "n": 5
+      },
+      "actionability": {
+        "mean": 4,
+        "std": 0.0,
+        "n": 5
+      },
+      "relevance": {
+        "mean": 3.2,
+        "std": 0.4472,
+        "n": 5
+      },
+      "helpfulness": {
+        "mean": 3.4,
+        "std": 0.5477,
+        "n": 5
+      },
+      "groundedness": {
+        "mean": 3.8,
+        "std": 0.4472,
+        "n": 5
+      }
+    }
+  }
+}

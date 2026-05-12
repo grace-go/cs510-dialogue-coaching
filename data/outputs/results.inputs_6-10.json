@@ -1,0 +1,1667 @@
+[
+  {
+    "id": "input_006",
+    "scenario": "interview",
+    "transcript": "Uh, hi. I am studying computer science and I kind of like different areas like AI, cybersecurity, and maybe game development too. I worked on some projects before with classmates, mostly class assignments and things like that. I am still figuring out exactly what I want to focus on, but I hope to get more experience and maybe find internship opportunities where I can improve my technical skills.",
+    "predicted_tags": {
+      "strength_tags": [
+        "clear_language",
+        "good_STAR_structure"
+      ],
+      "weakness_tags": [
+        "too_general",
+        "missing_details",
+        "unclear_goal"
+      ]
+    },
+    "baseline": {
+      "feedback": "**1. Overall Assessment**\n\nYou presented yourself well in this interview, showcasing your interest in various areas of computer science. Your enthusiasm is evident, and you've taken the initiative to work on projects with your classmates. However, there are areas where you can improve to make a stronger impression.\n\n**2. Strengths**\n\nYou demonstrated a clear and concise language, making it easy to understand your thoughts and interests. Your STAR ( Situation, Task, Action, Result) structure is also well-organized, which is a great skill to have in an interview setting.\n\n**3. Areas to Improve**\n\nTo take your interview to the next level, focus on providing more specific details about your experiences and goals. Your current response is a bit too general, which might make it challenging for the interviewer to understand your unique strengths and interests. Additionally, it's unclear what you hope to achieve in the long term, which could be a concern for the interviewer.\n\n**4. Specific Suggestions**\n\nTo address these areas, try to be more specific about your projects and the skills you've developed. For example, instead of saying \"I worked on some projects before with classmates,\" you could say \"I contributed to a team project that involved developing a chatbot using Python and machine learning algorithms. This experience helped me improve my problem-solving skills and learn more about AI.\" \n\nWhen discussing your goals, try to be more concrete about what you hope to achieve in the next 6-12 months. For instance, you could say \"In the next year, I aim to gain more experience in cybersecurity by participating in hackathons and contributing to open-source projects. I'm also interested in exploring game development further and learning more about game engines like Unity.\"\n\n**5. Improved Version**\n\nHere's an example of how you could rephrase your initial response to address the areas mentioned above:\n\n\"Hi, I'm a computer science student with a strong interest in AI, cybersecurity, and game development. In my previous projects, I've had the opportunity to work on a team that developed a chatbot using Python and machine learning algorithms. This experience not only improved my problem-solving skills but also deepened my understanding of AI. I'm excited to continue exploring these areas and gain more experience through internships and personal projects. In the next year, I aim to participate in hackathons and contribute to open-source projects to improve my cybersecurity skills, while also learning more about game engines like Unity to further my knowledge in game development.\""
+    },
+    "bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "feedback_008",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 33.7618,
+          "strength_tags": [
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "uncertain_tone",
+            "filler_words"
+          ],
+          "text": "Your response communicates interest in the role, but hesitant language weakens your confidence. Replace uncertain phrases like 'kind of' or 'maybe' with direct statements and provide one concrete machine learning project example."
+        },
+        {
+          "id": "feedback_001",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 30.2217,
+          "strength_tags": [
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your response is understandable, but it lacks specific examples and clear impact. Mention one project in detail, explain your contribution, and describe what you learned or achieved."
+        },
+        {
+          "id": "feedback_016",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 28.8128,
+          "strength_tags": [
+            "engaging"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "unclear_goal"
+          ],
+          "text": "Your broad interests show curiosity, but the response lacks focus. Narrow your answer to one or two areas most relevant to the position and explain why those interests are meaningful to you."
+        },
+        {
+          "id": "revision_pair_001",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 24.9357,
+          "strength_tags": [
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response is too general and lacks detail. Improved version: I became interested in AI after building a recommendation system project in my machine learning course. I implemented collaborative filtering using Python and evaluated the model using accuracy metrics. That experience motivat"
+        },
+        {
+          "id": "feedback_027",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 24.4564,
+          "strength_tags": [
+            "engaging"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "wordy"
+          ],
+          "text": "Your experience sounds broad and technically strong, but the answer lacks focus. Select one or two projects most relevant to the role and explain them in greater depth instead of listing many topics briefly."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour interview response shows a good starting point, but there are areas to improve to make a stronger impression. You've expressed interest in various areas of computer science, which is great, but you can make your response more impactful by providing specific details and focusing on your goals.\n\n**Strengths**\nYou've demonstrated a clear language and a good STAR structure, which is excellent. This means you're on the right track in terms of articulating your thoughts and experiences.\n\n**Areas to Improve**\nBased on the predicted weakness tags, there are a few areas to focus on:\n\n1. **Too General**: Your response is broad and lacks specific examples. To improve, focus on one or two areas that are most relevant to the position and provide concrete details.\n2. **Missing Details**: You've mentioned working on projects with classmates, but it would be great to know more about the projects, your role, and what you learned from them.\n3. **Unclear Goal**: You're still figuring out what you want to focus on, which is okay. However, it's essential to show that you're actively seeking opportunities to improve your technical skills and gain experience.\n\n**Specific Suggestions**\nTo address these areas, consider the following:\n\n1. **Focus on one or two areas**: Instead of mentioning AI, cybersecurity, and game development, choose one or two areas that you're most passionate about and explain why they're relevant to the position.\n2. **Provide specific project examples**: Share one or two project examples that demonstrate your skills and interests. Describe your role, the technologies used, and what you learned from the experience.\n3. **Explain your goals**: While you're still figuring out your focus, express your enthusiasm for gaining experience and improving your technical skills. Mention specific areas where you'd like to develop your expertise.\n\n**Improved Version**\nHere's an example of how you could revise your response:\n\n\"I'm excited about the opportunity to discuss my qualifications for this role. With a strong foundation in computer science, I'm interested in exploring AI and cybersecurity further. One project that stands out to me is a machine learning project I worked on with classmates, where we developed a recommendation system using collaborative filtering. I implemented the model using Python and evaluated its performance using accuracy metrics. This experience not only deepened my understanding of AI but also sparked my interest in pursuing internships focused on user-centered systems. I'm eager to continue developing my skills in these areas and contribute to a team that shares my passion for innovation.\"\n\nRemember, this is just a sample revision. Feel free to modify it to fit your style and experiences."
+    },
+    "dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "feedback_016",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 0.4383,
+          "strength_tags": [
+            "engaging"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "unclear_goal"
+          ],
+          "text": "Your broad interests show curiosity, but the response lacks focus. Narrow your answer to one or two areas most relevant to the position and explain why those interests are meaningful to you."
+        },
+        {
+          "id": "feedback_005",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 0.3841,
+          "strength_tags": [
+            "natural_flow"
+          ],
+          "weakness_tags": [
+            "too_general"
+          ],
+          "text": "Your answer has a natural tone, but it would be more engaging if you included a memorable story or project that sparked your interest in computer science."
+        },
+        {
+          "id": "revision_pair_001",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 0.3837,
+          "strength_tags": [
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response is too general and lacks detail. Improved version: I became interested in AI after building a recommendation system project in my machine learning course. I implemented collaborative filtering using Python and evaluated the model using accuracy metrics. That experience motivat"
+        },
+        {
+          "id": "feedback_027",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 0.3742,
+          "strength_tags": [
+            "engaging"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "wordy"
+          ],
+          "text": "Your experience sounds broad and technically strong, but the answer lacks focus. Select one or two projects most relevant to the role and explain them in greater depth instead of listing many topics briefly."
+        },
+        {
+          "id": "feedback_029",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 0.3554,
+          "strength_tags": [
+            "clear_goal",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your career goal is clear and meaningful. To make your answer more convincing, explain what experiences or projects motivated your interest in ethical AI research."
+        }
+      ],
+      "feedback": "**Overall Assessment**\n\nYour interview response shows a good start in expressing your interests in computer science, but there are areas for improvement to make it more effective. You've mentioned your broad interests in AI, cybersecurity, and game development, but the response could benefit from more focus and details.\n\n**Strengths**\n\nYou've demonstrated a clear language and a good STAR structure in your response, which is great. This indicates that you're able to articulate your thoughts and experiences in a coherent manner.\n\n**Areas to Improve**\n\nBased on the predicted weakness tags, here are the areas that need improvement:\n\n1. **Too General**: Your response is too broad, and it would be more effective to focus on one or two areas most relevant to the position.\n2. **Missing Details**: You've mentioned working on projects with classmates, but it would be great to provide more specific examples or details about these projects.\n3. **Unclear Goal**: While you've expressed your interest in improving your technical skills, it's not entirely clear what you hope to achieve in the long term.\n\n**Specific Suggestions**\n\nTo address these areas, consider the following suggestions:\n\n1. **Narrow down your interests**: Focus on one or two areas that you're most passionate about and explain why they're meaningful to you.\n2. **Provide specific project examples**: Instead of mentioning \"class assignments and things like that,\" try to recall a specific project that you worked on and what you learned from it.\n3. **Clarify your long-term goal**: Think about what you hope to achieve in the next 5-10 years and how this role can help you get there.\n\n**Improved Version**\n\nHere's an example of how you could revise your response:\n\n\"I'm particularly interested in AI and cybersecurity, as I believe they have the potential to make a significant impact in the world. In my previous projects, I worked on a machine learning-based project that involved building a recommendation system using collaborative filtering. This experience not only deepened my understanding of AI concepts but also taught me the importance of evaluating models using accuracy metrics. In the long term, I hope to become a technical lead in AI engineering, where I can apply my skills to develop user-centered systems that improve people's lives. I believe this role can provide me with the necessary experience and skills to achieve my goal.\"\n\nThis revised response focuses on two specific areas, provides a concrete example of a project, and clarifies the long-term goal."
+    },
+    "tag_bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "feedback_001",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 36.1511,
+          "strength_tags": [
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your response is understandable, but it lacks specific examples and clear impact. Mention one project in detail, explain your contribution, and describe what you learned or achieved."
+        },
+        {
+          "id": "feedback_016",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 33.1254,
+          "strength_tags": [
+            "engaging"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "unclear_goal"
+          ],
+          "text": "Your broad interests show curiosity, but the response lacks focus. Narrow your answer to one or two areas most relevant to the position and explain why those interests are meaningful to you."
+        },
+        {
+          "id": "revision_pair_001",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 30.0083,
+          "strength_tags": [
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response is too general and lacks detail. Improved version: I became interested in AI after building a recommendation system project in my machine learning course. I implemented collaborative filtering using Python and evaluated the model using accuracy metrics. That experience motivat"
+        },
+        {
+          "id": "revision_pair_005",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 27.8864,
+          "strength_tags": [
+            "engaging",
+            "natural_flow"
+          ],
+          "weakness_tags": [
+            "too_general"
+          ],
+          "text": "Weakness: The response lacks a memorable example or personal story. Improved version: My interest in computer science began when I participated in a robotics competition during high school. I enjoyed combining programming and hardware to solve real problems, which later motivated me to study AI and "
+        },
+        {
+          "id": "revision_pair_010",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 27.7812,
+          "strength_tags": [
+            "clear_goal",
+            "professional_tone",
+            "engaging"
+          ],
+          "weakness_tags": [
+            "unclear_goal",
+            "missing_details"
+          ],
+          "text": "Weakness: The response does not clearly explain academic goals or future impact. Improved version: This scholarship would allow me to continue my research on accessible AI systems for users with disabilities. Through my previous accessibility-focused projects, I realized how technology can directly "
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour response is understandable, but it lacks specific examples and clear impact. You've mentioned your interests in AI, cybersecurity, and game development, but it's unclear how you plan to apply these skills in a professional setting.\n\n**Strengths**\nYou've demonstrated a clear language, which is a great strength. Your response is easy to follow, and you've shown that you're interested in various areas of computer science.\n\n**Areas to Improve**\nYour response is too general, and you're missing details about your projects and experiences. You also haven't clearly stated your goals or what you hope to achieve in the field of computer science.\n\n**Specific Suggestions**\nTo improve your response, consider the following:\n\n1. **Focus on one or two areas**: Instead of mentioning multiple areas, choose one or two that you're most passionate about and explain why they're meaningful to you.\n2. **Provide specific examples**: Think about a project or experience that showcases your skills and accomplishments in the chosen area. Describe the project, your role, and what you learned or achieved.\n3. **Explain your goals**: Clearly state what you hope to achieve in the field of computer science and how your chosen area will help you get there.\n\n**Improved Version**\nLet's take your interest in AI as an example. Instead of saying \"I like AI and worked on some projects,\" you could say:\n\n\"I became interested in AI after building a recommendation system project in my machine learning course. I implemented collaborative filtering using Python and evaluated the model using accuracy metrics. This experience not only deepened my understanding of AI concepts but also motivated me to pursue AI engineering internships focused on user-centered systems. In the future, I aim to apply my skills in AI to develop more accessible and inclusive systems that can positively impact people's lives.\"\n\n**Additional Tips**\n\n* Use specific examples and anecdotes to make your response more engaging and memorable.\n* Show enthusiasm and passion for the field, but also be realistic about your goals and aspirations.\n* Practice your response until it feels natural and confident."
+    },
+    "tag_dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "feedback_001",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 1.1747,
+          "strength_tags": [
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your response is understandable, but it lacks specific examples and clear impact. Mention one project in detail, explain your contribution, and describe what you learned or achieved."
+        },
+        {
+          "id": "feedback_017",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 1.1273,
+          "strength_tags": [
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your statement is understandable, but it would be more convincing if you explained one specific research challenge and what skills you developed while solving it."
+        },
+        {
+          "id": "feedback_010",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 1.07,
+          "strength_tags": [
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Your answer explains interest in the company, but it lacks a personal connection. Mention a specific product, research area, or company value that genuinely aligns with your background and goals."
+        },
+        {
+          "id": "revision_pair_001",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 0.9837,
+          "strength_tags": [
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response is too general and lacks detail. Improved version: I became interested in AI after building a recommendation system project in my machine learning course. I implemented collaborative filtering using Python and evaluated the model using accuracy metrics. That experience motivat"
+        },
+        {
+          "id": "revision_pair_008",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 0.9468,
+          "strength_tags": [
+            "engaging",
+            "specific_example",
+            "natural_flow"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Weakness: The response is generic and does not communicate personal motivation. Improved version: My interest in computer science grew after I created a simple mobile app during high school to help students organize study schedules. Seeing classmates actively use the app made me interested in buildi"
+        }
+      ],
+      "feedback": "**Overall Assessment**\n\nYour response is understandable, but it could be more effective in showcasing your strengths and interests in computer science. You've mentioned your areas of interest, such as AI, cybersecurity, and game development, but could provide more specific examples to demonstrate your skills and experiences.\n\n**Strengths**\n\nYou have a clear language, which makes your response easy to understand. This is a great start, and you can build upon this strength by providing more details and specific examples.\n\n**Areas to Improve**\n\nThe main areas to improve are:\n- **Too General**: Your response lacks specific examples and details about your projects and experiences.\n- **Missing Details**: You haven't provided enough information about your contributions, achievements, or what you learned from your projects.\n- **Unclear Goal**: Your response doesn't clearly convey what you hope to achieve or what you're looking for in an internship.\n\n**Specific Suggestions**\n\nTo address these areas, consider the following suggestions:\n- **Mention a specific project**: Think about a project you worked on, and describe it in detail. Explain your role, what you contributed, and what you learned from the experience.\n- **Explain your goals and motivations**: Clearly state what you hope to achieve or learn from an internship. This could be related to your interests in AI, cybersecurity, or game development.\n- **Provide specific examples**: Use concrete examples to demonstrate your skills and experiences. This could be a project you worked on, a research challenge you overcame, or a skill you developed.\n\n**Improved Version**\n\nHere's an example of how you could revise your response:\n\n\"I'm interested in computer science because I enjoy working on projects that combine AI, cybersecurity, and game development. For example, in my machine learning course, I built a recommendation system project that used collaborative filtering to predict user preferences. I implemented the model using Python and evaluated its performance using accuracy metrics. This experience not only deepened my understanding of AI but also motivated me to pursue internships focused on user-centered systems. In an internship, I hope to gain hands-on experience in developing secure and efficient AI-powered systems that can improve everyday experiences for users.\"\n\nThis revised response provides specific examples, details about your project, and clearly conveys your goals and motivations."
+    }
+  },
+  {
+    "id": "input_007",
+    "scenario": "presentation",
+    "transcript": "Today I will talk about our project about AI feedback systems. We used retrieval and language models together to generate better feedback for students preparing for interviews and presentations.",
+    "predicted_tags": {
+      "strength_tags": [
+        "clear_goal",
+        "logical_structure",
+        "specific_example"
+      ],
+      "weakness_tags": [
+        "missing_details"
+      ]
+    },
+    "baseline": {
+      "feedback": "**Overall Assessment**\nYour presentation provides a clear overview of your project on AI feedback systems, but there's room for improvement to make it more engaging and informative. You've started on the right track by highlighting the use of retrieval and language models, but some details are missing to make the presentation more comprehensive.\n\n**Strengths**\nYou've demonstrated a clear goal in your presentation by stating the topic of your project. Additionally, your logical structure is evident as you've introduced the main idea of using retrieval and language models together. You've also provided a specific example, which is a great start.\n\n**Areas to Improve**\nThe main area for improvement is providing more details about your project. The predicted weakness tag 'missing_details' suggests that you need to elaborate on the specifics of your project, such as the challenges you faced, the design decisions you made, and the results you achieved.\n\n**Specific Suggestions**\nTo address the 'missing_details' weakness, consider the following suggestions:\n\n1. **Elaborate on the challenges**: Describe the difficulties you encountered while integrating retrieval and language models. How did you overcome these challenges, and what did you learn from the experience?\n2. **Provide more context**: Give a brief overview of the problem you're trying to solve with your AI feedback system. Who are your target users, and what are their pain points?\n3. **Showcase your results**: Share specific metrics or statistics that demonstrate the effectiveness of your AI feedback system. How did it improve the quality of feedback for students preparing for interviews and presentations?\n\n**Improved Version**\nHere's an example of how you could revise your presentation to address the 'missing_details' weakness:\n\n\"Today, I'll be discussing our project on AI feedback systems, which aims to provide better feedback for students preparing for interviews and presentations. We used a combination of retrieval and language models to generate more accurate and informative feedback. One of the challenges we faced was integrating the two models seamlessly. To overcome this, we employed a hybrid approach that leveraged the strengths of both models. As a result, our system was able to provide feedback that was not only more accurate but also more relevant to the students' needs. For instance, our system was able to identify areas where students needed improvement and provide personalized feedback to help them address those weaknesses. Our results showed a significant improvement in the quality of feedback, with a 25% increase in student satisfaction. Overall, our project demonstrates the potential of AI feedback systems in improving the learning experience for students.\"\n\nBy addressing the 'missing_details' weakness, you can make your presentation more engaging, informative, and effective in conveying your project's value and impact."
+    },
+    "bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_021",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 48.723,
+          "strength_tags": [
+            "clear_goal",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "weak_opening"
+          ],
+          "text": "Weakness: The introduction is too vague and does not explain the purpose or significance of the presentation. Improved version: Today I will present our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large langua"
+        },
+        {
+          "id": "revision_pair_024",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 20.9066,
+          "strength_tags": [
+            "confident_tone",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "uncertain_tone",
+            "filler_words"
+          ],
+          "text": "Weakness: The explanation sounds uncertain and contains filler language. Improved version: Our system integrates retrieval techniques with large language models to improve feedback quality. Retrieved examples and communication guidelines provide additional context, allowing the model to generate mor"
+        },
+        {
+          "id": "revision_pair_022",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 19.8036,
+          "strength_tags": [
+            "logical_structure",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Weakness: The explanation lacks structure and technical clarity. Improved version: Our system combines two main components: a retrieval module and a language generation module. We used BM25 and dense retrieval methods to retrieve relevant coaching examples, and then used a large language model to ge"
+        },
+        {
+          "id": "revision_pair_027",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 16.6734,
+          "strength_tags": [
+            "clear_language",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "wordy",
+            "poor_structure"
+          ],
+          "text": "Weakness: The response becomes difficult to follow because it lists too many technologies without context. Improved version: One important part of our system was the dense retrieval pipeline. We used SentenceTransformers to generate embeddings for feedback examples and retrieved semantically similar"
+        },
+        {
+          "id": "feedback_056",
+          "type": "feedback_example",
+          "scenario": "presentation",
+          "score": 13.4689,
+          "strength_tags": [
+            "natural_flow"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "filler_words"
+          ],
+          "text": "Your opening is too informal and does not orient the audience. Begin with a clear statement of your topic, why it matters, and what you will cover so the audience knows what to expect."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour presentation about the AI feedback system project has a clear goal, and you've attempted to explain the combination of retrieval and language models. However, there are areas that need improvement to make your presentation more engaging and effective.\n\n**Strengths**\nYou've demonstrated a clear goal by stating that you'll talk about your AI project. Additionally, you've started to explain the concept of combining retrieval and language models. This is a good start, and with some refinement, you can make your presentation more compelling.\n\n**Areas to Improve**\nThe predicted weakness tags ['missing_details'] indicate that you need to provide more context and specifics about your project. This will help your audience understand the significance and relevance of your work. You also need to work on making your language more precise and avoiding vague statements.\n\n**Specific Suggestions**\nTo address the 'missing_details' weakness, consider the following:\n- Provide a clear statement of the problem you're trying to solve with your AI feedback system.\n- Explain the specific benefits of combining retrieval and language models in your project.\n- Offer concrete examples of how your system improves feedback quality for students preparing for interviews and presentations.\n\nTo improve your language, consider the following:\n- Use more specific and technical terms related to your project, such as 'retrieval-augmented feedback systems' and 'large language models.'\n- Avoid vague statements like 'better feedback' and instead provide specific examples or metrics that demonstrate the effectiveness of your system.\n\n**Improved Version**\nHere's an example of how you could revise your introduction to address the weaknesses:\n\n\"Today, I'll present our project on retrieval-augmented feedback systems for interview coaching. This project aims to address the limitations of current feedback systems by combining information retrieval with large language models. By leveraging the strengths of both approaches, our system generates more specific and actionable communication feedback for students preparing for interviews and presentations. Specifically, we used BM25 and dense retrieval methods to retrieve relevant coaching examples, and then used a large language model to generate personalized feedback based on the retrieved context. Our results show that this approach leads to more effective feedback, with [insert specific metrics or examples].\"\n\nThis revised version provides more context, specificity, and technical clarity, making it more engaging and effective for your audience."
+    },
+    "dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_021",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.8441,
+          "strength_tags": [
+            "clear_goal",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "weak_opening"
+          ],
+          "text": "Weakness: The introduction is too vague and does not explain the purpose or significance of the presentation. Improved version: Today I will present our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large langua"
+        },
+        {
+          "id": "revision_pair_024",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.711,
+          "strength_tags": [
+            "confident_tone",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "uncertain_tone",
+            "filler_words"
+          ],
+          "text": "Weakness: The explanation sounds uncertain and contains filler language. Improved version: Our system integrates retrieval techniques with large language models to improve feedback quality. Retrieved examples and communication guidelines provide additional context, allowing the model to generate mor"
+        },
+        {
+          "id": "revision_pair_022",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.667,
+          "strength_tags": [
+            "logical_structure",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Weakness: The explanation lacks structure and technical clarity. Improved version: Our system combines two main components: a retrieval module and a language generation module. We used BM25 and dense retrieval methods to retrieve relevant coaching examples, and then used a large language model to ge"
+        },
+        {
+          "id": "revision_pair_029",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.6649,
+          "strength_tags": [
+            "logical_structure",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "incomplete_answer"
+          ],
+          "text": "Weakness: The conclusion feels abrupt and does not summarize the main takeaway. Improved version: In summary, our project demonstrates how retrieval-augmented generation can improve the specificity and usefulness of dialogue coaching feedback. By combining retrieval techniques with language models, "
+        },
+        {
+          "id": "revision_pair_027",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.5984,
+          "strength_tags": [
+            "clear_language",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "wordy",
+            "poor_structure"
+          ],
+          "text": "Weakness: The response becomes difficult to follow because it lists too many technologies without context. Improved version: One important part of our system was the dense retrieval pipeline. We used SentenceTransformers to generate embeddings for feedback examples and retrieved semantically similar"
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour presentation about the AI feedback system project shows potential, but there are areas that need improvement to make it more engaging and effective. You have a clear goal in mind, which is to discuss the project, but there are some details missing that could enhance the presentation.\n\n**Strengths**\nYou have a clear goal in mind, and you're on the right track by discussing the project about AI feedback systems. You also seem to be familiar with the concepts of retrieval and language models, which is great.\n\n**Areas to Improve**\nThe predicted weakness tags are ['missing_details']. To address this, you need to provide more specific examples and details about the project. This will help the audience understand the project better and make it more engaging.\n\n**Specific Suggestions**\nTo improve the presentation, consider the following suggestions:\n\n1. **Provide more context**: Before diving into the project, take a moment to explain why this project is important and how it can benefit the students.\n2. **Use specific examples**: Instead of generalizing, use specific examples to illustrate how the retrieval and language models work together to generate better feedback.\n3. **Focus on the main takeaway**: Make sure to summarize the main takeaway of the project in the conclusion, so the audience knows what to take away from the presentation.\n\n**Improved Version**\nHere's an example of how you could improve the introduction:\n\n\"Today, I'll be discussing our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large language models can generate more specific and actionable communication feedback for students preparing for interviews and presentations. By using retrieval techniques to gather relevant coaching examples and language models to generate personalized feedback, we aim to create a more effective and supportive dialogue coaching system.\"\n\nAnd here's an example of how you could improve the explanation:\n\n\"Our system integrates retrieval techniques with large language models to improve feedback quality. For instance, we used BM25 and dense retrieval methods to retrieve relevant coaching examples, and then used a large language model to generate personalized feedback based on the retrieved context. This approach allows us to provide more targeted and specific coaching feedback to students, which can help them improve their communication skills more effectively.\""
+    },
+    "tag_bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_021",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 49.6279,
+          "strength_tags": [
+            "clear_goal",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "weak_opening"
+          ],
+          "text": "Weakness: The introduction is too vague and does not explain the purpose or significance of the presentation. Improved version: Today I will present our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large langua"
+        },
+        {
+          "id": "revision_pair_022",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 23.4786,
+          "strength_tags": [
+            "logical_structure",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Weakness: The explanation lacks structure and technical clarity. Improved version: Our system combines two main components: a retrieval module and a language generation module. We used BM25 and dense retrieval methods to retrieve relevant coaching examples, and then used a large language model to ge"
+        },
+        {
+          "id": "revision_pair_027",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 18.0927,
+          "strength_tags": [
+            "clear_language",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "wordy",
+            "poor_structure"
+          ],
+          "text": "Weakness: The response becomes difficult to follow because it lists too many technologies without context. Improved version: One important part of our system was the dense retrieval pipeline. We used SentenceTransformers to generate embeddings for feedback examples and retrieved semantically similar"
+        },
+        {
+          "id": "feedback_067",
+          "type": "feedback_example",
+          "scenario": "presentation",
+          "score": 16.6207,
+          "strength_tags": [
+            "clear_goal",
+            "engaging",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "This opening motivates the work well by leading with a concrete pain point. To make the transition smoother, follow it with a single sentence that previews what you will demonstrate in the rest of the talk."
+        },
+        {
+          "id": "revision_pair_028",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 16.0483,
+          "strength_tags": [
+            "clear_goal",
+            "engaging"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The statement is too broad and does not explain why the project matters. Improved version: Our project is designed to help students prepare for interviews, elevator pitches, and presentations by providing more specific and context-aware feedback. We believe this approach can support commun"
+        }
+      ],
+      "feedback": "**Overall Assessment**\n\nYour presentation about the AI feedback system project is a good start. You have a clear goal in mind, which is to discuss how retrieval and language models can be used together to generate better feedback for students preparing for interviews and presentations. However, there are areas where you can improve to make your presentation more engaging and effective.\n\n**Strengths**\n\nYou have a clear goal in mind, which is a strength. You also seem to have a logical structure in your presentation, which is another strength. However, there are areas where you can improve to make your presentation more engaging and effective.\n\n**Areas to Improve**\n\nBased on the predicted weakness tags, the main areas to improve are:\n\n1. **Missing details**: Your presentation is a bit too general, and you could provide more specific examples to illustrate your points.\n2. **Too general**: Your introduction could be more specific and explain the purpose or significance of the presentation.\n\n**Specific Suggestions**\n\nTo address the areas to improve, consider the following specific suggestions:\n\n1. **Provide more specific examples**: Think about specific examples of how your AI feedback system can be used to generate better feedback for students. For instance, you could describe a scenario where a student is preparing for an interview and how your system can provide more specific and actionable feedback.\n2. **Make your introduction more specific**: Instead of just stating that you will talk about your AI project, try to make your introduction more specific and explain why this project matters. For example, you could explain how your project can help students prepare for interviews and presentations by providing more specific and context-aware feedback.\n\n**Improved Version**\n\nHere's an example of how you could revise your introduction to make it more specific and engaging:\n\n\"Today, I will present our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large language models can generate more specific and actionable communication feedback for students preparing for interviews and presentations. By providing more tailored feedback, our system can help students improve their communication skills and increase their confidence in high-stakes situations.\"\n\nIn this revised version, you have made your introduction more specific and explained the purpose and significance of your project. You have also provided a clear preview of what you will discuss in the rest of the presentation."
+    },
+    "tag_dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_025",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 1.3952,
+          "strength_tags": [
+            "logical_structure",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "missing_details",
+            "poor_structure"
+          ],
+          "text": "Weakness: The explanation does not guide the audience through the methodology clearly. Improved version: This slide summarizes our pipeline. First, the system analyzes the user’s transcript and identifies communication-related tags such as missing details or unclear goals. Then, the retriever search"
+        },
+        {
+          "id": "feedback_074",
+          "type": "feedback_example",
+          "scenario": "presentation",
+          "score": 1.3521,
+          "strength_tags": [
+            "logical_structure",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your structure is clear and easy to follow, which helps the audience anticipate the arc of the talk. To make the preview even stronger, name the one finding you most want the audience to remember by the end."
+        },
+        {
+          "id": "feedback_067",
+          "type": "feedback_example",
+          "scenario": "presentation",
+          "score": 1.3271,
+          "strength_tags": [
+            "clear_goal",
+            "engaging",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "This opening motivates the work well by leading with a concrete pain point. To make the transition smoother, follow it with a single sentence that previews what you will demonstrate in the rest of the talk."
+        },
+        {
+          "id": "feedback_076",
+          "type": "feedback_example",
+          "scenario": "presentation",
+          "score": 1.323,
+          "strength_tags": [
+            "concrete_achievement",
+            "logical_structure",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "This is a strong conclusion because it ties a quantitative result back to the audience you set out to help. To close even more powerfully, end with one clear next step or open question to leave the audience thinking."
+        },
+        {
+          "id": "revision_pair_022",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 1.267,
+          "strength_tags": [
+            "logical_structure",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Weakness: The explanation lacks structure and technical clarity. Improved version: Our system combines two main components: a retrieval module and a language generation module. We used BM25 and dense retrieval methods to retrieve relevant coaching examples, and then used a large language model to ge"
+        }
+      ],
+      "feedback": "**Feedback for Presentation on AI Feedback Systems**\n\n**1. Overall Assessment**\nYour presentation on AI feedback systems for students preparing for interviews and presentations has a clear goal and a good logical structure. However, it seems to be missing some details that would make it more engaging and easier to follow.\n\n**2. Strengths**\nYou have done a great job in using retrieval and language models together to generate better feedback. Your project has a clear goal, and the structure of your presentation is logical, making it easy for the audience to follow.\n\n**3. Areas to Improve**\nThe main area to improve is providing more details to support your explanation. This will help the audience understand the methodology and the system better. Additionally, consider adding specific examples or guidelines to make your presentation more engaging and concrete.\n\n**4. Specific Suggestions**\nTo improve your presentation, consider the following suggestions:\n- Provide more details about the system's pipeline, such as how it analyzes the user's transcript and identifies communication-related tags.\n- Use specific examples or guidelines to illustrate how the system generates feedback, such as how it retrieves relevant examples and guidelines.\n- Consider adding a clear next step or open question to leave the audience thinking.\n\n**5. Improved Version**\nHere's an example of how you could improve your presentation:\n\n\"Today, I'll talk about our project on AI feedback systems. We used retrieval and language models together to generate better feedback for students preparing for interviews and presentations. Our system's pipeline works as follows: first, it analyzes the user's transcript and identifies communication-related tags such as missing details or unclear goals. Then, the retriever searches for relevant examples and guidelines, which are passed to the language model to generate feedback. For instance, if a student is struggling with clear goals, the system might retrieve examples of how to set clear goals and provide personalized feedback based on those examples.\"\n\nThis revised version provides more details about the system's pipeline and uses specific examples to illustrate how the system generates feedback."
+    }
+  },
+  {
+    "id": "input_008",
+    "scenario": "presentation",
+    "transcript": "Good afternoon everyone. Today I will present our research project on retrieval-augmented feedback systems for dialogue coaching. The goal of this project is to improve the specificity and usefulness of AI-generated feedback for interview preparation, elevator pitches, and presentations. Our system combines dense retrieval techniques with large language models to retrieve relevant examples, communication guidelines, and revision pairs before generating feedback. We evaluated multiple retrieval strategies, including BM25, dense retrieval, and tag-aware retrieval, and compared their impact on feedback quality through human evaluation metrics such as specificity, actionability, and relevance.",
+    "predicted_tags": {
+      "strength_tags": [
+        "clear_goal",
+        "logical_structure",
+        "specific_example",
+        "good_STAR_structure"
+      ],
+      "weakness_tags": [
+        "missing_details"
+      ]
+    },
+    "baseline": {
+      "feedback": "**Overall Assessment**\n\nYour presentation on retrieval-augmented feedback systems for dialogue coaching is well-structured and effectively conveys the goal of your project. You've provided a clear overview of the system's components and evaluation metrics, which demonstrates a good understanding of the topic.\n\n**Strengths**\n\n1. **Clear Goal**: You've clearly stated the objective of your project, which is to improve the specificity and usefulness of AI-generated feedback for various communication tasks. This focus on a specific goal is commendable.\n2. **Logical Structure**: Your presentation follows a logical flow, making it easy to follow and understand. This structure is essential for effective communication.\n3. **Specific Example**: Although you didn't provide a specific example in your transcript, you mentioned evaluating multiple retrieval strategies, which shows that you've considered different approaches to achieve your goal.\n4. **Good STAR Structure**: Although not explicitly mentioned, your presentation seems to follow the STAR (Situation, Task, Action, Result) structure, which is a common and effective way to structure presentations.\n\n**Areas to Improve**\n\n1. **Missing Details**: To make your presentation more engaging and informative, consider providing more specific details about your project. For instance, you could explain how the dense retrieval techniques and large language models work together, or provide examples of the feedback generated by your system.\n\n**Specific Suggestions**\n\n1. **Provide concrete examples**: To illustrate the effectiveness of your system, consider providing concrete examples of feedback generated by your system. This could be a before-and-after comparison or a specific example of feedback that highlights the system's strengths.\n2. **Explain the evaluation metrics**: While you mentioned human evaluation metrics such as specificity, actionability, and relevance, consider explaining how these metrics were used to evaluate the feedback quality. This will help the audience understand the methodology behind your evaluation.\n3. **Showcase the system's capabilities**: To demonstrate the system's potential, consider showcasing its capabilities through a live demo or a video presentation. This will give the audience a better understanding of how the system works and its potential applications.\n\n**Improved Version**\n\nHere's an example of how you could revise your presentation to address the areas for improvement:\n\n\"Good afternoon everyone. Today, I'll present our research project on retrieval-augmented feedback systems for dialogue coaching. Our goal is to improve the specificity and usefulness of AI-generated feedback for interview preparation, elevator pitches, and presentations. To achieve this, we combined dense retrieval techniques with large language models to retrieve relevant examples, communication guidelines, and revision pairs before generating feedback.\n\n\"For instance, let's consider a scenario where a student is preparing for an interview. Our system would retrieve relevant examples of successful interview answers, communication guidelines for effective responses, and revision pairs to help the student improve their responses. The system would then generate feedback that is specific, actionable, and relevant to the student's needs.\n\n\"We evaluated multiple retrieval strategies, including BM25, dense retrieval, and tag-aware retrieval, and compared their impact on feedback quality through human evaluation metrics such as specificity, actionability, and relevance. Our results show that the dense retrieval technique outperformed the other strategies in terms of feedback quality.\n\n\"To demonstrate the system's capabilities, I'll show a live demo of the system in action. This will give you a better understanding of how the system works and its potential applications in dialogue coaching.\"\n\nBy addressing the areas for improvement, you can make your presentation more engaging, informative, and effective in conveying the value of your research project."
+    },
+    "bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_021",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 65.8636,
+          "strength_tags": [
+            "clear_goal",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "weak_opening"
+          ],
+          "text": "Weakness: The introduction is too vague and does not explain the purpose or significance of the presentation. Improved version: Today I will present our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large langua"
+        },
+        {
+          "id": "revision_pair_022",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 52.5865,
+          "strength_tags": [
+            "logical_structure",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Weakness: The explanation lacks structure and technical clarity. Improved version: Our system combines two main components: a retrieval module and a language generation module. We used BM25 and dense retrieval methods to retrieve relevant coaching examples, and then used a large language model to ge"
+        },
+        {
+          "id": "revision_pair_029",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 44.2317,
+          "strength_tags": [
+            "logical_structure",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "incomplete_answer"
+          ],
+          "text": "Weakness: The conclusion feels abrupt and does not summarize the main takeaway. Improved version: In summary, our project demonstrates how retrieval-augmented generation can improve the specificity and usefulness of dialogue coaching feedback. By combining retrieval techniques with language models, "
+        },
+        {
+          "id": "revision_pair_024",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 42.3628,
+          "strength_tags": [
+            "confident_tone",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "uncertain_tone",
+            "filler_words"
+          ],
+          "text": "Weakness: The explanation sounds uncertain and contains filler language. Improved version: Our system integrates retrieval techniques with large language models to improve feedback quality. Retrieved examples and communication guidelines provide additional context, allowing the model to generate mor"
+        },
+        {
+          "id": "revision_pair_028",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 33.4104,
+          "strength_tags": [
+            "clear_goal",
+            "engaging"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The statement is too broad and does not explain why the project matters. Improved version: Our project is designed to help students prepare for interviews, elevator pitches, and presentations by providing more specific and context-aware feedback. We believe this approach can support commun"
+        }
+      ],
+      "feedback": "**Overall Assessment**\n\nGreat job on presenting your research project on retrieval-augmented feedback systems for dialogue coaching! Your goal to improve the specificity and usefulness of AI-generated feedback is clear and well-defined. However, there are a few areas where you can improve to make your presentation even more effective.\n\n**Strengths**\n\n* You have a clear goal in mind, which is evident from your presentation.\n* Your logical structure is well-organized, making it easy to follow your ideas.\n* You provide specific examples of how your system can improve feedback quality.\n* Your STAR structure is well-structured, making it easy to understand your project.\n\n**Areas to Improve**\n\nBased on the retrieved coaching context, it seems that you may struggle with providing more details and specificity in your presentation. This is evident from the predicted weakness tags ['missing_details'] and ['too_general']. Additionally, you may need to work on creating a stronger opening and conclusion to engage your audience.\n\n**Specific Suggestions**\n\n1. **Provide more details**: When explaining your system, try to include more specific details about how it works and what benefits it provides. For example, you could explain how the retrieval module and language generation module interact with each other.\n2. **Create a stronger opening**: Instead of starting with a vague statement, try to begin with a hook that grabs the audience's attention. You could explain the significance of your project or highlight a key benefit it provides.\n3. **Use more specific language**: Avoid using general terms like \"many models and techniques.\" Instead, try to be more specific and provide examples of the techniques you used.\n4. **Summarize your main takeaway**: In your conclusion, try to summarize the main takeaway from your project. This will help your audience remember your key points and understand the significance of your work.\n\n**Improved Version**\n\nHere's an example of how you could revise your opening and conclusion based on the suggestions above:\n\n**Improved Opening**\n\n\"Today, I'm excited to present our research project on retrieval-augmented feedback systems for dialogue coaching. Our goal is to improve the specificity and usefulness of AI-generated feedback for students preparing for interviews, elevator pitches, and presentations. By combining retrieval techniques with language models, we aim to create more personalized and actionable communication support systems.\"\n\n**Improved Conclusion**\n\n\"In summary, our project demonstrates how retrieval-augmented generation can improve the specificity and usefulness of dialogue coaching feedback. By integrating retrieval techniques with large language models, we can provide more targeted and specific coaching feedback. This approach has the potential to support communication coaching in educational and professional settings, and we believe it can make a significant impact on student learning outcomes.\""
+    },
+    "dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_029",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.8394,
+          "strength_tags": [
+            "logical_structure",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "incomplete_answer"
+          ],
+          "text": "Weakness: The conclusion feels abrupt and does not summarize the main takeaway. Improved version: In summary, our project demonstrates how retrieval-augmented generation can improve the specificity and usefulness of dialogue coaching feedback. By combining retrieval techniques with language models, "
+        },
+        {
+          "id": "revision_pair_021",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.8117,
+          "strength_tags": [
+            "clear_goal",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "weak_opening"
+          ],
+          "text": "Weakness: The introduction is too vague and does not explain the purpose or significance of the presentation. Improved version: Today I will present our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large langua"
+        },
+        {
+          "id": "revision_pair_022",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.7074,
+          "strength_tags": [
+            "logical_structure",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Weakness: The explanation lacks structure and technical clarity. Improved version: Our system combines two main components: a retrieval module and a language generation module. We used BM25 and dense retrieval methods to retrieve relevant coaching examples, and then used a large language model to ge"
+        },
+        {
+          "id": "revision_pair_024",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.6924,
+          "strength_tags": [
+            "confident_tone",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "uncertain_tone",
+            "filler_words"
+          ],
+          "text": "Weakness: The explanation sounds uncertain and contains filler language. Improved version: Our system integrates retrieval techniques with large language models to improve feedback quality. Retrieved examples and communication guidelines provide additional context, allowing the model to generate mor"
+        },
+        {
+          "id": "revision_pair_027",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.6463,
+          "strength_tags": [
+            "clear_language",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "wordy",
+            "poor_structure"
+          ],
+          "text": "Weakness: The response becomes difficult to follow because it lists too many technologies without context. Improved version: One important part of our system was the dense retrieval pipeline. We used SentenceTransformers to generate embeddings for feedback examples and retrieved semantically similar"
+        }
+      ],
+      "feedback": "**Overall Assessment**\n\nYour presentation on retrieval-augmented feedback systems for dialogue coaching has a clear goal and logical structure, which is evident from your introduction and the organization of your content. However, there are areas where you can improve to make your presentation more engaging and effective.\n\n**Strengths**\n\n1. **Clear Goal**: You have a well-defined objective for your project, which is to improve the specificity and usefulness of AI-generated feedback for interview preparation, elevator pitches, and presentations.\n2. **Logical Structure**: Your presentation follows a logical flow, making it easy for the audience to follow your ideas.\n3. **Specific Example**: You provided a specific example of how your system can improve feedback quality, which helps to illustrate your point.\n\n**Areas to Improve**\n\n1. **Missing Details**: Your presentation lacks specific details about how your system works, which makes it difficult for the audience to understand the technical aspects of your project.\n2. **Poor Structure**: Some parts of your presentation feel abrupt or lack a clear connection to the rest of the content.\n\n**Specific Suggestions**\n\n1. **Provide more technical details**: Consider adding more information about the dense retrieval techniques and large language models you used in your system. This will help the audience understand the technical aspects of your project and how it works.\n2. **Use a clearer structure**: Break down your presentation into clear sections or subtopics, and use transitional phrases to connect each idea to the next.\n3. **Use specific examples**: While you provided a specific example, consider using more examples to illustrate different aspects of your system and its benefits.\n\n**Improved Version**\n\nHere's an example of how you could revise your introduction to address the areas mentioned above:\n\n\"Today, I will present our project on retrieval-augmented feedback systems for dialogue coaching. The goal of this project is to improve the specificity and usefulness of AI-generated feedback for interview preparation, elevator pitches, and presentations. To achieve this, we combined dense retrieval techniques with large language models to retrieve relevant examples, communication guidelines, and revision pairs before generating feedback. Our system consists of two main components: a retrieval module and a language generation module. We used BM25 and dense retrieval methods to retrieve relevant coaching examples, and then used a large language model to generate personalized feedback based on the retrieved context.\"\n\nThis revised version provides more technical details and a clearer structure, making it easier for the audience to follow your ideas."
+    },
+    "tag_bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_021",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 65.4079,
+          "strength_tags": [
+            "clear_goal",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "weak_opening"
+          ],
+          "text": "Weakness: The introduction is too vague and does not explain the purpose or significance of the presentation. Improved version: Today I will present our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large langua"
+        },
+        {
+          "id": "revision_pair_022",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 53.5827,
+          "strength_tags": [
+            "logical_structure",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Weakness: The explanation lacks structure and technical clarity. Improved version: Our system combines two main components: a retrieval module and a language generation module. We used BM25 and dense retrieval methods to retrieve relevant coaching examples, and then used a large language model to ge"
+        },
+        {
+          "id": "revision_pair_029",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 45.7101,
+          "strength_tags": [
+            "logical_structure",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "incomplete_answer"
+          ],
+          "text": "Weakness: The conclusion feels abrupt and does not summarize the main takeaway. Improved version: In summary, our project demonstrates how retrieval-augmented generation can improve the specificity and usefulness of dialogue coaching feedback. By combining retrieval techniques with language models, "
+        },
+        {
+          "id": "revision_pair_028",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 36.9603,
+          "strength_tags": [
+            "clear_goal",
+            "engaging"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The statement is too broad and does not explain why the project matters. Improved version: Our project is designed to help students prepare for interviews, elevator pitches, and presentations by providing more specific and context-aware feedback. We believe this approach can support commun"
+        },
+        {
+          "id": "revision_pair_025",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 34.6398,
+          "strength_tags": [
+            "logical_structure",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "missing_details",
+            "poor_structure"
+          ],
+          "text": "Weakness: The explanation does not guide the audience through the methodology clearly. Improved version: This slide summarizes our pipeline. First, the system analyzes the user’s transcript and identifies communication-related tags such as missing details or unclear goals. Then, the retriever search"
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour presentation transcript is clear in its goal, but it could benefit from more specificity and detail to engage the audience effectively. You've made a good start by mentioning the retrieval-augmented feedback system, but there are areas where you can improve to make your presentation more compelling.\n\n**Strengths**\nYou've demonstrated a clear goal in your presentation, which is to improve the specificity and usefulness of AI-generated feedback for interview preparation, elevator pitches, and presentations. Your logical structure is also evident, making it easy to follow your ideas.\n\n**Areas to Improve**\nThe predicted weakness tags suggest that you need to work on providing more specific details, avoiding too general statements, and ensuring that your presentation has a clear opening, structure, and conclusion. You also need to provide more technical clarity and guide the audience through your methodology.\n\n**Specific Suggestions**\n1. **Provide a stronger opening**: Instead of starting with a vague statement, try to grab the audience's attention by highlighting the significance of your project. For example, you could say, \"Today, I'll present a novel approach to dialogue coaching that combines information retrieval with large language models to generate more specific and actionable feedback for students preparing for interviews and presentations.\"\n2. **Use more specific examples**: While you've mentioned the components of your system, you could provide more concrete examples to illustrate how they work together. For instance, you could describe a specific scenario where the system retrieves relevant examples and guidelines to generate feedback.\n3. **Guide the audience through your methodology**: When explaining your pipeline, try to break it down into clear steps that the audience can follow. Use transitional phrases to connect your ideas and make your explanation more cohesive.\n4. **Summarize your main takeaway**: In your conclusion, make sure to summarize the key points of your presentation and reiterate the significance of your project. This will help leave a lasting impression on the audience.\n\n**Improved Version**\nHere's an example of how you could revise your opening and methodology sections:\n\n\"Today, I'll present a novel approach to dialogue coaching that combines information retrieval with large language models to generate more specific and actionable feedback for students preparing for interviews and presentations. Our system, which we call retrieval-augmented feedback, works by analyzing the user's transcript and identifying communication-related tags such as missing details or unclear goals. The retriever then searches for relevant examples and guidelines, which are passed to the language model to generate feedback. For instance, if a user is preparing for an interview, our system might retrieve examples of effective interview responses and guidelines on how to structure a strong answer. By combining these elements, we aim to create a more personalized and actionable communication support system.\""
+    },
+    "tag_dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_025",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 1.3887,
+          "strength_tags": [
+            "logical_structure",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "missing_details",
+            "poor_structure"
+          ],
+          "text": "Weakness: The explanation does not guide the audience through the methodology clearly. Improved version: This slide summarizes our pipeline. First, the system analyzes the user’s transcript and identifies communication-related tags such as missing details or unclear goals. Then, the retriever search"
+        },
+        {
+          "id": "feedback_074",
+          "type": "feedback_example",
+          "scenario": "presentation",
+          "score": 1.3866,
+          "strength_tags": [
+            "logical_structure",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your structure is clear and easy to follow, which helps the audience anticipate the arc of the talk. To make the preview even stronger, name the one finding you most want the audience to remember by the end."
+        },
+        {
+          "id": "feedback_067",
+          "type": "feedback_example",
+          "scenario": "presentation",
+          "score": 1.3205,
+          "strength_tags": [
+            "clear_goal",
+            "engaging",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "This opening motivates the work well by leading with a concrete pain point. To make the transition smoother, follow it with a single sentence that previews what you will demonstrate in the rest of the talk."
+        },
+        {
+          "id": "feedback_076",
+          "type": "feedback_example",
+          "scenario": "presentation",
+          "score": 1.3203,
+          "strength_tags": [
+            "concrete_achievement",
+            "logical_structure",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "This is a strong conclusion because it ties a quantitative result back to the audience you set out to help. To close even more powerfully, end with one clear next step or open question to leave the audience thinking."
+        },
+        {
+          "id": "revision_pair_022",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 1.3074,
+          "strength_tags": [
+            "logical_structure",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Weakness: The explanation lacks structure and technical clarity. Improved version: Our system combines two main components: a retrieval module and a language generation module. We used BM25 and dense retrieval methods to retrieve relevant coaching examples, and then used a large language model to ge"
+        }
+      ],
+      "feedback": "Here's the generated feedback using the specified structure:\n\n**Overall Assessment**\nYour presentation is off to a great start, and you've clearly outlined the goal of your research project. However, there are a few areas where you can improve to make your presentation even more effective.\n\n**Strengths**\nYou've done a great job of clearly stating your goal and providing a logical structure for your presentation. Your examples are also specific and engaging, which helps to keep the audience interested.\n\n**Areas to Improve**\nOne area where you can improve is by providing more details in your explanation. You've mentioned that your system combines dense retrieval techniques with large language models, but you could elaborate on how these components work together to improve the specificity and usefulness of AI-generated feedback.\n\n**Specific Suggestions**\nTo address this, consider using the retrieved revision pair example (revision_pair_025) as a guide. This example shows how to break down a complex explanation into a clear and structured format. You could also use the feedback example (feedback_074) to see how to provide more specific and actionable feedback.\n\n**Improved Version**\nHere's an example of how you could revise your explanation to provide more details and structure:\n\n\"In our system, we used a combination of dense retrieval techniques and large language models to improve the specificity and usefulness of AI-generated feedback. Specifically, we employed BM25 and dense retrieval methods to retrieve relevant coaching examples, which were then passed to a large language model to generate personalized feedback based on the retrieved context. This approach allows us to provide more detailed and actionable feedback to users, which can help them improve their communication skills.\"\n\nBy following this structure and incorporating the retrieved examples and guidelines, you can create a more effective and engaging presentation that showcases your research project in a clear and compelling way."
+    }
+  },
+  {
+    "id": "input_009",
+    "scenario": "presentation",
+    "transcript": "Uh, so basically our presentation is about using AI and retrieval together for feedback generation. We used different methods and models and stuff to retrieve examples from our dataset and then generate responses with a language model. We also tested different retrieval systems like dense retrieval and tag retrieval and compared them. The results were kind of interesting because some systems seemed more specific than others, although we still had some limitations and challenges during the project.",
+    "predicted_tags": {
+      "strength_tags": [
+        "clear_goal",
+        "logical_structure",
+        "specific_example"
+      ],
+      "weakness_tags": [
+        "too_general"
+      ]
+    },
+    "baseline": {
+      "feedback": "**Overall Assessment**\nYour presentation provides a good overview of the project, covering the main idea of using AI and retrieval together for feedback generation. However, there's room for improvement in terms of clarity and specificity.\n\n**Strengths**\nYou have a clear goal in mind, which is evident from your presentation. You also have a logical structure, making it easy to follow your train of thought. Additionally, you provide specific examples, which helps to illustrate your points.\n\n**Areas to Improve**\nOne area that stands out as a weakness is that your presentation is too general. You mention using different methods and models, but you don't provide enough details about what these methods and models are or how they contributed to your results. This makes it difficult for the audience to understand the significance of your findings.\n\n**Specific Suggestions**\nTo improve your presentation, consider the following suggestions:\n- Be more specific about the methods and models you used. For example, you could mention the type of language model you employed or the specific retrieval system you tested.\n- Provide more context about the dataset you used and how you retrieved examples from it. This will help the audience understand the scope of your project.\n- When discussing your results, try to be more precise about what you mean by \"some systems seemed more specific than others.\" What specific metrics or criteria did you use to evaluate the systems?\n\n**Improved Version**\nHere's an example of how you could revise your presentation to address these suggestions:\n\n\"So, in our project, we used a combination of AI and retrieval to generate feedback. We employed a transformer-based language model and tested two different retrieval systems: dense retrieval and tag retrieval. Our dataset consisted of [insert details about the dataset]. We retrieved examples from the dataset using [insert details about the retrieval process]. Our results showed that [insert specific findings], which was surprising given our expectations. We plan to explore these results further and investigate the implications for feedback generation.\"\n\nBy following these suggestions, you can make your presentation more engaging, informative, and effective in communicating your ideas to the audience."
+    },
+    "bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_026",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 54.9022,
+          "strength_tags": [
+            "specific_example",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The explanation lacks detail and does not explain how the challenges were addressed. Improved version: One challenge we faced was designing a retrieval system that could return feedback examples relevant to different communication weaknesses. To address this, we implemented tag-based retri"
+        },
+        {
+          "id": "revision_pair_024",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 52.4177,
+          "strength_tags": [
+            "confident_tone",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "uncertain_tone",
+            "filler_words"
+          ],
+          "text": "Weakness: The explanation sounds uncertain and contains filler language. Improved version: Our system integrates retrieval techniques with large language models to improve feedback quality. Retrieved examples and communication guidelines provide additional context, allowing the model to generate mor"
+        },
+        {
+          "id": "revision_pair_022",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 49.053,
+          "strength_tags": [
+            "logical_structure",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Weakness: The explanation lacks structure and technical clarity. Improved version: Our system combines two main components: a retrieval module and a language generation module. We used BM25 and dense retrieval methods to retrieve relevant coaching examples, and then used a large language model to ge"
+        },
+        {
+          "id": "revision_pair_021",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 43.968,
+          "strength_tags": [
+            "clear_goal",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "weak_opening"
+          ],
+          "text": "Weakness: The introduction is too vague and does not explain the purpose or significance of the presentation. Improved version: Today I will present our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large langua"
+        },
+        {
+          "id": "revision_pair_027",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 41.3469,
+          "strength_tags": [
+            "clear_language",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "wordy",
+            "poor_structure"
+          ],
+          "text": "Weakness: The response becomes difficult to follow because it lists too many technologies without context. Improved version: One important part of our system was the dense retrieval pipeline. We used SentenceTransformers to generate embeddings for feedback examples and retrieved semantically similar"
+        }
+      ],
+      "feedback": "**Overall Assessment**\n\nYour presentation provides a good overview of the project's goal and methodology. However, there are areas where you can improve to make your presentation more engaging and effective. Specifically, your current transcript sounds a bit too general and lacks specific details about the project.\n\n**Strengths**\n\n* You have a clear goal in mind, which is to use AI and retrieval together for feedback generation.\n* Your presentation has a logical structure, making it easy to follow.\n* You provided specific examples of the methods and models used in the project.\n\n**Areas to Improve**\n\n* Your explanation is too general and lacks detail. You can improve this by providing more specific examples and technical details about the project.\n* Your language sounds uncertain and contains filler words, which can make your presentation less confident.\n* Your explanation lacks structure and technical clarity, making it difficult for the audience to understand the project's components and how they work together.\n\n**Specific Suggestions**\n\n* Instead of saying \"we used different methods and models and stuff,\" try to be more specific about the techniques and models used in the project. For example, you could mention the retrieval systems you tested, such as dense retrieval and tag retrieval.\n* To sound more confident, try to avoid filler words like \"uh\" and \"so basically.\" Instead, focus on clearly stating your points and providing specific examples to support them.\n* To improve the structure of your explanation, try to break it down into clear sections or components. For example, you could explain the retrieval module, the language generation module, and how they work together.\n\n**Improved Version**\n\nHere's an example of how you could rephrase your transcript to address these areas:\n\n\"Our project aims to generate more specific and actionable communication feedback for students preparing for interviews and presentations by combining information retrieval with large language models. We tested different retrieval systems, including dense retrieval and tag retrieval, to see which one performed best. Our system combines two main components: a retrieval module and a language generation module. The retrieval module uses BM25 and dense retrieval methods to retrieve relevant coaching examples, while the language generation module uses a large language model to generate personalized feedback based on the retrieved context. By integrating these two components, we were able to generate more targeted and specific coaching feedback for students.\"\n\nThis revised version provides more specific details about the project, sounds more confident, and has a clearer structure."
+    },
+    "dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_021",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.7984,
+          "strength_tags": [
+            "clear_goal",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "weak_opening"
+          ],
+          "text": "Weakness: The introduction is too vague and does not explain the purpose or significance of the presentation. Improved version: Today I will present our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large langua"
+        },
+        {
+          "id": "revision_pair_022",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.7329,
+          "strength_tags": [
+            "logical_structure",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Weakness: The explanation lacks structure and technical clarity. Improved version: Our system combines two main components: a retrieval module and a language generation module. We used BM25 and dense retrieval methods to retrieve relevant coaching examples, and then used a large language model to ge"
+        },
+        {
+          "id": "revision_pair_024",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.7306,
+          "strength_tags": [
+            "confident_tone",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "uncertain_tone",
+            "filler_words"
+          ],
+          "text": "Weakness: The explanation sounds uncertain and contains filler language. Improved version: Our system integrates retrieval techniques with large language models to improve feedback quality. Retrieved examples and communication guidelines provide additional context, allowing the model to generate mor"
+        },
+        {
+          "id": "revision_pair_027",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.7216,
+          "strength_tags": [
+            "clear_language",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "wordy",
+            "poor_structure"
+          ],
+          "text": "Weakness: The response becomes difficult to follow because it lists too many technologies without context. Improved version: One important part of our system was the dense retrieval pipeline. We used SentenceTransformers to generate embeddings for feedback examples and retrieved semantically similar"
+        },
+        {
+          "id": "revision_pair_029",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.7101,
+          "strength_tags": [
+            "logical_structure",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "incomplete_answer"
+          ],
+          "text": "Weakness: The conclusion feels abrupt and does not summarize the main takeaway. Improved version: In summary, our project demonstrates how retrieval-augmented generation can improve the specificity and usefulness of dialogue coaching feedback. By combining retrieval techniques with language models, "
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour presentation transcript provides a good overview of your project, but there are areas where you can improve to make it more engaging and effective. You've done a great job of explaining the main components of your project, but some parts feel a bit vague or lack structure.\n\n**Strengths**\nYou've demonstrated a clear goal in your presentation, and you've provided some specific examples of your project's components. Your language is generally clear, and you've shown a good understanding of the retrieval and AI techniques used in your project.\n\n**Areas to Improve**\nThe predicted weakness tags suggest that you need to work on making your presentation more specific, clear, and structured. You've used filler language and vague phrases, which can make your presentation feel uncertain or lacking in confidence.\n\n**Specific Suggestions**\n1. **Start with a stronger opening**: Instead of starting with a vague phrase like \"Uh, so basically,\" try to begin with a clear and concise statement that sets the context for your presentation. For example, \"Today, I'll be presenting our project on retrieval-augmented feedback systems for interview coaching.\"\n2. **Use more specific language**: When explaining your project's components, try to use more specific and technical terms. Instead of saying \"we used different methods and models,\" you could say \"we employed BM25 and dense retrieval methods to retrieve relevant coaching examples.\"\n3. **Provide more structure**: Break down your presentation into clear sections or components, and use transitional phrases to connect them. This will help your audience follow your ideas more easily.\n4. **Use more confident language**: Avoid using filler language like \"kind of\" or \"basically.\" Instead, use more confident and assertive language to convey your ideas.\n\n**Improved Version**\nHere's an example of how you could revise your opening to make it stronger and more specific:\n\n\"Today, I'll be presenting our project on retrieval-augmented feedback systems for interview coaching. Our system integrates retrieval techniques with large language models to improve feedback quality. Retrieved examples and communication guidelines provide additional context, allowing the model to generate more targeted and specific coaching feedback.\"\n\nThis revised version starts with a clear and concise statement, uses more specific language, and provides a clear overview of the project's main components."
+    },
+    "tag_bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_026",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 52.2027,
+          "strength_tags": [
+            "specific_example",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The explanation lacks detail and does not explain how the challenges were addressed. Improved version: One challenge we faced was designing a retrieval system that could return feedback examples relevant to different communication weaknesses. To address this, we implemented tag-based retri"
+        },
+        {
+          "id": "revision_pair_022",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 46.0779,
+          "strength_tags": [
+            "logical_structure",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Weakness: The explanation lacks structure and technical clarity. Improved version: Our system combines two main components: a retrieval module and a language generation module. We used BM25 and dense retrieval methods to retrieve relevant coaching examples, and then used a large language model to ge"
+        },
+        {
+          "id": "revision_pair_021",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 45.6546,
+          "strength_tags": [
+            "clear_goal",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "weak_opening"
+          ],
+          "text": "Weakness: The introduction is too vague and does not explain the purpose or significance of the presentation. Improved version: Today I will present our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large langua"
+        },
+        {
+          "id": "revision_pair_027",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 40.4149,
+          "strength_tags": [
+            "clear_language",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "wordy",
+            "poor_structure"
+          ],
+          "text": "Weakness: The response becomes difficult to follow because it lists too many technologies without context. Improved version: One important part of our system was the dense retrieval pipeline. We used SentenceTransformers to generate embeddings for feedback examples and retrieved semantically similar"
+        },
+        {
+          "id": "revision_pair_029",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 27.4432,
+          "strength_tags": [
+            "logical_structure",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "incomplete_answer"
+          ],
+          "text": "Weakness: The conclusion feels abrupt and does not summarize the main takeaway. Improved version: In summary, our project demonstrates how retrieval-augmented generation can improve the specificity and usefulness of dialogue coaching feedback. By combining retrieval techniques with language models, "
+        }
+      ],
+      "feedback": "**Overall Assessment**\n\nYour presentation provides a good overview of your project, but there are areas where you can improve to make it more engaging and effective. You've done a great job of explaining the main idea and the methods you used, but there are some general statements that could be more specific and detailed.\n\n**Strengths**\n\n* You have a clear goal in mind, which is to use AI and retrieval together for feedback generation.\n* Your presentation has a logical structure, making it easy to follow.\n* You've provided specific examples of the methods and models you used, which is great for clarity.\n\n**Areas to Improve**\n\n* Your explanation is too general, lacking detail and specific examples.\n* You could benefit from providing more context and technical clarity, especially when discussing the retrieval systems and language models.\n* Your introduction could be stronger, setting up the purpose and significance of the presentation more clearly.\n\n**Specific Suggestions**\n\n* When discussing the challenges you faced, try to be more specific about what those challenges were and how you addressed them. For example, you could explain how you overcame difficulties with designing a retrieval system that could return relevant feedback examples.\n* When explaining the methods and models you used, try to provide more technical detail and context. For example, you could explain how the BM25 and dense retrieval methods work, and how they were used in your system.\n* Consider starting your presentation with a stronger introduction that sets up the purpose and significance of the project. This could include a clear statement of the problem you're trying to solve, and how your project addresses that problem.\n\n**Improved Version**\n\nHere's an example of how you could revise your introduction to make it stronger:\n\n\"Today, I'll be presenting our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large language models can generate more specific and actionable communication feedback for students preparing for interviews and presentations. By using AI and retrieval together, we aim to create a more personalized and effective coaching system that can provide students with the feedback they need to improve their communication skills.\"\n\nAnd here's an example of how you could revise your explanation of the challenges you faced:\n\n\"One challenge we faced was designing a retrieval system that could return feedback examples relevant to different communication weaknesses. To address this, we implemented tag-based retrieval filtering so the system could retrieve examples related to issues such as vague explanations or poor structure. This allowed us to provide more targeted and specific feedback to students, which was a key goal of our project.\""
+    },
+    "tag_dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_021",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 1.3984,
+          "strength_tags": [
+            "clear_goal",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "weak_opening"
+          ],
+          "text": "Weakness: The introduction is too vague and does not explain the purpose or significance of the presentation. Improved version: Today I will present our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large langua"
+        },
+        {
+          "id": "revision_pair_026",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 1.2556,
+          "strength_tags": [
+            "specific_example",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The explanation lacks detail and does not explain how the challenges were addressed. Improved version: One challenge we faced was designing a retrieval system that could return feedback examples relevant to different communication weaknesses. To address this, we implemented tag-based retri"
+        },
+        {
+          "id": "revision_pair_025",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 1.1828,
+          "strength_tags": [
+            "logical_structure",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "missing_details",
+            "poor_structure"
+          ],
+          "text": "Weakness: The explanation does not guide the audience through the methodology clearly. Improved version: This slide summarizes our pipeline. First, the system analyzes the user’s transcript and identifies communication-related tags such as missing details or unclear goals. Then, the retriever search"
+        },
+        {
+          "id": "feedback_074",
+          "type": "feedback_example",
+          "scenario": "presentation",
+          "score": 1.1251,
+          "strength_tags": [
+            "logical_structure",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your structure is clear and easy to follow, which helps the audience anticipate the arc of the talk. To make the preview even stronger, name the one finding you most want the audience to remember by the end."
+        },
+        {
+          "id": "revision_pair_028",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 1.0852,
+          "strength_tags": [
+            "clear_goal",
+            "engaging"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The statement is too broad and does not explain why the project matters. Improved version: Our project is designed to help students prepare for interviews, elevator pitches, and presentations by providing more specific and context-aware feedback. We believe this approach can support commun"
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour presentation provides a good overview of your project on using AI and retrieval together for feedback generation. However, there are areas where you can improve to make your presentation more engaging and effective.\n\n**Strengths**\nYou have a clear goal in mind, and your presentation follows a logical structure. You also used different methods and models to retrieve examples from your dataset and generate responses with a language model.\n\n**Areas to Improve**\nThe main area for improvement is that your presentation is too general. You mentioned that some systems seemed more specific than others, but you didn't explain why or provide specific examples. Additionally, you mentioned some limitations and challenges during the project, but you didn't elaborate on how you addressed them.\n\n**Specific Suggestions**\nTo address the weakness of being too general, try to be more specific about your project's goals and results. For example, you could explain how your project can help students prepare for interviews and presentations by providing more specific and context-aware feedback. You could also provide specific examples of how your project can be used in educational and professional settings.\n\nTo address the weakness of missing details, try to elaborate on how you addressed the challenges you faced during the project. For example, you could explain how you implemented tag-based retrieval filtering to retrieve examples related to issues such as vague explanations or poor structure.\n\n**Improved Version**\nHere's an example of how you could improve your presentation:\n\n\"So, basically our presentation is about using AI and retrieval together to generate more specific and context-aware feedback for students preparing for interviews and presentations. We used different methods and models to retrieve examples from our dataset and generate responses with a language model. We also tested different retrieval systems like dense retrieval and tag retrieval and compared them. The results were interesting because some systems seemed more specific than others, although we still had some limitations and challenges during the project.\n\n\"One challenge we faced was designing a retrieval system that could return feedback examples relevant to different communication weaknesses. To address this, we implemented tag-based retrieval filtering so the system could retrieve examples related to issues such as vague explanations or poor structure. This approach helped us to provide more specific and actionable feedback to students.\n\n\"Our project is designed to help students prepare for interviews, elevator pitches, and presentations by providing more specific and context-aware feedback. We believe this approach can support communication coaching in educational and professional settings. We're excited to share our results and discuss how our project can be used to improve communication skills in various contexts.\""
+    }
+  },
+  {
+    "id": "input_010",
+    "scenario": "interview",
+    "transcript": "I know Python, Java, SQL, C++, React, Node.js, machine learning, cloud computing, and a lot of other technologies. I worked on many different projects in school and I am interested in many areas of computer science.",
+    "predicted_tags": {
+      "strength_tags": [
+        "clear_language"
+      ],
+      "weakness_tags": [
+        "too_general",
+        "missing_details",
+        "unclear_goal"
+      ]
+    },
+    "baseline": {
+      "feedback": "**Overall Assessment**\nYour interview transcript showcases a broad range of technical skills and experiences, which is impressive. However, there are areas where you can refine your response to make it more effective.\n\n**Strengths**\nYou have a clear and confident tone in your response, which is a great strength. Your ability to list various technologies and projects is also a plus.\n\n**Areas to Improve**\nBased on the predicted weakness tags, there are a few areas where you can improve:\n\n* **Too General**: Your response is quite general and doesn't provide specific examples or details about your experiences. This makes it challenging for the interviewer to understand the depth of your skills and experiences.\n* **Missing Details**: You mention working on many projects, but don't provide any specific details about the projects, such as the technologies used, the challenges you faced, or what you learned from them.\n* **Unclear Goal**: Your response doesn't clearly convey your career goals or what you're looking for in a role. This makes it difficult for the interviewer to understand how your skills and experiences align with the position.\n\n**Specific Suggestions**\n\n1. **Provide Specific Examples**: Instead of listing a broad range of technologies, focus on 2-3 areas where you have in-depth experience and provide specific examples of projects you've worked on. This will give the interviewer a better understanding of your skills and experiences.\n2. **Share Project Details**: When discussing your projects, provide specific details about the technologies used, the challenges you faced, and what you learned from them. This will demonstrate your problem-solving skills and ability to work with different technologies.\n3. **Clearly Convey Your Career Goals**: Before discussing your skills and experiences, take a moment to clearly convey your career goals and what you're looking for in a role. This will help the interviewer understand how your skills and experiences align with the position.\n\n**Improved Version**\nHere's an example of how you could revise your response to address these areas:\n\n\"I'm excited to discuss my skills and experiences in computer science. With a strong foundation in Python, Java, and C++, I've had the opportunity to work on a variety of projects that have helped me develop my problem-solving skills and ability to work with different technologies. For example, in my senior project, I worked on a machine learning model using Python and scikit-learn to predict customer churn. This project not only helped me develop my programming skills but also gave me a deeper understanding of the importance of data analysis in business decision-making.\n\nIn addition to my technical skills, I'm also passionate about cloud computing and have experience working with AWS and Azure. I've used these platforms to deploy and manage scalable applications, which has given me a strong understanding of the importance of infrastructure and scalability in software development.\n\nIn terms of my career goals, I'm looking for a role that will allow me to continue developing my skills and experiences in computer science. I'm excited about the opportunity to work with a team of talented engineers and contribute to the development of innovative software solutions.\""
+    },
+    "bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "feedback_006",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 38.2103,
+          "strength_tags": [
+            "confident_tone"
+          ],
+          "weakness_tags": [
+            "wordy",
+            "poor_structure"
+          ],
+          "text": "Your technical background sounds impressive, but the response becomes difficult to follow because it lists too many technologies without context. Focus on one or two relevant projects and explain how you used those tools to solve a problem."
+        },
+        {
+          "id": "revision_pair_009",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 29.013,
+          "strength_tags": [
+            "clear_language",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "wordy",
+            "poor_structure"
+          ],
+          "text": "Weakness: The response sounds unfocused because it lists technologies without explaining their purpose or impact. Improved version: One of my most meaningful projects was building a campus information chatbot using React, Flask, and OpenAI APIs. I designed the frontend interface and integrated backe"
+        },
+        {
+          "id": "feedback_027",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 22.6735,
+          "strength_tags": [
+            "engaging"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "wordy"
+          ],
+          "text": "Your experience sounds broad and technically strong, but the answer lacks focus. Select one or two projects most relevant to the role and explain them in greater depth instead of listing many topics briefly."
+        },
+        {
+          "id": "revision_pair_004",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 19.3365,
+          "strength_tags": [
+            "clear_language",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "wordy",
+            "poor_structure"
+          ],
+          "text": "Weakness: The response is unfocused and difficult to follow. Improved version: My strongest technical experience comes from full-stack web development projects. For example, I recently built a campus chatbot system using React, Flask, and OpenAI APIs. Through that project, I gained experience design"
+        },
+        {
+          "id": "feedback_008",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 16.465,
+          "strength_tags": [
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "uncertain_tone",
+            "filler_words"
+          ],
+          "text": "Your response communicates interest in the role, but hesitant language weakens your confidence. Replace uncertain phrases like 'kind of' or 'maybe' with direct statements and provide one concrete machine learning project example."
+        }
+      ],
+      "feedback": "**Overall Assessment**\n\nYour technical background and enthusiasm for computer science are evident in your transcript. However, there are areas where you can improve to make a stronger impression during an interview. You've listed a wide range of technologies and projects, but the response could benefit from more focus and specific examples.\n\n**Strengths**\n\nYou have a clear language, which is a great strength. This suggests that you're able to articulate your thoughts and ideas effectively. However, there are opportunities to build on this strength by providing more context and details about your projects.\n\n**Areas to Improve**\n\nThe predicted weakness tags ['too_general', 'missing_details', 'unclear_goal'] indicate that your response could be more focused, detailed, and goal-oriented. To address these areas, consider the following:\n\n1. **Too General**: Instead of listing many technologies, focus on one or two relevant projects that demonstrate your skills and experience.\n2. **Missing Details**: Provide specific examples of how you used these technologies to solve a problem or achieve a goal.\n3. **Unclear Goal**: Clarify your career aspirations and how your projects align with those goals.\n\n**Specific Suggestions**\n\n1. **Choose a Relevant Project**: Select one project that showcases your technical skills and experience. This could be a project that you've worked on in school or a personal project that you're proud of.\n2. **Explain the Problem and Solution**: Describe the problem you were trying to solve, the technologies you used, and how you applied them to achieve a solution.\n3. **Highlight Your Achievements**: Emphasize the skills and knowledge you gained from the project, and how they align with your career goals.\n\n**Improved Version**\n\nHere's an example of how you could revise your transcript to address the areas for improvement:\n\n\"I'm excited to share my experience in computer science, particularly in machine learning and full-stack web development. One of my most meaningful projects was building a campus information chatbot using React, Flask, and OpenAI APIs. I designed the frontend interface and integrated backend AI services to help students quickly access campus-related information. Through this project, I gained experience designing user interfaces and integrating backend AI services, which aligns with my goal of becoming a full-stack developer. I'm confident that my technical skills and experience make me a strong fit for this role.\"\n\nRemember, the goal is to showcase your skills and experience in a clear, concise, and focused manner. By following these suggestions, you can create a stronger impression during an interview and increase your chances of success."
+    },
+    "dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "feedback_006",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 0.5334,
+          "strength_tags": [
+            "confident_tone"
+          ],
+          "weakness_tags": [
+            "wordy",
+            "poor_structure"
+          ],
+          "text": "Your technical background sounds impressive, but the response becomes difficult to follow because it lists too many technologies without context. Focus on one or two relevant projects and explain how you used those tools to solve a problem."
+        },
+        {
+          "id": "feedback_005",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 0.5018,
+          "strength_tags": [
+            "natural_flow"
+          ],
+          "weakness_tags": [
+            "too_general"
+          ],
+          "text": "Your answer has a natural tone, but it would be more engaging if you included a memorable story or project that sparked your interest in computer science."
+        },
+        {
+          "id": "revision_pair_008",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 0.3848,
+          "strength_tags": [
+            "engaging",
+            "specific_example",
+            "natural_flow"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Weakness: The response is generic and does not communicate personal motivation. Improved version: My interest in computer science grew after I created a simple mobile app during high school to help students organize study schedules. Seeing classmates actively use the app made me interested in buildi"
+        },
+        {
+          "id": "revision_pair_005",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 0.3655,
+          "strength_tags": [
+            "engaging",
+            "natural_flow"
+          ],
+          "weakness_tags": [
+            "too_general"
+          ],
+          "text": "Weakness: The response lacks a memorable example or personal story. Improved version: My interest in computer science began when I participated in a robotics competition during high school. I enjoyed combining programming and hardware to solve real problems, which later motivated me to study AI and "
+        },
+        {
+          "id": "feedback_016",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 0.3639,
+          "strength_tags": [
+            "engaging"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "unclear_goal"
+          ],
+          "text": "Your broad interests show curiosity, but the response lacks focus. Narrow your answer to one or two areas most relevant to the position and explain why those interests are meaningful to you."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour transcript showcases a broad range of technical skills and interests in computer science. However, there are areas where you can improve to make your response more effective and engaging.\n\n**Strengths**\nYou have a clear language, which is a great strength. It indicates that you can articulate your thoughts and ideas effectively.\n\n**Areas to Improve**\nBased on the predicted weakness tags, there are three areas where you can improve:\n\n1. **Too General**: Your response lists many technologies without providing context or explaining how you used them to solve problems.\n2. **Missing Details**: You don't provide specific examples or stories that demonstrate your skills and interests.\n3. **Unclear Goal**: Your response doesn't clearly convey what you want to achieve or what motivates you to pursue a career in computer science.\n\n**Specific Suggestions**\nTo address these areas, consider the following suggestions:\n\n1. **Focus on one or two relevant projects**: Instead of listing many technologies, choose a few projects that showcase your skills and explain how you used those tools to solve problems.\n2. **Provide specific examples and stories**: Share memorable experiences that demonstrate your skills and interests. This will help you stand out and make your response more engaging.\n3. **Clearly convey your goal**: Explain what motivates you to pursue a career in computer science and how your skills and interests align with the position.\n\n**Improved Version**\nHere's an example of how you could revise your transcript to address these areas:\n\n\"I'm excited to apply my technical skills in computer science to a career in software engineering. In my previous projects, I used Python, Java, and SQL to develop a web application that improved data analysis for a local business. I also worked on a machine learning project using Node.js and React, which helped me understand the importance of scalability and efficiency in software development. What motivates me to pursue a career in computer science is the opportunity to build technology that improves everyday experiences for users. I'm excited to bring my skills and passion to a role where I can make a meaningful impact.\"\n\nThis revised version focuses on specific projects, provides examples and stories, and clearly conveys your goal and motivation."
+    },
+    "tag_bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_009",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 32.7968,
+          "strength_tags": [
+            "clear_language",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "wordy",
+            "poor_structure"
+          ],
+          "text": "Weakness: The response sounds unfocused because it lists technologies without explaining their purpose or impact. Improved version: One of my most meaningful projects was building a campus information chatbot using React, Flask, and OpenAI APIs. I designed the frontend interface and integrated backe"
+        },
+        {
+          "id": "revision_pair_004",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 22.1568,
+          "strength_tags": [
+            "clear_language",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "wordy",
+            "poor_structure"
+          ],
+          "text": "Weakness: The response is unfocused and difficult to follow. Improved version: My strongest technical experience comes from full-stack web development projects. For example, I recently built a campus chatbot system using React, Flask, and OpenAI APIs. Through that project, I gained experience design"
+        },
+        {
+          "id": "revision_pair_001",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 19.9447,
+          "strength_tags": [
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response is too general and lacks detail. Improved version: I became interested in AI after building a recommendation system project in my machine learning course. I implemented collaborative filtering using Python and evaluated the model using accuracy metrics. That experience motivat"
+        },
+        {
+          "id": "revision_pair_008",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 18.2197,
+          "strength_tags": [
+            "engaging",
+            "specific_example",
+            "natural_flow"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Weakness: The response is generic and does not communicate personal motivation. Improved version: My interest in computer science grew after I created a simple mobile app during high school to help students organize study schedules. Seeing classmates actively use the app made me interested in buildi"
+        },
+        {
+          "id": "feedback_005",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 16.2688,
+          "strength_tags": [
+            "natural_flow"
+          ],
+          "weakness_tags": [
+            "too_general"
+          ],
+          "text": "Your answer has a natural tone, but it would be more engaging if you included a memorable story or project that sparked your interest in computer science."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour response showcases a clear language, which is a great strength. However, there are areas where you can improve to make your response more engaging and effective.\n\n**Strengths**\nYou have a good foundation in various technologies, including Python, Java, SQL, C++, React, Node.js, and machine learning. This breadth of knowledge is impressive.\n\n**Areas to Improve**\nYour response sounds a bit too general and lacks specific details about your projects and goals. You also don't clearly explain the impact of your projects or how they align with your interests. This makes it challenging for the interviewer to understand your strengths and motivations.\n\n**Specific Suggestions**\nTo improve, focus on providing specific examples that demonstrate your skills and experiences. Instead of listing technologies, try to describe how you applied them in real-world projects. Also, be more explicit about your goals and what you hope to achieve in the field of computer science.\n\n**Improved Version**\nHere's an example of how you could rephrase your response:\n\n\"I've had the opportunity to work on various projects that showcase my skills in programming languages like Python, Java, and C++. One of my most meaningful projects was building a campus information chatbot using React, Flask, and OpenAI APIs. I designed the frontend interface and integrated backend AI services to help students quickly access campus-related information. Through this project, I gained experience in full-stack web development and AI engineering. My goal is to pursue a career in AI engineering, where I can apply my skills to build user-centered systems that improve everyday experiences for users.\"\n\n**Improved Version (Alternative)**\nAlternatively, you could focus on a specific area of computer science that interests you the most and describe how your projects align with that goal. For example:\n\n\"I'm particularly interested in machine learning and AI engineering. In my machine learning course, I built a recommendation system project using Python and collaborative filtering. I evaluated the model using accuracy metrics and was impressed by the results. This experience motivated me to pursue AI engineering internships focused on user-centered systems. I believe my skills in programming languages, full-stack web development, and AI engineering make me a strong candidate for a career in AI engineering.\""
+    },
+    "tag_dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "feedback_001",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 1.1632,
+          "strength_tags": [
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your response is understandable, but it lacks specific examples and clear impact. Mention one project in detail, explain your contribution, and describe what you learned or achieved."
+        },
+        {
+          "id": "feedback_017",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 1.0852,
+          "strength_tags": [
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your statement is understandable, but it would be more convincing if you explained one specific research challenge and what skills you developed while solving it."
+        },
+        {
+          "id": "feedback_010",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 1.0472,
+          "strength_tags": [
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Your answer explains interest in the company, but it lacks a personal connection. Mention a specific product, research area, or company value that genuinely aligns with your background and goals."
+        },
+        {
+          "id": "revision_pair_008",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 0.9848,
+          "strength_tags": [
+            "engaging",
+            "specific_example",
+            "natural_flow"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Weakness: The response is generic and does not communicate personal motivation. Improved version: My interest in computer science grew after I created a simple mobile app during high school to help students organize study schedules. Seeing classmates actively use the app made me interested in buildi"
+        },
+        {
+          "id": "revision_pair_001",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 0.8855,
+          "strength_tags": [
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response is too general and lacks detail. Improved version: I became interested in AI after building a recommendation system project in my machine learning course. I implemented collaborative filtering using Python and evaluated the model using accuracy metrics. That experience motivat"
+        }
+      ],
+      "feedback": "**Feedback for Interview Response**\n\n**1. Overall Assessment**\nYour response to the interview question is clear and understandable, which is a great strength. However, it lacks specific details and a clear direction, making it seem too general.\n\n**2. Strengths**\nYou have a broad range of technical skills, including Python, Java, SQL, C++, React, Node.js, machine learning, and cloud computing. This is a significant strength that you can build upon.\n\n**3. Areas to Improve**\nThe predicted weakness tags ['too_general', 'missing_details', 'unclear_goal'] indicate that your response could benefit from more specific examples, details, and a clear direction. To improve, focus on providing concrete examples that demonstrate your skills and experiences.\n\n**4. Specific Suggestions**\nTo address the weaknesses, consider the following suggestions:\n- Instead of listing multiple technologies, choose a few that you're most passionate about and explain how you've applied them in specific projects.\n- Describe one project in detail, including your role, challenges you faced, and what you learned from the experience.\n- Explain how your technical skills align with the company's goals and values, and how you see yourself contributing to the organization.\n\n**5. Improved Version**\nHere's an example of how you could revise your response to address the weaknesses:\n\n\"I'm excited to apply my technical skills in machine learning and cloud computing to contribute to [Company Name]. In my previous project, I worked on a recommendation system using Python and collaborative filtering. I implemented the model, evaluated its accuracy, and gained hands-on experience with cloud computing platforms. I believe my skills in these areas align with the company's focus on innovation and customer experience. I'm eager to learn from the team and apply my skills to drive business growth.\"\n\nThis revised response provides specific examples, details, and a clear direction, demonstrating your technical skills and enthusiasm for the company."
+    }
+  }
+]

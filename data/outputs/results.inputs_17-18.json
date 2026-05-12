@@ -1,0 +1,673 @@
+[
+  {
+    "id": "input_017",
+    "scenario": "presentation",
+    "transcript": "Uh, so basically our project kind of combines retrieval and AI together for feedback generation. We tested some different systems and stuff and got some results that were pretty interesting.",
+    "predicted_tags": {
+      "strength_tags": [
+        "clear_language"
+      ],
+      "weakness_tags": [
+        "too_general",
+        "missing_details",
+        "unclear_goal"
+      ]
+    },
+    "baseline": {
+      "feedback": "**Overall Assessment**\nYou've made a good start in presenting your project, but there's room for improvement to make it more engaging and effective. Let's break down what you did well and what you can work on.\n\n**Strengths**\nOne strength of your presentation is that you use clear language, which is great for conveying your ideas to the audience. This is a good foundation to build upon.\n\n**Areas to Improve**\nHowever, there are a few areas where you can improve to make your presentation more impactful. You tend to be too general in your description, missing important details that would help the audience understand your project better. Additionally, it's not entirely clear what your goal is for combining retrieval and AI together. Lastly, your presentation feels a bit vague, lacking specific examples or results that would make your project more tangible.\n\n**Specific Suggestions**\nTo address these areas, try to be more specific and concrete in your language. For instance, instead of saying \"we tested some different systems and stuff,\" you could say \"we experimented with three different retrieval-based systems and observed significant improvements in feedback generation.\" This will give the audience a better idea of what you're working with and what you've achieved.\n\nAlso, make sure to clearly state your goal for combining retrieval and AI. What problem are you trying to solve, and how does your project address it? This will help the audience understand the context and significance of your project.\n\nFinally, try to include specific examples or results that demonstrate the effectiveness of your project. This could be a screenshot of your system in action, a graph showing the improvement in feedback quality, or a quote from a user who's benefited from your project.\n\n**Improved Version**\nHere's an example of how you could revise your presentation to address these areas:\n\n\"So, our project combines retrieval and AI to generate high-quality feedback. We experimented with three different retrieval-based systems and observed significant improvements in feedback generation. Our goal is to create a system that provides accurate and actionable feedback to users, improving their learning experience. For example, our system was able to identify and correct 80% of errors in a user's code, resulting in a 30% improvement in code quality. We believe that this project has the potential to revolutionize the way we approach feedback generation, and we're excited to share our results with you.\"\n\nRemember, the key is to be specific, clear, and concise in your language. By doing so, you'll be able to engage your audience and effectively communicate the value of your project."
+    },
+    "bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_024",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 21.4764,
+          "strength_tags": [
+            "confident_tone",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "uncertain_tone",
+            "filler_words"
+          ],
+          "text": "Weakness: The explanation sounds uncertain and contains filler language. Improved version: Our system integrates retrieval techniques with large language models to improve feedback quality. Retrieved examples and communication guidelines provide additional context, allowing the model to generate mor"
+        },
+        {
+          "id": "revision_pair_026",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 19.1715,
+          "strength_tags": [
+            "specific_example",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The explanation lacks detail and does not explain how the challenges were addressed. Improved version: One challenge we faced was designing a retrieval system that could return feedback examples relevant to different communication weaknesses. To address this, we implemented tag-based retri"
+        },
+        {
+          "id": "revision_pair_021",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 18.126,
+          "strength_tags": [
+            "clear_goal",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "weak_opening"
+          ],
+          "text": "Weakness: The introduction is too vague and does not explain the purpose or significance of the presentation. Improved version: Today I will present our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large langua"
+        },
+        {
+          "id": "revision_pair_023",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 14.5153,
+          "strength_tags": [
+            "concrete_achievement",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response is too vague and does not provide evidence or measurable outcomes. Improved version: Our evaluation showed that retrieval-augmented feedback was consistently rated as more specific and actionable compared to baseline LLM feedback. Participants particularly appreciated the conc"
+        },
+        {
+          "id": "revision_pair_022",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 12.5904,
+          "strength_tags": [
+            "logical_structure",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Weakness: The explanation lacks structure and technical clarity. Improved version: Our system combines two main components: a retrieval module and a language generation module. We used BM25 and dense retrieval methods to retrieve relevant coaching examples, and then used a large language model to ge"
+        }
+      ],
+      "feedback": "**Overall Assessment**\n\nYour presentation has a clear language, which is a great strength. However, there are areas where you can improve to make your presentation more engaging and informative. Specifically, you tend to be too general, lack details, and sometimes have an unclear goal.\n\n**Strengths**\n\nYou have a clear language, which makes your presentation easy to follow. This is a great foundation to build upon.\n\n**Areas to Improve**\n\n1. **Too General**: Your explanation of the project is quite general. To improve, try to be more specific about how you combined retrieval and AI together. What specific techniques did you use? What results did you achieve?\n2. **Missing Details**: You mentioned that you tested different systems and got some results, but you didn't provide any details about what those results were. Try to include more specific examples or data to support your claims.\n3. **Unclear Goal**: Your presentation seems to jump between different topics without a clear goal or direction. Try to focus on a specific aspect of your project and explain how it contributes to the overall goal.\n\n**Specific Suggestions**\n\n1. When explaining your project, try to use specific examples or anecdotes to illustrate how you combined retrieval and AI together. For instance, you could describe a particular challenge you faced and how you overcame it using your system.\n2. When discussing your results, try to include specific data or metrics that demonstrate the effectiveness of your system. This will help to make your presentation more convincing and engaging.\n3. When structuring your presentation, try to use a clear and logical flow. Start with an introduction that sets the context and goal of your presentation, followed by a clear explanation of your project and its results.\n\n**Improved Version**\n\nHere's an example of how you could rephrase your initial statement to address some of the areas for improvement:\n\n\"Our project aimed to combine retrieval and AI techniques to generate more specific and actionable feedback for students. We used a retrieval module to gather relevant coaching examples and a language generation module to create personalized feedback based on those examples. Through our evaluation, we found that our system consistently generated more specific and actionable feedback compared to baseline LLM feedback. For instance, our system was able to provide concrete improvement suggestions and example-based explanations that participants found particularly helpful.\"\n\nRemember, the key is to be specific, clear, and concise in your presentation. By addressing these areas for improvement, you can make your presentation more engaging and informative for your audience."
+    },
+    "dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_021",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.6604,
+          "strength_tags": [
+            "clear_goal",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "weak_opening"
+          ],
+          "text": "Weakness: The introduction is too vague and does not explain the purpose or significance of the presentation. Improved version: Today I will present our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large langua"
+        },
+        {
+          "id": "revision_pair_024",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.6204,
+          "strength_tags": [
+            "confident_tone",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "uncertain_tone",
+            "filler_words"
+          ],
+          "text": "Weakness: The explanation sounds uncertain and contains filler language. Improved version: Our system integrates retrieval techniques with large language models to improve feedback quality. Retrieved examples and communication guidelines provide additional context, allowing the model to generate mor"
+        },
+        {
+          "id": "revision_pair_027",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.5706,
+          "strength_tags": [
+            "clear_language",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "wordy",
+            "poor_structure"
+          ],
+          "text": "Weakness: The response becomes difficult to follow because it lists too many technologies without context. Improved version: One important part of our system was the dense retrieval pipeline. We used SentenceTransformers to generate embeddings for feedback examples and retrieved semantically similar"
+        },
+        {
+          "id": "revision_pair_029",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.5676,
+          "strength_tags": [
+            "logical_structure",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "incomplete_answer"
+          ],
+          "text": "Weakness: The conclusion feels abrupt and does not summarize the main takeaway. Improved version: In summary, our project demonstrates how retrieval-augmented generation can improve the specificity and usefulness of dialogue coaching feedback. By combining retrieval techniques with language models, "
+        },
+        {
+          "id": "revision_pair_022",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.5672,
+          "strength_tags": [
+            "logical_structure",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Weakness: The explanation lacks structure and technical clarity. Improved version: Our system combines two main components: a retrieval module and a language generation module. We used BM25 and dense retrieval methods to retrieve relevant coaching examples, and then used a large language model to ge"
+        }
+      ],
+      "feedback": "**Overall Assessment**\n\nYour presentation has a clear language, which is a great strength. However, there are areas where you can improve to make your presentation more engaging and effective. Specifically, your explanation is too general, lacks details, and doesn't clearly convey your project's goal.\n\n**Strengths**\n\n* You have a clear language, which makes your presentation easy to follow.\n* You've tested different systems and got some interesting results, which is a great starting point.\n\n**Areas to Improve**\n\n* Your explanation is too general and doesn't provide enough context. You can improve this by providing more specific details about your project and its goals.\n* You lack structure in your presentation, which makes it difficult to follow. You can improve this by breaking down your presentation into clear sections and using transitional phrases to connect your ideas.\n* Your conclusion feels abrupt and doesn't summarize the main takeaway. You can improve this by summarizing the key points of your project and highlighting its significance.\n\n**Specific Suggestions**\n\n* Instead of saying \"our project kind of combines retrieval and AI together,\" try to be more specific about how you're using these technologies. For example, you could say \"our system integrates retrieval techniques with large language models to improve feedback quality.\"\n* Use transitional phrases to connect your ideas and create a clear structure for your presentation. For example, you could say \"one important part of our system was the dense retrieval pipeline\" to introduce a new idea.\n* When summarizing your project, try to focus on the key takeaways and highlight its significance. For example, you could say \"our project demonstrates how retrieval-augmented generation can improve the specificity and usefulness of dialogue coaching feedback.\"\n\n**Improved Version**\n\nHere's an example of how you could rephrase your transcript to address the areas for improvement:\n\n\"Today, I'll be presenting our project on retrieval-augmented feedback systems for interview coaching. Our system integrates retrieval techniques with large language models to improve feedback quality. We used dense retrieval methods to retrieve relevant coaching examples and then used a large language model to generate personalized feedback based on the retrieved context. One important part of our system was the dense retrieval pipeline, which allowed us to generate embeddings for feedback examples and retrieve semantically similar coaching examples using cosine similarity search. In summary, our project demonstrates how retrieval-augmented generation can improve the specificity and usefulness of dialogue coaching feedback. By combining retrieval techniques with language models, we aim to create more personalized and actionable communication support systems.\""
+    },
+    "tag_bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_024",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 23.4481,
+          "strength_tags": [
+            "confident_tone",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "uncertain_tone",
+            "filler_words"
+          ],
+          "text": "Weakness: The explanation sounds uncertain and contains filler language. Improved version: Our system integrates retrieval techniques with large language models to improve feedback quality. Retrieved examples and communication guidelines provide additional context, allowing the model to generate mor"
+        },
+        {
+          "id": "revision_pair_026",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 21.4364,
+          "strength_tags": [
+            "specific_example",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The explanation lacks detail and does not explain how the challenges were addressed. Improved version: One challenge we faced was designing a retrieval system that could return feedback examples relevant to different communication weaknesses. To address this, we implemented tag-based retri"
+        },
+        {
+          "id": "revision_pair_021",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 20.9847,
+          "strength_tags": [
+            "clear_goal",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "weak_opening"
+          ],
+          "text": "Weakness: The introduction is too vague and does not explain the purpose or significance of the presentation. Improved version: Today I will present our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large langua"
+        },
+        {
+          "id": "revision_pair_023",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 18.0492,
+          "strength_tags": [
+            "concrete_achievement",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response is too vague and does not provide evidence or measurable outcomes. Improved version: Our evaluation showed that retrieval-augmented feedback was consistently rated as more specific and actionable compared to baseline LLM feedback. Participants particularly appreciated the conc"
+        },
+        {
+          "id": "feedback_060",
+          "type": "feedback_example",
+          "scenario": "presentation",
+          "score": 16.192,
+          "strength_tags": [
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your claim is understandable, but it lacks the specifics audiences need to trust a result. Report the baseline, the metric, and the size of the improvement so the audience can judge the significance of the work."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour presentation has a clear language, which is a great starting point. However, there are areas where you can improve to make your presentation more engaging and effective.\n\n**Strengths**\nYou have a clear language, which is a strength. This indicates that you are able to communicate your ideas effectively.\n\n**Areas to Improve**\nBased on the predicted weakness tags, there are three areas where you can improve:\n\n1. **Too General**: Your explanation is too general and lacks specific details. This makes it difficult for the audience to understand the complexity of your project.\n2. **Missing Details**: You don't provide enough context or details about your project, making it hard for the audience to follow.\n3. **Unclear Goal**: Your introduction doesn't clearly explain the purpose or significance of your presentation.\n\n**Specific Suggestions**\n\n1. **Provide specific details**: Instead of saying \"we tested some different systems and stuff,\" try to be more specific about the systems you tested and the results you obtained.\n2. **Explain the context**: Provide more context about your project, such as the challenges you faced and how you addressed them.\n3. **Clearly state the goal**: Start your presentation with a clear and concise statement of the purpose and significance of your project.\n\n**Improved Version**\nHere's an example of how you could improve your presentation:\n\n\"So, our project combines retrieval and AI techniques to generate feedback for students. We tested our system on a set of challenges, including designing a retrieval system that could return feedback examples relevant to different communication weaknesses. To address this, we implemented tag-based retrieval filtering, which allowed the system to retrieve examples related to issues such as vague explanations or poor structure. Our goal is to develop a system that can provide more specific and actionable feedback for students preparing for interviews and presentations.\"\n\nThis revised version provides more specific details, explains the context, and clearly states the goal of the project."
+    },
+    "tag_dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "feedback_060",
+          "type": "feedback_example",
+          "scenario": "presentation",
+          "score": 1.2888,
+          "strength_tags": [
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your claim is understandable, but it lacks the specifics audiences need to trust a result. Report the baseline, the metric, and the size of the improvement so the audience can judge the significance of the work."
+        },
+        {
+          "id": "revision_pair_021",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 1.2604,
+          "strength_tags": [
+            "clear_goal",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "weak_opening"
+          ],
+          "text": "Weakness: The introduction is too vague and does not explain the purpose or significance of the presentation. Improved version: Today I will present our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large langua"
+        },
+        {
+          "id": "feedback_071",
+          "type": "feedback_example",
+          "scenario": "presentation",
+          "score": 1.1854,
+          "strength_tags": [
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Your statement is well-intentioned but too broad to motivate the work. Replace the general claim with a specific user group, the gap they face today, and how your contribution narrows that gap."
+        },
+        {
+          "id": "revision_pair_022",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 1.1672,
+          "strength_tags": [
+            "logical_structure",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Weakness: The explanation lacks structure and technical clarity. Improved version: Our system combines two main components: a retrieval module and a language generation module. We used BM25 and dense retrieval methods to retrieve relevant coaching examples, and then used a large language model to ge"
+        },
+        {
+          "id": "revision_pair_023",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 1.1528,
+          "strength_tags": [
+            "concrete_achievement",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response is too vague and does not provide evidence or measurable outcomes. Improved version: Our evaluation showed that retrieval-augmented feedback was consistently rated as more specific and actionable compared to baseline LLM feedback. Participants particularly appreciated the conc"
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour presentation has a clear language, which is a great start. However, there are areas where you can improve to make your presentation more engaging and effective.\n\n**Strengths**\nYou have a clear language, which makes your presentation easy to follow. This is a good foundation to build upon.\n\n**Areas to Improve**\nYour presentation lacks specific details, making it hard for the audience to understand the significance of your work. Additionally, your goal is not clear, which might leave the audience wondering what your project is about.\n\n**Specific Suggestions**\nTo address these areas, consider the following:\n\n1. **Provide specific results**: Instead of saying \"got some results that were pretty interesting,\" try to report specific metrics, such as \"our system achieved an accuracy of 85% in generating feedback compared to the baseline.\"\n2. **Explain the baseline**: To help the audience understand the significance of your results, explain the baseline you used for comparison. For example, \"we compared our system to a baseline model that used only large language models for feedback generation.\"\n3. **Clearly state your goal**: Start your presentation by clearly stating the purpose and significance of your project. For example, \"our project aims to improve the quality of feedback generated for students preparing for interviews and presentations by combining information retrieval with large language models.\"\n4. **Use concrete examples**: Use concrete examples to illustrate the benefits of your system. For example, \"our system generated feedback that was 30% more specific and actionable compared to the baseline model.\"\n\n**Improved Version**\nHere's an example of how you could revise your presentation:\n\n\"So, our project combines retrieval and AI together for feedback generation. We tested our system against a baseline model that used only large language models for feedback generation. Our results showed that our system achieved an accuracy of 85% in generating feedback compared to the baseline. This is a significant improvement, as our system generated feedback that was 30% more specific and actionable compared to the baseline model. Our goal is to improve the quality of feedback generated for students preparing for interviews and presentations by combining information retrieval with large language models.\""
+    }
+  },
+  {
+    "id": "input_018",
+    "scenario": "presentation",
+    "transcript": "Good afternoon everyone. Today I will present our research on retrieval-augmented dialogue coaching systems. Our goal was to improve the specificity and usefulness of AI-generated feedback for interview preparation and presentations. We compared multiple retrieval methods including BM25, dense retrieval, and tag-aware retrieval. Although our system generated more grounded feedback overall, one limitation was the relatively small size of our coaching corpus, which sometimes reduced retrieval diversity.",
+    "predicted_tags": {
+      "strength_tags": [
+        "clear_goal",
+        "logical_structure"
+      ],
+      "weakness_tags": [
+        "missing_details",
+        "wordy"
+      ]
+    },
+    "baseline": {
+      "feedback": "**Overall Assessment**\n\nYour presentation on retrieval-augmented dialogue coaching systems effectively conveys the main idea and goals of your research. You clearly articulate the objectives and methods used to improve AI-generated feedback for interview preparation and presentations.\n\n**Strengths**\n\n1. **Clear Goal**: You have a well-defined goal in mind, which is to enhance the specificity and usefulness of AI-generated feedback. This focus will undoubtedly guide your research and presentation.\n2. **Logical Structure**: Your presentation follows a logical sequence, making it easy for the audience to follow your train of thought.\n\n**Areas to Improve**\n\n1. **Missing Details**: While you provide an overview of your research, there are some areas where you could provide more specific details to support your claims. For instance, you mention comparing multiple retrieval methods, but it would be helpful to elaborate on the specific methods used and their results.\n2. **Wordy**: Your presentation could benefit from a more concise and direct approach. Some of your sentences are a bit lengthy, which might make it challenging for the audience to follow your ideas.\n\n**Specific Suggestions**\n\n1. **Provide more specific examples**: To illustrate the effectiveness of your retrieval-augmented dialogue coaching system, consider providing concrete examples of how it improved the specificity and usefulness of AI-generated feedback. This will help the audience better understand the benefits of your research.\n2. **Use a more concise writing style**: To improve the clarity and flow of your presentation, aim to use shorter sentences and more direct language. This will make it easier for the audience to follow your ideas and engage with your research.\n3. **Address the limitation of the coaching corpus**: You mention the relatively small size of your coaching corpus as a limitation, but it would be helpful to discuss potential solutions or future directions for addressing this issue.\n\n**Improved Version**\n\nHere's an example of how you could revise your opening sentence to address the areas mentioned above:\n\n\"Good afternoon everyone, today I'll present our research on retrieval-augmented dialogue coaching systems, which aims to improve the specificity and usefulness of AI-generated feedback for interview preparation and presentations. To achieve this, we compared three retrieval methods – BM25, dense retrieval, and tag-aware retrieval – and found that our system generated more grounded feedback overall. However, we also identified a limitation in the relatively small size of our coaching corpus, which sometimes reduced retrieval diversity. In future work, we plan to address this limitation by expanding our coaching corpus and exploring new retrieval methods.\"\n\nThis revised version provides more specific details about the research, uses a more concise writing style, and addresses the limitation of the coaching corpus."
+    },
+    "bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_021",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 38.9326,
+          "strength_tags": [
+            "clear_goal",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "weak_opening"
+          ],
+          "text": "Weakness: The introduction is too vague and does not explain the purpose or significance of the presentation. Improved version: Today I will present our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large langua"
+        },
+        {
+          "id": "revision_pair_029",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 36.6556,
+          "strength_tags": [
+            "logical_structure",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "incomplete_answer"
+          ],
+          "text": "Weakness: The conclusion feels abrupt and does not summarize the main takeaway. Improved version: In summary, our project demonstrates how retrieval-augmented generation can improve the specificity and usefulness of dialogue coaching feedback. By combining retrieval techniques with language models, "
+        },
+        {
+          "id": "revision_pair_027",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 31.2348,
+          "strength_tags": [
+            "clear_language",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "wordy",
+            "poor_structure"
+          ],
+          "text": "Weakness: The response becomes difficult to follow because it lists too many technologies without context. Improved version: One important part of our system was the dense retrieval pipeline. We used SentenceTransformers to generate embeddings for feedback examples and retrieved semantically similar"
+        },
+        {
+          "id": "revision_pair_022",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 29.7384,
+          "strength_tags": [
+            "logical_structure",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Weakness: The explanation lacks structure and technical clarity. Improved version: Our system combines two main components: a retrieval module and a language generation module. We used BM25 and dense retrieval methods to retrieve relevant coaching examples, and then used a large language model to ge"
+        },
+        {
+          "id": "revision_pair_024",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 28.0105,
+          "strength_tags": [
+            "confident_tone",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "uncertain_tone",
+            "filler_words"
+          ],
+          "text": "Weakness: The explanation sounds uncertain and contains filler language. Improved version: Our system integrates retrieval techniques with large language models to improve feedback quality. Retrieved examples and communication guidelines provide additional context, allowing the model to generate mor"
+        }
+      ],
+      "feedback": "**Overall Assessment**\n\nYour presentation on retrieval-augmented dialogue coaching systems is off to a great start. You've clearly outlined your research goals and compared multiple retrieval methods. However, there are a few areas where you can improve to make your presentation even more effective.\n\n**Strengths**\n\nYou've demonstrated a clear goal in your research, which is to improve the specificity and usefulness of AI-generated feedback for interview preparation and presentations. Your logical structure is also well-organized, making it easy for the audience to follow your presentation.\n\n**Areas to Improve**\n\nBased on the predicted weakness tags, it seems that you may struggle with providing enough details and clarity in your presentation. You may also tend to be wordy at times, which can make your message harder to understand.\n\n**Specific Suggestions**\n\nTo address these areas, consider the following suggestions:\n\n1. **Provide more context**: When introducing your topic, try to give a clearer explanation of the purpose and significance of your presentation. This will help your audience understand the relevance and importance of your research.\n2. **Use more specific language**: Avoid using vague terms or general statements. Instead, try to be more precise and specific in your language. This will help you convey your ideas more effectively and avoid confusion.\n3. **Structure your presentation**: Make sure to break up your presentation into clear sections or points. This will help you stay organized and ensure that your audience can follow your train of thought.\n4. **Use concrete examples**: When explaining complex concepts or techniques, try to use concrete examples or analogies to help illustrate your points. This will make your presentation more engaging and easier to understand.\n\n**Improved Version**\n\nHere's an example of how you could revise your introduction to address these areas:\n\n\"Today, I'll be presenting our research on retrieval-augmented dialogue coaching systems. Our goal is to improve the specificity and usefulness of AI-generated feedback for interview preparation and presentations. By combining information retrieval with large language models, we aim to create more personalized and actionable communication support systems. In this presentation, I'll be discussing our approach, the methods we used, and the results we achieved.\"\n\nThis revised version provides more context and clarity, and breaks up the presentation into clear sections or points."
+    },
+    "dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_029",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.8117,
+          "strength_tags": [
+            "logical_structure",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "incomplete_answer"
+          ],
+          "text": "Weakness: The conclusion feels abrupt and does not summarize the main takeaway. Improved version: In summary, our project demonstrates how retrieval-augmented generation can improve the specificity and usefulness of dialogue coaching feedback. By combining retrieval techniques with language models, "
+        },
+        {
+          "id": "revision_pair_021",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.798,
+          "strength_tags": [
+            "clear_goal",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "weak_opening"
+          ],
+          "text": "Weakness: The introduction is too vague and does not explain the purpose or significance of the presentation. Improved version: Today I will present our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large langua"
+        },
+        {
+          "id": "revision_pair_022",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.6838,
+          "strength_tags": [
+            "logical_structure",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Weakness: The explanation lacks structure and technical clarity. Improved version: Our system combines two main components: a retrieval module and a language generation module. We used BM25 and dense retrieval methods to retrieve relevant coaching examples, and then used a large language model to ge"
+        },
+        {
+          "id": "revision_pair_024",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.6701,
+          "strength_tags": [
+            "confident_tone",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "uncertain_tone",
+            "filler_words"
+          ],
+          "text": "Weakness: The explanation sounds uncertain and contains filler language. Improved version: Our system integrates retrieval techniques with large language models to improve feedback quality. Retrieved examples and communication guidelines provide additional context, allowing the model to generate mor"
+        },
+        {
+          "id": "revision_pair_027",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.6403,
+          "strength_tags": [
+            "clear_language",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "wordy",
+            "poor_structure"
+          ],
+          "text": "Weakness: The response becomes difficult to follow because it lists too many technologies without context. Improved version: One important part of our system was the dense retrieval pipeline. We used SentenceTransformers to generate embeddings for feedback examples and retrieved semantically similar"
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour presentation on retrieval-augmented dialogue coaching systems is a great start. You've clearly outlined your research goals and compared multiple retrieval methods to improve AI-generated feedback. However, there are areas where you can refine your presentation to make it more engaging and effective.\n\n**Strengths**\nYou have a clear goal in mind, and your research aims to improve the specificity and usefulness of AI-generated feedback. Your logical structure is also well-organized, making it easy to follow your presentation.\n\n**Areas to Improve**\nBased on the predicted weakness tags, there are a few areas where you can improve:\n\n1. **Missing details**: To provide a more comprehensive overview, consider adding more specific examples or results from your research.\n2. **Wordy**: Some of your sentences are a bit long and may be difficult to follow. Try breaking them up into shorter, more concise sentences.\n3. **Missing details**: You mentioned that one limitation of your system is the relatively small size of your coaching corpus. Consider discussing potential solutions or future work to address this limitation.\n\n**Specific Suggestions**\n\n1. **Use specific examples**: Instead of general statements, try to provide concrete examples from your research to illustrate your points. For instance, you could describe a specific scenario where your system generated more grounded feedback.\n2. **Break up long sentences**: To improve clarity, try breaking up long sentences into shorter ones. This will make it easier for your audience to follow your presentation.\n3. **Address limitations**: When discussing the limitations of your system, try to frame them as opportunities for future work. This will show that you're aware of potential issues and are actively working to address them.\n\n**Improved Version**\nHere's an example of how you could revise your presentation to address the predicted weakness tags:\n\n\"Good afternoon everyone. Today I will present our research on retrieval-augmented dialogue coaching systems. Our goal was to improve the specificity and usefulness of AI-generated feedback for interview preparation and presentations. We compared multiple retrieval methods, including BM25, dense retrieval, and tag-aware retrieval. One key finding was that our system generated more grounded feedback overall, but we also identified a limitation: the relatively small size of our coaching corpus. To address this, we plan to expand our corpus in future work. By combining retrieval techniques with language models, we aim to create more personalized and actionable communication support systems.\"\n\nIn this revised version, I've tried to:\n\n* Provide more specific examples from the research\n* Break up long sentences into shorter ones\n* Address the limitation of the small coaching corpus as an opportunity for future work"
+    },
+    "tag_bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_021",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 40.8676,
+          "strength_tags": [
+            "clear_goal",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "weak_opening"
+          ],
+          "text": "Weakness: The introduction is too vague and does not explain the purpose or significance of the presentation. Improved version: Today I will present our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large langua"
+        },
+        {
+          "id": "revision_pair_029",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 39.3159,
+          "strength_tags": [
+            "logical_structure",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "incomplete_answer"
+          ],
+          "text": "Weakness: The conclusion feels abrupt and does not summarize the main takeaway. Improved version: In summary, our project demonstrates how retrieval-augmented generation can improve the specificity and usefulness of dialogue coaching feedback. By combining retrieval techniques with language models, "
+        },
+        {
+          "id": "revision_pair_022",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 34.3236,
+          "strength_tags": [
+            "logical_structure",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Weakness: The explanation lacks structure and technical clarity. Improved version: Our system combines two main components: a retrieval module and a language generation module. We used BM25 and dense retrieval methods to retrieve relevant coaching examples, and then used a large language model to ge"
+        },
+        {
+          "id": "revision_pair_027",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 33.2414,
+          "strength_tags": [
+            "clear_language",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "wordy",
+            "poor_structure"
+          ],
+          "text": "Weakness: The response becomes difficult to follow because it lists too many technologies without context. Improved version: One important part of our system was the dense retrieval pipeline. We used SentenceTransformers to generate embeddings for feedback examples and retrieved semantically similar"
+        },
+        {
+          "id": "revision_pair_023",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 30.6743,
+          "strength_tags": [
+            "concrete_achievement",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response is too vague and does not provide evidence or measurable outcomes. Improved version: Our evaluation showed that retrieval-augmented feedback was consistently rated as more specific and actionable compared to baseline LLM feedback. Participants particularly appreciated the conc"
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour presentation on retrieval-augmented dialogue coaching systems is well-structured, and you've clearly outlined your research goals. However, there are areas where you can improve to make your presentation more engaging and effective.\n\n**Strengths**\nYou've demonstrated a clear goal in your research, which is to improve the specificity and usefulness of AI-generated feedback for interview preparation and presentations. Your logical structure is also well-organized, making it easy to follow your presentation.\n\n**Areas to Improve**\nBased on the predicted weakness tags, there are a few areas where you can improve:\n\n1. **Missing Details**: Your presentation lacks specific examples and technical clarity, making it difficult for the audience to understand the nuances of your system.\n2. **Wordy**: Your language is sometimes too general, and you could benefit from providing more concrete and actionable feedback.\n3. **Too General**: Your response to the user input example, \"Today I will talk about my AI project,\" is too vague and doesn't explain the purpose or significance of the presentation.\n\n**Specific Suggestions**\nTo address these areas, consider the following suggestions:\n\n1. **Provide concrete examples**: Use specific examples to illustrate the strengths and weaknesses of your system. For instance, you could describe a scenario where your system generated more specific and actionable feedback compared to a baseline LLM feedback.\n2. **Use technical clarity**: When explaining technical concepts, use clear and concise language to avoid confusing the audience. For example, you could explain how you used BM25 and dense retrieval methods to retrieve relevant coaching examples.\n3. **Use a more specific opening**: Instead of starting with a general statement, use a more specific opening that sets the context for your presentation. For example, you could start by explaining the importance of effective communication in AI research and how your system addresses this need.\n\n**Improved Version**\nHere's an example of how you could revise your presentation to address these areas:\n\n\"Today, I'll present our project on retrieval-augmented feedback systems for interview coaching. Our system combines information retrieval with large language models to generate more specific and actionable communication feedback for students preparing for interviews and presentations. By using BM25 and dense retrieval methods, we can retrieve relevant coaching examples that provide concrete improvement suggestions and example-based explanations. For instance, our system can generate feedback like this: 'Your introduction is too vague. Consider starting with a more specific statement that explains the purpose and significance of your presentation.'\"\n\nThis revised version provides more concrete examples, technical clarity, and a more specific opening that sets the context for the presentation."
+    },
+    "tag_dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "feedback_074",
+          "type": "feedback_example",
+          "scenario": "presentation",
+          "score": 1.3545,
+          "strength_tags": [
+            "logical_structure",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your structure is clear and easy to follow, which helps the audience anticipate the arc of the talk. To make the preview even stronger, name the one finding you most want the audience to remember by the end."
+        },
+        {
+          "id": "feedback_076",
+          "type": "feedback_example",
+          "scenario": "presentation",
+          "score": 1.2909,
+          "strength_tags": [
+            "concrete_achievement",
+            "logical_structure",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "This is a strong conclusion because it ties a quantitative result back to the audience you set out to help. To close even more powerfully, end with one clear next step or open question to leave the audience thinking."
+        },
+        {
+          "id": "revision_pair_022",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 1.2838,
+          "strength_tags": [
+            "logical_structure",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Weakness: The explanation lacks structure and technical clarity. Improved version: Our system combines two main components: a retrieval module and a language generation module. We used BM25 and dense retrieval methods to retrieve relevant coaching examples, and then used a large language model to ge"
+        },
+        {
+          "id": "feedback_057",
+          "type": "feedback_example",
+          "scenario": "presentation",
+          "score": 1.1564,
+          "strength_tags": [
+            "clear_goal",
+            "logical_structure"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your opening clearly previews the structure, which helps the audience follow along. To strengthen it further, add one sentence explaining why this problem matters before moving into the agenda."
+        },
+        {
+          "id": "revision_pair_028",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 1.1382,
+          "strength_tags": [
+            "clear_goal",
+            "engaging"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The statement is too broad and does not explain why the project matters. Improved version: Our project is designed to help students prepare for interviews, elevator pitches, and presentations by providing more specific and context-aware feedback. We believe this approach can support commun"
+        }
+      ],
+      "feedback": "**Overall Assessment**\n\nGreat job on presenting your research on retrieval-augmented dialogue coaching systems! Your goal to improve the specificity and usefulness of AI-generated feedback for interview preparation and presentations is well-defined. However, there are areas where you can improve to make your presentation even more effective.\n\n**Strengths**\n\nYou have a clear goal in mind, which is evident in your presentation structure. You've also done a great job of logically organizing your ideas, making it easy for the audience to follow along.\n\n**Areas to Improve**\n\nBased on the retrieved coaching context, I noticed that you tend to be a bit wordy and sometimes miss important details. This can make your presentation feel less engaging and less effective in conveying your key points. Additionally, you sometimes struggle to provide concrete examples or next steps, which can leave the audience wondering what's next.\n\n**Specific Suggestions**\n\nTo address these areas, I recommend the following:\n\n1. **Be more concise**: Try to get straight to the point and avoid using unnecessary words. This will help you stay focused and keep your audience engaged.\n2. **Provide more details**: Make sure to include specific examples or data to support your claims. This will help you build a stronger case and make your presentation more convincing.\n3. **End with a clear next step**: Instead of leaving the audience wondering what's next, try to end with a clear call to action or a thought-provoking question. This will leave a lasting impression and encourage the audience to think critically about your topic.\n\n**Improved Version**\n\nHere's an example of how you could revise your opening to make it more concise and engaging:\n\n\"Today, I'll present our research on retrieval-augmented dialogue coaching systems. Our goal is to improve the specificity and usefulness of AI-generated feedback for interview preparation and presentations. To achieve this, we compared multiple retrieval methods, including BM25, dense retrieval, and tag-aware retrieval. Our system generated more grounded feedback overall, but we faced a limitation due to the relatively small size of our coaching corpus, which sometimes reduced retrieval diversity.\"\n\nIn this revised version, I've tried to be more concise and focused, while still conveying the key points of your research. I've also added a clear next step by mentioning the limitation of your system, which sets up the rest of your presentation."
+    }
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "input_006",
+    "scenario": "interview",
+    "transcript": "Uh, hi. I am studying computer science and I kind of like different areas like AI, cybersecurity, and maybe game development too. I worked on some projects before with classmates, mostly class assignments and things like that. I am still figuring out exactly what I want to focus on, but I hope to get more experience and maybe find internship opportunities where I can improve my technical skills."
+  },
+  {
+    "id": "input_007",
+    "scenario": "presentation",
+    "transcript": "Today I will talk about our project about AI feedback systems. We used retrieval and language models together to generate better feedback for students preparing for interviews and presentations."
+  },
+  {
+    "id": "input_008",
+    "scenario": "presentation",
+    "transcript": "Good afternoon everyone. Today I will present our research project on retrieval-augmented feedback systems for dialogue coaching. The goal of this project is to improve the specificity and usefulness of AI-generated feedback for interview preparation, elevator pitches, and presentations. Our system combines dense retrieval techniques with large language models to retrieve relevant examples, communication guidelines, and revision pairs before generating feedback. We evaluated multiple retrieval strategies, including BM25, dense retrieval, and tag-aware retrieval, and compared their impact on feedback quality through human evaluation metrics such as specificity, actionability, and relevance."
+  },
+  {
+    "id": "input_009",
+    "scenario": "presentation",
+    "transcript": "Uh, so basically our presentation is about using AI and retrieval together for feedback generation. We used different methods and models and stuff to retrieve examples from our dataset and then generate responses with a language model. We also tested different retrieval systems like dense retrieval and tag retrieval and compared them. The results were kind of interesting because some systems seemed more specific than others, although we still had some limitations and challenges during the project."
+  },
+  {
+    "id": "input_010",
+    "scenario": "interview",
+    "transcript": "I know Python, Java, SQL, C++, React, Node.js, machine learning, cloud computing, and a lot of other technologies. I worked on many different projects in school and I am interested in many areas of computer science."
+  }
+]

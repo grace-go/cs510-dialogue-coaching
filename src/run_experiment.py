@@ -75,7 +75,7 @@ def run():
         bm25_docs = bm25.retrieve(
             query=transcript,
             scenario=scenario,
-            top_k=5
+            top_k=3
         )
 
         bm25_feedback = generate_feedback(
@@ -88,7 +88,7 @@ def run():
         dense_docs = dense.retrieve(
             query=transcript,
             scenario=scenario,
-            top_k=5
+            top_k=3
         )
 
         dense_feedback = generate_feedback(
@@ -102,7 +102,7 @@ def run():
             query=transcript,
             scenario=scenario,
             query_tags=predicted_tags,
-            top_k=5
+            top_k=3
         )
 
         tag_bm25_feedback = generate_feedback(
@@ -116,7 +116,7 @@ def run():
             query=transcript,
             scenario=scenario,
             query_tags=predicted_tags,
-            top_k=5
+            top_k=3
         )
 
         tag_dense_feedback = generate_feedback(

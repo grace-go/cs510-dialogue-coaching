@@ -1,0 +1,27 @@
+[
+  {
+    "id": "input_001",
+    "scenario": "interview",
+    "transcript": "I like programming and AI. I worked on a few class projects and I want to get an internship where I can learn more about machine learning."
+  },
+  {
+    "id": "input_002",
+    "scenario": "interview",
+    "transcript": "During our software engineering class project, my team struggled with communication because everyone was working on different parts separately. I noticed we were starting to miss deadlines, so I suggested creating a shared progress tracker and holding short check-in meetings twice a week. I also helped review pull requests to make integration easier for everyone. After we improved communication, our team was able to finish the backend integration before the final demo and our project received positive feedback from the course staff."
+  },
+  {
+    "id": "input_003",
+    "scenario": "interview",
+    "transcript": "Uh, I guess I am interested in computer science because technology is becoming more important nowadays. I worked on some coding assignments and group projects before, and I think they were pretty interesting. I also kind of want to do something related to AI or software engineering in the future, although I am still figuring out exactly what area I want to focus on. I hope this scholarship could help me continue studying and maybe give me more opportunities to improve my skills and experience."
+  },
+  {
+    "id": "input_004",
+    "scenario": "interview",
+    "transcript": "Hi, I am a computer science student and I enjoy coding and learning about AI. I have worked on some projects in my classes and I am currently looking for internship opportunities."
+  },
+  {
+    "id": "input_005",
+    "scenario": "interview",
+    "transcript": "Hi, my name is Alex and I am a senior studying computer science with a focus on machine learning and accessibility research. Recently, I worked on a project that detects harmful flashing content on websites to improve accessibility for users with photosensitive epilepsy. Through that experience, I became interested in building AI systems that are both technically strong and socially impactful. I am currently looking for AI engineering or research internship opportunities where I can continue working on user-centered technologies."
+  }
+]
