@@ -57,7 +57,7 @@ def run():
         scenario = item["scenario"]
         transcript = item["transcript"]
 
-        print(f"Running input: {input_id}")
+        print(f"Running input: {input_id}", flush=True)
 
         predicted_tags = tag_user_input(
             transcript=transcript,
@@ -157,8 +157,10 @@ def run():
             }
         })
 
-    save_json(results, OUTPUT_PATH)
-    print(f"Saved results to {OUTPUT_PATH}")
+        save_json(results, OUTPUT_PATH)
+        print(f"  Saved {len(results)} input(s) to {OUTPUT_PATH}", flush=True)
+
+    print(f"Done. Final results at {OUTPUT_PATH}", flush=True)
 
 
 if __name__ == "__main__":
