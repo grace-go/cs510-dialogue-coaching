@@ -26,6 +26,7 @@ load_dotenv()
 client = OpenAI(
     api_key=os.getenv("GROQ_API_KEY"),
     base_url="https://api.groq.com/openai/v1",
+    max_retries=5,
 )
 
 GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
@@ -90,11 +91,38 @@ RUBRIC_ANCHORS = """=== specificity — does it cite concrete parts of the trans
 1 - Entirely generic statements; no examples or evidence."""
 
 
-def build_judge_prompt(transcript, scenario, predicted_tags, feedback):
+def format_retrieved_for_judge(retrieved_docs):
+    # Compact view of what the RAG system had access to. Only the fields the
+    # judge needs to recognize grounding — id/type/tags/text — not retrieval
+    # scores or scenario duplicates.
+    lines = []
+    for i, doc in enumerate(retrieved_docs, start=1):
+        lines.append(
+            f"[Doc {i}] id={doc.get('id')} type={doc.get('type')} "
+            f"weakness_tags={doc.get('weakness_tags', [])}\n"
+            f"  {doc.get('text', '')}"
+        )
+    return "\n".join(lines)
+
+
+def build_judge_prompt(transcript, scenario, predicted_tags, feedback, retrieved_docs=None):
     # Weakness tags are what the feedback SHOULD address; surfacing them in the
     # prompt anchors the relevance dimension to concrete targets.
     strength_tags = predicted_tags.get("strength_tags", [])
     weakness_tags = predicted_tags.get("weakness_tags", [])
+
+    # For RAG systems, surface what was retrieved so the judge can recognize
+    # when feedback is genuinely grounded in retrieved coaching evidence vs.
+    # generic LLM advice. Omitted entirely for baseline (no retrieval).
+    if retrieved_docs:
+        retrieved_section = f"""
+
+Retrieved coaching context (what this system had access to when generating feedback):
+{format_retrieved_for_judge(retrieved_docs)}
+
+For 'groundedness', credit feedback that meaningfully draws on this retrieved coaching evidence — specific examples, strategies, or patterns visible in the retrieved docs above — rather than only generic LLM advice. Do not penalize the system for not citing every retrieved doc, but reward visible use of the retrieved material."""
+    else:
+        retrieved_section = ""
 
     return f"""You are a strict evaluator of dialogue-coaching feedback for CS students.
 
@@ -109,6 +137,7 @@ Predicted weakness tags (what the feedback SHOULD address):
 
 Predicted strength tags:
 {strength_tags}
+{retrieved_section}
 
 Feedback to evaluate:
 {feedback}
@@ -195,8 +224,10 @@ def score_one(result_item, system_name):
     scenario = result_item["scenario"]
     predicted_tags = result_item.get("predicted_tags", {})
     feedback = result_item[system_name]["feedback"]
+    # None for baseline (no retrieval); list of docs for RAG variants.
+    retrieved_docs = result_item[system_name].get("retrieved_docs")
 
-    prompt = build_judge_prompt(transcript, scenario, predicted_tags, feedback)
+    prompt = build_judge_prompt(transcript, scenario, predicted_tags, feedback, retrieved_docs)
     raw_output = call_judge(prompt)
     scores, rationales = parse_judge_output(raw_output)
 
