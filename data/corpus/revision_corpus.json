@@ -1,0 +1,272 @@
+[
+  {
+    "id": "revision_pair_001",
+    "type": "revision_pair",
+    "scenario": "job_interview",
+    "user_input": "I like AI and worked on some projects.",
+    "text": "Weakness: The response is too general and lacks detail. Improved version: I became interested in AI after building a recommendation system project in my machine learning course. I implemented collaborative filtering using Python and evaluated the model using accuracy metrics. That experience motivated me to pursue AI engineering internships focused on user-centered systems.",
+    "strength_tags": ["specific_example", "clear_goal"],
+    "weakness_tags": ["too_general", "missing_details"]
+  },
+  {
+    "id": "revision_pair_002",
+    "type": "revision_pair",
+    "scenario": "behavioral_interview",
+    "user_input": "My team had communication problems during our project.",
+    "text": "Weakness: The response lacks STAR structure and specific actions. Improved version: During our software engineering project, our team struggled with unclear task assignments near the deadline. I organized short daily check-ins and created a shared progress tracker to improve communication. As a result, our team completed the remaining tasks on time and delivered the final demo successfully.",
+    "strength_tags": ["good_STAR_structure", "logical_structure"],
+    "weakness_tags": ["missing_STAR", "lack_of_specific_action"]
+  },
+  {
+    "id": "revision_pair_003",
+    "type": "revision_pair",
+    "scenario": "scholarship_interview",
+    "user_input": "I want this scholarship because I work hard.",
+    "text": "Weakness: The response is vague and does not explain personal motivation. Improved version: I want this scholarship because it would allow me to continue my research on AI accessibility tools. During my previous project, I worked on detecting harmful flashing content on websites to improve accessibility for users with photosensitive epilepsy. This scholarship would help me continue building technology with meaningful social impact.",
+    "strength_tags": ["engaging", "clear_goal", "specific_example"],
+    "weakness_tags": ["too_general", "unclear_goal"]
+  },
+  {
+    "id": "revision_pair_004",
+    "type": "revision_pair",
+    "scenario": "job_interview",
+    "user_input": "I know many programming languages and technologies.",
+    "text": "Weakness: The response is unfocused and difficult to follow. Improved version: My strongest technical experience comes from full-stack web development projects. For example, I recently built a campus chatbot system using React, Flask, and OpenAI APIs. Through that project, I gained experience designing user interfaces and integrating backend AI services.",
+    "strength_tags": ["clear_language", "specific_example"],
+    "weakness_tags": ["wordy", "poor_structure"]
+  },
+  {
+    "id": "revision_pair_005",
+    "type": "revision_pair",
+    "scenario": "college_interview",
+    "user_input": "I like computers and technology.",
+    "text": "Weakness: The response lacks a memorable example or personal story. Improved version: My interest in computer science began when I participated in a robotics competition during high school. I enjoyed combining programming and hardware to solve real problems, which later motivated me to study AI and software engineering more deeply.",
+    "strength_tags": ["engaging", "natural_flow"],
+    "weakness_tags": ["too_general"]
+  },
+  {
+    "id": "revision_pair_006",
+    "type": "revision_pair",
+    "scenario": "job_interview",
+    "user_input": "I think I am a pretty good programmer and I learn quickly.",
+    "text": "Weakness: The response relies on vague self-description without supporting evidence. Improved version: I developed strong problem-solving skills while working on a distributed systems project where I implemented fault-tolerant communication between multiple servers. Through that experience, I learned how to quickly adapt to unfamiliar technologies and debug complex system issues under tight deadlines.",
+    "strength_tags": ["specific_example", "professional_tone"],
+    "weakness_tags": ["too_general", "lack_of_specific_action"]
+  },
+  {
+    "id": "revision_pair_007",
+    "type": "revision_pair",
+    "scenario": "behavioral_interview",
+    "user_input": "Our project deadline was stressful, but we finished everything in the end.",
+    "text": "Weakness: The response lacks detail and does not explain the candidate’s contribution clearly. Improved version: During our capstone project, we faced a tight deadline after discovering major integration bugs one week before the demo. I reorganized the remaining tasks, coordinated debugging sessions, and focused on fixing backend API issues. As a result, our team completed the project successfully and delivered a stable final presentation.",
+    "strength_tags": ["good_STAR_structure", "concrete_achievement"],
+    "weakness_tags": ["missing_STAR", "missing_details"]
+  },
+  {
+    "id": "revision_pair_008",
+    "type": "revision_pair",
+    "scenario": "college_interview",
+    "user_input": "I want to study computer science because technology is important nowadays.",
+    "text": "Weakness: The response is generic and does not communicate personal motivation. Improved version: My interest in computer science grew after I created a simple mobile app during high school to help students organize study schedules. Seeing classmates actively use the app made me interested in building technology that improves everyday experiences for users.",
+    "strength_tags": ["engaging", "specific_example", "natural_flow"],
+    "weakness_tags": ["too_general", "unclear_goal"]
+  },
+  {
+    "id": "revision_pair_009",
+    "type": "revision_pair",
+    "scenario": "job_interview",
+    "user_input": "I used a lot of technologies in different projects like Python, JavaScript, React, SQL, and cloud tools.",
+    "text": "Weakness: The response sounds unfocused because it lists technologies without explaining their purpose or impact. Improved version: One of my most meaningful projects was building a campus information chatbot using React, Flask, and OpenAI APIs. I designed the frontend interface and integrated backend AI services to help students quickly access campus-related information.",
+    "strength_tags": ["clear_language", "specific_example"],
+    "weakness_tags": ["wordy", "poor_structure"]
+  },
+  {
+    "id": "revision_pair_010",
+    "type": "revision_pair",
+    "scenario": "scholarship_interview",
+    "user_input": "I hope this scholarship helps me continue my education.",
+    "text": "Weakness: The response does not clearly explain academic goals or future impact. Improved version: This scholarship would allow me to continue my research on accessible AI systems for users with disabilities. Through my previous accessibility-focused projects, I realized how technology can directly improve quality of life, and I hope to continue developing inclusive AI tools in graduate school.",
+    "strength_tags": ["clear_goal", "professional_tone", "engaging"],
+    "weakness_tags": ["unclear_goal", "missing_details"]
+  },
+  {
+    "id": "revision_pair_011",
+    "type": "revision_pair",
+    "scenario": "elevator_pitch",
+    "user_input": "I am a computer science student and I like programming.",
+    "text": "Weakness: The response is too broad and does not communicate a clear direction. Improved version: I am a computer science student interested in machine learning and accessibility research. Recently, I worked on a project that detects harmful flashing content on websites to improve accessibility for users with photosensitive epilepsy. Through that experience, I became interested in building safer and more inclusive AI systems.",
+    "strength_tags": ["clear_goal", "specific_example"],
+    "weakness_tags": ["too_general", "unclear_goal"]
+  },
+  {
+    "id": "revision_pair_012",
+    "type": "revision_pair",
+    "scenario": "elevator_pitch",
+    "user_input": "I know Python, Java, SQL, React, and many other technologies.",
+    "text": "Weakness: The response lists technologies without providing focus or context. Improved version: My main interest is full-stack development for AI applications. Recently, I built a campus information chatbot using React, Flask, and OpenAI APIs to help students access campus resources more efficiently. That project helped me combine frontend design with AI integration.",
+    "strength_tags": ["specific_example", "clear_language"],
+    "weakness_tags": ["wordy", "poor_structure"]
+  },
+  {
+    "id": "revision_pair_013",
+    "type": "revision_pair",
+    "scenario": "elevator_pitch",
+    "user_input": "I want to work in AI because it is important for the future.",
+    "text": "Weakness: The response sounds generic and lacks personal motivation. Improved version: I became interested in AI after working on a recommendation system project in one of my data mining courses. I enjoyed seeing how machine learning models could personalize user experiences, which motivated me to pursue AI engineering opportunities focused on human-centered applications.",
+    "strength_tags": ["engaging", "specific_example"],
+    "weakness_tags": ["too_general", "missing_details"]
+  },
+  {
+    "id": "revision_pair_014",
+    "type": "revision_pair",
+    "scenario": "elevator_pitch",
+    "user_input": "Uh, I think I might want to do software engineering or maybe cybersecurity.",
+    "text": "Weakness: The response sounds uncertain and lacks a clear direction. Improved version: I am currently most interested in software engineering for distributed systems. During a recent systems programming project, I enjoyed debugging backend communication issues and optimizing server performance, which strengthened my interest in scalable system design.",
+    "strength_tags": ["confident_tone", "clear_goal"],
+    "weakness_tags": ["uncertain_tone", "filler_words"]
+  },
+  {
+    "id": "revision_pair_015",
+    "type": "revision_pair",
+    "scenario": "elevator_pitch",
+    "user_input": "I worked on some projects with my classmates.",
+    "text": "Weakness: The response lacks detail and does not explain the candidate’s role or contribution. Improved version: One of my favorite projects was leading a small team to build a scheduling application for students. I coordinated the backend development and helped design the database system, which improved my teamwork and software engineering skills.",
+    "strength_tags": ["specific_example", "professional_tone"],
+    "weakness_tags": ["missing_details", "lack_of_specific_action"]
+  },
+  {
+    "id": "revision_pair_016",
+    "type": "revision_pair",
+    "scenario": "elevator_pitch",
+    "user_input": "I am passionate about technology and innovation.",
+    "text": "Weakness: The response relies on abstract statements without supporting examples. Improved version: I became passionate about technology after developing a simple mobile app that helped students organize study schedules more efficiently. Seeing other students actively use the app motivated me to continue building user-centered software systems.",
+    "strength_tags": ["engaging", "natural_flow"],
+    "weakness_tags": ["too_general", "missing_details"]
+  },
+  {
+    "id": "revision_pair_017",
+    "type": "revision_pair",
+    "scenario": "elevator_pitch",
+    "user_input": "I have experience in AI, web development, cybersecurity, robotics, and game development.",
+    "text": "Weakness: The response lacks focus because it introduces too many unrelated topics. Improved version: My strongest interest is AI-driven web applications. Recently, I worked on a chatbot project that used large language models to provide campus-related information through a web interface, which helped me combine AI and frontend development skills.",
+    "strength_tags": ["logical_structure", "specific_example"],
+    "weakness_tags": ["poor_structure", "wordy"]
+  },
+  {
+    "id": "revision_pair_018",
+    "type": "revision_pair",
+    "scenario": "elevator_pitch",
+    "user_input": "I want an internship where I can learn more and improve my skills.",
+    "text": "Weakness: The response does not clearly explain what type of opportunity the candidate is seeking. Improved version: I am currently looking for software engineering or AI internship opportunities where I can contribute to user-centered systems. My recent machine learning and accessibility projects helped me realize how much I enjoy building technology with real-world impact.",
+    "strength_tags": ["clear_goal", "professional_tone"],
+    "weakness_tags": ["unclear_goal", "too_general"]
+  },
+  {
+    "id": "revision_pair_019",
+    "type": "revision_pair",
+    "scenario": "elevator_pitch",
+    "user_input": "I enjoy coding and solving problems.",
+    "text": "Weakness: The response is too generic and does not help the listener understand the candidate’s unique interests. Improved version: I especially enjoy solving backend engineering problems. In one of my recent projects, I optimized API communication between services to reduce response time and improve application stability, which made me interested in scalable system design.",
+    "strength_tags": ["concrete_achievement", "specific_example"],
+    "weakness_tags": ["too_general", "missing_details"]
+  },
+  {
+    "id": "revision_pair_020",
+    "type": "revision_pair",
+    "scenario": "elevator_pitch",
+    "user_input": "I am interested in accessibility and helping people.",
+    "text": "Weakness: The response communicates a positive goal but lacks supporting detail. Improved version: I became interested in accessibility research after working on a project that detects harmful flashing content on websites for users with photosensitive epilepsy. That experience showed me how computing can directly improve user safety and motivated me to pursue accessible AI research.",
+    "strength_tags": ["engaging", "specific_example", "clear_goal"],
+    "weakness_tags": ["missing_details", "too_general"]
+  },
+  {
+    "id": "revision_pair_021",
+    "type": "revision_pair",
+    "scenario": "presentation",
+    "user_input": "Today I will talk about my AI project.",
+    "text": "Weakness: The introduction is too vague and does not explain the purpose or significance of the presentation. Improved version: Today I will present our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large language models can generate more specific and actionable communication feedback for students preparing for interviews and presentations.",
+    "strength_tags": ["clear_goal", "clear_language"],
+    "weakness_tags": ["too_general", "weak_opening"]
+  },
+  {
+    "id": "revision_pair_022",
+    "type": "revision_pair",
+    "scenario": "presentation",
+    "user_input": "We used many models and techniques in our system.",
+    "text": "Weakness: The explanation lacks structure and technical clarity. Improved version: Our system combines two main components: a retrieval module and a language generation module. We used BM25 and dense retrieval methods to retrieve relevant coaching examples, and then used a large language model to generate personalized feedback based on the retrieved context.",
+    "strength_tags": ["logical_structure", "clear_language"],
+    "weakness_tags": ["poor_structure", "missing_details"]
+  },
+  {
+    "id": "revision_pair_023",
+    "type": "revision_pair",
+    "scenario": "presentation",
+    "user_input": "Our results were pretty good and people liked the system.",
+    "text": "Weakness: The response is too vague and does not provide evidence or measurable outcomes. Improved version: Our evaluation showed that retrieval-augmented feedback was consistently rated as more specific and actionable compared to baseline LLM feedback. Participants particularly appreciated the concrete improvement suggestions and example-based explanations generated by the system.",
+    "strength_tags": ["concrete_achievement", "professional_tone"],
+    "weakness_tags": ["too_general", "missing_details"]
+  },
+  {
+    "id": "revision_pair_024",
+    "type": "revision_pair",
+    "scenario": "presentation",
+    "user_input": "Uh, so basically we kind of used retrieval and AI together.",
+    "text": "Weakness: The explanation sounds uncertain and contains filler language. Improved version: Our system integrates retrieval techniques with large language models to improve feedback quality. Retrieved examples and communication guidelines provide additional context, allowing the model to generate more targeted and specific coaching feedback.",
+    "strength_tags": ["confident_tone", "clear_language"],
+    "weakness_tags": ["uncertain_tone", "filler_words"]
+  },
+  {
+    "id": "revision_pair_025",
+    "type": "revision_pair",
+    "scenario": "presentation",
+    "user_input": "This slide shows our methodology.",
+    "text": "Weakness: The explanation does not guide the audience through the methodology clearly. Improved version: This slide summarizes our pipeline. First, the system analyzes the user’s transcript and identifies communication-related tags such as missing details or unclear goals. Then, the retriever searches for relevant examples and guidelines, which are passed to the language model to generate feedback.",
+    "strength_tags": ["logical_structure", "specific_example"],
+    "weakness_tags": ["missing_details", "poor_structure"]
+  },
+  {
+    "id": "revision_pair_026",
+    "type": "revision_pair",
+    "scenario": "presentation",
+    "user_input": "We had some challenges during the project.",
+    "text": "Weakness: The explanation lacks detail and does not explain how the challenges were addressed. Improved version: One challenge we faced was designing a retrieval system that could return feedback examples relevant to different communication weaknesses. To address this, we implemented tag-based retrieval filtering so the system could retrieve examples related to issues such as vague explanations or poor structure.",
+    "strength_tags": ["specific_example", "professional_tone"],
+    "weakness_tags": ["too_general", "missing_details"]
+  },
+  {
+    "id": "revision_pair_027",
+    "type": "revision_pair",
+    "scenario": "presentation",
+    "user_input": "I used many tools like Python, transformers, vector databases, APIs, embeddings, retrieval models, and frontend frameworks.",
+    "text": "Weakness: The response becomes difficult to follow because it lists too many technologies without context. Improved version: One important part of our system was the dense retrieval pipeline. We used SentenceTransformers to generate embeddings for feedback examples and retrieved semantically similar coaching examples using cosine similarity search.",
+    "strength_tags": ["clear_language", "specific_example"],
+    "weakness_tags": ["wordy", "poor_structure"]
+  },
+  {
+    "id": "revision_pair_028",
+    "type": "revision_pair",
+    "scenario": "presentation",
+    "user_input": "Our project is useful for communication training.",
+    "text": "Weakness: The statement is too broad and does not explain why the project matters. Improved version: Our project is designed to help students prepare for interviews, elevator pitches, and presentations by providing more specific and context-aware feedback. We believe this approach can support communication coaching in educational and professional settings.",
+    "strength_tags": ["clear_goal", "engaging"],
+    "weakness_tags": ["too_general", "missing_details"]
+  },
+  {
+    "id": "revision_pair_029",
+    "type": "revision_pair",
+    "scenario": "presentation",
+    "user_input": "So our presentation is finished.",
+    "text": "Weakness: The conclusion feels abrupt and does not summarize the main takeaway. Improved version: In summary, our project demonstrates how retrieval-augmented generation can improve the specificity and usefulness of dialogue coaching feedback. By combining retrieval techniques with language models, we aim to create more personalized and actionable communication support systems.",
+    "strength_tags": ["logical_structure", "professional_tone"],
+    "weakness_tags": ["poor_structure", "incomplete_answer"]
+  },
+  {
+    "id": "revision_pair_030",
+    "type": "revision_pair",
+    "scenario": "presentation",
+    "user_input": "I was nervous during the presentation and said a lot of filler words.",
+    "text": "Weakness: The response focuses on uncertainty without reflecting on improvement strategies. Improved version: During earlier presentations, I sometimes relied on filler words when explaining technical concepts. To improve, I practiced slowing down my pacing and organizing explanations into clearer sections, which helped me communicate more confidently and naturally.",
+    "strength_tags": ["natural_flow", "professional_tone"],
+    "weakness_tags": ["uncertain_tone", "filler_words"]
+  }
+]
