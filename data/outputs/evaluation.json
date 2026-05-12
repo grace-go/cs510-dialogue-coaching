@@ -1,0 +1,236 @@
+{
+  "per_output": [
+    {
+      "id": "input_001",
+      "scenario": "interview",
+      "system": "baseline",
+      "scores": {
+        "specificity": 4,
+        "actionability": 5,
+        "relevance": 5,
+        "helpfulness": 5,
+        "groundedness": 5
+      },
+      "rationales": {
+        "specificity": "The feedback references concrete parts of the transcript, such as the user's interest in programming and AI, and their experience with class projects, but does not quote verbatim phrases from the transcript.",
+        "actionability": "The feedback provides concrete and executable suggestions, such as describing a specific project and elaborating on what they hope to learn or achieve in the internship, along with an example of how to revise the introduction.",
+        "relevance": "The feedback substantively addresses every predicted weakness tag, including 'too_general' and 'missing_details', and is clearly adapted to the interview scenario.",
+        "helpfulness": "The feedback would genuinely help someone improve, as it provides specific guidance on how to enhance their introduction and make a stronger impression on the interviewer, with a clear before/after improvement.",
+        "groundedness": "The feedback is grounded in evidence, with specific examples and principles applied to the actual transcript content, such as the importance of providing details about class projects and what they hope to achieve in the internship."
+      }
+    },
+    {
+      "id": "input_001",
+      "scenario": "interview",
+      "system": "bm25_rag",
+      "scores": {
+        "specificity": 3,
+        "actionability": 4,
+        "relevance": 4,
+        "helpfulness": 4,
+        "groundedness": 4
+      },
+      "rationales": {
+        "specificity": "The feedback references concrete parts of the transcript, such as the mention of 'a few class projects' and the desire to learn more about machine learning, but does not quote verbatim phrases or tie multiple distinct feedback points to those specific quoted lines.",
+        "actionability": "The feedback provides concrete suggestions, such as selecting one of the class projects and describing it in more detail, and includes an example of how to improve the response, making it executable and easy to follow.",
+        "relevance": "The feedback substantively addresses the predicted weakness tags, 'too_general' and 'missing_details', and is clearly adapted to the scenario of an interview, demonstrating a strong understanding of the context.",
+        "helpfulness": "The feedback would genuinely help someone improve, as it provides specific guidance on how to enhance the response, including the suggestion to describe a project in detail and connect it to the interest in machine learning, which would lead to a substantially stronger next attempt.",
+        "groundedness": "The feedback is grounded in evidence, as it applies specific coaching principles, such as providing details and connecting experiences to interests, to the actual transcript content, but could benefit from more concrete examples or named principles."
+      }
+    },
+    {
+      "id": "input_001",
+      "scenario": "interview",
+      "system": "dense_rag",
+      "scores": {
+        "specificity": 4,
+        "actionability": 5,
+        "relevance": 5,
+        "helpfulness": 5,
+        "groundedness": 4
+      },
+      "rationales": {
+        "specificity": "The feedback references concrete parts of the transcript, such as mentioning 'class projects' and 'machine learning', but does not quote verbatim phrases or tie multiple distinct feedback points to specific quoted lines, thus it falls short of the highest score.",
+        "actionability": "The feedback provides concrete and executable suggestions, such as describing the technologies used in class projects and specifying aspects of machine learning that interest the speaker, along with an example of how the statement could be revised, making it highly actionable.",
+        "relevance": "The feedback substantively addresses the predicted weakness tags 'too_general' and 'missing_details', and is clearly adapted to the interview scenario, demonstrating a strong understanding of the context and required improvements.",
+        "helpfulness": "Following this feedback would likely result in a substantially stronger next attempt, as it provides clear guidance on how to add specific details and examples to the statement, thereby addressing the main weaknesses and improving overall quality.",
+        "groundedness": "The feedback is grounded in evidence from the transcript and applies specific coaching principles, such as the importance of providing specific examples and details, but could benefit from more concrete examples or named principles to further support its suggestions."
+      }
+    },
+    {
+      "id": "input_001",
+      "scenario": "interview",
+      "system": "tag_bm25_rag",
+      "scores": {
+        "specificity": 4,
+        "actionability": 4,
+        "relevance": 5,
+        "helpfulness": 5,
+        "groundedness": 4
+      },
+      "rationales": {
+        "specificity": "The feedback references concrete parts of the transcript, such as 'a few class projects' and 'machine learning', but does not quote verbatim phrases, making it a strong but not exemplary example of specificity.",
+        "actionability": "The feedback provides concrete and executable suggestions, such as choosing a specific project to describe in detail and explaining how it relates to machine learning, but not every suggestion is paired with concrete example phrasing.",
+        "relevance": "The feedback substantively addresses the predicted weakness tags 'too_general' and 'missing_details', and is visibly adapted to the interview scenario, making it highly relevant.",
+        "helpfulness": "The feedback would genuinely help someone improve, as it provides a clear example of how to revise the response and addresses specific areas for improvement, making it highly likely to produce a stronger next attempt.",
+        "groundedness": "The feedback is grounded in evidence from the transcript, using specific examples and coaching frames, such as the suggestion to describe a project in detail, but could benefit from more explicit application of named principles or coaching frames."
+      }
+    },
+    {
+      "id": "input_001",
+      "scenario": "interview",
+      "system": "tag_dense_rag",
+      "scores": {
+        "specificity": 3,
+        "actionability": 4,
+        "relevance": 4,
+        "helpfulness": 4,
+        "groundedness": 4
+      },
+      "rationales": {
+        "specificity": "The feedback references concrete parts of the transcript, such as the user's interest in machine learning and their experience with class projects, but does not quote verbatim phrases or tie multiple distinct feedback points to those specific quoted lines.",
+        "actionability": "The feedback provides concrete suggestions, such as elaborating on aspects of machine learning and describing class projects, and includes a specific example of how to revise the statement, making it executable.",
+        "relevance": "The feedback substantively addresses the predicted weakness tags, 'too_general' and 'missing_details', and is clearly adapted to the interview scenario, demonstrating a strong understanding of the context.",
+        "helpfulness": "The feedback would likely help the user improve their response, as it provides specific guidance on how to address weaknesses and strengthen their statement, but may not lead to a substantially stronger next attempt without additional practice or refinement.",
+        "groundedness": "The feedback is grounded in evidence from the transcript and applies specific coaching principles, such as providing examples and suggesting ways to elaborate on experiences, but could benefit from more concrete examples or named principles to support its suggestions."
+      }
+    }
+  ],
+  "aggregate": {
+    "baseline": {
+      "specificity": {
+        "mean": 4,
+        "std": 0.0,
+        "n": 1
+      },
+      "actionability": {
+        "mean": 5,
+        "std": 0.0,
+        "n": 1
+      },
+      "relevance": {
+        "mean": 5,
+        "std": 0.0,
+        "n": 1
+      },
+      "helpfulness": {
+        "mean": 5,
+        "std": 0.0,
+        "n": 1
+      },
+      "groundedness": {
+        "mean": 5,
+        "std": 0.0,
+        "n": 1
+      }
+    },
+    "bm25_rag": {
+      "specificity": {
+        "mean": 3,
+        "std": 0.0,
+        "n": 1
+      },
+      "actionability": {
+        "mean": 4,
+        "std": 0.0,
+        "n": 1
+      },
+      "relevance": {
+        "mean": 4,
+        "std": 0.0,
+        "n": 1
+      },
+      "helpfulness": {
+        "mean": 4,
+        "std": 0.0,
+        "n": 1
+      },
+      "groundedness": {
+        "mean": 4,
+        "std": 0.0,
+        "n": 1
+      }
+    },
+    "dense_rag": {
+      "specificity": {
+        "mean": 4,
+        "std": 0.0,
+        "n": 1
+      },
+      "actionability": {
+        "mean": 5,
+        "std": 0.0,
+        "n": 1
+      },
+      "relevance": {
+        "mean": 5,
+        "std": 0.0,
+        "n": 1
+      },
+      "helpfulness": {
+        "mean": 5,
+        "std": 0.0,
+        "n": 1
+      },
+      "groundedness": {
+        "mean": 4,
+        "std": 0.0,
+        "n": 1
+      }
+    },
+    "tag_bm25_rag": {
+      "specificity": {
+        "mean": 4,
+        "std": 0.0,
+        "n": 1
+      },
+      "actionability": {
+        "mean": 4,
+        "std": 0.0,
+        "n": 1
+      },
+      "relevance": {
+        "mean": 5,
+        "std": 0.0,
+        "n": 1
+      },
+      "helpfulness": {
+        "mean": 5,
+        "std": 0.0,
+        "n": 1
+      },
+      "groundedness": {
+        "mean": 4,
+        "std": 0.0,
+        "n": 1
+      }
+    },
+    "tag_dense_rag": {
+      "specificity": {
+        "mean": 3,
+        "std": 0.0,
+        "n": 1
+      },
+      "actionability": {
+        "mean": 4,
+        "std": 0.0,
+        "n": 1
+      },
+      "relevance": {
+        "mean": 4,
+        "std": 0.0,
+        "n": 1
+      },
+      "helpfulness": {
+        "mean": 4,
+        "std": 0.0,
+        "n": 1
+      },
+      "groundedness": {
+        "mean": 4,
+        "std": 0.0,
+        "n": 1
+      }
+    }
+  }
+}

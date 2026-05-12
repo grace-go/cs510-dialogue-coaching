@@ -1,0 +1,327 @@
+[
+  {
+    "id": "input_001",
+    "scenario": "interview",
+    "transcript": "I like programming and AI. I worked on a few class projects and I want to get an internship where I can learn more about machine learning.",
+    "predicted_tags": {
+      "strength_tags": [
+        "clear_goal",
+        "specific_example"
+      ],
+      "weakness_tags": [
+        "too_general",
+        "missing_details"
+      ]
+    },
+    "baseline": {
+      "feedback": "Here's the feedback:\n\n1. **Overall Assessment**: Your introduction is a good start, but it can be improved to make a stronger impression on the interviewer. You've shown interest in programming and AI, which is great, but there's room to provide more details and specificity.\n\n2. **Strengths**: You've clearly stated your goal of learning more about machine learning through an internship, which demonstrates a clear goal ('clear_goal' tag). Additionally, you've mentioned working on a few class projects, which provides a specific example ('specific_example' tag) of your experience.\n\n3. **Areas to Improve**: Your statement is quite general, which makes it hard to distinguish yourself from other candidates ('too_general' tag). Furthermore, you haven't provided enough details about your class projects or what you hope to achieve in the internship ('missing_details' tag). This lack of specificity makes it challenging for the interviewer to understand your skills and motivations.\n\n4. **Specific Suggestions**: To address the areas of improvement, try to be more specific about your class projects, such as what programming languages you used, what machine learning algorithms you implemented, or what problems you tried to solve. For example, you could describe a project where you applied machine learning to a real-world problem, and what you learned from the experience. Additionally, elaborate on what you hope to learn or achieve in the internship, such as working with specific technologies or collaborating with experienced professionals.\n\n5. **Improved Version**: Here's an example of how you could revise your introduction: \"I'm excited about the opportunity to apply my programming skills and knowledge of AI to real-world problems. In my machine learning class, I worked on a project where I used Python and scikit-learn to build a predictive model for image classification. I'm eager to learn more about deep learning and natural language processing, and I believe this internship will provide me with the ideal environment to explore these topics and work with experienced professionals in the field.\" This revised version provides more specifics about your experience, interests, and goals, making it more engaging and informative for the interviewer."
+    },
+    "bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "feedback_001",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 17.8634,
+          "strength_tags": [
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your response is understandable, but it lacks specific examples and clear impact. Mention one project in detail, explain your contribution, and describe what you learned or achieved."
+        },
+        {
+          "id": "feedback_008",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 16.6696,
+          "strength_tags": [
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "uncertain_tone",
+            "filler_words"
+          ],
+          "text": "Your response communicates interest in the role, but hesitant language weakens your confidence. Replace uncertain phrases like 'kind of' or 'maybe' with direct statements and provide one concrete machine learning project example."
+        },
+        {
+          "id": "revision_pair_006",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 15.3743,
+          "strength_tags": [
+            "specific_example",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "lack_of_specific_action"
+          ],
+          "text": "Weakness: The response relies on vague self-description without supporting evidence. Improved version: I developed strong problem-solving skills while working on a distributed systems project where I implemented fault-tolerant communication between multiple servers. Through that experience, I learne"
+        },
+        {
+          "id": "revision_pair_001",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 14.7349,
+          "strength_tags": [
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response is too general and lacks detail. Improved version: I became interested in AI after building a recommendation system project in my machine learning course. I implemented collaborative filtering using Python and evaluated the model using accuracy metrics. That experience motivat"
+        },
+        {
+          "id": "feedback_026",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 14.1004,
+          "strength_tags": [
+            "natural_flow",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your interests are clear and the answer flows naturally. However, the response would feel more memorable if you included a specific project that combines both programming and design skills."
+        }
+      ],
+      "feedback": "## Step 1: Overall Assessment\nYour response shows enthusiasm for programming and AI, and you've expressed a desire to learn more about machine learning through an internship. This is a good starting point, but there's room for improvement to make your answer more compelling and detailed.\n\n## Step 2: Strengths\nYou've demonstrated a clear goal by expressing your interest in machine learning and your desire for an internship in this field. Additionally, you've provided a specific example of your experience by mentioning that you worked on a few class projects, which is a step in the right direction.\n\n## Step 3: Areas to Improve\nThe main areas for improvement are that your response is too general and lacks specific details. While you mention working on \"a few class projects,\" you don't elaborate on what these projects were about, your role in them, or what you learned from the experiences. This lack of detail makes it difficult to understand your capabilities and potential as a candidate.\n\n## Step 4: Specific Suggestions\nTo strengthen your response, consider selecting one of the class projects you worked on and describe it in more detail. Explain what the project was about, your specific contributions to the project, and what you learned from the experience. This could include any challenges you faced, how you overcame them, and any skills or knowledge you gained. Additionally, try to connect this project experience back to your interest in machine learning and how it has prepared you for an internship in this field.\n\n## Step 5: Improved Version\nFor example, you could say something like: \"I became particularly interested in machine learning after working on a project in my AI course where we developed a simple predictive model using Python. My role in the project was to collect and preprocess the data, and then implement a basic algorithm to make predictions. Through this project, I learned about the importance of data quality and the challenges of model optimization. This experience not only deepened my understanding of machine learning concepts but also sparked my interest in exploring more advanced topics and applying them in real-world scenarios. I believe this background and my enthusiasm for learning make me a strong candidate for an internship focused on machine learning, where I can further develop my skills and contribute to meaningful projects.\""
+    },
+    "dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_001",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 0.4571,
+          "strength_tags": [
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response is too general and lacks detail. Improved version: I became interested in AI after building a recommendation system project in my machine learning course. I implemented collaborative filtering using Python and evaluated the model using accuracy metrics. That experience motivat"
+        },
+        {
+          "id": "feedback_029",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 0.3502,
+          "strength_tags": [
+            "clear_goal",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your career goal is clear and meaningful. To make your answer more convincing, explain what experiences or projects motivated your interest in ethical AI research."
+        },
+        {
+          "id": "feedback_005",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 0.3486,
+          "strength_tags": [
+            "natural_flow"
+          ],
+          "weakness_tags": [
+            "too_general"
+          ],
+          "text": "Your answer has a natural tone, but it would be more engaging if you included a memorable story or project that sparked your interest in computer science."
+        },
+        {
+          "id": "feedback_023",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 0.3188,
+          "strength_tags": [
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your motivation is understandable, but the response feels generic. Include a specific AI topic, research interest, or personal experience that explains why this field matters to you personally."
+        },
+        {
+          "id": "revision_pair_005",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 0.3149,
+          "strength_tags": [
+            "engaging",
+            "natural_flow"
+          ],
+          "weakness_tags": [
+            "too_general"
+          ],
+          "text": "Weakness: The response lacks a memorable example or personal story. Improved version: My interest in computer science began when I participated in a robotics competition during high school. I enjoyed combining programming and hardware to solve real problems, which later motivated me to study AI and "
+        }
+      ],
+      "feedback": "## Step 1: Overall Assessment\nYour transcript shows a good start in expressing your interest in programming and AI, and your desire to learn more about machine learning through an internship. However, there's room for improvement to make your statement more engaging and detailed.\n\n## Step 2: Strengths\nYou've demonstrated a clear goal by mentioning your interest in programming and AI, and specifically stating that you want to learn more about machine learning. This shows you have a direction in mind for your internship. Additionally, you've provided a specific example by mentioning that you worked on a few class projects, which is a good starting point for showcasing your experience.\n\n## Step 3: Areas to Improve\nThe main areas for improvement are that your statement is too general and lacks specific details. While you mention working on class projects, you don't elaborate on what these projects were about or what you learned from them. Similarly, your interest in machine learning could be more specific, such as what aspects of machine learning interest you the most or how you see yourself applying it.\n\n## Step 4: Specific Suggestions\nTo strengthen your statement, consider adding more details about the class projects you worked on. For example, you could describe the technologies you used, the challenges you faced, and how you overcame them. Additionally, try to be more specific about your interest in machine learning. Is it the theoretical foundations, the application in real-world problems, or something else? Providing specific examples or anecdotes will make your interest more tangible and show that you've given thought to how you can contribute to and learn from an internship.\n\n## Step 5: Improved Version\nHere's an example of how you could revise your statement to address the areas for improvement:\n\"I became fascinated with AI and machine learning after working on a class project that involved building a simple chatbot using natural language processing techniques. Through this project, I not only gained hands-on experience with Python and machine learning libraries but also saw the potential of AI in improving user interactions. What really excites me about machine learning is its ability to learn from data and make predictions, and I'm particularly interested in exploring its applications in recommendation systems. I believe an internship focused on machine learning will provide me with the opportunity to delve deeper into these topics, work on more complex projects, and contribute to the development of innovative AI solutions.\""
+    },
+    "tag_bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_001",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 22.37,
+          "strength_tags": [
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response is too general and lacks detail. Improved version: I became interested in AI after building a recommendation system project in my machine learning course. I implemented collaborative filtering using Python and evaluated the model using accuracy metrics. That experience motivat"
+        },
+        {
+          "id": "feedback_001",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 21.184,
+          "strength_tags": [
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your response is understandable, but it lacks specific examples and clear impact. Mention one project in detail, explain your contribution, and describe what you learned or achieved."
+        },
+        {
+          "id": "revision_pair_006",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 19.0069,
+          "strength_tags": [
+            "specific_example",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "lack_of_specific_action"
+          ],
+          "text": "Weakness: The response relies on vague self-description without supporting evidence. Improved version: I developed strong problem-solving skills while working on a distributed systems project where I implemented fault-tolerant communication between multiple servers. Through that experience, I learne"
+        },
+        {
+          "id": "feedback_008",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 17.7135,
+          "strength_tags": [
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "uncertain_tone",
+            "filler_words"
+          ],
+          "text": "Your response communicates interest in the role, but hesitant language weakens your confidence. Replace uncertain phrases like 'kind of' or 'maybe' with direct statements and provide one concrete machine learning project example."
+        },
+        {
+          "id": "feedback_004",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 17.3259,
+          "strength_tags": [
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your motivation is clear, but the response feels too broad. Include a specific experience that demonstrates your passion for technology and explain how this scholarship supports your future goals."
+        }
+      ],
+      "feedback": "## Step 1: Overall Assessment\nYour response shows a clear interest in programming and AI, which is a great starting point for an interview. However, to make a stronger impression, it's essential to provide more specific details about your experiences and goals.\n\n## Step 2: Strengths\nYou have demonstrated a clear goal by expressing your desire to learn more about machine learning through an internship. Additionally, you've mentioned working on a few class projects, which indicates that you have some hands-on experience.\n\n## Step 3: Areas to Improve\nThe main areas for improvement are that your response is too general and lacks specific details. While you mention working on \"a few class projects,\" it would be beneficial to elaborate on what these projects were, your role in them, and what you learned from the experiences. This will help to paint a more vivid picture of your skills and interests.\n\n## Step 4: Specific Suggestions\nTo strengthen your response, consider the following suggestions:\n- Choose one of the class projects you worked on and describe it in detail. What was the project about? What technologies did you use? What was your contribution to the project?\n- Explain how this project (or projects) relates to your interest in machine learning. What aspects of machine learning did you apply or learn about during the project?\n- Be specific about what you hope to achieve or learn from the internship. Are there particular areas of machine learning you're interested in? Are there specific skills you want to develop?\n\n## Step 5: Improved Version\nHere's an example of how you could revise your response based on the suggestions:\n\"I became fascinated with machine learning after working on a project in my data structures course where we developed a simple chatbot using natural language processing techniques. My role in the project was to implement the backend logic, which involved using Python and integrating it with a frontend interface. Through this experience, I not only deepened my understanding of programming principles but also gained insight into how machine learning can be applied to real-world problems. I'm excited about the opportunity to intern in a machine learning role because I want to further explore the applications of AI, particularly in areas like predictive modeling and computer vision. I believe this internship will provide me with the hands-on experience and mentorship needed to take my skills to the next level and contribute meaningfully to projects that leverage machine learning for innovative solutions.\""
+    },
+    "tag_dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_001",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 1.6571,
+          "strength_tags": [
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response is too general and lacks detail. Improved version: I became interested in AI after building a recommendation system project in my machine learning course. I implemented collaborative filtering using Python and evaluated the model using accuracy metrics. That experience motivat"
+        },
+        {
+          "id": "feedback_023",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 1.2188,
+          "strength_tags": [
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your motivation is understandable, but the response feels generic. Include a specific AI topic, research interest, or personal experience that explains why this field matters to you personally."
+        },
+        {
+          "id": "feedback_011",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 1.1599,
+          "strength_tags": [
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your long-term goal is meaningful, but the response needs more specificity. Include a concrete research interest or project that demonstrates how you are already working toward this goal."
+        },
+        {
+          "id": "feedback_004",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 1.0492,
+          "strength_tags": [
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your motivation is clear, but the response feels too broad. Include a specific experience that demonstrates your passion for technology and explain how this scholarship supports your future goals."
+        },
+        {
+          "id": "revision_pair_003",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 1.0451,
+          "strength_tags": [
+            "engaging",
+            "clear_goal",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Weakness: The response is vague and does not explain personal motivation. Improved version: I want this scholarship because it would allow me to continue my research on AI accessibility tools. During my previous project, I worked on detecting harmful flashing content on websites to improve accessibi"
+        }
+      ],
+      "feedback": "## Step 1: Overall Assessment\nYour transcript shows a good starting point, as you've expressed interest in programming and AI, and you're looking to learn more about machine learning through an internship. However, to make a stronger impression, it's essential to provide more specific details about your experiences and goals.\n\n## Step 2: Strengths\nYou've demonstrated a clear goal by expressing your desire to learn more about machine learning through an internship, which shows you have a direction in mind. Additionally, mentioning that you worked on a few class projects indicates that you have some experience, even if it's not fully elaborated.\n\n## Step 3: Areas to Improve\nThe main areas for improvement are that your statement is too general and lacks specific details. For instance, you could elaborate more on what aspects of machine learning interest you the most or describe the class projects you worked on, including any challenges you faced and how you overcame them.\n\n## Step 4: Specific Suggestions\nTo strengthen your statement, consider including a specific AI topic or research interest that you're passionate about. For example, you could mention if you're interested in natural language processing, computer vision, or reinforcement learning. Additionally, provide more details about the class projects you worked on, such as the technologies you used, the problems you tried to solve, and what you learned from the experience. This will help to paint a clearer picture of your skills and motivations.\n\n## Step 5: Improved Version\nHere's an example of how you could revise your statement to address the areas for improvement:\n\"I became fascinated with machine learning after working on a class project that involved building a predictive model using Python and scikit-learn. The project aimed to forecast stock prices based on historical data, and I was responsible for data preprocessing and model evaluation. This experience not only deepened my understanding of supervised learning but also sparked my interest in exploring more advanced topics like deep learning and neural networks. Through this internship, I hope to gain hands-on experience with machine learning applications and contribute to projects that can make a significant impact. I'm particularly interested in learning more about the applications of machine learning in [specific area of interest], and I believe this internship will provide me with the ideal opportunity to learn from experienced professionals and further develop my skills.\""
+    }
+  }
+]

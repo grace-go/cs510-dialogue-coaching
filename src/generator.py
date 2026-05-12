@@ -7,11 +7,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 client = OpenAI(
-    api_key=os.getenv("XAI_API_KEY"),
-    base_url="https://api.x.ai/v1",
+    api_key=os.getenv("GROQ_API_KEY"),
+    base_url="https://api.groq.com/openai/v1",
 )
 
-GROK_MODEL = os.getenv("GROK_MODEL", "grok-4.3")
+GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
 
 
 def format_retrieved_docs(retrieved_docs):
@@ -76,9 +76,9 @@ Rules:
 - Make feedback concrete, supportive, and actionable.
 """
 
-    response = client.responses.create(
-        model=GROK_MODEL,
-        input=[
+    response = client.chat.completions.create(
+        model=GROQ_MODEL,
+        messages=[
             {
                 "role": "system",
                 "content": "You are an expert communication coach for CS students."
@@ -91,4 +91,4 @@ Rules:
         temperature=0.3
     )
 
-    return response.output_text
+    return response.choices[0].message.content
