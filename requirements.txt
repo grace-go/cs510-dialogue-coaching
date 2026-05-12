@@ -1,0 +1,7 @@
+openai
+torch
+scikit-learn
+python-dotenv
+sentence-transformers
+rank-bm25
+numpy

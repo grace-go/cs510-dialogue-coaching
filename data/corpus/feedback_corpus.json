@@ -2,7 +2,7 @@
   {
     "id": "feedback_001",
     "type": "feedback_example",
-    "scenario": "job_interview",
+    "scenario": "interview",
     "user_input": "I like programming and I worked on some class projects.",
     "text": "Your response is understandable, but it lacks specific examples and clear impact. Mention one project in detail, explain your contribution, and describe what you learned or achieved.",
     "strength_tags": ["clear_language"],
@@ -11,7 +11,7 @@
   {
     "id": "feedback_002",
     "type": "feedback_example",
-    "scenario": "job_interview",
+    "scenario": "interview",
     "user_input": "In my database class we made an app and it was successful.",
     "text": "You mention a relevant experience, but your answer would be stronger if you clearly explained your role and the technical challenges you solved. Add measurable outcomes or concrete achievements to make your contribution more convincing.",
     "strength_tags": ["specific_example"],
@@ -20,7 +20,7 @@
   {
     "id": "feedback_003",
     "type": "feedback_example",
-    "scenario": "behavioral_interview",
+    "scenario": "interview",
     "user_input": "One time my team had a disagreement during our software engineering project.",
     "text": "Your response introduces a meaningful situation, but it lacks a complete STAR structure. Explain the specific conflict, what action you personally took, and what result your team achieved afterward.",
     "strength_tags": ["clear_goal"],
@@ -29,7 +29,7 @@
   {
     "id": "feedback_004",
     "type": "feedback_example",
-    "scenario": "scholarship_interview",
+    "scenario": "interview",
     "user_input": "I want this scholarship because I work hard and care about technology.",
     "text": "Your motivation is clear, but the response feels too broad. Include a specific experience that demonstrates your passion for technology and explain how this scholarship supports your future goals.",
     "strength_tags": ["clear_goal"],
@@ -38,7 +38,7 @@
   {
     "id": "feedback_005",
     "type": "feedback_example",
-    "scenario": "college_interview",
+    "scenario": "interview",
     "user_input": "I chose computer science because I always liked computers and coding.",
     "text": "Your answer has a natural tone, but it would be more engaging if you included a memorable story or project that sparked your interest in computer science.",
     "strength_tags": ["natural_flow"],
@@ -47,7 +47,7 @@
   {
     "id": "feedback_006",
     "type": "feedback_example",
-    "scenario": "job_interview",
+    "scenario": "interview",
     "user_input": "I used Python, Java, C++, SQL, React, Node.js, TensorFlow, Docker, Kubernetes, and many other tools in different projects.",
     "text": "Your technical background sounds impressive, but the response becomes difficult to follow because it lists too many technologies without context. Focus on one or two relevant projects and explain how you used those tools to solve a problem.",
     "strength_tags": ["confident_tone"],
@@ -56,7 +56,7 @@
   {
     "id": "feedback_007",
     "type": "feedback_example",
-    "scenario": "behavioral_interview",
+    "scenario": "interview",
     "user_input": "My team project failed because some teammates did not do their work.",
     "text": "You identified a challenge clearly, but the answer would sound more professional if you focused on your own actions and problem-solving approach instead of blaming teammates. Explain how you adapted and what you learned from the experience.",
     "strength_tags": ["clear_language"],
@@ -65,7 +65,7 @@
   {
     "id": "feedback_008",
     "type": "feedback_example",
-    "scenario": "job_interview",
+    "scenario": "interview",
     "user_input": "Uh, I think maybe I could be a good fit because I kind of know machine learning.",
     "text": "Your response communicates interest in the role, but hesitant language weakens your confidence. Replace uncertain phrases like 'kind of' or 'maybe' with direct statements and provide one concrete machine learning project example.",
     "strength_tags": ["clear_goal"],
@@ -74,7 +74,7 @@
   {
     "id": "feedback_009",
     "type": "feedback_example",
-    "scenario": "behavioral_interview",
+    "scenario": "interview",
     "user_input": "I had to debug a distributed systems assignment under a tight deadline.",
     "text": "This is a strong situation to discuss because it highlights technical problem solving. To improve your answer, describe the exact debugging steps you took and explain the final outcome more clearly.",
     "strength_tags": ["specific_example"],
@@ -83,7 +83,7 @@
   {
     "id": "feedback_010",
     "type": "feedback_example",
-    "scenario": "job_interview",
+    "scenario": "interview",
     "user_input": "I want to work at your company because it is famous and successful.",
     "text": "Your answer explains interest in the company, but it lacks a personal connection. Mention a specific product, research area, or company value that genuinely aligns with your background and goals.",
     "strength_tags": ["clear_language"],
@@ -92,7 +92,7 @@
   {
     "id": "feedback_011",
     "type": "feedback_example",
-    "scenario": "scholarship_interview",
+    "scenario": "interview",
     "user_input": "I hope to use AI to help people in the future.",
     "text": "Your long-term goal is meaningful, but the response needs more specificity. Include a concrete research interest or project that demonstrates how you are already working toward this goal.",
     "strength_tags": ["clear_goal"],
@@ -101,7 +101,7 @@
   {
     "id": "feedback_012",
     "type": "feedback_example",
-    "scenario": "behavioral_interview",
+    "scenario": "interview",
     "user_input": "First we had a problem. Then we worked on it. Then it got solved.",
     "text": "Your answer follows a basic sequence, but it lacks detail and impact. Use the STAR structure more explicitly by explaining the situation, your responsibilities, your specific actions, and the measurable result.",
     "strength_tags": ["logical_structure"],
@@ -110,7 +110,7 @@
   {
     "id": "feedback_013",
     "type": "feedback_example",
-    "scenario": "college_interview",
+    "scenario": "interview",
     "user_input": "I am passionate about learning and improving myself.",
     "text": "Your enthusiasm comes across positively, but the answer would be stronger with a concrete example. Describe a challenging project or learning experience that demonstrates your growth mindset.",
     "strength_tags": ["engaging"],
@@ -119,7 +119,7 @@
   {
     "id": "feedback_014",
     "type": "feedback_example",
-    "scenario": "job_interview",
+    "scenario": "interview",
     "user_input": "I developed a chatbot that helped students find campus information more efficiently.",
     "text": "This is a strong project example because it clearly connects technical work with real-world impact. To make it even stronger, explain the technologies you used and quantify the impact if possible.",
     "strength_tags": ["specific_example", "concrete_achievement"],
@@ -128,7 +128,7 @@
   {
     "id": "feedback_015",
     "type": "feedback_example",
-    "scenario": "behavioral_interview",
+    "scenario": "interview",
     "user_input": "I stayed calm during a difficult deadline and communicated with my teammates regularly.",
     "text": "Your response demonstrates teamwork and professionalism. To improve it further, include a clearer explanation of the challenge itself and describe a concrete result achieved by your communication efforts.",
     "strength_tags": ["professional_tone", "natural_flow"],
@@ -137,7 +137,7 @@
   {
     "id": "feedback_016",
     "type": "feedback_example",
-    "scenario": "job_interview",
+    "scenario": "interview",
     "user_input": "I am interested in software engineering, cybersecurity, AI, robotics, and game development.",
     "text": "Your broad interests show curiosity, but the response lacks focus. Narrow your answer to one or two areas most relevant to the position and explain why those interests are meaningful to you.",
     "strength_tags": ["engaging"],
@@ -146,7 +146,7 @@
   {
     "id": "feedback_017",
     "type": "feedback_example",
-    "scenario": "scholarship_interview",
+    "scenario": "interview",
     "user_input": "My research experience taught me many important skills.",
     "text": "Your statement is understandable, but it would be more convincing if you explained one specific research challenge and what skills you developed while solving it.",
     "strength_tags": ["clear_language"],
@@ -155,7 +155,7 @@
   {
     "id": "feedback_018",
     "type": "feedback_example",
-    "scenario": "behavioral_interview",
+    "scenario": "interview",
     "user_input": "I led a small team during our capstone project and coordinated weekly meetings.",
     "text": "This answer provides a strong leadership example. To strengthen it further, explain how your leadership improved the project outcome and include one measurable achievement or team success.",
     "strength_tags": ["specific_example", "confident_tone"],
@@ -164,7 +164,7 @@
   {
     "id": "feedback_019",
     "type": "feedback_example",
-    "scenario": "job_interview",
+    "scenario": "interview",
     "user_input": "I think my communication skills are pretty good and people usually like working with me.",
     "text": "Your answer sounds conversational, but it relies on vague claims. Provide a concrete teamwork or leadership example that demonstrates your communication abilities in action.",
     "strength_tags": ["natural_flow"],
@@ -173,7 +173,7 @@
   {
     "id": "feedback_020",
     "type": "feedback_example",
-    "scenario": "college_interview",
+    "scenario": "interview",
     "user_input": "I want to study computer science to create technology that improves accessibility for users.",
     "text": "Your goal is clear and meaningful, and the answer has a professional tone. To make your response more memorable, add a personal experience or project that inspired your interest in accessibility.",
     "strength_tags": ["clear_goal", "professional_tone"],
@@ -182,7 +182,7 @@
   {
     "id": "feedback_021",
     "type": "feedback_example",
-    "scenario": "job_interview",
+    "scenario": "interview",
     "user_input": "I built a recommendation system for one of my classes and it worked pretty well.",
     "text": "You introduced a relevant technical project, but the impact of your work is still unclear. Explain what problem the recommendation system solved, what algorithms or tools you used, and how you evaluated its performance.",
     "strength_tags": ["specific_example"],
@@ -191,7 +191,7 @@
   {
     "id": "feedback_022",
     "type": "feedback_example",
-    "scenario": "behavioral_interview",
+    "scenario": "interview",
     "user_input": "During our hackathon project, I handled the backend while my teammates worked on the frontend.",
     "text": "Your role in the project is clear, which helps the answer feel organized. To improve the response, explain one technical challenge you faced and describe how your backend contribution affected the final project outcome.",
     "strength_tags": ["logical_structure", "clear_language"],
@@ -200,7 +200,7 @@
   {
     "id": "feedback_023",
     "type": "feedback_example",
-    "scenario": "scholarship_interview",
+    "scenario": "interview",
     "user_input": "I want to continue studying AI because it is an important field for the future.",
     "text": "Your motivation is understandable, but the response feels generic. Include a specific AI topic, research interest, or personal experience that explains why this field matters to you personally.",
     "strength_tags": ["clear_goal"],
@@ -209,7 +209,7 @@
   {
     "id": "feedback_024",
     "type": "feedback_example",
-    "scenario": "job_interview",
+    "scenario": "interview",
     "user_input": "So basically I did a lot of coding and stuff for the project and it turned out okay.",
     "text": "Your answer sounds informal and does not clearly explain your contribution. Use more professional language, describe the technical work you completed, and explain what result the project achieved.",
     "strength_tags": ["natural_flow"],
@@ -218,7 +218,7 @@
   {
     "id": "feedback_025",
     "type": "feedback_example",
-    "scenario": "behavioral_interview",
+    "scenario": "interview",
     "user_input": "When our deployment failed, I stayed late to investigate the issue and eventually fixed the configuration problem.",
     "text": "This response provides a strong example of responsibility and problem solving. To make it even stronger, explain how you identified the root cause and describe the impact your solution had on the team or project.",
     "strength_tags": ["specific_example", "confident_tone"],
@@ -227,7 +227,7 @@
   {
     "id": "feedback_026",
     "type": "feedback_example",
-    "scenario": "college_interview",
+    "scenario": "interview",
     "user_input": "I enjoy both programming and design because I like making useful applications.",
     "text": "Your interests are clear and the answer flows naturally. However, the response would feel more memorable if you included a specific project that combines both programming and design skills.",
     "strength_tags": ["natural_flow", "clear_goal"],
@@ -236,7 +236,7 @@
   {
     "id": "feedback_027",
     "type": "feedback_example",
-    "scenario": "job_interview",
+    "scenario": "interview",
     "user_input": "I worked on many different projects including AI, web development, mobile apps, and cybersecurity tools.",
     "text": "Your experience sounds broad and technically strong, but the answer lacks focus. Select one or two projects most relevant to the role and explain them in greater depth instead of listing many topics briefly.",
     "strength_tags": ["engaging"],
@@ -245,7 +245,7 @@
   {
     "id": "feedback_028",
     "type": "feedback_example",
-    "scenario": "behavioral_interview",
+    "scenario": "interview",
     "user_input": "I usually try to help my teammates whenever they have coding problems.",
     "text": "Your answer communicates teamwork and a supportive attitude. To strengthen the response, describe one specific situation where your help improved the team’s progress or solved a technical challenge.",
     "strength_tags": ["professional_tone"],
@@ -254,7 +254,7 @@
   {
     "id": "feedback_029",
     "type": "feedback_example",
-    "scenario": "scholarship_interview",
+    "scenario": "interview",
     "user_input": "My goal is to become a researcher and contribute to ethical AI systems.",
     "text": "Your career goal is clear and meaningful. To make your answer more convincing, explain what experiences or projects motivated your interest in ethical AI research.",
     "strength_tags": ["clear_goal", "professional_tone"],
@@ -263,7 +263,7 @@
   {
     "id": "feedback_030",
     "type": "feedback_example",
-    "scenario": "job_interview",
+    "scenario": "interview",
     "user_input": "Um, I think I did pretty well in my internship because my manager seemed happy with my work.",
     "text": "Your answer suggests positive internship performance, but it relies on vague impressions instead of evidence. Describe one concrete accomplishment or project from the internship and explain the measurable impact of your work.",
     "strength_tags": ["clear_language"],

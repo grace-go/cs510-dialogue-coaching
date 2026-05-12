@@ -1,0 +1,104 @@
+# src/tagger.py
+
+import os
+import json
+from openai import OpenAI
+from dotenv import load_dotenv
+
+load_dotenv()
+
+client = OpenAI(
+    api_key=os.getenv("XAI_API_KEY"),
+    base_url="https://api.x.ai/v1",
+)
+
+GROK_MODEL = os.getenv("GROK_MODEL", "grok-4.3")
+
+
+def extract_json(text):
+    """
+    Safely extract JSON from the model output.
+    """
+    text = text.strip()
+
+    if text.startswith("```"):
+        text = text.replace("```json", "").replace("```", "").strip()
+
+    start = text.find("{")
+    end = text.rfind("}")
+
+    if start == -1 or end == -1:
+        raise ValueError(f"No JSON object found in model output:\n{text}")
+
+    return json.loads(text[start:end + 1])
+
+
+def tag_user_input(transcript, scenario, tag_definitions):
+    strength_tags = tag_definitions["strength_tags"]
+    weakness_tags = tag_definitions["weakness_tags"]
+
+    prompt = f"""
+You are a strict dialogue-coaching tag classifier.
+
+Scenario:
+{scenario}
+
+User transcript:
+{transcript}
+
+Allowed strength tags:
+{strength_tags}
+
+Allowed weakness tags:
+{weakness_tags}
+
+Task:
+Choose the most appropriate tags for the transcript.
+
+Rules:
+- Use ONLY tags from the allowed lists.
+- Select 0 to 3 strength tags.
+- Select 1 to 3 weakness tags.
+- Do not invent new tags.
+- If the transcript has no clear strength, return an empty strength_tags list.
+- Return ONLY valid JSON.
+
+Output format:
+{{
+  "strength_tags": [],
+  "weakness_tags": []
+}}
+"""
+
+    response = client.responses.create(
+        model=GROK_MODEL,
+        input=[
+            {
+                "role": "system",
+                "content": "You classify spoken coaching responses into controlled tags."
+            },
+            {
+                "role": "user",
+                "content": prompt
+            }
+        ],
+        temperature=0
+    )
+
+    output_text = response.output_text
+    parsed = extract_json(output_text)
+
+    parsed["strength_tags"] = [
+        tag for tag in parsed.get("strength_tags", [])
+        if tag in strength_tags
+    ]
+
+    parsed["weakness_tags"] = [
+        tag for tag in parsed.get("weakness_tags", [])
+        if tag in weakness_tags
+    ]
+
+    if not parsed["weakness_tags"]:
+        parsed["weakness_tags"] = ["missing_details"]
+
+    return parsed

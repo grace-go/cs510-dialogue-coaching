@@ -1,0 +1,12 @@
+[
+  {
+    "id": "input_001",
+    "scenario": "interview",
+    "transcript": "I like AI and I worked on some projects."
+  },
+  {
+    "id": "input_002",
+    "scenario": "elevator_pitch",
+    "transcript": "I am a computer science student and I like programming."
+  }
+]

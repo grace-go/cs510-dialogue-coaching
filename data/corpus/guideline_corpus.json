@@ -2,7 +2,7 @@
   {
     "id": "guideline_001",
     "type": "guideline",
-    "scenario": "behavioral_interview",
+    "scenario": "interview",
     "text": "Strong behavioral interview answers should follow the STAR structure: Situation, Task, Action, and Result. Candidates should clearly explain their personal contribution and describe measurable outcomes whenever possible.",
     "strength_tags": ["good_STAR_structure", "clear_language"],
     "weakness_tags": ["missing_STAR", "lack_of_specific_action"]
@@ -10,7 +10,7 @@
   {
     "id": "guideline_002",
     "type": "guideline",
-    "scenario": "job_interview",
+    "scenario": "interview",
     "text": "Good technical interview answers often include one concrete project example, the technologies used, the problem solved, and the impact or outcome of the work.",
     "strength_tags": ["specific_example", "concrete_achievement"],
     "weakness_tags": ["too_general", "missing_details"]
@@ -18,7 +18,7 @@
   {
     "id": "guideline_003",
     "type": "guideline",
-    "scenario": "college_interview",
+    "scenario": "interview",
     "text": "College interview responses should communicate both personal motivation and intellectual curiosity. Specific stories or experiences are more memorable than generic statements.",
     "strength_tags": ["engaging", "clear_goal"],
     "weakness_tags": ["too_general"]
@@ -26,7 +26,7 @@
   {
     "id": "guideline_004",
     "type": "guideline",
-    "scenario": "scholarship_interview",
+    "scenario": "interview",
     "text": "Scholarship interview answers should connect past experiences, current goals, and future impact. Strong answers explain why the scholarship matters personally and academically.",
     "strength_tags": ["logical_structure", "clear_goal"],
     "weakness_tags": ["unclear_goal", "missing_details"]
@@ -34,7 +34,7 @@
   {
     "id": "guideline_005",
     "type": "guideline",
-    "scenario": "job_interview",
+    "scenario": "interview",
     "text": "Candidates should avoid listing too many technologies without explanation. Focusing on one or two relevant projects usually creates a clearer and stronger impression.",
     "strength_tags": ["clear_language"],
     "weakness_tags": ["wordy", "poor_structure"]
@@ -42,7 +42,7 @@
   {
     "id": "guideline_006",
     "type": "guideline",
-    "scenario": "behavioral_interview",
+    "scenario": "interview",
     "text": "Behavioral interview responses should focus on the candidate’s own actions and decisions rather than only describing the team’s work. Interviewers want to understand how the candidate personally contributed to solving the problem.",
     "strength_tags": ["clear_language", "good_STAR_structure"],
     "weakness_tags": ["lack_of_specific_action", "missing_details"]
@@ -50,7 +50,7 @@
   {
     "id": "guideline_007",
     "type": "guideline",
-    "scenario": "job_interview",
+    "scenario": "interview",
     "text": "Strong job interview answers usually connect technical skills to real-world impact. Candidates should explain not only what technologies they used, but also why those technologies mattered for solving the problem.",
     "strength_tags": ["specific_example", "concrete_achievement"],
     "weakness_tags": ["too_general", "missing_details"]
@@ -58,7 +58,7 @@
   {
     "id": "guideline_008",
     "type": "guideline",
-    "scenario": "college_interview",
+    "scenario": "interview",
     "text": "College interview answers should sound authentic and personal. Specific experiences, challenges, or moments of growth often create stronger and more memorable responses than generic statements about passion or hard work.",
     "strength_tags": ["engaging", "natural_flow"],
     "weakness_tags": ["too_general"]
@@ -66,7 +66,7 @@
   {
     "id": "guideline_009",
     "type": "guideline",
-    "scenario": "job_interview",
+    "scenario": "interview",
     "text": "Candidates should avoid overly long explanations during interviews. Clear and concise answers that focus on one main idea are usually easier for interviewers to follow and remember.",
     "strength_tags": ["clear_language", "logical_structure"],
     "weakness_tags": ["wordy", "rambling"]
@@ -74,7 +74,7 @@
   {
     "id": "guideline_010",
     "type": "guideline",
-    "scenario": "behavioral_interview",
+    "scenario": "interview",
     "text": "When discussing challenges or failures, strong candidates explain what they learned from the experience and how they improved afterward. Reflection demonstrates maturity and problem-solving ability.",
     "strength_tags": ["professional_tone", "logical_structure"],
     "weakness_tags": ["missing_details", "lack_of_specific_action"]
@@ -82,7 +82,7 @@
   {
     "id": "guideline_011",
     "type": "guideline",
-    "scenario": "scholarship_interview",
+    "scenario": "interview",
     "text": "Scholarship interview responses are stronger when candidates clearly explain how their academic goals connect to broader social impact or future contributions.",
     "strength_tags": ["clear_goal", "engaging"],
     "weakness_tags": ["unclear_goal", "too_general"]
@@ -90,7 +90,7 @@
   {
     "id": "guideline_012",
     "type": "guideline",
-    "scenario": "job_interview",
+    "scenario": "interview",
     "text": "Technical interview responses should balance technical depth with clarity. Candidates should explain complex concepts in a way that remains organized and understandable.",
     "strength_tags": ["clear_language", "professional_tone"],
     "weakness_tags": ["poor_structure", "wordy"]
@@ -98,7 +98,7 @@
   {
     "id": "guideline_013",
     "type": "guideline",
-    "scenario": "behavioral_interview",
+    "scenario": "interview",
     "text": "Interviewers often look for measurable outcomes in behavioral responses. Including results such as improved efficiency, successful project completion, or team achievements makes answers more convincing.",
     "strength_tags": ["concrete_achievement", "good_STAR_structure"],
     "weakness_tags": ["missing_details", "lack_of_specific_action"]
@@ -106,7 +106,7 @@
   {
     "id": "guideline_014",
     "type": "guideline",
-    "scenario": "college_interview",
+    "scenario": "interview",
     "text": "Strong college interview answers often demonstrate curiosity and initiative through extracurricular activities, personal projects, or independent learning experiences.",
     "strength_tags": ["engaging", "specific_example"],
     "weakness_tags": ["too_general", "missing_details"]
@@ -114,7 +114,7 @@
   {
     "id": "guideline_015",
     "type": "guideline",
-    "scenario": "job_interview",
+    "scenario": "interview",
     "text": "Candidates should avoid uncertain language such as 'maybe,' 'kind of,' or 'I guess' during interviews. Confident and direct wording creates a stronger professional impression.",
     "strength_tags": ["confident_tone", "professional_tone"],
     "weakness_tags": ["uncertain_tone", "filler_words"]
@@ -122,7 +122,7 @@
   {
     "id": "guideline_016",
     "type": "guideline",
-    "scenario": "behavioral_interview",
+    "scenario": "interview",
     "text": "Good behavioral interview answers clearly describe the challenge before explaining the solution. Without enough context, interviewers may struggle to understand the significance of the candidate’s actions.",
     "strength_tags": ["logical_structure", "clear_language"],
     "weakness_tags": ["missing_details", "poor_structure"]
@@ -130,7 +130,7 @@
   {
     "id": "guideline_017",
     "type": "guideline",
-    "scenario": "scholarship_interview",
+    "scenario": "interview",
     "text": "Scholarship interviews often evaluate both academic ability and long-term motivation. Strong responses explain not only what the candidate has done, but also why those experiences matter for their future goals.",
     "strength_tags": ["clear_goal", "logical_structure"],
     "weakness_tags": ["unclear_goal", "missing_details"]
@@ -138,7 +138,7 @@
   {
     "id": "guideline_018",
     "type": "guideline",
-    "scenario": "job_interview",
+    "scenario": "interview",
     "text": "Project discussions are stronger when candidates explain both technical contributions and collaboration experience. Interviewers often value teamwork and communication alongside technical ability.",
     "strength_tags": ["professional_tone", "specific_example"],
     "weakness_tags": ["lack_of_specific_action", "missing_details"]
@@ -146,7 +146,7 @@
   {
     "id": "guideline_019",
     "type": "guideline",
-    "scenario": "behavioral_interview",
+    "scenario": "interview",
     "text": "Candidates should avoid giving vague claims such as 'I am a good leader' without supporting examples. Concrete situations and actions are much more persuasive than general self-descriptions.",
     "strength_tags": ["specific_example", "clear_language"],
     "weakness_tags": ["too_general", "lack_of_specific_action"]
@@ -154,7 +154,7 @@
   {
     "id": "guideline_020",
     "type": "guideline",
-    "scenario": "job_interview",
+    "scenario": "interview",
     "text": "Strong interview answers often end with a clear takeaway or reflection. Briefly summarizing what was learned or why the experience mattered can make responses feel more complete and memorable.",
     "strength_tags": ["logical_structure", "natural_flow"],
     "weakness_tags": ["poor_structure", "missing_details"]
