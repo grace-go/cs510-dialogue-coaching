@@ -1,0 +1,452 @@
+[
+  {
+    "id": "feedback_031",
+    "type": "feedback_example",
+    "scenario": "elevator_pitch",
+    "user_input": "Hi, I'm a computer science student and I like a lot of different things in tech.",
+    "text": "Your introduction is friendly, but the response is too broad to leave a strong impression. Mention one specific technical interest or project, and end with a clear direction such as the kind of internship or opportunity you are looking for.",
+    "strength_tags": ["natural_flow"],
+    "weakness_tags": ["too_general", "unclear_goal"]
+  },
+  {
+    "id": "feedback_032",
+    "type": "feedback_example",
+    "scenario": "elevator_pitch",
+    "user_input": "I'm a junior studying CS, and last semester I built a sign language translator that achieved 92 percent accuracy on a custom dataset.",
+    "text": "This is a strong elevator pitch because it pairs a specific project with a concrete result. To make it even better, briefly mention what kind of opportunity or collaboration you are seeking next.",
+    "strength_tags": ["specific_example", "concrete_achievement"],
+    "weakness_tags": ["unclear_goal"]
+  },
+  {
+    "id": "feedback_033",
+    "type": "feedback_example",
+    "scenario": "elevator_pitch",
+    "user_input": "I do machine learning, web development, mobile apps, game dev, embedded systems, and a bit of cybersecurity on the side.",
+    "text": "Your range of skills shows curiosity, but listing many areas in a short pitch makes it hard for the listener to remember anything specific. Focus on one main interest that matches the opportunity and explain it in more depth.",
+    "strength_tags": ["engaging"],
+    "weakness_tags": ["poor_structure", "unclear_goal"]
+  },
+  {
+    "id": "feedback_034",
+    "type": "feedback_example",
+    "scenario": "elevator_pitch",
+    "user_input": "Um, hi, I'm, uh, Grace, and I, like, do some AI stuff and, you know, I think it's pretty cool.",
+    "text": "Your introduction sounds approachable, but frequent filler words weaken your credibility. Practice a smoother opening and replace fillers with clear, direct statements about who you are and what you work on.",
+    "strength_tags": ["natural_flow"],
+    "weakness_tags": ["filler_words", "uncertain_tone"]
+  },
+  {
+    "id": "feedback_035",
+    "type": "feedback_example",
+    "scenario": "elevator_pitch",
+    "user_input": "I'm a CS senior interested in accessibility tech. I recently built a screen reader extension that helped 50 students with low vision navigate course websites more easily.",
+    "text": "Your pitch effectively combines a clear interest with a meaningful impact. To strengthen the close, add a sentence about the next role or research area you would like to pursue.",
+    "strength_tags": ["specific_example", "concrete_achievement", "clear_goal"],
+    "weakness_tags": ["missing_details"]
+  },
+  {
+    "id": "feedback_036",
+    "type": "feedback_example",
+    "scenario": "elevator_pitch",
+    "user_input": "I want to do something meaningful with technology one day.",
+    "text": "Your motivation comes across as sincere, but the goal is too vague to be memorable. Name a specific field, problem, or audience you care about, and connect it to a concrete experience that shaped this interest.",
+    "strength_tags": ["clear_language"],
+    "weakness_tags": ["too_general", "unclear_goal"]
+  },
+  {
+    "id": "feedback_037",
+    "type": "feedback_example",
+    "scenario": "elevator_pitch",
+    "user_input": "I'm a third-year CS student focused on systems programming, and I'm looking for a backend internship where I can work on distributed services.",
+    "text": "This pitch is direct, confident, and clearly states what you are looking for. To make it even more memorable, briefly add a project or experience that demonstrates your systems programming background.",
+    "strength_tags": ["clear_goal", "confident_tone", "professional_tone"],
+    "weakness_tags": ["missing_details"]
+  },
+  {
+    "id": "feedback_038",
+    "type": "feedback_example",
+    "scenario": "elevator_pitch",
+    "user_input": "I think I might be interested in maybe doing some kind of AI research, possibly in NLP or something similar.",
+    "text": "Your interest in AI research is clear, but uncertain language makes the pitch feel tentative. Replace hedging phrases with direct statements and name the specific NLP topic that excites you most.",
+    "strength_tags": ["clear_language"],
+    "weakness_tags": ["uncertain_tone", "filler_words"]
+  },
+  {
+    "id": "feedback_039",
+    "type": "feedback_example",
+    "scenario": "elevator_pitch",
+    "user_input": "I'm Grace, a CS student working on healthcare AI. I'm looking for summer research opportunities in clinical NLP, especially around patient record summarization.",
+    "text": "Your pitch is focused and ends with a clear, actionable goal. To deepen the impression, add one sentence about a relevant project or class that built your interest in clinical NLP.",
+    "strength_tags": ["clear_goal", "logical_structure"],
+    "weakness_tags": ["missing_details"]
+  },
+  {
+    "id": "feedback_040",
+    "type": "feedback_example",
+    "scenario": "elevator_pitch",
+    "user_input": "I started coding after my grandmother had trouble using her phone, and now I'm building accessibility tools so older users feel less frustrated with technology.",
+    "text": "This is a memorable pitch because the personal story makes your motivation immediate and authentic. To strengthen it, mention one concrete tool you have built and the kind of role you are seeking next.",
+    "strength_tags": ["engaging", "natural_flow"],
+    "weakness_tags": ["missing_details", "unclear_goal"]
+  },
+  {
+    "id": "feedback_041",
+    "type": "feedback_example",
+    "scenario": "elevator_pitch",
+    "user_input": "I work on graph neural networks for molecular property prediction using PyTorch Geometric and DGL with custom message-passing layers.",
+    "text": "Your technical background sounds advanced, but the pitch focuses only on tools and lacks personal motivation. Add a sentence explaining why this research matters to you so the listener connects with your work, not just the stack.",
+    "strength_tags": ["specific_example", "professional_tone"],
+    "weakness_tags": ["unclear_goal", "missing_details"]
+  },
+  {
+    "id": "feedback_042",
+    "type": "feedback_example",
+    "scenario": "elevator_pitch",
+    "user_input": "I'm Grace, a CS junior. I focus on data visualization and I'm looking for product internships where I can turn complex data into clear visual stories.",
+    "text": "Your pitch is concise, well structured, and ends with a clear ask. To make it more memorable, briefly mention one visualization project that demonstrates this strength.",
+    "strength_tags": ["clear_goal", "logical_structure", "clear_language"],
+    "weakness_tags": ["missing_details"]
+  },
+  {
+    "id": "feedback_043",
+    "type": "feedback_example",
+    "scenario": "elevator_pitch",
+    "user_input": "So basically I've been doing a lot of work in software and I've taken many classes and I'm pretty passionate about a lot of areas and I really enjoy building things that solve problems for people in different ways.",
+    "text": "Your enthusiasm comes through, but the response is wordy and lacks a clear focus. Trim the sentence and replace general claims with one specific project that shows the kind of problem you enjoy solving.",
+    "strength_tags": ["engaging"],
+    "weakness_tags": ["wordy", "rambling", "too_general"]
+  },
+  {
+    "id": "feedback_044",
+    "type": "feedback_example",
+    "scenario": "elevator_pitch",
+    "user_input": "I led a team of four to ship a campus food-rescue app that has redirected over 800 meals from waste to local shelters this semester.",
+    "text": "This pitch is powerful because it pairs leadership with a measurable social impact. To complete it, add a brief mention of what you are looking for next, such as a role, mentor, or research direction.",
+    "strength_tags": ["specific_example", "concrete_achievement", "confident_tone"],
+    "weakness_tags": ["unclear_goal"]
+  },
+  {
+    "id": "feedback_045",
+    "type": "feedback_example",
+    "scenario": "elevator_pitch",
+    "user_input": "I'm interested in security and I do projects sometimes.",
+    "text": "Your topic is clear, but the pitch is too short and lacks substance. Expand it with one concrete security project, the skills it built, and the kind of role or research you are seeking.",
+    "strength_tags": ["clear_language"],
+    "weakness_tags": ["too_general", "missing_details", "lack_of_specific_action"]
+  },
+  {
+    "id": "feedback_046",
+    "type": "feedback_example",
+    "scenario": "elevator_pitch",
+    "user_input": "Hi, I'm Grace, a CS sophomore. I love human-computer interaction, and last semester I ran a user study with 30 participants to evaluate a new gesture-based interface.",
+    "text": "Your pitch is engaging because it pairs a clear interest with a concrete research activity. To finish strong, add what you would like to do next, such as continuing HCI research or joining a related lab.",
+    "strength_tags": ["specific_example", "engaging", "natural_flow"],
+    "weakness_tags": ["unclear_goal"]
+  },
+  {
+    "id": "feedback_047",
+    "type": "feedback_example",
+    "scenario": "elevator_pitch",
+    "user_input": "I'm a CS student and I like to learn new things and challenge myself.",
+    "text": "Your tone sounds positive, but the message is too generic to stand out. Replace abstract qualities with one specific example that shows how you challenge yourself, such as a self-driven project or a difficult course you sought out.",
+    "strength_tags": ["natural_flow"],
+    "weakness_tags": ["too_general", "lack_of_specific_action"]
+  },
+  {
+    "id": "feedback_048",
+    "type": "feedback_example",
+    "scenario": "elevator_pitch",
+    "user_input": "My name is Grace. I'm a CS major. I do AI. I want a research internship.",
+    "text": "Your pitch is direct and covers the basics, but it feels mechanical and undersells your background. Connect the sentences with smoother transitions and add one specific AI project that illustrates your work.",
+    "strength_tags": ["clear_language", "clear_goal"],
+    "weakness_tags": ["poor_structure", "missing_details"]
+  },
+  {
+    "id": "feedback_049",
+    "type": "feedback_example",
+    "scenario": "elevator_pitch",
+    "user_input": "I built an open-source library for time-series anomaly detection that now has over 1,200 GitHub stars and is used by two fintech startups.",
+    "text": "This is an outstanding hook because it pairs a concrete artifact with measurable adoption. To complete the pitch, add who you are and what kind of role or collaboration you are exploring next.",
+    "strength_tags": ["concrete_achievement", "specific_example", "confident_tone"],
+    "weakness_tags": ["missing_details", "unclear_goal"]
+  },
+  {
+    "id": "feedback_050",
+    "type": "feedback_example",
+    "scenario": "elevator_pitch",
+    "user_input": "I'm passionate about making technology more inclusive, especially for non-English speakers. I'm a CS junior currently working on multilingual chatbots, and I'm looking for an NLP research role this summer.",
+    "text": "Your pitch is well structured because it moves clearly from motivation to current work to a specific ask. To deepen it, include one detail about the multilingual chatbot project so the listener remembers your work.",
+    "strength_tags": ["clear_goal", "logical_structure", "engaging"],
+    "weakness_tags": ["missing_details"]
+  },
+  {
+    "id": "feedback_051",
+    "type": "feedback_example",
+    "scenario": "elevator_pitch",
+    "user_input": "I guess I'm kind of into AI, but I don't really know what I want to do yet.",
+    "text": "Your honesty is genuine, but the pitch undersells your background and signals low confidence. Even without a final career direction, name one concrete experience you enjoyed and a specific area you would like to explore next.",
+    "strength_tags": ["natural_flow"],
+    "weakness_tags": ["uncertain_tone", "unclear_goal"]
+  },
+  {
+    "id": "feedback_052",
+    "type": "feedback_example",
+    "scenario": "elevator_pitch",
+    "user_input": "I'm a CS senior with a strong interest in cloud infrastructure. I redesigned my team's CI pipeline during my last internship and cut average build time from 14 to 4 minutes.",
+    "text": "Your pitch is concrete, professional, and shows clear impact through a quantified result. To round it out, add the type of role or team you would like to join next so the listener can act on your background.",
+    "strength_tags": ["concrete_achievement", "specific_example", "professional_tone"],
+    "weakness_tags": ["unclear_goal"]
+  },
+  {
+    "id": "feedback_053",
+    "type": "feedback_example",
+    "scenario": "elevator_pitch",
+    "user_input": "I want to combine my interest in music and programming to build creative audio tools.",
+    "text": "Your direction is distinctive and memorable, which is a strength in an elevator pitch. To make it stronger, add a specific tool you have built or are building and what kind of opportunity would help you continue this work.",
+    "strength_tags": ["clear_goal", "engaging"],
+    "weakness_tags": ["missing_details", "lack_of_specific_action"]
+  },
+  {
+    "id": "feedback_054",
+    "type": "feedback_example",
+    "scenario": "elevator_pitch",
+    "user_input": "I have done some research and I think it went well and I learned a lot of useful things from my advisor.",
+    "text": "Your statement is positive, but it relies on vague impressions instead of substance. Name the research topic, your specific contribution, and one concrete skill or finding that resulted from the experience.",
+    "strength_tags": ["clear_language"],
+    "weakness_tags": ["too_general", "lack_of_specific_action", "missing_details"]
+  },
+  {
+    "id": "feedback_055",
+    "type": "feedback_example",
+    "scenario": "elevator_pitch",
+    "user_input": "I'm Grace, a CS junior who builds developer tools. My most recent project is a VS Code extension that auto-generates unit tests, and over 300 developers have installed it. I'd love to find a developer-experience internship this summer.",
+    "text": "This pitch is well balanced: it introduces you, highlights a concrete project with adoption, and ends with a clear ask. To polish it, briefly mention what motivates you to work on developer tools so the listener connects with your direction.",
+    "strength_tags": ["clear_goal", "specific_example", "concrete_achievement", "logical_structure"],
+    "weakness_tags": ["missing_details"]
+  },
+  {
+    "id": "feedback_056",
+    "type": "feedback_example",
+    "scenario": "presentation",
+    "user_input": "So, um, I guess I'll just start talking about my project now.",
+    "text": "Your opening is too informal and does not orient the audience. Begin with a clear statement of your topic, why it matters, and what you will cover so the audience knows what to expect.",
+    "strength_tags": ["natural_flow"],
+    "weakness_tags": ["poor_structure", "filler_words"]
+  },
+  {
+    "id": "feedback_057",
+    "type": "feedback_example",
+    "scenario": "presentation",
+    "user_input": "Today I'll walk you through three things: the problem we tackled, our approach, and the results we measured.",
+    "text": "Your opening clearly previews the structure, which helps the audience follow along. To strengthen it further, add one sentence explaining why this problem matters before moving into the agenda.",
+    "strength_tags": ["clear_goal", "logical_structure"],
+    "weakness_tags": ["missing_details"]
+  },
+  {
+    "id": "feedback_058",
+    "type": "feedback_example",
+    "scenario": "presentation",
+    "user_input": "This slide contains all of our methodology, dataset statistics, model architecture, training hyperparameters, evaluation metrics, and ablation results so you can see everything at once.",
+    "text": "Putting all of this on one slide overwhelms the audience and dilutes the main message. Split the content into focused slides so each one supports a single idea and the audience can follow your reasoning.",
+    "strength_tags": ["specific_example"],
+    "weakness_tags": ["wordy", "poor_structure"]
+  },
+  {
+    "id": "feedback_059",
+    "type": "feedback_example",
+    "scenario": "presentation",
+    "user_input": "Before I show our results, I want to share why this question matters: in 2024, over 40 percent of small clinics in our state still lacked basic appointment software, and that gap motivated our project.",
+    "text": "This is an engaging way to motivate the work because you ground it in a concrete statistic. The transition into results will feel even smoother if you briefly preview what listeners should look for in the data ahead.",
+    "strength_tags": ["engaging", "specific_example", "clear_goal"],
+    "weakness_tags": ["missing_details"]
+  },
+  {
+    "id": "feedback_060",
+    "type": "feedback_example",
+    "scenario": "presentation",
+    "user_input": "We did some experiments and the model worked better than the baseline.",
+    "text": "Your claim is understandable, but it lacks the specifics audiences need to trust a result. Report the baseline, the metric, and the size of the improvement so the audience can judge the significance of the work.",
+    "strength_tags": ["clear_language"],
+    "weakness_tags": ["too_general", "missing_details"]
+  },
+  {
+    "id": "feedback_061",
+    "type": "feedback_example",
+    "scenario": "presentation",
+    "user_input": "To make the latency improvement concrete, here is a live demo: this query used to take 2.3 seconds, and after our caching layer it now returns in 180 milliseconds.",
+    "text": "The live demo and the side-by-side timing create an immediate, memorable impression of the improvement. To strengthen the moment, briefly explain why the caching layer produces this gap so the audience understands the mechanism.",
+    "strength_tags": ["specific_example", "concrete_achievement", "engaging"],
+    "weakness_tags": ["missing_details"]
+  },
+  {
+    "id": "feedback_062",
+    "type": "feedback_example",
+    "scenario": "presentation",
+    "user_input": "Uh, so, yeah, the, um, the results are, like, you know, kind of, um, interesting I think.",
+    "text": "Frequent filler words make the delivery hard to follow and reduce confidence. Practice pausing instead of using fillers and replace hedging phrases with a direct statement of what the results show.",
+    "strength_tags": ["natural_flow"],
+    "weakness_tags": ["filler_words", "uncertain_tone"]
+  },
+  {
+    "id": "feedback_063",
+    "type": "feedback_example",
+    "scenario": "presentation",
+    "user_input": "Okay that's everything, thanks.",
+    "text": "An abrupt ending leaves the audience without a takeaway. Close with a brief summary of the main contribution, why it matters, and one direction for future work or open questions.",
+    "strength_tags": ["clear_language"],
+    "weakness_tags": ["poor_structure", "missing_details"]
+  },
+  {
+    "id": "feedback_064",
+    "type": "feedback_example",
+    "scenario": "presentation",
+    "user_input": "We chose a transformer encoder over an LSTM because our sequences exceeded 1,000 tokens and we needed parallel training to fit within our 12-hour GPU budget.",
+    "text": "This is a strong explanation of methodology because you tie the design choice to a specific constraint. To extend it, briefly mention any trade-off this choice introduced so the audience sees the full reasoning.",
+    "strength_tags": ["logical_structure", "specific_example", "professional_tone"],
+    "weakness_tags": ["missing_details"]
+  },
+  {
+    "id": "feedback_065",
+    "type": "feedback_example",
+    "scenario": "presentation",
+    "user_input": "Beyond the accuracy numbers, this matters because the same diagnostic tool, deployed in three rural clinics during our pilot, helped staff triage 40 percent more patients per day.",
+    "text": "Connecting your technical work to a concrete deployment outcome makes the presentation memorable. To complete the picture, briefly note any limitations of the pilot so the result is framed honestly.",
+    "strength_tags": ["concrete_achievement", "engaging", "specific_example"],
+    "weakness_tags": ["missing_details"]
+  },
+  {
+    "id": "feedback_066",
+    "type": "feedback_example",
+    "scenario": "presentation",
+    "user_input": "We used a contrastive loss with InfoNCE over augmented patches, then fine-tuned with a CRF head on the downstream segmentation task.",
+    "text": "Your technical depth is clear, but the explanation may lose audience members unfamiliar with these terms. Add a one-sentence plain-language summary of what contrastive pretraining is doing before introducing the specific loss.",
+    "strength_tags": ["specific_example", "professional_tone"],
+    "weakness_tags": ["poor_structure", "wordy"]
+  },
+  {
+    "id": "feedback_067",
+    "type": "feedback_example",
+    "scenario": "presentation",
+    "user_input": "The system we are about to look at exists because students at our university reported spending an average of three hours each week navigating broken accessibility tools.",
+    "text": "This opening motivates the work well by leading with a concrete pain point. To make the transition smoother, follow it with a single sentence that previews what you will demonstrate in the rest of the talk.",
+    "strength_tags": ["clear_goal", "engaging", "specific_example"],
+    "weakness_tags": ["missing_details"]
+  },
+  {
+    "id": "feedback_068",
+    "type": "feedback_example",
+    "scenario": "presentation",
+    "user_input": "I memorized this part so I will just say it exactly like I practiced and please don't interrupt me until the end.",
+    "text": "Asking the audience to wait and signaling memorization reduces engagement and warmth. Speak naturally, invite questions during transitions, and rehearse so the talk feels conversational rather than recited.",
+    "strength_tags": ["clear_language"],
+    "weakness_tags": ["poor_structure", "uncertain_tone"]
+  },
+  {
+    "id": "feedback_069",
+    "type": "feedback_example",
+    "scenario": "presentation",
+    "user_input": "Let me share a moment that shaped this project: during our first user test, a participant cried after using the screen reader and said it was the first time she could read her grandson's messages on her own.",
+    "text": "This anecdote is powerful because it makes the impact of your work concrete and human. To balance the emotional moment, follow it with one quantitative result so the audience also sees the broader effect.",
+    "strength_tags": ["engaging", "natural_flow", "concrete_achievement"],
+    "weakness_tags": ["missing_details"]
+  },
+  {
+    "id": "feedback_070",
+    "type": "feedback_example",
+    "scenario": "presentation",
+    "user_input": "Our model performs really well on the new benchmark.",
+    "text": "Your claim is positive, but the audience cannot evaluate it without specifics. Name the benchmark, the metric, the baseline, and the size of the gain so the result is concrete and verifiable.",
+    "strength_tags": ["confident_tone"],
+    "weakness_tags": ["too_general", "missing_details"]
+  },
+  {
+    "id": "feedback_071",
+    "type": "feedback_example",
+    "scenario": "presentation",
+    "user_input": "Our work matters because everyone uses technology and accessibility is important.",
+    "text": "Your statement is well-intentioned but too broad to motivate the work. Replace the general claim with a specific user group, the gap they face today, and how your contribution narrows that gap.",
+    "strength_tags": ["clear_language"],
+    "weakness_tags": ["too_general", "unclear_goal"]
+  },
+  {
+    "id": "feedback_072",
+    "type": "feedback_example",
+    "scenario": "presentation",
+    "user_input": "I want to walk you through three results today, and I'll explain each one in plain language before showing the technical details.",
+    "text": "Your delivery sounds confident and audience-aware, which builds trust early in the talk. To strengthen the opening further, briefly state the main takeaway up front so listeners have a frame for the three results.",
+    "strength_tags": ["confident_tone", "professional_tone", "clear_language"],
+    "weakness_tags": ["missing_details"]
+  },
+  {
+    "id": "feedback_073",
+    "type": "feedback_example",
+    "scenario": "presentation",
+    "user_input": "This slide is dense, but if you read everything carefully you'll see all of our findings, related work, comparison tables, and discussion in one place so you don't need to flip back later.",
+    "text": "A wall of text forces the audience to choose between listening to you and reading the slide. Move detail into the appendix or split it across slides so each visual supports one point you are saying out loud.",
+    "strength_tags": ["clear_language"],
+    "weakness_tags": ["wordy", "rambling"]
+  },
+  {
+    "id": "feedback_074",
+    "type": "feedback_example",
+    "scenario": "presentation",
+    "user_input": "First I'll show the problem, then the data, then the method, then the results, and finally what's next. Each section builds on the last.",
+    "text": "Your structure is clear and easy to follow, which helps the audience anticipate the arc of the talk. To make the preview even stronger, name the one finding you most want the audience to remember by the end.",
+    "strength_tags": ["logical_structure", "clear_goal"],
+    "weakness_tags": ["missing_details"]
+  },
+  {
+    "id": "feedback_075",
+    "type": "feedback_example",
+    "scenario": "presentation",
+    "user_input": "Yeah so we kind of just tried a few things and one of them seemed to work better, I guess.",
+    "text": "The casual phrasing makes solid technical work sound uncertain. Replace tentative language with a confident summary of what you tried, the criterion you used to decide what worked, and the resulting choice.",
+    "strength_tags": ["natural_flow"],
+    "weakness_tags": ["uncertain_tone", "lack_of_specific_action"]
+  },
+  {
+    "id": "feedback_076",
+    "type": "feedback_example",
+    "scenario": "presentation",
+    "user_input": "To summarize: we reduced training time by 38 percent while keeping accuracy within one point of the baseline, which makes this approach practical for the small research labs we designed it for.",
+    "text": "This is a strong conclusion because it ties a quantitative result back to the audience you set out to help. To close even more powerfully, end with one clear next step or open question to leave the audience thinking.",
+    "strength_tags": ["concrete_achievement", "logical_structure", "clear_goal"],
+    "weakness_tags": ["missing_details"]
+  },
+  {
+    "id": "feedback_077",
+    "type": "feedback_example",
+    "scenario": "presentation",
+    "user_input": "We did this project because it seemed cool and we wanted to try something new.",
+    "text": "Curiosity is a fine starting point, but it does not motivate the work for the audience. Reframe the motivation in terms of a real problem, user, or gap so listeners understand why the project deserves their attention.",
+    "strength_tags": ["natural_flow"],
+    "weakness_tags": ["unclear_goal", "too_general"]
+  },
+  {
+    "id": "feedback_078",
+    "type": "feedback_example",
+    "scenario": "presentation",
+    "user_input": "Compared to the prior baseline of 71 percent F1, our method achieves 84 percent F1 on the same test split, and it does so with 30 percent less training data.",
+    "text": "This comparison is effective because it makes the improvement and the efficiency gain easy to grasp. To strengthen it further, briefly explain which design choice drives the data efficiency so the audience learns the lesson, not just the number.",
+    "strength_tags": ["specific_example", "concrete_achievement", "professional_tone"],
+    "weakness_tags": ["missing_details"]
+  },
+  {
+    "id": "feedback_079",
+    "type": "feedback_example",
+    "scenario": "presentation",
+    "user_input": "I know this notation looks intimidating, so let me first describe what it represents in everyday terms before we look at the equation.",
+    "text": "This is a strong delivery choice because it shows awareness of the audience and lowers the barrier to the math. To take it one step further, follow the plain-language description with a small, concrete example that illustrates the equation in action.",
+    "strength_tags": ["clear_language", "professional_tone", "engaging"],
+    "weakness_tags": ["missing_details"]
+  },
+  {
+    "id": "feedback_080",
+    "type": "feedback_example",
+    "scenario": "presentation",
+    "user_input": "If you take one thing away today, let it be this: small, careful changes to data collection can outweigh much larger changes to the model itself.",
+    "text": "This closing is memorable because it distills the whole talk into a single, repeatable insight. To make the ending land even harder, follow this line with one concrete invitation, such as a question for the audience or a pointer to the code or paper.",
+    "strength_tags": ["clear_goal", "engaging", "confident_tone"],
+    "weakness_tags": ["missing_details"]
+  }
+]
