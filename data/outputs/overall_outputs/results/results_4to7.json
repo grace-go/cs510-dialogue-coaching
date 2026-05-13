@@ -1,0 +1,867 @@
+[
+  {
+    "id": "input_004",
+    "scenario": "interview",
+    "transcript": "Hi, I am a computer science student and I enjoy coding and learning about AI. I have worked on some projects in my classes and I am currently looking for internship opportunities.",
+    "predicted_tags": {
+      "strength_tags": [
+        "clear_goal",
+        "logical_structure"
+      ],
+      "weakness_tags": [
+        "missing_details"
+      ]
+    },
+    "baseline": {
+      "feedback": "**Overall Assessment**\nYou've started your interview by clearly stating your background and goals, which is a great way to begin. Your enthusiasm for coding and AI is evident, and you've taken the initiative to look for internship opportunities.\n\n**Strengths**\nYou've demonstrated a clear goal by stating your interest in internships and your relevant experience in coding and AI. Your logical structure is also evident in the way you've organized your thoughts and presented them in a concise manner.\n\n**Areas to Improve**\nOne area for improvement is providing more details about your projects and experiences. While you've mentioned working on projects in your classes, you could elaborate on what you learned, what technologies you used, and how you applied them. This will give the interviewer a better understanding of your skills and experiences.\n\n**Specific Suggestions**\nTo improve in this area, try to be more specific when describing your projects. For example, instead of saying \"I have worked on some projects in my classes,\" you could say \"In my data structures class, I worked on a project that involved implementing a sorting algorithm using Java. I learned how to optimize the algorithm for large datasets and applied it to a real-world scenario.\" This will give the interviewer a clearer picture of your skills and experiences.\n\n**Improved Version**\nHere's an example of how you could revise your initial statement to include more details:\n\n\"Hi, I am a computer science student with a strong passion for coding and AI. In my data structures class, I worked on a project that involved implementing a sorting algorithm using Java. I learned how to optimize the algorithm for large datasets and applied it to a real-world scenario. I'm currently looking for internship opportunities where I can apply my skills and learn more about AI. I'm excited about the opportunity to contribute to a team and learn from experienced professionals.\"\n\nThis revised version provides more details about your project and experiences, which will give the interviewer a better understanding of your skills and qualifications."
+    },
+    "bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_001",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 17.4063,
+          "strength_tags": [
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response is too general and lacks detail. Improved version: I became interested in AI after building a recommendation system project in my machine learning course. I implemented collaborative filtering using Python and evaluated the model using accuracy metrics. That experience motivat"
+        },
+        {
+          "id": "guideline_019",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 9.2518,
+          "strength_tags": [
+            "specific_example",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "lack_of_specific_action"
+          ],
+          "text": "Candidates should avoid giving vague claims such as 'I am a good leader' without supporting examples. Concrete situations and actions are much more persuasive than general self-descriptions."
+        },
+        {
+          "id": "feedback_013",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 18.9142,
+          "strength_tags": [
+            "engaging"
+          ],
+          "weakness_tags": [
+            "too_general"
+          ],
+          "text": "Your enthusiasm comes across positively, but the answer would be stronger with a concrete example. Describe a challenging project or learning experience that demonstrates your growth mindset."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYou've started your interview by expressing your enthusiasm for computer science and AI, which is great. However, there's an opportunity to make your response more impactful by providing specific details about your experiences and goals.\n\n**Strengths**\nYou've demonstrated a clear goal by stating that you're looking for internship opportunities, which shows that you're proactive and focused. Your logical structure is also a strength, as it makes your response easy to follow.\n\n**Areas to Improve**\nThe main area for improvement is providing more details about your experiences and projects. Your current response is too general and lacks specific examples, which makes it harder for the interviewer to understand your skills and interests.\n\n**Specific Suggestions**\nTo improve, try to recall a specific project or experience that you're proud of and can talk about in detail. This could be a project from your machine learning course, a hackathon, or even a personal coding challenge. When describing the project, focus on the following:\n- The problem you were trying to solve\n- The technologies or tools you used\n- The results or outcomes you achieved\n- What you learned from the experience\n\n**Improved Version**\nHere's an example of how you could revise your response:\n\n\"Hi, I'm a computer science student with a strong interest in AI. In my machine learning course, I worked on a project to build a recommendation system using collaborative filtering. I implemented the algorithm using Python and evaluated the model using accuracy metrics. The results showed a significant improvement in recommendation accuracy, which motivated me to pursue AI engineering internships focused on user-centered systems. I'm excited to apply my skills and knowledge to real-world problems and contribute to innovative projects.\"\n\nThis revised response provides more specific details about your experience, which can help you stand out as a strong candidate. Remember to be confident and enthusiastic when sharing your story, and don't be afraid to talk about your passions and interests!"
+    },
+    "dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_001",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 0.402,
+          "strength_tags": [
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response is too general and lacks detail. Improved version: I became interested in AI after building a recommendation system project in my machine learning course. I implemented collaborative filtering using Python and evaluated the model using accuracy metrics. That experience motivat"
+        },
+        {
+          "id": "guideline_014",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 0.1239,
+          "strength_tags": [
+            "engaging",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Strong college interview answers often demonstrate curiosity and initiative through extracurricular activities, personal projects, or independent learning experiences."
+        },
+        {
+          "id": "feedback_029",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 0.3606,
+          "strength_tags": [
+            "clear_goal",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your career goal is clear and meaningful. To make your answer more convincing, explain what experiences or projects motivated your interest in ethical AI research."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour initial response to the interviewer shows enthusiasm for computer science and AI, which is great. However, there's room for improvement to make your answer more impactful.\n\n**Strengths**\nYou've clearly stated your goal of finding internship opportunities, which demonstrates a clear direction. This is a strength, as it shows you're focused on your objectives.\n\n**Areas to Improve**\nThe main area to improve is providing more details about your experiences and projects. Your current response is too general, which makes it difficult for the interviewer to understand your skills and interests.\n\n**Specific Suggestions**\nTo address this, consider the following:\n\n1. **Share a specific project**: Think about a project you've worked on in class or independently that showcases your skills in AI or coding. Describe the project, your role, and the technologies you used.\n2. **Highlight your achievements**: Quantify your accomplishments by mentioning specific metrics or outcomes from your projects. This will help demonstrate your value as a candidate.\n3. **Connect your experiences to your goals**: Explain how your projects and experiences have motivated you to pursue AI engineering internships. This will show the interviewer that you're not just applying for any internship, but one that aligns with your interests and skills.\n\n**Improved Version**\nHere's an example of how you could revise your response:\n\n\"Hi, I'm a computer science student with a passion for AI. In my machine learning course, I worked on a recommendation system project that involved implementing collaborative filtering using Python. I achieved an accuracy of 85% on the test dataset, which was a great learning experience. This project motivated me to pursue AI engineering internships focused on user-centered systems, where I can apply my skills to create more personalized and effective solutions. I'm excited to apply my knowledge and skills in a real-world setting and contribute to the development of innovative AI systems.\"\n\nRemember, the key is to be specific, concise, and enthusiastic about your experiences and goals. Good luck with your interview!"
+    },
+    "tag_bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_001",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 25.2156,
+          "strength_tags": [
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response is too general and lacks detail. Improved version: I became interested in AI after building a recommendation system project in my machine learning course. I implemented collaborative filtering using Python and evaluated the model using accuracy metrics. That experience motivat"
+        },
+        {
+          "id": "guideline_017",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 15.2664,
+          "strength_tags": [
+            "clear_goal",
+            "logical_structure"
+          ],
+          "weakness_tags": [
+            "unclear_goal",
+            "missing_details"
+          ],
+          "text": "Scholarship interviews often evaluate both academic ability and long-term motivation. Strong responses explain not only what the candidate has done, but also why those experiences matter for their future goals."
+        },
+        {
+          "id": "feedback_020",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 23.3069,
+          "strength_tags": [
+            "clear_goal",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your goal is clear and meaningful, and the answer has a professional tone. To make your response more memorable, add a personal experience or project that inspired your interest in accessibility."
+        }
+      ],
+      "feedback": "**Overall Assessment**\n\nYou've started strong by clearly stating your goal and interest in computer science and AI. Your enthusiasm is evident, and it's great that you've worked on projects in your classes. However, there's an opportunity to make your response even more impactful by providing more details and context.\n\n**Strengths**\n\n1. **Clear goal**: You've clearly stated your interest in computer science and AI, which is a great starting point.\n2. **Logical structure**: Your response has a straightforward structure, making it easy to follow.\n\n**Areas to Improve**\n\n1. **Missing details**: Your response is a bit too general and lacks specific examples or experiences that demonstrate your skills and interests.\n2. **Too general**: You haven't provided enough context about your projects or what you've learned from them.\n\n**Specific Suggestions**\n\n1. **Add specific examples**: Think about a project you worked on that you're particularly proud of. What was the problem you tried to solve? What skills did you use? How did you overcome challenges?\n2. **Explain why it matters**: Connect the dots between your experiences and your future goals. Why are you interested in AI engineering internships, and how do your projects relate to that?\n3. **Use specific metrics or results**: If you've worked on a project, try to include specific metrics or results that demonstrate your skills. For example, if you built a recommendation system, mention the accuracy metrics you used to evaluate the model.\n\n**Improved Version**\n\nHere's an example of how you could revise your response:\n\n\"Hi, I'm a computer science student with a strong interest in AI. I've worked on several projects in my classes, including a recommendation system project in my machine learning course. I implemented collaborative filtering using Python and evaluated the model using accuracy metrics. The project not only helped me develop my programming skills but also taught me the importance of user-centered design. I'm now looking for AI engineering internships where I can apply my skills to create technology that improves accessibility for users. I believe my experience with recommendation systems has prepared me well for this goal, and I'm excited to continue learning and growing in this field.\"\n\nRemember, the goal is to be specific, enthusiastic, and professional. Good luck with your interview!"
+    },
+    "tag_dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_001",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 2.802,
+          "strength_tags": [
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response is too general and lacks detail. Improved version: I became interested in AI after building a recommendation system project in my machine learning course. I implemented collaborative filtering using Python and evaluated the model using accuracy metrics. That experience motivat"
+        },
+        {
+          "id": "guideline_017",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 3.2599,
+          "strength_tags": [
+            "clear_goal",
+            "logical_structure"
+          ],
+          "weakness_tags": [
+            "unclear_goal",
+            "missing_details"
+          ],
+          "text": "Scholarship interviews often evaluate both academic ability and long-term motivation. Strong responses explain not only what the candidate has done, but also why those experiences matter for their future goals."
+        },
+        {
+          "id": "feedback_029",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 2.7606,
+          "strength_tags": [
+            "clear_goal",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your career goal is clear and meaningful. To make your answer more convincing, explain what experiences or projects motivated your interest in ethical AI research."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour initial response to the internship interviewer shows a clear goal of pursuing AI engineering internships, which is a great starting point. However, there's room for improvement to make your answer more convincing and engaging.\n\n**Strengths**\nYou've demonstrated a clear goal and logical structure in your response, which are essential skills for a strong interview answer.\n\n**Areas to Improve**\nThe main area for improvement is providing more details about your experiences and projects. This will help the interviewer understand your skills and motivations better.\n\n**Specific Suggestions**\nTo address the predicted weakness tags ['missing_details'], consider the following suggestions:\n\n1. **Be specific about your projects**: Instead of just mentioning that you've worked on some projects, try to recall a specific project that showcases your skills and interests. For example, you could talk about a project where you applied AI techniques to a real-world problem.\n2. **Explain what you learned**: Describe what you learned from your projects and how they've shaped your interests in AI engineering. This will help the interviewer understand your growth and motivation.\n3. **Highlight your achievements**: Quantify your achievements by mentioning specific metrics or outcomes from your projects. This will demonstrate your skills and accomplishments.\n\n**Improved Version**\nHere's an example of how you could revise your initial response to include more details:\n\n\"Hi, I am a computer science student with a strong interest in AI engineering. I've worked on several projects in my classes, including a recommendation system project in my machine learning course. In this project, I implemented collaborative filtering using Python and evaluated the model using accuracy metrics. I achieved a 90% accuracy rate, which motivated me to pursue AI engineering internships focused on user-centered systems. I'm excited to apply my skills and knowledge to real-world problems and contribute to the development of AI systems that benefit society.\"\n\nRemember, the key is to be specific, enthusiastic, and confident in your response. Good luck with your interview!"
+    }
+  },
+  {
+    "id": "input_005",
+    "scenario": "interview",
+    "transcript": "Hi, my name is Alex and I am a senior studying computer science with a focus on machine learning and accessibility research. Recently, I worked on a project that detects harmful flashing content on websites to improve accessibility for users with photosensitive epilepsy. Through that experience, I became interested in building AI systems that are both technically strong and socially impactful. I am currently looking for AI engineering or research internship opportunities where I can continue working on user-centered technologies.",
+    "predicted_tags": {
+      "strength_tags": [
+        "clear_goal",
+        "logical_structure",
+        "specific_example",
+        "concrete_achievement",
+        "good_STAR_structure",
+        "confident_tone",
+        "professional_tone",
+        "engaging",
+        "natural_flow",
+        "clear_language"
+      ],
+      "weakness_tags": [
+        "missing_details"
+      ]
+    },
+    "baseline": {
+      "feedback": "**1. Overall Assessment**\nYour opening statement effectively conveys your background, interests, and career goals in the field of AI engineering and research. You've demonstrated a clear understanding of your strengths and the value you can bring to an internship opportunity. Your confident tone and professional language are also notable strengths.\n\n**2. Strengths**\nYou've done an excellent job of:\n- Clearly stating your goal and career aspirations\n- Providing a specific example of your experience with the flashing content detection project\n- Highlighting your interest in building user-centered technologies\n- Demonstrating a confident and professional tone\n\n**3. Areas to Improve**\nOne area for improvement is providing more details about your project experience and the skills you've developed. While you mentioned the project's goal and your interest in it, you could delve deeper into the technical aspects and the specific challenges you overcame.\n\n**4. Specific Suggestions**\nTo address the missing details, consider the following:\n- Be more specific about the technical skills you used in the project, such as machine learning algorithms or programming languages.\n- Describe the challenges you faced and how you overcame them, highlighting your problem-solving skills.\n- Quantify your achievements, if possible, to demonstrate the impact of your work.\n\n**5. Improved Version**\nHere's a revised version of your opening statement that incorporates these suggestions:\n\n\"Hi, my name is Alex, and I'm a senior studying computer science with a focus on machine learning and accessibility research. Recently, I worked on a project that detects harmful flashing content on websites using a combination of computer vision and machine learning algorithms. Through this project, I developed skills in Python, TensorFlow, and data preprocessing. One of the key challenges I faced was handling the variability in flashing content, which I overcame by implementing a robust feature extraction technique. As a result, our project achieved an accuracy of 95% in detecting flashing content, significantly improving accessibility for users with photosensitive epilepsy. Through this experience, I became interested in building AI systems that are both technically strong and socially impactful. I'm currently looking for AI engineering or research internship opportunities where I can continue working on user-centered technologies.\"\n\nThis revised version provides more details about your project experience, technical skills, and achievements, making your opening statement even stronger."
+    },
+    "bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_003",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 60.2885,
+          "strength_tags": [
+            "engaging",
+            "clear_goal",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Weakness: The response is vague and does not explain personal motivation. Improved version: I want this scholarship because it would allow me to continue my research on AI accessibility tools. During my previous project, I worked on detecting harmful flashing content on websites to improve accessibi"
+        },
+        {
+          "id": "guideline_009",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 18.7457,
+          "strength_tags": [
+            "clear_language",
+            "logical_structure"
+          ],
+          "weakness_tags": [
+            "wordy",
+            "rambling"
+          ],
+          "text": "Candidates should avoid overly long explanations during interviews. Clear and concise answers that focus on one main idea are usually easier for interviewers to follow and remember."
+        },
+        {
+          "id": "feedback_020",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 30.6368,
+          "strength_tags": [
+            "clear_goal",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your goal is clear and meaningful, and the answer has a professional tone. To make your response more memorable, add a personal experience or project that inspired your interest in accessibility."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour initial response to the interviewer showcases a clear goal and a focus on socially impactful AI systems. You effectively convey your interest in machine learning and accessibility research, which is a great starting point. However, there are areas where you can improve to make your response even more compelling.\n\n**Strengths**\nYou have a clear goal, which is to work on user-centered technologies, and you provide a specific example of your project on detecting harmful flashing content on websites. Your tone is confident and professional, which is essential for an interview setting.\n\n**Areas to Improve**\nThe predicted weakness tag 'missing_details' suggests that you could provide more context or details about your project and how it relates to your future goals. This will help the interviewer understand your thought process and motivations better.\n\n**Specific Suggestions**\nTo address the 'missing_details' weakness, consider adding more specific information about your project, such as:\n- The technical challenges you faced and how you overcame them.\n- The impact of your project on users with photosensitive epilepsy.\n- How your experience on this project has shaped your future goals and aspirations.\n\nAdditionally, you could elaborate on what you mean by \"technically strong and socially impactful\" AI systems. What specific features or technologies do you envision developing to achieve this goal?\n\n**Improved Version**\nHere's an example of how you could revise your initial response to address the 'missing_details' weakness:\n\n\"Hi, my name is Alex, and I'm a senior studying computer science with a focus on machine learning and accessibility research. Recently, I worked on a project that detects harmful flashing content on websites to improve accessibility for users with photosensitive epilepsy. This project not only helped me develop technical skills in machine learning but also gave me a deeper understanding of the social impact of my work. For instance, I had to overcome the challenge of detecting flashing content in real-time, which required me to design and implement an efficient algorithm. Through this experience, I became interested in building AI systems that not only perform well technically but also have a positive social impact. I'm currently looking for AI engineering or research internship opportunities where I can continue working on user-centered technologies and make a meaningful difference in people's lives.\"\n\nBy adding more details and context, you can make your response more engaging, memorable, and effective in conveying your goals and motivations to the interviewer."
+    },
+    "dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_001",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 0.5456,
+          "strength_tags": [
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response is too general and lacks detail. Improved version: I became interested in AI after building a recommendation system project in my machine learning course. I implemented collaborative filtering using Python and evaluated the model using accuracy metrics. That experience motivat"
+        },
+        {
+          "id": "guideline_005",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 0.1655,
+          "strength_tags": [
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "wordy",
+            "poor_structure"
+          ],
+          "text": "Candidates should avoid listing too many technologies without explanation. Focusing on one or two relevant projects usually creates a clearer and stronger impression."
+        },
+        {
+          "id": "feedback_029",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 0.4743,
+          "strength_tags": [
+            "clear_goal",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your career goal is clear and meaningful. To make your answer more convincing, explain what experiences or projects motivated your interest in ethical AI research."
+        }
+      ],
+      "feedback": "**Overall Assessment**\n\nYour initial response showcases a clear goal and interest in AI engineering and research, particularly in user-centered technologies. You've demonstrated a strong foundation in machine learning and accessibility research, which is impressive. However, there's an opportunity to further enhance your response by providing more specific details and examples.\n\n**Strengths**\n\n1. **Clear goal**: You've clearly stated your interest in building AI systems that are both technically strong and socially impactful.\n2. **Logical structure**: Your response follows a logical flow, making it easy to understand your career aspirations.\n3. **Specific example**: You've mentioned a specific project related to detecting harmful flashing content on websites, which is a great example of your work in accessibility research.\n\n**Areas to Improve**\n\n1. **Missing details**: While you've provided a clear goal and specific example, there are areas where you could provide more context and details to make your response even stronger.\n2. **Too general**: Your initial response could benefit from more specific examples or anecdotes that showcase your skills and experiences in AI engineering and research.\n\n**Specific Suggestions**\n\n1. **Provide more context about your project**: Instead of just mentioning the project's goal, describe the challenges you faced, the technologies you used, and the results you achieved. This will give the interviewer a better understanding of your skills and experiences.\n2. **Focus on one or two relevant projects**: As suggested in the guideline, focus on one or two projects that demonstrate your skills and interests in AI engineering and research. This will create a clearer and stronger impression.\n3. **Explain what motivated your interest in user-centered technologies**: Similar to the feedback example, explain what experiences or projects motivated your interest in user-centered technologies. This will show the interviewer that you've thoughtfully considered your career goals and aspirations.\n\n**Improved Version**\n\nHere's an example of how you could revise your initial response to address the areas for improvement:\n\n\"Hi, my name is Alex, and I'm a senior studying computer science with a focus on machine learning and accessibility research. Recently, I worked on a project that detects harmful flashing content on websites to improve accessibility for users with photosensitive epilepsy. Through that experience, I gained hands-on experience with machine learning algorithms and developed a deeper understanding of the importance of accessibility in AI systems. I also had the opportunity to collaborate with a team of researchers and developers to implement the project, which taught me the value of user-centered design and collaboration. As a result, I became interested in building AI systems that are not only technically strong but also socially impactful. I'm currently looking for AI engineering or research internship opportunities where I can continue working on user-centered technologies and make a positive impact on society.\"\n\nThis revised response provides more context and details about your project, focuses on one relevant experience, and explains what motivated your interest in user-centered technologies."
+    },
+    "tag_bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_003",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 69.2885,
+          "strength_tags": [
+            "engaging",
+            "clear_goal",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Weakness: The response is vague and does not explain personal motivation. Improved version: I want this scholarship because it would allow me to continue my research on AI accessibility tools. During my previous project, I worked on detecting harmful flashing content on websites to improve accessibi"
+        },
+        {
+          "id": "guideline_020",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 26.3944,
+          "strength_tags": [
+            "logical_structure",
+            "natural_flow"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Strong interview answers often end with a clear takeaway or reflection. Briefly summarizing what was learned or why the experience mattered can make responses feel more complete and memorable."
+        },
+        {
+          "id": "feedback_020",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 42.6368,
+          "strength_tags": [
+            "clear_goal",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your goal is clear and meaningful, and the answer has a professional tone. To make your response more memorable, add a personal experience or project that inspired your interest in accessibility."
+        }
+      ],
+      "feedback": "**Overall Assessment**\n\nYour interview response effectively conveys your passion for machine learning and accessibility research, and you've highlighted a concrete achievement in your project on detecting harmful flashing content. However, there's an opportunity to further strengthen your response by providing more details to make it more engaging and memorable.\n\n**Strengths**\n\nYou've demonstrated a clear goal by stating your interest in building AI systems that are both technically strong and socially impactful. Your response also has a logical structure, making it easy to follow. Additionally, you've provided a specific example from your project, which showcases your skills and experience.\n\n**Areas to Improve**\n\nThe predicted weakness tags 'missing_details' and 'good_STAR_structure' suggest that you could benefit from adding more depth to your response. While you've provided a clear goal, you might want to elaborate on what specifically drew you to this field and how your project experience has prepared you for future opportunities.\n\n**Specific Suggestions**\n\nTo address the 'missing_details' weakness, consider adding a brief anecdote or a personal story that illustrates your motivation for working on accessibility research. This could help make your response more relatable and engaging. Additionally, think about how you can use the STAR (Situation, Task, Action, Result) structure to break down your project experience and highlight your achievements more effectively.\n\n**Improved Version**\n\nHere's an example of how you could revise your response to incorporate these suggestions:\n\n\"Hi, my name is Alex, and I'm a senior studying computer science with a focus on machine learning and accessibility research. What sparked my interest in this field was a personal experience with a family member who has photosensitive epilepsy. I saw firsthand the impact that inaccessible technology can have on people's lives, and I knew I wanted to make a difference. Recently, I worked on a project that detects harmful flashing content on websites to improve accessibility for users with photosensitive epilepsy. Through that experience, I developed a strong foundation in machine learning and gained a deeper understanding of the importance of user-centered design. I'm now looking for AI engineering or research internship opportunities where I can continue working on technologies that have a meaningful social impact. I believe that my skills, experience, and passion for accessibility make me a strong fit for this field, and I'm excited to contribute to organizations that share my values.\"\n\nThis revised response includes a personal anecdote, a clear explanation of your motivation, and a more detailed description of your project experience. By incorporating these elements, you can make your response more engaging, memorable, and effective in showcasing your skills and goals."
+    },
+    "tag_dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_010",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 4.5104,
+          "strength_tags": [
+            "clear_goal",
+            "professional_tone",
+            "engaging"
+          ],
+          "weakness_tags": [
+            "unclear_goal",
+            "missing_details"
+          ],
+          "text": "Weakness: The response does not clearly explain academic goals or future impact. Improved version: This scholarship would allow me to continue my research on accessible AI systems for users with disabilities. Through my previous accessibility-focused projects, I realized how technology can directly "
+        },
+        {
+          "id": "guideline_007",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 3.3564,
+          "strength_tags": [
+            "specific_example",
+            "concrete_achievement"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Strong job interview answers usually connect technical skills to real-world impact. Candidates should explain not only what technologies they used, but also why those technologies mattered for solving the problem."
+        },
+        {
+          "id": "feedback_029",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 3.6743,
+          "strength_tags": [
+            "clear_goal",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your career goal is clear and meaningful. To make your answer more convincing, explain what experiences or projects motivated your interest in ethical AI research."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour interview transcript effectively conveys your passion for machine learning and accessibility research. You've clearly stated your goals and highlighted a specific project that showcases your skills. However, there's an opportunity to further strengthen your response by providing more details about your experiences and the impact of your work.\n\n**Strengths**\n- You've clearly stated your goal of working on user-centered technologies.\n- Your project on detecting harmful flashing content on websites demonstrates your technical skills and commitment to accessibility.\n- Your tone is professional and engaging, making your response easy to follow.\n\n**Areas to Improve**\n- The predicted weakness tag 'missing_details' suggests that you could provide more context about your experiences and the impact of your work.\n- While you've mentioned your focus on machine learning and accessibility research, you could elaborate on how these areas intersect and how your project contributes to the broader field.\n\n**Specific Suggestions**\n- Consider adding more specific details about your project, such as the technologies you used, the challenges you faced, and how you overcame them.\n- Explain how your project addresses the needs of users with photosensitive epilepsy and how it contributes to the development of more accessible AI systems.\n- Think about how your experiences and projects have shaped your goals and what you hope to achieve in your future career.\n\n**Improved Version**\nHere's an example of how you could revise your transcript to address the predicted weakness tag:\n\n\"Hi, my name is Alex, and I'm a senior studying computer science with a focus on machine learning and accessibility research. Recently, I worked on a project that detects harmful flashing content on websites to improve accessibility for users with photosensitive epilepsy. Through that experience, I became interested in building AI systems that are both technically strong and socially impactful. I was particularly drawn to this project because of the opportunity to apply machine learning techniques to a real-world problem that affects a vulnerable population. By developing this tool, I gained hands-on experience with natural language processing and computer vision, and I realized the importance of considering accessibility in AI system design. I'm now looking for AI engineering or research internship opportunities where I can continue working on user-centered technologies and make a meaningful impact in the field.\"\n\nThis revised version provides more context about your project, highlights your technical skills, and explains how your experiences have shaped your goals."
+    }
+  },
+  {
+    "id": "input_006",
+    "scenario": "interview",
+    "transcript": "Uh, hi. I am studying computer science and I kind of like different areas like AI, cybersecurity, and maybe game development too. I worked on some projects before with classmates, mostly class assignments and things like that. I am still figuring out exactly what I want to focus on, but I hope to get more experience and maybe find internship opportunities where I can improve my technical skills.",
+    "predicted_tags": {
+      "strength_tags": [
+        "clear_language",
+        "good_STAR_structure"
+      ],
+      "weakness_tags": [
+        "too_general",
+        "missing_details",
+        "unclear_goal"
+      ]
+    },
+    "baseline": {
+      "feedback": "**Overall Assessment**\nYour interview response shows a good start in articulating your background and interests in computer science. You've mentioned your areas of interest and a desire to gain more experience. However, there are areas where you can improve to make a stronger impression.\n\n**Strengths**\nYou've demonstrated a clear and simple language in your response, which is great for a first impression. Your STAR (Situation, Task, Action, Result) structure is also evident, showing that you're familiar with the concept.\n\n**Areas to Improve**\nBased on your transcript, it seems that you're struggling to provide specific details about your projects and goals. Your response comes across as a bit too general, and it's unclear what you hope to achieve in the long run. This might make it challenging for the interviewer to understand how you can contribute to the organization.\n\n**Specific Suggestions**\nTo address these weaknesses, consider the following:\n\n1. **Be more specific about your projects**: Instead of mentioning \"class assignments and things like that,\" try to recall specific projects that you worked on, including the technologies used, your role, and any notable achievements.\n2. **Provide concrete examples**: When discussing your interests in AI, cybersecurity, and game development, try to provide concrete examples of how you've applied these concepts in your projects or coursework.\n3. **Clarify your long-term goals**: Instead of saying \"I hope to get more experience and maybe find internship opportunities,\" think about what specific skills or knowledge you want to acquire in the next 6-12 months. What do you hope to achieve in your career, and how does this role align with those goals?\n\n**Improved Version**\nHere's an example of how you could revise your response to address these areas:\n\n\"Hi, I'm a computer science student with interests in AI, cybersecurity, and game development. In my previous projects, I worked on a machine learning-based chatbot using Python and TensorFlow. My role was to design and implement the chatbot's conversational flow, which led to a 30% improvement in user engagement. I'm excited to apply my skills in these areas and gain more experience in a real-world setting. In the next 6-12 months, I hope to develop expertise in cybersecurity and contribute to projects that focus on threat detection and response. I believe this role would be a great opportunity for me to learn from experienced professionals and grow as a developer.\"\n\nRemember, the key is to be specific, concrete, and clear about your experiences, goals, and motivations. Good luck with your interview!"
+    },
+    "bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_001",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 24.9357,
+          "strength_tags": [
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response is too general and lacks detail. Improved version: I became interested in AI after building a recommendation system project in my machine learning course. I implemented collaborative filtering using Python and evaluated the model using accuracy metrics. That experience motivat"
+        },
+        {
+          "id": "guideline_020",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 12.7797,
+          "strength_tags": [
+            "logical_structure",
+            "natural_flow"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Strong interview answers often end with a clear takeaway or reflection. Briefly summarizing what was learned or why the experience mattered can make responses feel more complete and memorable."
+        },
+        {
+          "id": "feedback_008",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 33.7618,
+          "strength_tags": [
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "uncertain_tone",
+            "filler_words"
+          ],
+          "text": "Your response communicates interest in the role, but hesitant language weakens your confidence. Replace uncertain phrases like 'kind of' or 'maybe' with direct statements and provide one concrete machine learning project example."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour interview response shows a good starting point, but there's room for improvement to make it more impactful. You've expressed your interest in various areas of computer science and mentioned working on projects with classmates. However, your response could benefit from more specificity and clarity to showcase your skills and goals.\n\n**Strengths**\nYou've demonstrated a clear language and a good STAR (Situation, Task, Action, Result) structure in your response. This is a great foundation to build upon.\n\n**Areas to Improve**\nBased on the predicted weakness tags, we'll focus on making your response more specific, detailed, and goal-oriented.\n\n**Specific Suggestions**\n\n1. **Be more specific about your projects**: Instead of mentioning \"class assignments and things like that,\" try to recall a specific project that you worked on and highlight your role, the technologies used, and any notable achievements.\n2. **Showcase your skills and interests**: Instead of listing multiple areas of interest, choose one or two that you're most passionate about and provide concrete examples of how you've applied those skills in your projects or coursework.\n3. **Set clear goals and aspirations**: Instead of saying \"I hope to get more experience and maybe find internship opportunities,\" try to articulate specific goals, such as \"I aim to secure an internship in AI engineering to develop user-centered systems and improve my technical skills.\"\n\n**Improved Version**\nHere's an example of how you could revise your response:\n\n\"I'm excited about the opportunity to discuss my interests in computer science. With a strong foundation in programming and data structures, I've been particularly drawn to AI and its applications. In my machine learning course, I worked on a recommendation system project using collaborative filtering in Python. I implemented the model, evaluated its performance using accuracy metrics, and gained valuable insights into user behavior. This experience sparked my interest in AI engineering, and I'm now eager to pursue internships focused on developing user-centered systems. I believe this role would be an excellent fit for me, as it would allow me to apply my skills and knowledge in a real-world setting while continuing to learn and grow.\"\n\nRemember, the key is to be specific, detailed, and goal-oriented in your response. By doing so, you'll be able to showcase your skills, interests, and aspirations, making a stronger impression on the interviewer."
+    },
+    "dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_001",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 0.3837,
+          "strength_tags": [
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response is too general and lacks detail. Improved version: I became interested in AI after building a recommendation system project in my machine learning course. I implemented collaborative filtering using Python and evaluated the model using accuracy metrics. That experience motivat"
+        },
+        {
+          "id": "guideline_007",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 0.1972,
+          "strength_tags": [
+            "specific_example",
+            "concrete_achievement"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Strong job interview answers usually connect technical skills to real-world impact. Candidates should explain not only what technologies they used, but also why those technologies mattered for solving the problem."
+        },
+        {
+          "id": "feedback_016",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 0.4383,
+          "strength_tags": [
+            "engaging"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "unclear_goal"
+          ],
+          "text": "Your broad interests show curiosity, but the response lacks focus. Narrow your answer to one or two areas most relevant to the position and explain why those interests are meaningful to you."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour interview response showcases a good STAR structure and clear language, which are strengths. However, there are areas for improvement to make your response more impactful.\n\n**Strengths**\nYou have a clear language and a good STAR structure, which indicates that you're on the right track. This is great to see, especially in an interview setting.\n\n**Areas to Improve**\nYour response is too general, and you're missing details about your experiences and goals. This makes it challenging for the interviewer to understand your motivations and qualifications. Additionally, your goal is unclear, which raises questions about your focus and direction.\n\n**Specific Suggestions**\nTo address these areas, consider the following:\n\n1. **Provide specific examples**: Instead of mentioning multiple areas of interest, choose one or two that align with the position and provide a specific example of a project or experience that demonstrates your skills in that area.\n2. **Connect technical skills to real-world impact**: Explain how your technical skills, such as AI, cybersecurity, or game development, can be applied to solve real-world problems or improve people's lives.\n3. **Showcase concrete achievements**: Instead of just mentioning projects, focus on the specific achievements or outcomes you've accomplished in those projects. This will help you demonstrate your value and impact.\n4. **Clarify your goal**: Take a moment to reflect on your goals and what you hope to achieve in your career. This will help you articulate a clear and focused message that resonates with the interviewer.\n\n**Improved Version**\nHere's an example of how you could revise your response:\n\n\"I'm excited about the opportunity to discuss my qualifications for this role. With a strong foundation in computer science, I've developed a passion for AI and its applications in improving user experiences. For instance, in my machine learning course, I worked on a project that involved building a recommendation system using collaborative filtering. By implementing this system, I was able to improve the accuracy of recommendations by X% and enhance user engagement by Y%. This experience has motivated me to pursue AI engineering internships focused on user-centered systems. I believe that my technical skills, combined with my passion for improving user experiences, make me a strong fit for this role.\"\n\nThis revised response provides specific examples, connects technical skills to real-world impact, showcases concrete achievements, and clarifies the goal. Remember, the key is to be specific, focused, and clear in your response."
+    },
+    "tag_bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_001",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 38.0083,
+          "strength_tags": [
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response is too general and lacks detail. Improved version: I became interested in AI after building a recommendation system project in my machine learning course. I implemented collaborative filtering using Python and evaluated the model using accuracy metrics. That experience motivat"
+        },
+        {
+          "id": "guideline_006",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 23.8091,
+          "strength_tags": [
+            "clear_language",
+            "good_STAR_structure"
+          ],
+          "weakness_tags": [
+            "lack_of_specific_action",
+            "missing_details"
+          ],
+          "text": "Behavioral interview responses should focus on the candidate’s own actions and decisions rather than only describing the team’s work. Interviewers want to understand how the candidate personally contributed to solving the problem."
+        },
+        {
+          "id": "feedback_001",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 45.1511,
+          "strength_tags": [
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your response is understandable, but it lacks specific examples and clear impact. Mention one project in detail, explain your contribution, and describe what you learned or achieved."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour interview response is a good start, but there are areas for improvement to make it more impactful and engaging. You've shown a clear interest in different areas of computer science, which is great. However, to stand out, you'll need to provide more specific details and examples to demonstrate your skills and experiences.\n\n**Strengths**\nYou've demonstrated a clear language and a good STAR structure in your response. This is a great foundation to build upon.\n\n**Areas to Improve**\nBased on your transcript, I've identified three areas that need improvement:\n\n1. **Too General**: Your response is too broad and lacks specificity. You've mentioned multiple areas of interest, but it's not clear what you've done in each area.\n2. **Missing Details**: You haven't provided enough details about your projects or experiences. This makes it difficult for the interviewer to understand your skills and accomplishments.\n3. **Unclear Goal**: You've mentioned that you're still figuring out what you want to focus on, but it's not clear what your long-term goals are or what you hope to achieve in your career.\n\n**Specific Suggestions**\nTo address these areas, I recommend the following:\n\n1. **Focus on one area**: Instead of mentioning multiple areas of interest, focus on one area that you're passionate about and have experience in. This will allow you to provide more specific details and examples.\n2. **Provide specific examples**: Think about one project or experience that you're proud of and can talk about in detail. This could be a class project, a personal project, or an internship. Be sure to explain your role, the challenges you faced, and what you learned or achieved.\n3. **Clearly state your goal**: Take a moment to think about what you want to achieve in your career and what your long-term goals are. This could be a specific job title, a industry, or a type of project you want to work on.\n\n**Improved Version**\nHere's an example of how you could revise your response to address these areas:\n\n\"I'm really interested in AI and machine learning, and I've had some great experiences in this area. For example, in my machine learning course, I worked on a project to build a recommendation system using collaborative filtering. I implemented the algorithm using Python and evaluated the model using accuracy metrics. This experience not only helped me develop my programming skills but also gave me a deeper understanding of how AI can be applied to real-world problems. My goal is to become an AI engineer, working on projects that focus on user-centered systems and improving people's lives through technology.\"\n\nRemember, the key is to be specific, provide details, and clearly state your goals. This will help you stand out in an interview and show the interviewer that you're a strong candidate for the position."
+    },
+    "tag_dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_001",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 3.5837,
+          "strength_tags": [
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response is too general and lacks detail. Improved version: I became interested in AI after building a recommendation system project in my machine learning course. I implemented collaborative filtering using Python and evaluated the model using accuracy metrics. That experience motivat"
+        },
+        {
+          "id": "guideline_007",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 3.3972,
+          "strength_tags": [
+            "specific_example",
+            "concrete_achievement"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Strong job interview answers usually connect technical skills to real-world impact. Candidates should explain not only what technologies they used, but also why those technologies mattered for solving the problem."
+        },
+        {
+          "id": "feedback_001",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 4.2747,
+          "strength_tags": [
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your response is understandable, but it lacks specific examples and clear impact. Mention one project in detail, explain your contribution, and describe what you learned or achieved."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour response to the interview question is a good start, but there's room for improvement. You've expressed your interests in various areas of computer science and mentioned working on projects with classmates. However, your answer could be more effective if you provide specific details and clarify your goals.\n\n**Strengths**\nYou've demonstrated a clear language, which is a significant strength. Your response is easy to understand, and you've conveyed your enthusiasm for computer science. This is a great foundation to build upon.\n\n**Areas to Improve**\nBased on our analysis, the main areas to focus on are:\n\n1. **Too General**: Your response is quite broad, covering multiple areas of computer science. It would be more impactful to focus on one or two areas and provide specific examples.\n2. **Missing Details**: You've mentioned working on projects, but you could elaborate on the projects themselves, your role in the team, and what you learned from the experience.\n3. **Unclear Goal**: While you've expressed a desire to improve your technical skills, it would be helpful to clarify what specific skills you're looking to develop and how you plan to achieve that.\n\n**Specific Suggestions**\nTo address these areas, consider the following:\n\n1. **Focus on a specific area**: Choose one or two areas of computer science that genuinely interest you and provide specific examples of projects or experiences related to those areas.\n2. **Provide project details**: When mentioning projects, try to recall specific details such as the technologies used, your role in the team, and what you learned from the experience.\n3. **Clarify your goals**: Instead of simply stating that you want to improve your technical skills, think about what specific skills you're looking to develop and how you plan to achieve that. For example, do you want to improve your programming skills in a particular language or develop expertise in a specific area like AI or cybersecurity?\n\n**Improved Version**\nHere's an example of how you could revise your response to address these areas:\n\n\"I'm particularly interested in AI and cybersecurity, as I believe they have a significant impact on our daily lives. In my machine learning course, I worked on a project where I implemented a recommendation system using collaborative filtering in Python. This experience not only deepened my understanding of AI but also motivated me to pursue internships focused on user-centered systems. In the future, I aim to develop my skills in AI engineering and cybersecurity by participating in projects that involve designing and implementing secure systems. I believe this will enable me to make a meaningful contribution to the field and stay up-to-date with the latest advancements.\"\n\nRemember, the key is to be specific, provide concrete examples, and clarify your goals. With practice, you'll become more confident and effective in your responses."
+    }
+  },
+  {
+    "id": "input_007",
+    "scenario": "presentation",
+    "transcript": "Today I will talk about our project about AI feedback systems. We used retrieval and language models together to generate better feedback for students preparing for interviews and presentations.",
+    "predicted_tags": {
+      "strength_tags": [
+        "clear_goal",
+        "logical_structure",
+        "specific_example"
+      ],
+      "weakness_tags": [
+        "missing_details"
+      ]
+    },
+    "baseline": {
+      "feedback": "**Overall Assessment**\nYour presentation provides a clear overview of your project on AI feedback systems, and you've done a great job of highlighting the use of retrieval and language models. However, there's an opportunity to further engage your audience by providing more details about your project.\n\n**Strengths**\nYou've demonstrated the following strengths:\n\n* **Clear Goal**: You've clearly stated the topic of your presentation, which is your project on AI feedback systems.\n* **Logical Structure**: Your presentation follows a logical structure, starting with an introduction to your project.\n* **Specific Example**: Although you haven't provided a specific example in your transcript, you've mentioned using retrieval and language models together, which is a great example of how you've applied your knowledge.\n\n**Areas to Improve**\nOne area to improve is providing **more details** about your project. To do this, consider the following:\n\n* What specific problems did you try to solve with your AI feedback system?\n* How did you implement the retrieval and language models?\n* What were some challenges you faced, and how did you overcome them?\n\n**Specific Suggestions**\nTo address the predicted weakness of **missing details**, I suggest you consider the following:\n\n* Prepare a brief outline of your presentation beforehand to ensure you cover all the essential points.\n* Use specific examples or anecdotes to illustrate how your AI feedback system works and its benefits.\n* Consider adding a section on future plans or potential applications of your project to keep your audience engaged.\n\n**Improved Version**\nHere's an example of how you could revise your presentation to address the areas to improve:\n\n\"Today, I'll be discussing our project on AI feedback systems, which aims to provide better feedback for students preparing for interviews and presentations. We used a combination of retrieval and language models to generate more accurate and helpful feedback. For instance, our system can analyze a student's performance and provide personalized feedback on areas for improvement. We encountered some challenges during implementation, such as integrating the retrieval and language models, but we were able to overcome them by experimenting with different architectures. In the future, we plan to expand our system to include more types of feedback, such as video analysis. Our goal is to make our AI feedback system a valuable resource for students and educators alike.\"\n\nBy following these suggestions, you can create a more engaging and informative presentation that showcases your project's strengths and addresses areas for improvement."
+    },
+    "bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_021",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 48.723,
+          "strength_tags": [
+            "clear_goal",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "weak_opening"
+          ],
+          "text": "Weakness: The introduction is too vague and does not explain the purpose or significance of the presentation. Improved version: Today I will present our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large langua"
+        },
+        {
+          "id": "guideline_033",
+          "type": "guideline",
+          "scenario": "presentation",
+          "score": 5.6636,
+          "strength_tags": [
+            "clear_language",
+            "logical_structure"
+          ],
+          "weakness_tags": [
+            "wordy",
+            "rambling"
+          ],
+          "text": "Slides and spoken explanations should remain concise and focused. Overloading presentations with too much information can make it difficult for the audience to follow the main message."
+        },
+        {
+          "id": "feedback_056",
+          "type": "feedback_example",
+          "scenario": "presentation",
+          "score": 13.4689,
+          "strength_tags": [
+            "natural_flow"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "filler_words"
+          ],
+          "text": "Your opening is too informal and does not orient the audience. Begin with a clear statement of your topic, why it matters, and what you will cover so the audience knows what to expect."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour presentation on AI feedback systems has a clear goal, and you've made a good start by mentioning the use of retrieval and language models together. However, there are areas where you can improve to make your presentation more engaging and effective.\n\n**Strengths**\nYou've demonstrated a clear goal in your presentation, and you've started to explain the specific application of your project. This is a great start, and you're on the right track.\n\n**Areas to Improve**\nThe main area to focus on is providing more details about your project. Your current introduction is a bit too general, and the audience might not fully understand the significance of your project. Additionally, you could benefit from a more structured approach to presenting your ideas.\n\n**Specific Suggestions**\nTo address the predicted weakness tags ['missing_details'], consider the following suggestions:\n\n1. **Provide more context**: Before diving into the specifics of your project, take a moment to explain why AI feedback systems are important and how they can benefit students preparing for interviews and presentations.\n2. **Use a clear and concise opening**: Instead of starting with a vague statement, try to begin with a clear and focused statement that sets the tone for the rest of your presentation.\n3. **Use specific examples**: To make your project more relatable and engaging, try to include specific examples or case studies that demonstrate the effectiveness of your AI feedback system.\n4. **Use a logical structure**: Organize your presentation in a logical and easy-to-follow manner, using transitions and connections to guide the audience through your ideas.\n\n**Improved Version**\nHere's an example of how you could revise your introduction to address the predicted weakness tags:\n\n\"Today, I'll be presenting our project on AI feedback systems, which aims to improve the quality of feedback for students preparing for interviews and presentations. By combining retrieval and language models, we've developed a system that generates more specific and actionable feedback. In this presentation, I'll be discussing the significance of AI feedback systems, the challenges we faced in developing our system, and the results we've achieved. I'll also be sharing some specific examples of how our system has helped students improve their communication skills.\"\n\nRemember, this is just an example, and you should feel free to modify it to fit your own style and needs. Good luck with your presentation!"
+    },
+    "dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_021",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 0.8441,
+          "strength_tags": [
+            "clear_goal",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "weak_opening"
+          ],
+          "text": "Weakness: The introduction is too vague and does not explain the purpose or significance of the presentation. Improved version: Today I will present our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large langua"
+        },
+        {
+          "id": "guideline_034",
+          "type": "guideline",
+          "scenario": "presentation",
+          "score": 0.3772,
+          "strength_tags": [
+            "natural_flow",
+            "engaging"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "awkward_phrasing"
+          ],
+          "text": "Good presentations maintain a natural speaking flow instead of sounding fully memorized or robotic. Smooth transitions between ideas help the audience stay engaged throughout the talk."
+        },
+        {
+          "id": "feedback_068",
+          "type": "feedback_example",
+          "scenario": "presentation",
+          "score": 0.4714,
+          "strength_tags": [
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "uncertain_tone"
+          ],
+          "text": "Asking the audience to wait and signaling memorization reduces engagement and warmth. Speak naturally, invite questions during transitions, and rehearse so the talk feels conversational rather than recited."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour presentation is off to a good start, but there are a few areas where you can improve to make it more engaging and effective. You've clearly stated the topic of your project, which is great. However, to take it to the next level, you'll want to provide more details and context to keep your audience interested.\n\n**Strengths**\nYou've demonstrated a clear goal by stating the topic of your project, which is a good start. You've also shown a logical structure by mentioning the combination of retrieval and language models, which is a key aspect of your project.\n\n**Areas to Improve**\nThe main area for improvement is providing more details and context about your project. Your current introduction is a bit too general and doesn't give the audience a clear understanding of what to expect from your presentation.\n\n**Specific Suggestions**\nTo improve your introduction, consider the following:\n\n1. **Be more specific**: Instead of just stating the topic, try to provide more context about the problem you're trying to solve or the benefits of your project.\n2. **Use a stronger opening**: Try to grab the audience's attention with a more engaging opening sentence. You could ask a question, share a surprising statistic, or provide a thought-provoking quote related to your project.\n3. **Provide a clear purpose**: Make it clear what your audience can expect to learn from your presentation. What are the key takeaways or insights you'll be sharing?\n\n**Improved Version**\nHere's an example of how you could revise your introduction to make it more engaging and effective:\n\n\"Today, I'll be presenting our project on retrieval-augmented feedback systems for interview coaching. As we all know, preparing for interviews and presentations can be a daunting task, especially for students. Our project explores how combining information retrieval with large language models can generate more specific and actionable communication feedback to help students improve their performance. By the end of this presentation, you'll understand the key challenges we faced, the solutions we developed, and the benefits of our approach.\"\n\nRemember, the goal is to provide a clear and concise introduction that sets the stage for the rest of your presentation. By being more specific, using a stronger opening, and providing a clear purpose, you'll be able to engage your audience and keep them interested throughout your talk."
+    },
+    "tag_bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_021",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 50.6279,
+          "strength_tags": [
+            "clear_goal",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "weak_opening"
+          ],
+          "text": "Weakness: The introduction is too vague and does not explain the purpose or significance of the presentation. Improved version: Today I will present our project on retrieval-augmented feedback systems for interview coaching. This project explores how combining information retrieval with large langua"
+        },
+        {
+          "id": "guideline_039",
+          "type": "guideline",
+          "scenario": "presentation",
+          "score": 14.3848,
+          "strength_tags": [
+            "logical_structure",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "missing_details",
+            "lack_of_specific_action"
+          ],
+          "text": "Research presentations are stronger when speakers explain both the methodology and the reasoning behind their design choices. Audiences often want to understand why certain decisions were made."
+        },
+        {
+          "id": "feedback_067",
+          "type": "feedback_example",
+          "scenario": "presentation",
+          "score": 22.6207,
+          "strength_tags": [
+            "clear_goal",
+            "engaging",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "This opening motivates the work well by leading with a concrete pain point. To make the transition smoother, follow it with a single sentence that previews what you will demonstrate in the rest of the talk."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour presentation transcript effectively conveys the main idea of your project on AI feedback systems. You've started to outline the key points, but there's room for improvement in providing more specific details to engage your audience.\n\n**Strengths**\nYou've demonstrated a clear goal in discussing the project's focus on AI feedback systems. Your logical structure is also evident, as you've started to break down the project's components.\n\n**Areas to Improve**\nThe predicted weakness tags ['missing_details'] indicate that your presentation could benefit from more specific examples and details to support your claims. This will help your audience understand the significance and relevance of your project.\n\n**Specific Suggestions**\nTo address the 'missing_details' weakness, consider the following:\n- Provide more context about the problem you're trying to solve with your AI feedback system. For instance, you could explain how the current feedback systems are inadequate or how your system aims to improve the student experience.\n- Offer concrete examples of how your system generates better feedback for students preparing for interviews and presentations. This could include specific scenarios or case studies that demonstrate the effectiveness of your system.\n- Use the guideline from Document 2 to explain both the methodology and the reasoning behind your design choices. This will help your audience understand the thought process behind your project.\n\n**Improved Version**\nHere's an example of how you could revise your introduction to address the 'missing_details' weakness:\n\n\"Today, I'll be discussing our project on AI feedback systems, which aims to address the limitations of current feedback systems. These systems often provide generic feedback that doesn't cater to individual students' needs. Our system, on the other hand, combines retrieval and language models to generate more specific and actionable feedback for students preparing for interviews and presentations. For instance, we've seen a significant improvement in student performance when using our system, with a 30% increase in confidence and a 25% reduction in anxiety. In this presentation, I'll explain the methodology behind our system, including the design choices we made and how they contribute to the system's effectiveness.\"\n\nThis revised introduction provides more context, specific examples, and details to engage your audience and demonstrate the significance of your project."
+    },
+    "tag_dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_025",
+          "type": "revision_pair",
+          "scenario": "presentation",
+          "score": 3.6952,
+          "strength_tags": [
+            "logical_structure",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "missing_details",
+            "poor_structure"
+          ],
+          "text": "Weakness: The explanation does not guide the audience through the methodology clearly. Improved version: This slide summarizes our pipeline. First, the system analyzes the user’s transcript and identifies communication-related tags such as missing details or unclear goals. Then, the retriever search"
+        },
+        {
+          "id": "guideline_039",
+          "type": "guideline",
+          "scenario": "presentation",
+          "score": 3.4972,
+          "strength_tags": [
+            "logical_structure",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "missing_details",
+            "lack_of_specific_action"
+          ],
+          "text": "Research presentations are stronger when speakers explain both the methodology and the reasoning behind their design choices. Audiences often want to understand why certain decisions were made."
+        },
+        {
+          "id": "feedback_074",
+          "type": "feedback_example",
+          "scenario": "presentation",
+          "score": 3.6521,
+          "strength_tags": [
+            "logical_structure",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your structure is clear and easy to follow, which helps the audience anticipate the arc of the talk. To make the preview even stronger, name the one finding you most want the audience to remember by the end."
+        }
+      ],
+      "feedback": "**Overall Assessment**\n\nYou've made a great start in presenting your project on AI feedback systems. Your goal is clear, and you've mentioned using retrieval and language models together to generate better feedback for students. However, there are a few areas where you can improve to make your presentation even stronger.\n\n**Strengths**\n\n1. You have a clear goal in mind, which is to discuss your project on AI feedback systems.\n2. Your presentation seems to have a logical structure, making it easy to follow.\n\n**Areas to Improve**\n\n1. **Missing Details**: Your presentation lacks specific details about how you implemented the retrieval and language models together. To improve this, consider providing more context about the methodology and the reasoning behind your design choices.\n2. **Lack of Specific Action**: While you mentioned using retrieval and language models, it's unclear what specific actions you took to integrate these models. To address this, think about how you can provide more concrete examples of your process.\n\n**Specific Suggestions**\n\n1. **Use the \"Guideline\" example from Document 2**: Consider incorporating the idea of explaining both the methodology and the reasoning behind your design choices. This will help your audience understand the thought process behind your project.\n2. **Draw from the \"Revision Pair\" example from Document 1**: Use the improved version of the explanation from the revision pair example to guide your audience through the methodology. This will help them understand the pipeline of your project more clearly.\n3. **Use the \"Feedback Example\" from Document 3**: Consider using the structure suggested in the feedback example to make your presentation more engaging and easy to follow.\n\n**Improved Version**\n\nHere's an example of how you could revise your presentation to address the areas mentioned above:\n\n\"Today, I'll be discussing our project on AI feedback systems. We used retrieval and language models together to generate better feedback for students preparing for interviews and presentations. Our methodology involves analyzing the user's transcript to identify communication-related tags, such as missing details or unclear goals. Then, the retriever searches for relevant examples and guidelines, which are passed to the language model to generate feedback.\n\nTo make our presentation stronger, we'll follow a clear structure. First, we'll explain our methodology, which involves analyzing the user's transcript and identifying relevant tags. Then, we'll discuss how we integrated the retrieval and language model to generate feedback. Finally, we'll provide some examples of how our system can be used to improve student presentations.\n\nBy following this structure, we hope to provide a clear and engaging presentation that showcases the potential of our AI feedback system.\""
+    }
+  }
+]

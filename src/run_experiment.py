@@ -16,7 +16,7 @@ GUIDELINE_PATH = "data/corpus/guideline_corpus.json"
 REVISION_PATH = "data/corpus/revision_corpus.json"
 TAG_PATH = "data/corpus/tag_definitions.json"
 
-INPUT_PATH = "data/inputs/test_inputs.json"
+INPUT_PATH = "data/inputs/tagged_test_inputs.json"
 OUTPUT_PATH = "data/outputs/results.json"
 
 
@@ -43,7 +43,7 @@ def run():
     )
 
     tag_definitions = load_json(TAG_PATH)
-    inputs = load_json(INPUT_PATH)
+    inputs = load_json(INPUT_PATH)[4:5] # Limit to first 5 inputs for testing
 
     bm25 = BM25Retriever(corpus)
     dense = DenseRetriever(corpus)
@@ -59,11 +59,7 @@ def run():
 
         print(f"Running input: {input_id}")
 
-        predicted_tags = tag_user_input(
-            transcript=transcript,
-            scenario=scenario,
-            tag_definitions=tag_definitions
-        )
+        predicted_tags = item["predicted_tags"]
 
         baseline_feedback = generate_feedback(
             transcript=transcript,
@@ -75,7 +71,7 @@ def run():
         bm25_docs = bm25.retrieve(
             query=transcript,
             scenario=scenario,
-            top_k=5
+            top_k=3
         )
 
         bm25_feedback = generate_feedback(
@@ -88,7 +84,7 @@ def run():
         dense_docs = dense.retrieve(
             query=transcript,
             scenario=scenario,
-            top_k=5
+            top_k=3
         )
 
         dense_feedback = generate_feedback(
@@ -102,7 +98,7 @@ def run():
             query=transcript,
             scenario=scenario,
             query_tags=predicted_tags,
-            top_k=5
+            top_k=3
         )
 
         tag_bm25_feedback = generate_feedback(
@@ -116,7 +112,7 @@ def run():
             query=transcript,
             scenario=scenario,
             query_tags=predicted_tags,
-            top_k=5
+            top_k=3
         )
 
         tag_dense_feedback = generate_feedback(

@@ -1,0 +1,650 @@
+[
+  {
+    "id": "input_001",
+    "scenario": "interview",
+    "transcript": "I like programming and AI. I worked on a few class projects and I want to get an internship where I can learn more about machine learning.",
+    "predicted_tags": {
+      "strength_tags": [
+        "clear_goal",
+        "specific_example"
+      ],
+      "weakness_tags": [
+        "missing_details"
+      ]
+    },
+    "baseline": {
+      "feedback": "**Overall Assessment**\nYou've shown enthusiasm for programming and AI, and it's great that you've worked on class projects. However, there's an opportunity to make your response more impactful by providing more details about your experiences and goals.\n\n**Strengths**\nYou've demonstrated a clear goal by expressing your interest in machine learning and wanting to learn more about it through an internship. Additionally, you've provided a specific example by mentioning that you've worked on a few class projects.\n\n**Areas to Improve**\nThe main area for improvement is providing more details about your experiences and skills. This will help the interviewer understand your capabilities and how you can contribute to the organization.\n\n**Specific Suggestions**\nTo address the 'missing_details' weakness, consider adding more specifics about your class projects, such as:\n- What programming languages or tools you used?\n- What problems did you try to solve or what goals did you aim to achieve?\n- What did you learn from these experiences, and how do you think they can be applied to a machine learning internship?\n\nFor example, you could rephrase your response to something like: \"I've worked on a few class projects that involved building predictive models using Python and scikit-learn. In one project, I explored the relationship between customer demographics and purchasing behavior, and I learned how to preprocess and visualize data using pandas and matplotlib. I'm excited to apply these skills to a machine learning internship and continue learning about the field.\"\n\n**Improved Version**\nHere's an example of how you could revise your original response to incorporate more details:\n\n\"I'm passionate about programming and AI, and I've had the opportunity to work on a few class projects that have sparked my interest in machine learning. In one project, I used Python and scikit-learn to build a predictive model that analyzed customer demographics and purchasing behavior. I learned how to preprocess and visualize data using pandas and matplotlib, and I was able to identify some interesting patterns in the data. Through these experiences, I've gained a solid foundation in machine learning concepts and I'm excited to apply my skills to a real-world project in an internship setting. I'm looking for an internship where I can continue learning about machine learning and contribute to a team that's pushing the boundaries of AI.\""
+    },
+    "bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_006",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 15.3743,
+          "strength_tags": [
+            "specific_example",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "lack_of_specific_action"
+          ],
+          "text": "Weakness: The response relies on vague self-description without supporting evidence. Improved version: I developed strong problem-solving skills while working on a distributed systems project where I implemented fault-tolerant communication between multiple servers. Through that experience, I learne"
+        },
+        {
+          "id": "guideline_020",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 7.0228,
+          "strength_tags": [
+            "logical_structure",
+            "natural_flow"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Strong interview answers often end with a clear takeaway or reflection. Briefly summarizing what was learned or why the experience mattered can make responses feel more complete and memorable."
+        },
+        {
+          "id": "feedback_001",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 17.8634,
+          "strength_tags": [
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your response is understandable, but it lacks specific examples and clear impact. Mention one project in detail, explain your contribution, and describe what you learned or achieved."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour enthusiasm for programming and AI is evident, and it's great that you're looking to gain more experience in machine learning through an internship. However, there are areas where you can improve to make your response more impactful.\n\n**Strengths**\nYou have a clear goal in mind, which is to learn more about machine learning, and you've mentioned working on a few class projects. These are positive steps towards showcasing your interest and experience.\n\n**Areas to Improve**\nThe predicted weakness tags 'missing_details' and 'too_general' suggest that your response could benefit from more specific examples and details. To make your response more memorable and engaging, you should aim to provide concrete examples that demonstrate your skills and experiences.\n\n**Specific Suggestions**\nTo address the 'missing_details' weakness, try to recall a specific project you worked on and describe it in detail. Explain your role, the challenges you faced, and what you learned or achieved from the experience. This will help you to provide a more nuanced and engaging response.\n\nTo address the 'too_general' weakness, avoid making broad statements about your skills or interests. Instead, focus on specific examples that demonstrate your abilities. For instance, instead of saying \"I like programming,\" you could say \"I developed a strong understanding of programming concepts while working on a project that involved building a chatbot using natural language processing techniques.\"\n\n**Improved Version**\nHere's an example of how you could revise your response to address the weaknesses:\n\n\"I'm excited about the opportunity to learn more about machine learning through an internship. In my previous class projects, I worked on a project that involved building a recommender system using collaborative filtering techniques. My role was to design and implement the system's architecture, which involved working with a team to integrate multiple data sources and develop a user-friendly interface. Through this experience, I learned the importance of data preprocessing and feature engineering in machine learning models. I also gained experience with popular libraries like TensorFlow and scikit-learn. I'm eager to apply my skills and knowledge in a real-world setting and continue learning about the latest advancements in machine learning.\"\n\nThis revised response provides more specific details about your experience, skills, and achievements, making it more engaging and memorable for the interviewer."
+    },
+    "dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_001",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 0.4571,
+          "strength_tags": [
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response is too general and lacks detail. Improved version: I became interested in AI after building a recommendation system project in my machine learning course. I implemented collaborative filtering using Python and evaluated the model using accuracy metrics. That experience motivat"
+        },
+        {
+          "id": "guideline_014",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 0.1214,
+          "strength_tags": [
+            "engaging",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Strong college interview answers often demonstrate curiosity and initiative through extracurricular activities, personal projects, or independent learning experiences."
+        },
+        {
+          "id": "feedback_029",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 0.3502,
+          "strength_tags": [
+            "clear_goal",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your career goal is clear and meaningful. To make your answer more convincing, explain what experiences or projects motivated your interest in ethical AI research."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour response shows a clear interest in programming and AI, which is a great starting point. However, there are areas where you can improve to make your answer more engaging and convincing.\n\n**Strengths**\nYou have a clear goal in mind, which is to learn more about machine learning through an internship. This shows that you have a specific objective in mind, and that's a great strength.\n\n**Areas to Improve**\nYour response is a bit too general, and you could benefit from providing more details about your experiences and projects. This will help you stand out and show the interviewer that you're more than just interested in AI - you have hands-on experience and skills to back it up.\n\n**Specific Suggestions**\nTo improve your response, try to be more specific about your projects and experiences. For example, you could talk about a particular project that you worked on, what problem you were trying to solve, and what skills you used to tackle it. This will help you demonstrate your skills and experience in a more concrete way.\n\n**Improved Version**\nHere's an example of how you could revise your response to include more details:\n\n\"I'm really passionate about AI and machine learning, and I've had the opportunity to work on a few projects that have deepened my understanding of these topics. For example, in my data structures class, I worked on a project to build a recommendation system using collaborative filtering. I implemented the algorithm using Python and evaluated the model using accuracy metrics. This experience not only helped me develop my programming skills but also gave me a better understanding of how AI can be used to solve real-world problems. Now, I'm looking for an internship where I can apply my skills and knowledge to work on more complex AI projects and learn from experienced professionals in the field.\"\n\nThis revised response includes more specific details about your project, the skills you used, and the problems you were trying to solve. It also shows that you're not just interested in AI, but you have hands-on experience and skills to back it up."
+    },
+    "tag_bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_001",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 26.4058,
+          "strength_tags": [
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response is too general and lacks detail. Improved version: I became interested in AI after building a recommendation system project in my machine learning course. I implemented collaborative filtering using Python and evaluated the model using accuracy metrics. That experience motivat"
+        },
+        {
+          "id": "guideline_020",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 12.2771,
+          "strength_tags": [
+            "logical_structure",
+            "natural_flow"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Strong interview answers often end with a clear takeaway or reflection. Briefly summarizing what was learned or why the experience mattered can make responses feel more complete and memorable."
+        },
+        {
+          "id": "feedback_001",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 22.7703,
+          "strength_tags": [
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your response is understandable, but it lacks specific examples and clear impact. Mention one project in detail, explain your contribution, and describe what you learned or achieved."
+        }
+      ],
+      "feedback": "**Overall Assessment**\n\nYou've shown enthusiasm for programming and AI, and it's great that you've worked on class projects. However, to make a stronger impression in this interview, it's essential to provide more detail and context about your experiences.\n\n**Strengths**\n\nYou've demonstrated a clear goal by expressing your interest in machine learning internships. Additionally, you've mentioned working on a few class projects, which shows that you have some hands-on experience.\n\n**Areas to Improve**\n\nThe main areas for improvement are related to providing more specific details and avoiding general statements. Your response could benefit from a clearer explanation of your projects, your role in them, and what you learned or achieved.\n\n**Specific Suggestions**\n\nTo improve, consider the following:\n\n1. **Be more specific**: Instead of saying \"I worked on a few class projects,\" try to recall one project that stands out to you. Describe the project's goal, your role, and what you accomplished.\n2. **Highlight your contributions**: Explain how your work on the project contributed to the overall outcome. This will help the interviewer understand your skills and value.\n3. **Show what you learned**: Reflect on what you learned from the project, and how it has prepared you for a machine learning internship.\n\n**Improved Version**\n\nHere's an example of how you could revise your response:\n\n\"I'm excited about machine learning because I've seen its potential in real-world applications. In my machine learning course, I worked on a project to build a sentiment analysis model for customer reviews. I was responsible for collecting and preprocessing the data, as well as implementing the model using a deep learning library. Through this project, I learned the importance of data quality and how to evaluate the performance of machine learning models. I'm now looking for an internship where I can apply these skills to develop user-centered systems that leverage machine learning.\"\n\nThis revised response provides more specific details about the project, your role, and what you learned. It also shows how your experience has prepared you for a machine learning internship."
+    },
+    "tag_dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_001",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 3.6571,
+          "strength_tags": [
+            "specific_example",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Weakness: The response is too general and lacks detail. Improved version: I became interested in AI after building a recommendation system project in my machine learning course. I implemented collaborative filtering using Python and evaluated the model using accuracy metrics. That experience motivat"
+        },
+        {
+          "id": "guideline_014",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 2.5214,
+          "strength_tags": [
+            "engaging",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Strong college interview answers often demonstrate curiosity and initiative through extracurricular activities, personal projects, or independent learning experiences."
+        },
+        {
+          "id": "feedback_029",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 2.7502,
+          "strength_tags": [
+            "clear_goal",
+            "professional_tone"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your career goal is clear and meaningful. To make your answer more convincing, explain what experiences or projects motivated your interest in ethical AI research."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour response shows a clear interest in programming and AI, which is a great starting point. However, to make a stronger impression, it's essential to provide more details about your experiences and goals.\n\n**Strengths**\nYou have a clear goal in mind, which is to learn more about machine learning through an internship. This shows that you're focused and motivated. Additionally, you've worked on a few class projects, which is a good starting point for building your portfolio.\n\n**Areas to Improve**\nThe main area for improvement is providing more details about your experiences and projects. Your response is a bit too general, and it would be helpful to explain what you learned from your projects and how they relate to your goals.\n\n**Specific Suggestions**\nTo improve your response, try to be more specific about your projects and what you achieved. For example, you could describe the problem you were trying to solve, the technologies you used, and the results you obtained. This will help you to demonstrate your skills and experience more effectively.\n\n**Improved Version**\nHere's an example of how you could expand on your response:\n\n\"I'm really interested in machine learning and AI because I've had the opportunity to work on a few projects that involved building predictive models and analyzing data. For example, in my machine learning course, I worked on a project where I built a recommendation system using collaborative filtering. I implemented the algorithm using Python and evaluated the model using accuracy metrics. Through this project, I gained a deeper understanding of how machine learning can be applied to real-world problems, and I'm excited to learn more about the field through an internship. My goal is to work on projects that involve user-centered systems and contribute to the development of more effective and responsible AI technologies.\"\n\nThis revised response provides more details about your projects and experiences, which will help you to make a stronger impression and demonstrate your skills and goals more effectively."
+    }
+  },
+  {
+    "id": "input_002",
+    "scenario": "interview",
+    "transcript": "During our software engineering class project, my team struggled with communication because everyone was working on different parts separately. I noticed we were starting to miss deadlines, so I suggested creating a shared progress tracker and holding short check-in meetings twice a week. I also helped review pull requests to make integration easier for everyone. After we improved communication, our team was able to finish the backend integration before the final demo and our project received positive feedback from the course staff.",
+    "predicted_tags": {
+      "strength_tags": [
+        "clear_goal",
+        "specific_example",
+        "concrete_achievement",
+        "good_STAR_structure"
+      ],
+      "weakness_tags": [
+        "missing_details"
+      ]
+    },
+    "baseline": {
+      "feedback": "**Overall Assessment**\nYou effectively conveyed your role in improving communication within your team and achieving a positive outcome for your software engineering class project. Your answer demonstrated a clear goal, specific example, concrete achievement, and good STAR structure.\n\n**Strengths**\nYour strengths lie in:\n- Clearly articulating your goal of improving communication within the team.\n- Providing a specific example of how you addressed the issue, such as creating a shared progress tracker and holding check-in meetings.\n- Highlighting a concrete achievement, which is the successful completion of the backend integration and positive feedback from the course staff.\n- Demonstrating a good STAR structure, which helped you to effectively tell a story and convey your message.\n\n**Areas to Improve**\nOne area for improvement is providing more details about the specific challenges you faced and how you overcame them. This will help to make your answer more comprehensive and engaging.\n\n**Specific Suggestions**\nTo address the predicted weakness tag 'missing_details', consider the following suggestions:\n- When describing the challenges you faced, try to be more specific about the problems you encountered, such as \"We were struggling to meet deadlines due to a lack of coordination among team members.\"\n- When explaining how you overcame the challenges, provide more details about the specific actions you took and their impact, such as \"By creating a shared progress tracker, we were able to stay on top of our tasks and meet our deadlines. This also helped us to identify potential issues early on and address them before they became major problems.\"\n\n**Improved Version**\nHere's an example of how you could revise your answer to address the 'missing_details' weakness:\n\n\"In our software engineering class project, my team struggled with communication because everyone was working on different parts separately. We were struggling to meet deadlines due to a lack of coordination among team members. I suggested creating a shared progress tracker and holding short check-in meetings twice a week to address this issue. By doing so, we were able to stay on top of our tasks and meet our deadlines. This also helped us to identify potential issues early on and address them before they became major problems. I also helped review pull requests to make integration easier for everyone. After we improved communication, our team was able to finish the backend integration before the final demo and our project received positive feedback from the course staff.\""
+    },
+    "bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_002",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 59.4364,
+          "strength_tags": [
+            "good_STAR_structure",
+            "logical_structure"
+          ],
+          "weakness_tags": [
+            "missing_STAR",
+            "lack_of_specific_action"
+          ],
+          "text": "Weakness: The response lacks STAR structure and specific actions. Improved version: During our software engineering project, our team struggled with unclear task assignments near the deadline. I organized short daily check-ins and created a shared progress tracker to improve communication. As a resu"
+        },
+        {
+          "id": "guideline_020",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 15.5438,
+          "strength_tags": [
+            "logical_structure",
+            "natural_flow"
+          ],
+          "weakness_tags": [
+            "poor_structure",
+            "missing_details"
+          ],
+          "text": "Strong interview answers often end with a clear takeaway or reflection. Briefly summarizing what was learned or why the experience mattered can make responses feel more complete and memorable."
+        },
+        {
+          "id": "feedback_022",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 25.7615,
+          "strength_tags": [
+            "logical_structure",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your role in the project is clear, which helps the answer feel organized. To improve the response, explain one technical challenge you faced and describe how your backend contribution affected the final project outcome."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour interview response highlights a specific challenge you faced in your software engineering class project and the steps you took to improve communication within your team. You effectively convey the positive outcome of your actions, which is a great start.\n\n**Strengths**\nYou have a clear goal in mind (improving communication), and you provide a specific example from your project experience. Your response also conveys a concrete achievement (successfully completing the backend integration and receiving positive feedback). Additionally, your answer has a good STAR structure, which is a great foundation for a strong interview response.\n\n**Areas to Improve**\nThe predicted weakness tags ['missing_details'] indicate that your response could benefit from more specific details about the challenges you faced and the actions you took to improve communication. To further strengthen your response, consider adding more context about the project's timeline, the specific communication issues you encountered, and how your suggestions impacted the team's overall performance.\n\n**Specific Suggestions**\nTo address the 'missing_details' weakness, try to be more specific about the following:\n- What were the specific communication issues you faced in the project?\n- How did you suggest creating a shared progress tracker and holding short check-in meetings, and what was the outcome of these efforts?\n- What were some of the technical challenges you faced while reviewing pull requests, and how did you overcome them?\n\n**Improved Version**\nHere's an example of how you could revise your response to address the 'missing_details' weakness:\n\n\"During our software engineering class project, my team struggled with communication issues, particularly near the deadline. We were working on different parts of the project separately, which led to missed deadlines and integration challenges. I suggested creating a shared progress tracker to keep everyone informed about the project's status and holding short check-in meetings twice a week to discuss progress and address any issues. I also helped review pull requests to ensure that the code was integrated smoothly. By implementing these changes, we were able to complete the backend integration before the final demo and received positive feedback from the course staff. Looking back, I realized that effective communication is crucial for successful project outcomes, and I'm glad I could contribute to improving our team's communication and ultimately delivering a successful project.\"\n\nThis revised response provides more specific details about the challenges you faced, the actions you took, and the outcome of your efforts, making it a stronger interview answer."
+    },
+    "dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_002",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 0.6114,
+          "strength_tags": [
+            "good_STAR_structure",
+            "logical_structure"
+          ],
+          "weakness_tags": [
+            "missing_STAR",
+            "lack_of_specific_action"
+          ],
+          "text": "Weakness: The response lacks STAR structure and specific actions. Improved version: During our software engineering project, our team struggled with unclear task assignments near the deadline. I organized short daily check-ins and created a shared progress tracker to improve communication. As a resu"
+        },
+        {
+          "id": "guideline_018",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 0.2814,
+          "strength_tags": [
+            "professional_tone",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "lack_of_specific_action",
+            "missing_details"
+          ],
+          "text": "Project discussions are stronger when candidates explain both technical contributions and collaboration experience. Interviewers often value teamwork and communication alongside technical ability."
+        },
+        {
+          "id": "feedback_022",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 0.4431,
+          "strength_tags": [
+            "logical_structure",
+            "clear_language"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "Your role in the project is clear, which helps the answer feel organized. To improve the response, explain one technical challenge you faced and describe how your backend contribution affected the final project outcome."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour transcript effectively conveys your experience in improving communication within your team during the software engineering class project. You've demonstrated a clear goal of enhancing team collaboration and a concrete achievement of completing the backend integration before the final demo.\n\n**Strengths**\nYour response exhibits a good STAR structure, which is a strength. You've also provided a specific example from your experience, showcasing your ability to apply theoretical concepts to real-world situations.\n\n**Areas to Improve**\nThe predicted weakness tags 'missing_details' and 'lack_of_specific_action' indicate areas for improvement. To strengthen your response, consider providing more details about your actions and the specific challenges you faced. This will help the interviewer understand the depth of your experience and the impact of your contributions.\n\n**Specific Suggestions**\nTo address the 'missing_details' weakness, focus on providing more specific information about the challenges you faced and how you overcame them. For instance, you could describe the specific technical difficulties you encountered while reviewing pull requests or the obstacles you faced in creating a shared progress tracker. This will help you demonstrate a more nuanced understanding of the project's complexities.\n\nTo address the 'lack_of_specific_action' weakness, consider breaking down your actions into more specific steps. For example, instead of simply stating that you \"helped review pull requests,\" describe the specific tasks you performed, such as \"I reviewed 10 pull requests, identified 3 critical issues, and worked with my team to resolve them.\"\n\n**Improved Version**\nHere's an example of how you could revise your transcript to address the areas for improvement:\n\n\"During our software engineering class project, my team struggled with communication because everyone was working on different parts separately. I noticed we were starting to miss deadlines, so I suggested creating a shared progress tracker and holding short check-in meetings twice a week. To implement this, I sent out a team-wide email outlining the project timeline and the importance of regular check-ins. I also took the initiative to review 10 pull requests, identifying 3 critical issues that needed to be addressed. By working closely with my team, we were able to resolve these issues and complete the backend integration before the final demo. As a result, our project received positive feedback from the course staff, and I was proud of our team's ability to work together effectively under pressure.\"\n\nThis revised version provides more specific details about your actions and the challenges you faced, demonstrating a more nuanced understanding of the project's complexities."
+    },
+    "tag_bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_002",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 60.3788,
+          "strength_tags": [
+            "good_STAR_structure",
+            "logical_structure"
+          ],
+          "weakness_tags": [
+            "missing_STAR",
+            "lack_of_specific_action"
+          ],
+          "text": "Weakness: The response lacks STAR structure and specific actions. Improved version: During our software engineering project, our team struggled with unclear task assignments near the deadline. I organized short daily check-ins and created a shared progress tracker to improve communication. As a resu"
+        },
+        {
+          "id": "guideline_007",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 20.9648,
+          "strength_tags": [
+            "specific_example",
+            "concrete_achievement"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Strong job interview answers usually connect technical skills to real-world impact. Candidates should explain not only what technologies they used, but also why those technologies mattered for solving the problem."
+        },
+        {
+          "id": "feedback_018",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 33.2998,
+          "strength_tags": [
+            "specific_example",
+            "confident_tone"
+          ],
+          "weakness_tags": [
+            "missing_details",
+            "lack_of_specific_action"
+          ],
+          "text": "This answer provides a strong leadership example. To strengthen it further, explain how your leadership improved the project outcome and include one measurable achievement or team success."
+        }
+      ],
+      "feedback": "**Overall Assessment**\n\nYour response demonstrates a clear understanding of the project's challenges and the actions you took to improve communication. You've highlighted a specific example from your experience, which is a great strength. However, there are areas where you can further improve to make your answer more impactful.\n\n**Strengths**\n\n* You've provided a clear example from your experience, which is a great strength.\n* Your response shows a good understanding of the STAR structure, as you've described a situation, action, and result.\n\n**Areas to Improve**\n\n* Your response could benefit from more specific details about the challenges you faced and the actions you took to improve communication. This will help the interviewer understand the context and the impact of your actions.\n* While you've mentioned a specific example, it would be helpful to provide more concrete metrics or achievements to demonstrate the effectiveness of your actions.\n\n**Specific Suggestions**\n\n* Consider adding more specific details about the communication challenges you faced, such as \"We struggled with unclear task assignments near the deadline\" (similar to the revised version in Document 1).\n* To make your actions more concrete, think about specific metrics or achievements, such as \"We were able to finish the backend integration 2 weeks ahead of schedule\" or \"Our team received positive feedback from the course staff on our project's organization and communication.\"\n* Remember to connect your technical skills to real-world impact, as suggested in Guideline 007. For example, you could explain how using a shared progress tracker improved the team's collaboration and productivity.\n\n**Improved Version**\n\nHere's an example of how you could revise your response to address the areas mentioned above:\n\n\"During our software engineering project, our team struggled with unclear task assignments near the deadline, which led to missed deadlines and integration issues. To address this, I suggested creating a shared progress tracker and holding short check-in meetings twice a week. I also helped review pull requests to make integration easier for everyone. As a result, we were able to finish the backend integration 2 weeks ahead of schedule, and our team received positive feedback from the course staff on our project's organization and communication. This experience taught me the importance of effective communication in software development and how it can impact project outcomes.\""
+    },
+    "tag_dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_007",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 3.6621,
+          "strength_tags": [
+            "good_STAR_structure",
+            "concrete_achievement"
+          ],
+          "weakness_tags": [
+            "missing_STAR",
+            "missing_details"
+          ],
+          "text": "Weakness: The response lacks detail and does not explain the candidate’s contribution clearly. Improved version: During our capstone project, we faced a tight deadline after discovering major integration bugs one week before the demo. I reorganized the remaining tasks, coordinated debugging sessions"
+        },
+        {
+          "id": "guideline_013",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 3.4384,
+          "strength_tags": [
+            "concrete_achievement",
+            "good_STAR_structure"
+          ],
+          "weakness_tags": [
+            "missing_details",
+            "lack_of_specific_action"
+          ],
+          "text": "Interviewers often look for measurable outcomes in behavioral responses. Including results such as improved efficiency, successful project completion, or team achievements makes answers more convincing."
+        },
+        {
+          "id": "feedback_014",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 3.5873,
+          "strength_tags": [
+            "specific_example",
+            "concrete_achievement"
+          ],
+          "weakness_tags": [
+            "missing_details"
+          ],
+          "text": "This is a strong project example because it clearly connects technical work with real-world impact. To make it even stronger, explain the technologies you used and quantify the impact if possible."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour response showcases a clear goal (improving communication within your team) and a specific example (creating a shared progress tracker and holding check-in meetings). You also mention a concrete achievement (finishing the backend integration before the final demo and receiving positive feedback). However, there are areas where you can improve to make your response even stronger.\n\n**Strengths**\nYou have a good STAR structure ( Situation, Task, Action, Result) in your response, which is a great starting point. You also mention a concrete achievement, which is excellent.\n\n**Areas to Improve**\nThe main area to improve is providing more details about your contribution to the team's success. While you mention that you helped review pull requests, it would be great to elaborate on what specific actions you took and how they positively impacted the team.\n\n**Specific Suggestions**\nTo address the predicted weakness tags, consider the following suggestions:\n\n1. **Add more details about your actions**: Instead of just stating that you helped review pull requests, describe the specific steps you took to make integration easier for everyone. For example, you could mention that you reviewed code changes, provided feedback to team members, or identified and fixed integration issues.\n2. **Quantify the impact**: While you mention that your team received positive feedback, try to quantify the impact of your actions. For example, you could mention that the team was able to complete the project 2 weeks ahead of schedule or that the feedback from the course staff was particularly positive.\n3. **Use specific numbers and metrics**: To make your response more convincing, try to include specific numbers and metrics that demonstrate the success of your actions. For example, you could mention that the team's code quality improved by 30% after implementing the shared progress tracker.\n\n**Improved Version**\nHere's an example of how you could revise your response to address the predicted weakness tags:\n\n\"During our software engineering class project, my team struggled with communication because everyone was working on different parts separately. I noticed we were starting to miss deadlines, so I suggested creating a shared progress tracker and holding short check-in meetings twice a week. I also helped review pull requests by providing feedback to team members and identifying and fixing integration issues. As a result, our team was able to complete the backend integration 2 weeks ahead of schedule and received positive feedback from the course staff, with 90% of the team members reporting improved code quality and reduced stress levels. By improving communication and collaboration, we were able to deliver a high-quality project that met the expectations of our instructors.\""
+    }
+  },
+  {
+    "id": "input_003",
+    "scenario": "interview",
+    "transcript": "Uh, I guess I am interested in computer science because technology is becoming more important nowadays. I worked on some coding assignments and group projects before, and I think they were pretty interesting. I also kind of want to do something related to AI or software engineering in the future, although I am still figuring out exactly what area I want to focus on. I hope this scholarship could help me continue studying and maybe give me more opportunities to improve my skills and experience.",
+    "predicted_tags": {
+      "strength_tags": [
+        "clear_goal",
+        "logical_structure",
+        "engaging"
+      ],
+      "weakness_tags": [
+        "missing_details"
+      ]
+    },
+    "baseline": {
+      "feedback": "**1. Overall Assessment**\nYour interview transcript shows a good starting point in expressing your interest in computer science and your goals. You've mentioned relevant experiences and a desire to explore specific areas, which is a great foundation for a strong interview.\n\n**2. Strengths**\nYou've demonstrated a clear goal by expressing your interest in computer science and a desire to pursue a related field. Your logical structure is also evident, as you've organized your thoughts in a coherent manner. Additionally, you've shown engagement by highlighting your enthusiasm for the field and the potential benefits of the scholarship.\n\n**3. Areas to Improve**\nOne area for improvement is providing more details about your experiences and goals. You've mentioned working on coding assignments and group projects, but you could elaborate on specific projects, challenges you faced, and what you learned from them. This will help you stand out and show the interviewer that you're more than just a general interest in computer science.\n\n**4. Specific Suggestions**\nTo address the missing details, consider the following:\n- Instead of saying \"I worked on some coding assignments and group projects,\" try to be more specific: \"I worked on a group project where we developed a web application using Python and Flask, and I was responsible for implementing the user authentication feature.\"\n- When discussing your goals, try to be more precise: \"I'm interested in exploring the field of AI, particularly in natural language processing, and I believe this scholarship will help me gain the necessary skills and experience to pursue a career in this area.\"\n\n**5. Improved Version**\nHere's an example of how you could revise your transcript to incorporate more details:\n\n\"I'm interested in computer science because technology is becoming increasingly important in our daily lives. Through my experiences working on coding assignments and group projects, I've developed a passion for the field. For example, in a group project, we developed a web application using Python and Flask, and I was responsible for implementing the user authentication feature. This project not only helped me improve my coding skills but also taught me the importance of teamwork and communication in software development.\n\nIn the future, I'm interested in exploring the field of AI, particularly in natural language processing. I believe this scholarship will help me gain the necessary skills and experience to pursue a career in this area. With the support of this scholarship, I hope to continue studying and improving my skills, and eventually contribute to the development of innovative AI solutions that can positively impact society.\""
+    },
+    "bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_003",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 44.2552,
+          "strength_tags": [
+            "engaging",
+            "clear_goal",
+            "specific_example"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Weakness: The response is vague and does not explain personal motivation. Improved version: I want this scholarship because it would allow me to continue my research on AI accessibility tools. During my previous project, I worked on detecting harmful flashing content on websites to improve accessibi"
+        },
+        {
+          "id": "guideline_006",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 13.0044,
+          "strength_tags": [
+            "clear_language",
+            "good_STAR_structure"
+          ],
+          "weakness_tags": [
+            "lack_of_specific_action",
+            "missing_details"
+          ],
+          "text": "Behavioral interview responses should focus on the candidate’s own actions and decisions rather than only describing the team’s work. Interviewers want to understand how the candidate personally contributed to solving the problem."
+        },
+        {
+          "id": "feedback_008",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 33.6061,
+          "strength_tags": [
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "uncertain_tone",
+            "filler_words"
+          ],
+          "text": "Your response communicates interest in the role, but hesitant language weakens your confidence. Replace uncertain phrases like 'kind of' or 'maybe' with direct statements and provide one concrete machine learning project example."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour interview response shows a clear interest in computer science and a desire to pursue a career in AI or software engineering. You've also expressed a goal to continue studying and improving your skills with the help of this scholarship. This is a great starting point, and with some refinement, you can make your response even more compelling.\n\n**Strengths**\nYou've demonstrated a clear goal (studying computer science and pursuing a career in AI or software engineering) and an engaging tone, which are essential for a strong interview response. Your response also shows a logical structure, making it easy to follow.\n\n**Areas to Improve**\nThe main area for improvement is providing more details about your experiences and goals. Your response is a bit too general, and you could benefit from sharing specific examples or projects that showcase your skills and interests.\n\n**Specific Suggestions**\nTo address the predicted weakness tags ['missing_details'], consider the following:\n- Be more specific about your experiences with coding assignments and group projects. What did you work on? What skills did you develop?\n- Instead of saying \"I think they were pretty interesting,\" describe a specific project or experience that you found particularly engaging.\n- When discussing your future goals, provide more details about the areas of AI or software engineering that interest you. What specific skills or technologies do you want to learn more about?\n- Emphasize how this scholarship will help you achieve your goals and what specific opportunities you hope to gain from it.\n\n**Improved Version**\nHere's an example of how you could revise your response to address the areas for improvement:\n\n\"I'm excited about computer science because it's an ever-evolving field that's becoming increasingly important in our daily lives. Through my coding assignments and group projects, I've developed skills in [specific programming languages or technologies]. One project that stood out to me was [project name], where I worked on [specific task or skill]. This experience not only deepened my understanding of [related concept] but also sparked my interest in [specific area of AI or software engineering]. In the future, I hope to focus on [specific area] and contribute to [related field]. This scholarship would be instrumental in helping me achieve my goals by providing [specific resources or opportunities]. With this support, I'm confident that I can continue to grow and develop as a computer science professional.\"\n\nRemember, the key is to be specific, concise, and confident in your response. By doing so, you'll be able to showcase your skills, interests, and goals more effectively and increase your chances of success in the interview."
+    },
+    "dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_008",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 0.4428,
+          "strength_tags": [
+            "engaging",
+            "specific_example",
+            "natural_flow"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "unclear_goal"
+          ],
+          "text": "Weakness: The response is generic and does not communicate personal motivation. Improved version: My interest in computer science grew after I created a simple mobile app during high school to help students organize study schedules. Seeing classmates actively use the app made me interested in buildi"
+        },
+        {
+          "id": "guideline_004",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 0.3562,
+          "strength_tags": [
+            "logical_structure",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "unclear_goal",
+            "missing_details"
+          ],
+          "text": "Scholarship interview answers should connect past experiences, current goals, and future impact. Strong answers explain why the scholarship matters personally and academically."
+        },
+        {
+          "id": "feedback_004",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 0.496,
+          "strength_tags": [
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your motivation is clear, but the response feels too broad. Include a specific experience that demonstrates your passion for technology and explain how this scholarship supports your future goals."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour interview response shows a good starting point in expressing your interest in computer science and your desire to pursue a related field. You've mentioned your experience with coding assignments and group projects, which is a great foundation to build upon.\n\n**Strengths**\nYou've demonstrated a clear interest in computer science and its applications, particularly in AI and software engineering. Your response also shows a willingness to learn and improve your skills, which is essential for success in this field.\n\n**Areas to Improve**\nThe predicted weakness tags ['missing_details'] suggest that your response could benefit from more specific examples and details to make your interest in computer science more compelling. Additionally, while you've mentioned your desire to work in AI or software engineering, you could elaborate on what specifically draws you to these areas and how this scholarship will help you achieve your goals.\n\n**Specific Suggestions**\nTo address the 'missing_details' weakness, consider adding specific examples that demonstrate your passion for computer science. For instance, you could describe a project you worked on that involved AI or software engineering, and explain how it helped you develop skills or gain insights that you're excited to apply in the future. To elaborate on your goals, think about what specific aspects of AI or software engineering interest you the most, and how this scholarship will enable you to pursue those interests.\n\n**Improved Version**\nHere's an example of how you could revise your response to address the areas mentioned above:\n\n\"I'm excited about computer science because of my experience working on a group project that involved developing a chatbot using natural language processing. Seeing how our chatbot could assist users with everyday tasks made me realize the potential of AI to improve people's lives. I'm now interested in exploring software engineering further, particularly in areas like cybersecurity and data analysis. This scholarship would be instrumental in helping me gain more experience and skills in these areas, which I believe will enable me to make a meaningful impact in the tech industry.\"\n\nThis revised response includes more specific details about your experience and interests, and explains how the scholarship will help you achieve your goals."
+    },
+    "tag_bm25_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_010",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 51.945,
+          "strength_tags": [
+            "clear_goal",
+            "professional_tone",
+            "engaging"
+          ],
+          "weakness_tags": [
+            "unclear_goal",
+            "missing_details"
+          ],
+          "text": "Weakness: The response does not clearly explain academic goals or future impact. Improved version: This scholarship would allow me to continue my research on accessible AI systems for users with disabilities. Through my previous accessibility-focused projects, I realized how technology can directly "
+        },
+        {
+          "id": "guideline_006",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 22.8117,
+          "strength_tags": [
+            "clear_language",
+            "good_STAR_structure"
+          ],
+          "weakness_tags": [
+            "lack_of_specific_action",
+            "missing_details"
+          ],
+          "text": "Behavioral interview responses should focus on the candidate’s own actions and decisions rather than only describing the team’s work. Interviewers want to understand how the candidate personally contributed to solving the problem."
+        },
+        {
+          "id": "feedback_023",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 38.3217,
+          "strength_tags": [
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your motivation is understandable, but the response feels generic. Include a specific AI topic, research interest, or personal experience that explains why this field matters to you personally."
+        }
+      ],
+      "feedback": "**Overall Assessment**\nYour response shows a good starting point in expressing interest in computer science and a potential future career in AI or software engineering. You've also demonstrated some relevant experiences through coding assignments and group projects.\n\n**Strengths**\nYou've identified a clear goal of wanting to continue studying and improving your skills, which is a positive aspect of your response. Additionally, your tone is engaging, and you've shown some interest in the field of computer science.\n\n**Areas to Improve**\nThe main area for improvement is providing more details about your goals and experiences. Your response feels a bit general, and you could benefit from elaborating on specific aspects of computer science that interest you and how you plan to contribute to the field.\n\n**Specific Suggestions**\nTo address the predicted weakness tags ['missing_details'], consider the following suggestions:\n\n1. **Be more specific about your goals**: Instead of saying you're interested in AI or software engineering, think about a specific area within these fields that excites you, such as natural language processing or human-computer interaction. Explain why this area matters to you personally and how you see yourself contributing to it.\n2. **Highlight your relevant experiences**: While you mentioned working on coding assignments and group projects, you could elaborate on the specific challenges you faced, how you overcame them, and what you learned from the experience. This will give the interviewer a better understanding of your skills and problem-solving abilities.\n3. **Show how the scholarship will help you achieve your goals**: Instead of simply stating that the scholarship will help you continue studying, explain how it will enable you to pursue specific research interests, attend conferences, or gain industry experience that will help you achieve your long-term goals.\n\n**Improved Version**\nHere's an example of how you could revise your response to address the areas mentioned above:\n\n\"I'm excited about the opportunity to pursue a career in computer science because I believe it has the potential to positively impact people's lives. Through my experiences working on coding assignments and group projects, I've developed a strong foundation in programming languages and software development. However, I'm particularly interested in exploring the applications of AI in healthcare, where I believe technology can be used to improve patient outcomes and enhance the quality of care. This scholarship would enable me to continue my research in this area, attend conferences to stay up-to-date with the latest developments, and gain industry experience through internships or collaborations with healthcare organizations. Ultimately, my goal is to contribute to the development of AI solutions that make a meaningful difference in people's lives.\"\n\nRemember, the key is to be specific, detailed, and authentic in your response. By doing so, you'll be able to showcase your passion for computer science and your potential to make a positive impact in the field."
+    },
+    "tag_dense_rag": {
+      "retrieved_docs": [
+        {
+          "id": "revision_pair_010",
+          "type": "revision_pair",
+          "scenario": "interview",
+          "score": 3.6116,
+          "strength_tags": [
+            "clear_goal",
+            "professional_tone",
+            "engaging"
+          ],
+          "weakness_tags": [
+            "unclear_goal",
+            "missing_details"
+          ],
+          "text": "Weakness: The response does not clearly explain academic goals or future impact. Improved version: This scholarship would allow me to continue my research on accessible AI systems for users with disabilities. Through my previous accessibility-focused projects, I realized how technology can directly "
+        },
+        {
+          "id": "guideline_004",
+          "type": "guideline",
+          "scenario": "interview",
+          "score": 3.5562,
+          "strength_tags": [
+            "logical_structure",
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "unclear_goal",
+            "missing_details"
+          ],
+          "text": "Scholarship interview answers should connect past experiences, current goals, and future impact. Strong answers explain why the scholarship matters personally and academically."
+        },
+        {
+          "id": "feedback_004",
+          "type": "feedback_example",
+          "scenario": "interview",
+          "score": 2.896,
+          "strength_tags": [
+            "clear_goal"
+          ],
+          "weakness_tags": [
+            "too_general",
+            "missing_details"
+          ],
+          "text": "Your motivation is clear, but the response feels too broad. Include a specific experience that demonstrates your passion for technology and explain how this scholarship supports your future goals."
+        }
+      ],
+      "feedback": "**Overall Assessment**\n\nYour interview response shows a clear interest in computer science and a desire to pursue a career in AI or software engineering. You've also mentioned the potential benefits of receiving this scholarship, which is a great starting point. However, there are areas where you can improve to make your response even stronger.\n\n**Strengths**\n\nYou've demonstrated a clear goal of studying computer science and a willingness to explore related areas like AI and software engineering. Your response is also engaging, which is great for an interview setting.\n\n**Areas to Improve**\n\nThe main areas for improvement are related to the predicted weakness tags: 'missing_details'. Your response could benefit from more specific details about your past experiences, current goals, and future impact. This will help you connect the dots between your interests, skills, and academic aspirations.\n\n**Specific Suggestions**\n\nTo address the 'missing_details' weakness, consider the following:\n\n1. **Elaborate on past experiences**: Instead of just mentioning coding assignments and group projects, describe specific projects that you found particularly interesting or challenging. What did you learn from them? How did they shape your interests in computer science?\n2. **Specify current goals**: While you've mentioned a general interest in AI or software engineering, try to be more specific about what area you're drawn to. Is it natural language processing, computer vision, or something else? What specific skills or knowledge do you hope to acquire in graduate school?\n3. **Explain future impact**: How do you envision your studies and career contributing to the field of computer science? What problems do you hope to solve, and how will your work make a positive impact?\n\n**Improved Version**\n\nHere's an example of how you could revise your response to address these areas:\n\n\"I'm excited about computer science because I've had the opportunity to work on some fascinating projects that combined coding and problem-solving. For example, in my group project, we developed a chatbot that helped users with disabilities interact with online services. This experience not only deepened my understanding of AI but also made me realize the potential of technology to improve lives. As I continue my studies, I'm interested in exploring the intersection of AI and accessibility. I believe that this scholarship would be instrumental in helping me achieve my goal of developing more inclusive AI tools. With this support, I hope to contribute to the development of more accessible technologies that can positively impact people's lives.\"\n\nRemember, the key is to be specific, detailed, and authentic in your response. Good luck with your interview!"
+    }
+  }
+  
+]
